@@ -3,39 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Resolve all relative URLs (assets + fetched md/json) against this folder,
-       regardless of whether the page URL ends in a trailing slash. -->
-  <base href="/luat-nha-o-2023/">
-  <title>Luật Nhà ở 2023 (27/2023/QH15) — Tra cứu</title>
-  <meta name="description" content="Tra cứu Luật Nhà ở 2023 (27/2023/QH15): tìm theo số điều hoặc từ khóa, chọn điều và sao chép nội dung cho AI.">
-  <!-- Markdown renderer (must load before app.js) -->
+  <base href="/thong-tu-79-2025/">
+  <title>Thông tư 79/2025 (79/2025/TT-BTC) — Tra cứu</title>
+  <meta name="description" content="Tra cứu Thông tư 79/2025 (79/2025/TT-BTC): tìm theo số điều hoặc từ khóa, chọn điều và sao chép nội dung cho AI.">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <!-- Vietnamese-complete webfonts (full Latin Extended Additional coverage) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap">
-  <!-- Shared design system + utilities + reader engine (root-absolute: same files for every law) -->
   <link rel="stylesheet" href="/style.css">
   <script src="/script.js" defer></script>
   <script src="/app.js" defer></script>
 </head>
 <body>
-  <!-- ===== Sticky top bar: title + inline search (one fixed block) ===== -->
   <header class="site-header">
     <div class="topbar">
-      <a class="back-link" href="../index.html" aria-label="Về trang chủ" title="Về trang chủ">←</a>
-      <h1 class="topbar-title">Luật Nhà ở 2023 <span class="topbar-code">(27/2023/QH15)</span></h1>
+      <a class="back-link" href="/" aria-label="Về trang chủ" title="Về trang chủ">←</a>
+      <h1 class="topbar-title">Thông tư 79/2025 <span class="topbar-code">(79/2025/TT-BTC)</span></h1>
       <div class="topbar-search search-box">
-        <input
-          id="search-input"
-          type="search"
-          autocomplete="off"
-          spellcheck="false"
-          placeholder="Tìm số điều hoặc từ khóa…"
-          aria-label="Tìm theo số điều hoặc từ khóa"
-          aria-controls="search-results"
-          aria-expanded="false">
-        <!-- Dropdown of matches, populated at runtime -->
+        <input id="search-input" type="search" autocomplete="off" spellcheck="false"
+          placeholder="Tìm số điều hoặc từ khóa…" aria-label="Tìm theo số điều hoặc từ khóa"
+          aria-controls="search-results" aria-expanded="false">
         <div id="search-results" class="search-results" role="listbox" hidden></div>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">
@@ -43,28 +30,15 @@
       </button>
     </div>
   </header>
-
-  <!-- ===== Main reader layout ===== -->
   <div class="reader-layout">
-    <!-- Sidebar: chapter navigation (built at runtime) -->
-    <aside class="sidebar" aria-label="Mục lục các chương">
-      <nav id="chapter-nav" class="chapter-nav">
-        <!-- .chap-item rows injected by app.js -->
-      </nav>
-    </aside>
-
-    <!-- Content: rendered articles -->
+    <aside class="sidebar" aria-label="Mục lục các chương"><nav id="chapter-nav" class="chapter-nav"></nav></aside>
     <main class="content">
-      <!-- Loading indicator while fetching manifest + chapters -->
       <div id="loading" class="loading-indicator" role="status" aria-live="polite">
-        <span class="spinner" aria-hidden="true"></span>
-        <span>Đang tải nội dung luật…</span>
+        <span class="spinner" aria-hidden="true"></span><span>Đang tải nội dung…</span>
       </div>
       <article id="law-content" class="law-content"></article>
     </main>
   </div>
-
-  <!-- ===== Selection toolbar (hidden until >=1 article selected) ===== -->
   <div id="selection-toolbar" class="selection-toolbar" hidden aria-live="polite">
     <div class="selection-toolbar-inner">
       <div class="toolbar-info">
@@ -80,8 +54,6 @@
       </div>
     </div>
   </div>
-
-  <!-- ===== Footer (two lines, same as home) ===== -->
   <footer class="site-footer">
     <p>© 2025 luat.dkien.com — Tra cứu văn bản pháp luật.</p>
     <p>Nội dung chỉ mang tính tham khảo; khi trích dẫn pháp lý hãy đối chiếu bản chính thức.</p>

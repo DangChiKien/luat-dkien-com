@@ -1245,3 +1245,9 @@ a.topbar-title:hover { text-decoration: none; opacity: 0.92; }
     margin-left: 0;
   }
 }
+
+/* search-result law name + no-JS fallback list (home, multi-law) */
+.result-meta { color: var(--text-muted); font-weight: 400; }
+.law-fallback { list-style: none; padding: 0; margin: 8px 0 0; }
+.law-fallback li { margin: 6px 0; }
+.law-fallback a { color: var(--link); font-family: var(--font-sans); }

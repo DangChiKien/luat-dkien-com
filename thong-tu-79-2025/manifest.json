@@ -1,0 +1,287 @@
+{
+  "law": {
+    "name": "Thông tư 79/2025",
+    "code": "79/2025/TT-BTC",
+    "effective": "04/08/2025",
+    "source": "https://luat.dkien.com",
+    "chapters": 4,
+    "articles": 35
+  },
+  "chapters": [
+    {
+      "roman": "I",
+      "title": "QUY ĐỊNH CHUNG",
+      "file": "chuong-01.md",
+      "from": 1,
+      "to": 10
+    },
+    {
+      "roman": "II",
+      "title": "CUNG CẤP, ĐĂNG TẢI THÔNG TIN VỀ ĐẤU THẦU",
+      "file": "chuong-02.md",
+      "from": 11,
+      "to": 25
+    },
+    {
+      "roman": "III",
+      "title": "NỘI DUNG MẪU HỒ SƠ ĐẤU THẦU",
+      "file": "chuong-03.md",
+      "from": 26,
+      "to": 32
+    },
+    {
+      "roman": "IV",
+      "title": "TỔ CHỨC THỰC HIỆN",
+      "file": "chuong-04.md",
+      "from": 33,
+      "to": 35
+    }
+  ],
+  "articles": [
+    {
+      "dieu": 1,
+      "title": "Phạm vi điều chỉnh",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "phạm vi thông tư đấu thầu qua mạng, mẫu hồ sơ mời thầu, hệ thống mạng đấu thầu quốc gia, gói thầu xây lắp hàng hóa tư vấn, e-bidding procurement"
+    },
+    {
+      "dieu": 2,
+      "title": "Đối tượng áp dụng",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "đối tượng áp dụng thông tư đấu thầu, nhà thầu chủ đầu tư bên mời thầu, tổ chức cá nhân lựa chọn nhà thầu, áp dụng tự nguyện"
+    },
+    {
+      "dieu": 3,
+      "title": "Giải thích từ ngữ",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "giải thích từ ngữ đấu thầu qua mạng, tài khoản hệ thống muasamcong, chữ ký số chứng thư số, văn bản điện tử e-HSMT e-HSDT, hợp đồng BOT e-GP"
+    },
+    {
+      "dieu": 4,
+      "title": "Áp dụng các Mẫu hồ sơ và Phụ lục",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "mẫu hồ sơ mời thầu xây lắp hàng hóa tư vấn EPC, kế hoạch lựa chọn nhà thầu phê duyệt, chào giá trực tuyến mua sắm trực tuyến, biểu mẫu phụ lục đấu thầu, tender document template"
+    },
+    {
+      "dieu": 5,
+      "title": "Quy định về định dạng của tệp tin (file) đính kèm",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "định dạng file tài liệu đấu thầu, tệp tin đính kèm hồ sơ thầu, PDF Word định dạng hợp lệ, file bị lỗi không mở được xử lý"
+    },
+    {
+      "dieu": 6,
+      "title": "Xử lý kỹ thuật trong trường hợp Hệ thống gặp sự cố ngoài khả năng kiểm soát",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "hệ thống gặp sự cố gia hạn đóng thầu, thời điểm đóng thầu tự động, lỗi kỹ thuật mạng đấu thầu quốc gia, chào giá trực tuyến bị gián đoạn"
+    },
+    {
+      "dieu": 7,
+      "title": "Quản lý tài khoản và sử dụng chứng thư số",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "tài khoản nghiệp vụ hệ thống đấu thầu, chứng thư số chữ ký số đăng ký, phân quyền tài khoản nhà thầu, đăng nhập xác thực muasamcong"
+    },
+    {
+      "dieu": 8,
+      "title": "Gửi, nhận văn bản điện tử trên Hệ thống",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "gửi nhận văn bản điện tử hệ thống, giá trị pháp lý hồ sơ điện tử, thanh tra kiểm toán không cần bản giấy, lịch sử giao dịch điện tử đấu thầu"
+    },
+    {
+      "dieu": 9,
+      "title": "Điều kiện về hạ tầng công nghệ thông tin",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "hạ tầng công nghệ thông tin đấu thầu qua mạng, yêu cầu máy tính đăng ký hệ thống, điều kiện tham gia e-bidding"
+    },
+    {
+      "dieu": 10,
+      "title": "Kết nối Hệ thống với Hệ thống thông tin về quản lý ngân sách và kho bạc",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "kết nối kho bạc nhà nước hệ thống đấu thầu, thanh quyết toán qua mạng, hồ sơ giải ngân điện tử, nhà thầu nộp chứng từ online"
+    },
+    {
+      "dieu": 11,
+      "title": "Cung cấp thông tin để xây dựng cơ sở dữ liệu quốc gia về nhà thầu, chất lượng hàng hóa đã được sử dụng",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "cơ sở dữ liệu nhà thầu, năng lực kinh nghiệm, đăng ký doanh nghiệp, báo cáo tài chính, chứng chỉ nhà thầu, contractor database"
+    },
+    {
+      "dieu": 12,
+      "title": "Thông tin chủ yếu của hợp đồng, thỏa thuận khung",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "thông tin hợp đồng, thỏa thuận khung, giá hợp đồng, nhà thầu phụ, mua sắm tập trung, contract information"
+    },
+    {
+      "dieu": 13,
+      "title": "Thông tin về dự án, kế hoạch tổng thể lựa chọn nhà thầu, kế hoạch lựa chọn nhà thầu",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "kế hoạch lựa chọn nhà thầu, đăng tải dự án, dự toán gói thầu, thời gian đóng thầu, procurement plan"
+    },
+    {
+      "dieu": 14,
+      "title": "Thông báo mời quan tâm, thông báo mời sơ tuyển, E-TBMQT, E-TBMST",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "thông báo mời thầu sơ tuyển, E-TBMQT, E-TBMST, mời quan tâm, hủy thông báo, invitation to bid"
+    },
+    {
+      "dieu": 15,
+      "title": "Phát hành, sửa đổi, làm rõ hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, E-HSMQT, E-HSMST",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, sửa đổi hồ sơ, làm rõ hồ sơ, E-HSMQT, tender document amendment"
+    },
+    {
+      "dieu": 16,
+      "title": "Danh sách ngắn đối với gói thầu áp dụng sơ tuyển, mời quan tâm",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "danh sách ngắn, kết quả sơ tuyển, mời quan tâm, báo cáo đánh giá, shortlist, prequalification"
+    },
+    {
+      "dieu": 17,
+      "title": "Thông báo mời thầu, E-TBMT",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "thông báo mời thầu, E-TBMT, hủy mời thầu, gia hạn nộp hồ sơ, đóng thầu, invitation to tender"
+    },
+    {
+      "dieu": 18,
+      "title": "Phát hành, sửa đổi, làm rõ hồ sơ mời thầu, E-HSMT, điều khoản tham chiếu theo quy trình thông thường",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hồ sơ mời thầu, E-HSMT, sửa đổi hồ sơ mời thầu, làm rõ hồ sơ thầu, hội nghị tiền đấu thầu, bidding document"
+    },
+    {
+      "dieu": 19,
+      "title": "Hủy, gia hạn, sửa đổi thông tin đã đăng tải",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hủy thông tin đăng tải, gia hạn thông báo, sửa đổi thông tin, hướng dẫn sử dụng hệ thống"
+    },
+    {
+      "dieu": 20,
+      "title": "Kết quả lựa chọn nhà thầu",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "kết quả lựa chọn nhà thầu, phê duyệt trúng thầu, công khai hàng hóa trúng thầu, mã HS, đơn giá trúng thầu, bid award result"
+    },
+    {
+      "dieu": 21,
+      "title": "Các thông tin khác đăng tải trên Hệ thống và quy trình đăng tải trên Hệ thống",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "biên bản mở thầu, quyết định hủy thầu, giải quyết kiến nghị, nhà thầu nước ngoài, đăng tải thông tin khác"
+    },
+    {
+      "dieu": 22,
+      "title": "Trách nhiệm của chủ đầu tư",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "trách nhiệm chủ đầu tư, đăng tải thông tin đấu thầu, đấu thầu quốc tế tiếng Anh, nhà thầu nước ngoài trúng thầu, chứng thư số"
+    },
+    {
+      "dieu": 23,
+      "title": "Trách nhiệm của cơ quan có thẩm quyền trong lựa chọn nhà đầu tư",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "cơ quan có thẩm quyền, lựa chọn nhà đầu tư, đăng tải thông tin nhà đầu tư, phân quyền tài khoản, investor selection"
+    },
+    {
+      "dieu": 24,
+      "title": "Trách nhiệm của bên mời thầu trong lựa chọn nhà đầu tư",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "bên mời thầu nhà đầu tư, đăng tải hồ sơ mời thầu đầu tư, đấu thầu quốc tế, tài liệu pháp lý, investor bidding"
+    },
+    {
+      "dieu": 25,
+      "title": "Trách nhiệm của Trung tâm và Doanh nghiệp dự án e-GP",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "Trung tâm đấu thầu qua mạng, doanh nghiệp e-GP, vận hành hệ thống, hỗ trợ đào tạo đấu thầu, e-procurement operator"
+    },
+    {
+      "dieu": 26,
+      "title": "Lập, trình, thẩm định (nếu có), phê duyệt E-HSMQT, E-HSMST, E-HSMT",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "lập hồ sơ mời thầu, phê duyệt E-HSMT, thẩm định hồ sơ, tổ chuyên gia, sửa đổi hồ sơ, tender documents"
+    },
+    {
+      "dieu": 27,
+      "title": "Trách nhiệm của nhà thầu trong quá trình tham dự thầu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "trách nhiệm nhà thầu, nộp hồ sơ dự thầu, bảo đảm dự thầu, năng lực kinh nghiệm, tài khoản hệ thống, bidder responsibility"
+    },
+    {
+      "dieu": 28,
+      "title": "Nội dung về hàng mẫu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hàng mẫu, yêu cầu mẫu hàng hóa, nộp hàng mẫu, đánh giá kỹ thuật, cạnh tranh bình đẳng, product sample"
+    },
+    {
+      "dieu": 29,
+      "title": "Mở thầu đối với lựa chọn nhà thầu qua mạng",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "mở thầu qua mạng, biên bản mở thầu, đóng thầu, một giai đoạn hai túi hồ sơ, e-bidding, bid opening"
+    },
+    {
+      "dieu": 30,
+      "title": "Đánh giá E-HSDT",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "đánh giá hồ sơ dự thầu, xếp hạng nhà thầu, giá thấp nhất, năng lực kỹ thuật tài chính, quy trình đánh giá, bid evaluation"
+    },
+    {
+      "dieu": 31,
+      "title": "Trình, thẩm định (nếu có) và phê duyệt kết quả lựa chọn nhà thầu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "phê duyệt kết quả lựa chọn nhà thầu, thương thảo hợp đồng, thẩm định kết quả, báo cáo đánh giá, contract award"
+    },
+    {
+      "dieu": 32,
+      "title": "Hợp đồng điện tử",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hợp đồng điện tử, ký số hợp đồng, kho bạc nhà nước, tài liệu hợp đồng, e-contract, electronic contract"
+    },
+    {
+      "dieu": 33,
+      "title": "Sửa đổi, bổ sung một số điều của Thông tư số 05/2024/TT-BKHĐT ngày 19 tháng 4 năm 2024 của Bộ trưởng Bộ Kế hoạch và Đầu tư quy định về quản lý và sử dụng các chi phí trong lựa chọn nhà thầu, nhà đầu tư trên Hệ thống mạng đấu thầu quốc gia",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "chi phí đấu thầu qua mạng, phí nộp hồ sơ dự thầu, bảo lãnh dự thầu điện tử, e-bidding fees, hệ thống mạng đấu thầu quốc gia"
+    },
+    {
+      "dieu": 34,
+      "title": "Điều khoản chuyển tiếp",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "điều khoản chuyển tiếp, gói thầu cũ, hủy thông báo mời thầu, chuyển đấu thầu qua mạng, E-HSMT hiệu lực"
+    },
+    {
+      "dieu": 35,
+      "title": "Hiệu lực thi hành",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "hiệu lực thông tư, ngày áp dụng, hồ sơ mời thầu quốc tế, chào giá trực tuyến xây lắp, gói thầu đặc thù, procurement effective date"
+    }
+  ]
+}

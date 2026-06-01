@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "luat-dau-thau-2023",
+    "name": "Luật Đấu thầu 2023",
+    "code": "22/2023/QH15",
+    "effective": "01/01/2024",
+    "chapters": 10,
+    "articles": 96,
+    "category": "Đấu thầu"
+  },
+  {
+    "slug": "nghi-dinh-214-2025",
+    "name": "Nghị định 214/2025",
+    "code": "214/2025/NĐ-CP",
+    "effective": "04/08/2025",
+    "chapters": 14,
+    "articles": 146,
+    "category": "Đấu thầu"
+  },
+  {
+    "slug": "thong-tu-79-2025",
+    "name": "Thông tư 79/2025",
+    "code": "79/2025/TT-BTC",
+    "effective": "04/08/2025",
+    "chapters": 4,
+    "articles": 35,
+    "category": "Đấu thầu"
+  },
+  {
+    "slug": "luat-nha-o-2023",
+    "name": "Luật Nhà ở 2023",
+    "code": "27/2023/QH15",
+    "effective": "01/01/2025",
+    "chapters": 13,
+    "articles": 198,
+    "category": "Nhà ở"
+  }
+]

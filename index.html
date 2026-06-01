@@ -49,32 +49,18 @@
       </p>
     </section>
 
-    <!-- Law grid -->
+    <!-- Law grid — rendered from /laws.json by home.js -->
     <section class="law-section" aria-label="Danh sách văn bản pháp luật">
       <h2 class="section-title">Văn bản pháp luật</h2>
-      <div class="law-grid">
-
-        <a class="law-card" href="./luat-nha-o-2023/" aria-label="Đọc Luật Nhà ở 2023, số hiệu 27/2023/QH15">
-          <div class="law-card__badge">Luật</div>
-          <h3 class="law-card__title">Luật Nhà ở 2023</h3>
-          <dl class="law-card__meta">
-            <div class="law-card__meta-row">
-              <dt>Số hiệu</dt>
-              <dd>27/2023/QH15</dd>
-            </div>
-            <div class="law-card__meta-row">
-              <dt>Hiệu lực</dt>
-              <dd>01/01/2025</dd>
-            </div>
-            <div class="law-card__meta-row">
-              <dt>Quy mô</dt>
-              <dd>13 chương · 198 điều</dd>
-            </div>
-          </dl>
-          <span class="law-card__cta" aria-hidden="true">Xem toàn văn →</span>
-        </a>
-
-      </div>
+      <div class="law-grid" id="law-grid"></div>
+      <noscript>
+        <ul class="law-fallback">
+          <li><a href="./luat-dau-thau-2023/">Luật Đấu thầu 2023 (22/2023/QH15)</a></li>
+          <li><a href="./nghi-dinh-214-2025/">Nghị định 214/2025 (214/2025/NĐ-CP)</a></li>
+          <li><a href="./thong-tu-79-2025/">Thông tư 79/2025 (79/2025/TT-BTC)</a></li>
+          <li><a href="./luat-nha-o-2023/">Luật Nhà ở 2023 (27/2023/QH15)</a></li>
+        </ul>
+      </noscript>
     </section>
 
     <!-- AI section -->

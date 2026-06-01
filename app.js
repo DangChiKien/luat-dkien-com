@@ -14,9 +14,12 @@
 
   // Canonical public base for ALL copy outputs (NOT the local origin).
   const BASE_URL = "https://luat.dkien.com";
-  const LAW_PATH = "/luat-nha-o-2023"; // path segment under BASE_URL for files
-  const LAW_NAME = "Luật Nhà ở 2023 (27/2023/QH15)";
   const SOURCE_URL = "https://luat.dkien.com";
+  // Law-agnostic: the folder segment comes from the page's <base href>, and the
+  // law display name comes from manifest.law (set in init()). So ONE /app.js
+  // serves every law; each law folder only needs index.html + manifest.json + data.
+  const LAW_PATH = new URL(document.baseURI).pathname.replace(/\/+$/, "");
+  let LAW_NAME = ""; // set from manifest.law in init()
   const WARN_WORD_LIMIT = 30000; // show "nội dung lớn" warning above this
 
   /* ---- State ----------------------------------------------------------- */
@@ -130,6 +133,11 @@
     if (!manifest || !Array.isArray(manifest.chapters) || !manifest.chapters.length) {
       showFatal(loading, "Dữ liệu luật không hợp lệ.");
       return;
+    }
+
+    // Law display name for copy outputs comes from the manifest.
+    if (manifest.law && manifest.law.name) {
+      LAW_NAME = manifest.law.name + (manifest.law.code ? " (" + manifest.law.code + ")" : "");
     }
 
     // Build sidebar immediately from manifest (no need to wait for md files).
