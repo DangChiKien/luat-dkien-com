@@ -1,0 +1,749 @@
+{
+  "law": {
+    "name": "Luật Đấu thầu (hợp nhất 22+57+90)",
+    "code": "22/2023 · 57/2024 · 90/2025",
+    "effective": "01/07/2025",
+    "source": "https://luat.dkien.com",
+    "chapters": 10,
+    "articles": 95
+  },
+  "chapters": [
+    {
+      "roman": "I",
+      "title": "QUY ĐỊNH CHUNG",
+      "file": "chuong-01.md",
+      "from": 1,
+      "to": 19
+    },
+    {
+      "roman": "II",
+      "title": "HÌNH THỨC, PHƯƠNG THỨC LỰA CHỌN NHÀ THẦU, NHÀ ĐẦU TƯ",
+      "file": "chuong-02.md",
+      "from": 20,
+      "to": 35
+    },
+    {
+      "roman": "III",
+      "title": "KẾ HOẠCH LỰA CHỌN NHÀ THẦU",
+      "file": "chuong-03.md",
+      "from": 36,
+      "to": 42
+    },
+    {
+      "roman": "IV",
+      "title": "QUY TRÌNH, THỦ TỤC LỰA CHỌN NHÀ THẦU, NHÀ ĐẦU TƯ",
+      "file": "chuong-04.md",
+      "from": 43,
+      "to": 52
+    },
+    {
+      "roman": "V",
+      "title": "MUA SẮM TẬP TRUNG; MUA THUỐC, HÓA CHẤT, THIẾT BỊ Y TẾ, VẬT TƯ XÉT NGHIỆM; CUNG CẤP SẢN PHẨM, DỊCH VỤ CÔNG",
+      "file": "chuong-05.md",
+      "from": 53,
+      "to": 57
+    },
+    {
+      "roman": "VI",
+      "title": "PHƯƠNG PHÁP ĐÁNH GIÁ HỒ SƠ DỰ THẦU VÀ XÉT DUYỆT TRÚNG THẦU",
+      "file": "chuong-06.md",
+      "from": 58,
+      "to": 63
+    },
+    {
+      "roman": "VII",
+      "title": "HỢP ĐỒNG",
+      "file": "chuong-07.md",
+      "from": 64,
+      "to": 76
+    },
+    {
+      "roman": "VIII",
+      "title": "TRÁCH NHIỆM CỦA CÁC BÊN TRONG HOẠT ĐỘNG ĐẤU THẦU",
+      "file": "chuong-08.md",
+      "from": 77,
+      "to": 82
+    },
+    {
+      "roman": "IX",
+      "title": "QUẢN LÝ NHÀ NƯỚC ĐỐI VỚI HOẠT ĐỘNG ĐẤU THẦU",
+      "file": "chuong-09.md",
+      "from": 83,
+      "to": 94
+    },
+    {
+      "roman": "X",
+      "title": "ĐIỀU KHOẢN THI HÀNH",
+      "file": "chuong-10.md",
+      "from": 95,
+      "to": 96
+    }
+  ],
+  "articles": [
+    {
+      "dieu": "1",
+      "title": "Phạm vi điều chỉnh",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "phạm vi điều chỉnh luật đấu thầu, quản lý nhà nước đấu thầu, lựa chọn nhà thầu, lựa chọn nhà đầu tư, gói thầu, dự án đầu tư kinh doanh"
+    },
+    {
+      "dieu": "2",
+      "title": "Đối tượng áp dụng",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "đối tượng áp dụng luật đấu thầu, vốn ngân sách nhà nước, mua sắm công, doanh nghiệp nhà nước, nhà đầu tư dự án, ai phải đấu thầu"
+    },
+    {
+      "dieu": "3",
+      "title": "Áp dụng Luật Đấu thầu, pháp luật có liên quan và điều ước quốc tế, thỏa thuận về vốn hỗ trợ phát triển chính thức, vốn vay ưu đãi ~~của nhà tài trợ~~ nước ngoài",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "áp dụng luật đấu thầu, điều ước quốc tế, vốn ODA, vay ưu đãi nước ngoài, PPP đối tác công tư, dầu khí đấu thầu"
+    },
+    {
+      "dieu": "4",
+      "title": "Giải thích từ ngữ",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "giải thích từ ngữ đấu thầu, định nghĩa nhà thầu, gói thầu là gì, hồ sơ mời thầu, chủ đầu tư, bên mời thầu, glossary bidding"
+    },
+    {
+      "dieu": "5",
+      "title": "Tư cách hợp lệ của nhà thầu, nhà đầu tư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "tư cách hợp lệ nhà thầu, điều kiện tham dự thầu, nhà thầu hộ kinh doanh, nhà thầu nước ngoài, liên danh, eligible bidder"
+    },
+    {
+      "dieu": "6",
+      "title": "Bảo đảm cạnh tranh trong đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "bảo đảm cạnh tranh đấu thầu, độc lập pháp lý tài chính, nhà thầu tư vấn xung đột lợi ích, cổ phần vốn góp, tập đoàn nhà nước đấu thầu"
+    },
+    {
+      "dieu": "7",
+      "title": "Thông tin về đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "thông tin đấu thầu, công khai kết quả lựa chọn nhà thầu, thông báo mời thầu, hệ thống mạng đấu thầu quốc gia, đăng tải thông tin"
+    },
+    {
+      "dieu": "8",
+      "title": "Cung cấp và đăng tải thông tin về đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "đăng tải thông tin đấu thầu, trách nhiệm công bố thông tin, mạng đấu thầu quốc gia, thông báo mời thầu tiếng Anh, thời hạn đăng tải"
+    },
+    {
+      "dieu": "9",
+      "title": "Xử lý và lưu trữ hồ sơ trong quá trình lựa chọn nhà thầu, nhà đầu tư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "lưu trữ hồ sơ đấu thầu, trả lại hồ sơ tài chính, hủy hồ sơ, thời hạn lưu trữ 5 năm, hồ sơ quyết toán nhà thầu"
+    },
+    {
+      "dieu": "10",
+      "title": "Ưu đãi trong lựa chọn nhà thầu, nhà đầu tư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "ưu đãi đấu thầu, hàng hóa xuất xứ Việt Nam, doanh nghiệp nhỏ siêu nhỏ, nhà thầu trong nước, ưu đãi nhà đầu tư, domestic preference"
+    },
+    {
+      "dieu": "11",
+      "title": "Đấu thầu quốc tế",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "đấu thầu quốc tế, điều kiện tổ chức đấu thầu quốc tế, nhà thầu nước ngoài, international bidding, dự án vốn nước ngoài, tổng vốn đầu tư"
+    },
+    {
+      "dieu": "12",
+      "title": "Ngôn ngữ sử dụng trong đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "ngôn ngữ đấu thầu, tiếng Việt tiếng Anh hồ sơ thầu, hồ sơ mời thầu quốc tế, language tender documents"
+    },
+    {
+      "dieu": "13",
+      "title": "Đồng tiền dự thầu",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "đồng tiền dự thầu, chào thầu bằng đồng Việt Nam, tỷ giá quy đổi, currency bidding, đấu thầu quốc tế ngoại tệ"
+    },
+    {
+      "dieu": "14",
+      "title": "Bảo đảm dự thầu",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "bảo đảm dự thầu, đặt cọc dự thầu, thư bảo lãnh ngân hàng, mức bảo đảm dự thầu, hoàn trả bảo lãnh, bid security"
+    },
+    {
+      "dieu": "15",
+      "title": "Chi phí trong lựa chọn nhà thầu, nhà đầu tư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "chi phí đấu thầu, phí hồ sơ mời thầu, miễn phí hồ sơ trong nước, chi phí chuẩn bị hồ sơ dự thầu, tender fees"
+    },
+    {
+      "dieu": "16",
+      "title": "Các hành vi bị cấm trong hoạt động đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "hành vi bị cấm đấu thầu, thông thầu, gian lận đấu thầu, hối lộ, cản trở đấu thầu, chia nhỏ gói thầu, prohibited acts bidding"
+    },
+    {
+      "dieu": "17",
+      "title": "Hủy thầu",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "hủy thầu, các trường hợp hủy thầu, không đáp ứng hồ sơ mời thầu, bất khả kháng đấu thầu, cancellation tender"
+    },
+    {
+      "dieu": "18",
+      "title": "Đình chỉ cuộc thầu, không công nhận kết quả lựa chọn nhà thầu, nhà đầu tư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "đình chỉ cuộc thầu, không công nhận kết quả đấu thầu, vi phạm đấu thầu, xử lý vi phạm, suspension bidding"
+    },
+    {
+      "dieu": "19",
+      "title": "Tổ chuyên gia, tổ thẩm định",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "tổ chuyên gia đấu thầu, tổ thẩm định, thành lập tổ chuyên gia, đánh giá hồ sơ dự thầu, năng lực kinh nghiệm chuyên gia"
+    },
+    {
+      "dieu": "20",
+      "title": "Các hình thức lựa chọn nhà thầu",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hình thức lựa chọn nhà thầu, đấu thầu rộng rãi, chỉ định thầu, chào hàng cạnh tranh, mua sắm trực tiếp, procurement methods"
+    },
+    {
+      "dieu": "21",
+      "title": "Đấu thầu rộng rãi",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "đấu thầu rộng rãi, open tender, không hạn chế nhà thầu, gói thầu, bidding, lựa chọn nhà thầu"
+    },
+    {
+      "dieu": "22",
+      "title": "Đấu thầu hạn chế",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "đấu thầu hạn chế, limited tender, yêu cầu đặc thù kỹ thuật, nhà tài trợ vốn, điều ước quốc tế, restricted bidding"
+    },
+    {
+      "dieu": "23",
+      "title": "Chỉ định thầu",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "chỉ định thầu, direct award, cấp bách khẩn cấp, bí mật nhà nước, hạn mức chỉ định thầu, sole source"
+    },
+    {
+      "dieu": "24",
+      "title": "Chào hàng cạnh tranh",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "chào hàng cạnh tranh, shopping, dịch vụ phi tư vấn, hàng hóa thông dụng, xây lắp đơn giản, hồ sơ mời thầu"
+    },
+    {
+      "dieu": "25",
+      "title": "Mua sắm trực tiếp",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "mua sắm trực tiếp, direct procurement, hàng hóa tương tự, 12 tháng, đơn giá, chủ đầu tư"
+    },
+    {
+      "dieu": "26",
+      "title": "Tự thực hiện",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "tự thực hiện, self-execution, chủ đầu tư, năng lực kỹ thuật, không chuyển nhượng, gói thầu nội bộ"
+    },
+    {
+      "dieu": "27",
+      "title": "Tham gia thực hiện của cộng đồng",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "tham gia thực hiện của cộng đồng, community participation, chương trình mục tiêu quốc gia, nhân dân cùng làm, 5 tỷ đồng, địa phương"
+    },
+    {
+      "dieu": "28",
+      "title": "Đàm phán giá",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "đàm phán giá, price negotiation, biệt dược gốc, thuốc độc quyền, thiết bị y tế, Bộ Y tế"
+    },
+    {
+      "dieu": "29",
+      "title": "Lựa chọn nhà thầu trong trường hợp đặc biệt",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "trường hợp đặc biệt, special case procurement, quốc phòng an ninh, đổi mới sáng tạo, chuyển đổi số, điều kiện đặc thù"
+    },
+    {
+      "dieu": "29a",
+      "title": "Đặt hàng",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "đặt hàng, order placement, dịch vụ công ích, sản phẩm công nghệ cao, hạ tầng số, lĩnh vực chiến lược"
+    },
+    {
+      "dieu": "29b",
+      "title": "Nguyên tắc áp dụng hình thức lựa chọn nhà thầu",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "nguyên tắc áp dụng hình thức lựa chọn nhà thầu, principles of procurement, chủ đầu tư quyết định, điều kiện áp dụng, ưu tiên hình thức, gói thầu"
+    },
+    {
+      "dieu": "30",
+      "title": "Phương thức một giai đoạn một túi hồ sơ",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "một giai đoạn một túi hồ sơ, single stage single envelope, hồ sơ dự thầu, mở thầu, đề xuất kỹ thuật tài chính, tender submission"
+    },
+    {
+      "dieu": "31",
+      "title": "Phương thức một giai đoạn hai túi hồ sơ",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "một giai đoạn hai túi hồ sơ, single stage two envelope, dịch vụ tư vấn, mở thầu hai lần, thuốc vật tư y tế, technical financial proposal"
+    },
+    {
+      "dieu": "32",
+      "title": "Phương thức hai giai đoạn một túi hồ sơ",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hai giai đoạn một túi hồ sơ, two stage single envelope, yêu cầu kỹ thuật chưa xác định, giai đoạn một hai, điều chỉnh hồ sơ mời thầu, phức tạp"
+    },
+    {
+      "dieu": "33",
+      "title": "Phương thức hai giai đoạn hai túi hồ sơ",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hai giai đoạn hai túi hồ sơ, two stage two envelope, công nghệ mới phức tạp, phương án thay thế, đề xuất kỹ thuật tài chính riêng biệt, hồ sơ dự thầu"
+    },
+    {
+      "dieu": "34",
+      "title": "Hình thức lựa chọn nhà đầu tư",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hình thức lựa chọn nhà đầu tư, investor selection, đấu thầu rộng rãi nhà đầu tư, chỉ định nhà đầu tư, dự án đầu tư kinh doanh, investor bidding"
+    },
+    {
+      "dieu": "34a",
+      "title": "Lựa chọn nhà đầu tư trong trường hợp đặc biệt",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "lựa chọn nhà đầu tư trường hợp đặc biệt, special investor selection, quốc phòng an ninh, lĩnh vực chiến lược, đặc thù thủ tục đầu tư, giao đất cho thuê đất"
+    },
+    {
+      "dieu": "35",
+      "title": "Phương thức lựa chọn nhà đầu tư",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "phương thức lựa chọn nhà đầu tư, investor selection method, một giai đoạn hai túi, hai giai đoạn, hồ sơ dự thầu nhà đầu tư, kiến trúc có giá trị"
+    },
+    {
+      "dieu": "36",
+      "title": "Kế hoạch tổng thể lựa chọn nhà thầu cho dự án",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "kế hoạch tổng thể lựa chọn nhà thầu, phân chia gói thầu, báo cáo nghiên cứu khả thi, hình thức đấu thầu, rủi ro đấu thầu, master procurement plan"
+    },
+    {
+      "dieu": "37",
+      "title": "Nguyên tắc lập kế hoạch lựa chọn nhà thầu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nguyên tắc lập kế hoạch lựa chọn nhà thầu, gói thầu nhiều năm, dự toán mua sắm, phê duyệt kế hoạch, procurement plan principles"
+    },
+    {
+      "dieu": "38",
+      "title": "Lập kế hoạch lựa chọn nhà thầu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "căn cứ lập kế hoạch lựa chọn nhà thầu, quyết định phê duyệt dự án, vốn ODA, dự toán mua sắm, tài liệu lập kế hoạch, procurement basis"
+    },
+    {
+      "dieu": "39",
+      "title": "Nội dung kế hoạch lựa chọn nhà thầu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nội dung kế hoạch lựa chọn nhà thầu, giá gói thầu, nguồn vốn, loại hợp đồng, tùy chọn mua thêm, thời gian thực hiện gói thầu, tender package details"
+    },
+    {
+      "dieu": "40",
+      "title": "Phê duyệt kế hoạch lựa chọn nhà thầu đối với dự án",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "phê duyệt kế hoạch lựa chọn nhà thầu, hồ sơ trình duyệt, thẩm quyền phê duyệt, chủ đầu tư, gói thầu dự án, approve procurement plan"
+    },
+    {
+      "dieu": "41",
+      "title": "Phê duyệt kế hoạch lựa chọn nhà thầu đối với dự toán mua sắm",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "phê duyệt kế hoạch mua sắm, hồ sơ trình duyệt dự toán, gói thầu mua sắm thường xuyên, thẩm quyền dự toán, procurement budget approval"
+    },
+    {
+      "dieu": "42",
+      "title": "Đấu thầu trước",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "đấu thầu trước, advance procurement, vốn ODA vay ưu đãi nước ngoài, ký kết hợp đồng trước phê duyệt, thủ tục đấu thầu sớm, nhà tài trợ"
+    },
+    {
+      "dieu": "43",
+      "title": "Quy trình, thủ tục lựa chọn nhà thầu",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "quy trình lựa chọn nhà thầu, thủ tục đấu thầu, hồ sơ dự thầu, thương thảo hợp đồng, kết quả trúng thầu, bidding procedure"
+    },
+    {
+      "dieu": "44",
+      "title": "Nội dung hồ sơ mời thầu đối với lựa chọn nhà thầu",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "hồ sơ mời thầu, tiêu chuẩn đánh giá, nội dung hsmt, xuất xứ hàng hóa, cạnh tranh bình đẳng, tender document"
+    },
+    {
+      "dieu": "45",
+      "title": "Thời gian tổ chức lựa chọn nhà thầu",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "thời gian lựa chọn nhà thầu, thời hạn nộp hồ sơ, đóng thầu, phát hành hồ sơ mời thầu, thời gian chuẩn bị hồ sơ"
+    },
+    {
+      "dieu": "46",
+      "title": "Quy trình, thủ tục lựa chọn nhà đầu tư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "quy trình lựa chọn nhà đầu tư, thủ tục đấu thầu nhà đầu tư, hồ sơ mời quan tâm, kết quả lựa chọn nhà đầu tư, investor selection"
+    },
+    {
+      "dieu": "47",
+      "title": "Công bố dự án đầu tư kinh doanh",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "công bố dự án đầu tư kinh doanh, thông báo dự án, hệ thống mạng đấu thầu quốc gia, vốn đầu tư, quy mô dự án, mục tiêu đầu tư"
+    },
+    {
+      "dieu": "48",
+      "title": "Nội dung hồ sơ mời thầu đối với lựa chọn nhà đầu tư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "hồ sơ mời thầu nhà đầu tư, tiêu chuẩn đánh giá nhà đầu tư, năng lực kinh nghiệm, phương án đầu tư kinh doanh, hiệu quả sử dụng đất"
+    },
+    {
+      "dieu": "49",
+      "title": "Thời gian tổ chức lựa chọn nhà đầu tư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "thời gian lựa chọn nhà đầu tư, thời hạn nộp hồ sơ nhà đầu tư, đấu thầu quốc tế, đóng thầu nhà đầu tư, 45 ngày 60 ngày"
+    },
+    {
+      "dieu": "50",
+      "title": "Lựa chọn nhà thầu, nhà đầu tư qua mạng",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "đấu thầu qua mạng, hệ thống mạng đấu thầu quốc gia, e-bidding, nộp hồ sơ online, đấu thầu điện tử, lộ trình đấu thầu qua mạng"
+    },
+    {
+      "dieu": "51",
+      "title": "Yêu cầu đối với Hệ thống mạng đấu thầu quốc gia",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "yêu cầu hệ thống mạng đấu thầu, an toàn thông tin đấu thầu, kết nối chia sẻ dữ liệu, xác thực người dùng, bảo mật hệ thống"
+    },
+    {
+      "dieu": "52",
+      "title": "Trách nhiệm của tổ chức vận hành Hệ thống mạng đấu thầu quốc gia",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "trách nhiệm vận hành hệ thống mạng đấu thầu, an ninh mạng đấu thầu, bảo mật dữ liệu đấu thầu, quản trị rủi ro, tổ chức vận hành"
+    },
+    {
+      "dieu": "53",
+      "title": "Mua sắm tập trung",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "mua sắm tập trung, danh mục hàng hóa dịch vụ, đơn vị mua sắm tập trung, thỏa thuận khung, centralized procurement, thuốc thiết bị y tế"
+    },
+    {
+      "dieu": "54",
+      "title": "Thỏa thuận khung",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "thỏa thuận khung, framework agreement, mua sắm tập trung, nhà thầu được lựa chọn, thời hạn thỏa thuận, hợp đồng cụ thể"
+    },
+    {
+      "dieu": "55",
+      "title": "Lựa chọn nhà thầu cung cấp thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "thuốc hóa chất vật tư xét nghiệm thiết bị y tế, cơ sở khám chữa bệnh, quyền sở hữu thiết bị y tế, dịch vụ kỹ thuật, medical equipment tender, bảo hiểm y tế"
+    },
+    {
+      "dieu": "56",
+      "title": "Ưu đãi trong mua thuốc",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "ưu đãi mua thuốc, thuốc sản xuất trong nước, EU-GMP, hồ sơ mời thầu thuốc, domestic drug preference, Bộ Y tế"
+    },
+    {
+      "dieu": "57",
+      "title": "Lựa chọn nhà thầu cung cấp sản phẩm, dịch vụ công",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "sản phẩm dịch vụ công, giao nhiệm vụ, lựa chọn nhà cung cấp, public service procurement, hàng hóa dịch vụ công, contractor selection"
+    },
+    {
+      "dieu": "58",
+      "title": "Phương pháp đánh giá hồ sơ dự thầu đối với gói thầu cung cấp dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp, hỗn hợp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "đánh giá hồ sơ dự thầu, giá thấp nhất, giá đánh giá, kết hợp kỹ thuật và giá, xếp hạng nhà thầu, evaluation criteria, bid evaluation"
+    },
+    {
+      "dieu": "59",
+      "title": "Phương pháp đánh giá hồ sơ dự thầu đối với gói thầu cung cấp dịch vụ tư vấn",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "đánh giá hồ sơ tư vấn, giá cố định, phương pháp dựa trên kỹ thuật, dịch vụ tư vấn, điểm tổng hợp, consultant bid evaluation"
+    },
+    {
+      "dieu": "60",
+      "title": "Xét duyệt trúng thầu đối với đấu thầu cung cấp dịch vụ tư vấn",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "trúng thầu tư vấn, điều kiện trúng thầu, nhà thầu tư vấn cá nhân, giá đề nghị trúng thầu, kết quả lựa chọn nhà thầu, winning consultant bid"
+    },
+    {
+      "dieu": "61",
+      "title": "Xét duyệt trúng thầu đối với đấu thầu cung cấp dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp, hỗn hợp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "trúng thầu xây lắp, mua sắm hàng hóa, giá dự thầu thấp bất thường, sai lệch thiếu, điều kiện trúng thầu, bid award construction goods"
+    },
+    {
+      "dieu": "62",
+      "title": "Phương pháp đánh giá hồ sơ dự thầu",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "đánh giá hồ sơ nhà đầu tư, lợi ích xã hội, phương án đầu tư kinh doanh, hiệu quả sử dụng đất, năng lực nhà đầu tư, investor bid evaluation"
+    },
+    {
+      "dieu": "63",
+      "title": "Xét duyệt trúng thầu",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "trúng thầu nhà đầu tư, xét duyệt lựa chọn nhà đầu tư, điều kiện trúng thầu đầu tư, phương án kinh doanh, kết quả lựa chọn nhà đầu tư, investor selection award"
+    },
+    {
+      "dieu": "64",
+      "title": "Loại hợp đồng",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "loại hợp đồng, hợp đồng trọn gói, đơn giá cố định, đơn giá điều chỉnh, hợp đồng EPC, contract type"
+    },
+    {
+      "dieu": "65",
+      "title": "Hồ sơ hợp đồng với nhà thầu",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "hồ sơ hợp đồng, văn bản hợp đồng, phụ lục hợp đồng, hồ sơ dự thầu, contract documents"
+    },
+    {
+      "dieu": "66",
+      "title": "Điều kiện ký kết hợp đồng",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "điều kiện ký hợp đồng, năng lực nhà thầu, vốn tạm ứng, mặt bằng thi công, contract signing conditions"
+    },
+    {
+      "dieu": "67",
+      "title": "Ký kết hợp đồng với nhà thầu được lựa chọn",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "ký kết hợp đồng, nhà thầu được lựa chọn, nhà thầu liên danh, nhà thầu phụ, signing contract"
+    },
+    {
+      "dieu": "68",
+      "title": "Bảo đảm thực hiện hợp đồng",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "bảo đảm thực hiện hợp đồng, thư bảo lãnh, đặt cọc, bảo hiểm bảo lãnh, performance bond"
+    },
+    {
+      "dieu": "69",
+      "title": "Nguyên tắc thực hiện hợp đồng",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "nguyên tắc thực hiện hợp đồng, trung thực hợp tác, nghĩa vụ hợp đồng, contract performance principles"
+    },
+    {
+      "dieu": "70",
+      "title": "Sửa đổi hợp đồng",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "sửa đổi hợp đồng, điều chỉnh giá, gia hạn tiến độ, bất khả kháng, contract amendment"
+    },
+    {
+      "dieu": "71",
+      "title": "Ký kết hợp đồng và nguyên tắc thực hiện hợp đồng dự án đầu tư kinh doanh",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "ký kết hợp đồng dự án đầu tư, nhà đầu tư được lựa chọn, liên danh nhà đầu tư, investor contract"
+    },
+    {
+      "dieu": "72",
+      "title": "Hồ sơ hợp đồng dự án đầu tư kinh doanh",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "hồ sơ hợp đồng đầu tư kinh doanh, biên bản đàm phán, hồ sơ mời thầu nhà đầu tư, investment contract documents"
+    },
+    {
+      "dieu": "73",
+      "title": "Nội dung hợp đồng dự án đầu tư kinh doanh",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "nội dung hợp đồng đầu tư, tổng vốn đầu tư, tiến độ dự án, bồi thường tái định cư, investment contract content"
+    },
+    {
+      "dieu": "74",
+      "title": "Thời hạn hợp đồng dự án đầu tư kinh doanh",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "thời hạn hợp đồng đầu tư, thời gian thực hiện dự án, hiệu lực hợp đồng, contract duration"
+    },
+    {
+      "dieu": "75",
+      "title": "Bảo đảm thực hiện hợp đồng dự án đầu tư kinh doanh",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "bảo đảm thực hiện hợp đồng nhà đầu tư, thư bảo lãnh, bảo hiểm bảo lãnh, mức bảo đảm, investor performance bond"
+    },
+    {
+      "dieu": "76",
+      "title": "Sửa đổi hợp đồng dự án đầu tư kinh doanh",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "sửa đổi hợp đồng đầu tư, chuyển nhượng dự án, điều chỉnh chủ trương đầu tư, investment contract amendment"
+    },
+    {
+      "dieu": "77",
+      "title": "Trách nhiệm của người có thẩm quyền",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "trách nhiệm người có thẩm quyền, phê duyệt kế hoạch đấu thầu, hủy thầu, đình chỉ cuộc thầu, giải quyết kiến nghị, kiểm tra giám sát đấu thầu"
+    },
+    {
+      "dieu": "78",
+      "title": "Trách nhiệm của chủ đầu tư",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "trách nhiệm chủ đầu tư, phê duyệt kết quả lựa chọn nhà thầu, ký kết hợp đồng, quản lý hợp đồng, xử lý tình huống đấu thầu, báo cáo đấu thầu hằng năm"
+    },
+    {
+      "dieu": "79",
+      "title": "Trách nhiệm của bên mời thầu",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "trách nhiệm bên mời thầu, tổ chức lựa chọn nhà đầu tư, đàm phán hợp đồng, trình duyệt hồ sơ mời thầu, bảo mật thông tin đấu thầu, hủy thầu nhà đầu tư"
+    },
+    {
+      "dieu": "80",
+      "title": "Trách nhiệm của tổ chuyên gia",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "trách nhiệm tổ chuyên gia, lập hồ sơ mời thầu, đánh giá hồ sơ dự thầu, trung thực khách quan đấu thầu, xử lý tình huống, trình duyệt kết quả lựa chọn nhà thầu"
+    },
+    {
+      "dieu": "81",
+      "title": "Trách nhiệm của tổ thẩm định",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "trách nhiệm tổ thẩm định, thẩm định hồ sơ đấu thầu, độc lập khách quan, bảo mật thông tin thẩm định, kết quả thẩm định, procurement review"
+    },
+    {
+      "dieu": "82",
+      "title": "Trách nhiệm của nhà thầu, nhà đầu tư",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "trách nhiệm nhà thầu nhà đầu tư, làm rõ hồ sơ mời thầu, đấu thầu qua mạng, thực hiện hợp đồng, quản lý nhà thầu phụ, bidder contractor obligations"
+    },
+    {
+      "dieu": "83",
+      "title": "Nội dung quản lý nhà nước đối với hoạt động đấu thầu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "nội dung quản lý nhà nước, quản lý đấu thầu, hệ thống thông tin đấu thầu, thanh tra kiểm tra đấu thầu, đào tạo nghiệp vụ đấu thầu, hợp tác quốc tế"
+    },
+    {
+      "dieu": "84",
+      "title": "Trách nhiệm quản lý nhà nước về đấu thầu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "trách nhiệm quản lý nhà nước, Bộ Tài chính đấu thầu, mạng đấu thầu quốc gia, cơ sở dữ liệu nhà thầu, chứng chỉ nghiệp vụ đấu thầu, cơ quan đầu mối đấu thầu"
+    },
+    {
+      "dieu": "85",
+      "title": "Trách nhiệm của Bộ, cơ quan ngang Bộ và Ủy ban nhân dân các cấp",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "trách nhiệm bộ ngành, ủy ban nhân dân đấu thầu, bồi dưỡng cán bộ đấu thầu, kiểm tra thanh tra địa phương, giải quyết khiếu nại đấu thầu"
+    },
+    {
+      "dieu": "86",
+      "title": "Thanh tra, kiểm tra, giám sát hoạt động đấu thầu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "thanh tra đấu thầu, kiểm tra hoạt động đấu thầu, giám sát đấu thầu, giám sát cộng đồng, inspection bidding, hồ sơ mời thầu giám sát"
+    },
+    {
+      "dieu": "87",
+      "title": "Xử lý vi phạm",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "xử lý vi phạm đấu thầu, cấm tham gia đấu thầu, xử phạt hành chính đấu thầu, truy cứu trách nhiệm hình sự, bồi thường thiệt hại đấu thầu, blacklist contractor"
+    },
+    {
+      "dieu": "88",
+      "title": "Xử lý tình huống trong hoạt động đấu thầu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "xử lý tình huống đấu thầu, phát sinh tình huống, chủ đầu tư quyết định, tình huống chưa quy định, handling procurement situation"
+    },
+    {
+      "dieu": "89",
+      "title": "Giải quyết kiến nghị trong hoạt động đấu thầu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "giải quyết kiến nghị đấu thầu, kiến nghị kết quả lựa chọn nhà thầu, hội đồng giải quyết kiến nghị, quyền kiến nghị nhà thầu, complaint bidding, protest tender result"
+    },
+    {
+      "dieu": "94",
+      "title": "Quyền khởi kiện và yêu cầu Tòa án áp dụng biện pháp khẩn cấp tạm thời",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "khởi kiện đấu thầu, tòa án đấu thầu, biện pháp khẩn cấp tạm thời, tạm dừng đóng thầu, tố tụng dân sự đấu thầu, court injunction bidding"
+    },
+    {
+      "dieu": "95",
+      "title": "Hiệu lực thi hành",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "hiệu lực thi hành, ngày có hiệu lực, luật đấu thầu 2023, luật mới áp dụng, thời điểm áp dụng, procurement law effective date"
+    },
+    {
+      "dieu": "96",
+      "title": "Quy định chuyển tiếp",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "quy định chuyển tiếp, gói thầu cũ áp dụng luật nào, hồ sơ mời thầu đã phát hành, hợp đồng ký trước luật mới, transitional provisions bidding, kế hoạch lựa chọn nhà thầu điều chỉnh"
+    }
+  ]
+}

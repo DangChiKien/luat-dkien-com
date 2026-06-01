@@ -6,6 +6,7 @@ Ngân hàng tra cứu văn bản pháp luật Việt Nam — phục vụ cả co
 
 | Văn bản | Số hiệu | Hiệu lực | Chỉ mục | Số điều |
 |---|---|---|---|---|
+| Luật Đấu thầu (hợp nhất 22+57+90) | 22/2023 · 57/2024 · 90/2025 | 01/07/2025 | [/luat-dau-thau-hop-nhat/chi-muc.md](luat-dau-thau-hop-nhat/chi-muc.md) | 95 |
 | Luật Đấu thầu 2023 | 22/2023/QH15 | 01/01/2024 | [/luat-dau-thau-2023/chi-muc.md](luat-dau-thau-2023/chi-muc.md) | 96 |
 | Nghị định 214/2025 | 214/2025/NĐ-CP | 04/08/2025 | [/nghi-dinh-214-2025/chi-muc.md](nghi-dinh-214-2025/chi-muc.md) | 146 |
 | Thông tư 79/2025 | 79/2025/TT-BTC | 04/08/2025 | [/thong-tu-79-2025/chi-muc.md](thong-tu-79-2025/chi-muc.md) | 35 |

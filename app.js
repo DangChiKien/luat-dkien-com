@@ -170,8 +170,8 @@
     updateToolbar();
 
     // If the page was opened with a #dieu-N hash, jump to it.
-    if (location.hash && /^#dieu-\d+$/.test(location.hash)) {
-      const dieu = parseInt(location.hash.slice(6), 10);
+    if (location.hash && /^#dieu-[0-9a-zđ]+$/i.test(location.hash)) {
+      const dieu = location.hash.slice(6).toLowerCase();
       // Defer so layout is settled.
       requestAnimationFrame(() => scrollToArticle(dieu, true));
     }
@@ -281,9 +281,9 @@
         lvl = level;
         source = raw != null ? raw : text;
       }
-      const m = /Điều\s+(\d+)/i.exec(stripTags(source));
+      const m = /Điều\s+(\d+[a-zđ]*)/i.exec(stripTags(source));
       if (lvl === 2 && m) {
-        return `<h2 id="dieu-${m[1]}">${body}</h2>`;
+        return `<h2 id="dieu-${m[1].toLowerCase()}">${body}</h2>`;
       }
       // Fall back to default for other headings (we mostly render bodies
       // separately, so this primarily matters for safety).
@@ -351,12 +351,12 @@
       }
 
       // "## Điều N. Title" -> start a new article block.
-      const dieuMatch = /^##\s+Điều\s+(\d+)\.?\s*(.*)$/i.exec(line);
+      const dieuMatch = /^##\s+Điều\s+(\d+[a-zđ]*)\.?\s*(.*)$/i.exec(line);
       if (dieuMatch) {
         pushCurrent();
         current = {
           type: "dieu",
-          dieu: parseInt(dieuMatch[1], 10),
+          dieu: dieuMatch[1].toLowerCase(), // string id ("57" or "29a")
           title: (dieuMatch[2] || "").trim(),
           lines: [line], // include the heading line in the raw body
         };
@@ -585,10 +585,16 @@
   function parseNumberQuery(q) {
     const t = (q || "").trim();
     if (/^\d+$/.test(t)) {
-      const n = parseInt(t, 10);
-      if (articleByDieu.has(n)) return n;
+      if (articleByDieu.has(t)) return t; // keys are string ids
     }
     return null;
+  }
+
+  // Order two article ids ("57", "29a") numerically then by letter suffix.
+  function cmpDieu(a, b) {
+    const ax = String(a).match(/^(\d+)([a-zđ]*)$/i) || [0, "0", ""];
+    const bx = String(b).match(/^(\d+)([a-zđ]*)$/i) || [0, "0", ""];
+    return (parseInt(ax[1], 10) - parseInt(bx[1], 10)) || ax[2].localeCompare(bx[2]);
   }
 
   function doSearch(query) {
@@ -684,6 +690,7 @@
   }
 
   function openResult(dieu, query) {
+    dieu = String(dieu);
     closeDropdown();
     scrollToArticle(dieu, true);
     if (query) highlightInArticle(dieu, query);
@@ -723,7 +730,7 @@
   }
 
   function highlightInArticle(dieu, query) {
-    const a = articleByDieu.get(dieu);
+    const a = articleByDieu.get(String(dieu));
     if (!a || !a.bodyEl || !query) return;
     clearHighlights();
 
@@ -762,6 +769,7 @@
   /* ---- Scroll + flash -------------------------------------------------- */
 
   function scrollToArticle(dieu, flash) {
+    dieu = String(dieu);
     const target = document.getElementById("dieu-" + dieu);
     const a = articleByDieu.get(dieu);
     const scrollEl = target || (a && a.el);
@@ -799,6 +807,7 @@
 
   // Set selection state of a single article (updates DOM + state).
   function setArticleSelected(dieu, on) {
+    dieu = String(dieu);
     const a = articleByDieu.get(dieu);
     if (!a) return;
     if (on) selected.add(dieu);
@@ -873,7 +882,7 @@
     return Array.from(selected)
       .map((d) => articleByDieu.get(d))
       .filter(Boolean)
-      .sort((a, b) => a.dieu - b.dieu);
+      .sort((a, b) => cmpDieu(a.dieu, b.dieu));
   }
 
   function updateToolbar() {

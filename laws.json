@@ -1,5 +1,14 @@
 [
   {
+    "slug": "luat-dau-thau-hop-nhat",
+    "name": "Luật Đấu thầu (hợp nhất 22+57+90)",
+    "code": "22/2023 · 57/2024 · 90/2025",
+    "effective": "01/07/2025",
+    "chapters": 10,
+    "articles": 95,
+    "category": "Đấu thầu"
+  },
+  {
     "slug": "luat-dau-thau-2023",
     "name": "Luật Đấu thầu 2023",
     "code": "22/2023/QH15",
