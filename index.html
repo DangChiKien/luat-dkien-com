@@ -49,10 +49,16 @@
       </p>
     </section>
 
-    <!-- Law grid — rendered from /laws.json by home.js -->
+    <!-- Law list — rendered from /laws.json by home.js -->
     <section class="law-section" aria-label="Danh sách văn bản pháp luật">
-      <h2 class="section-title">Văn bản pháp luật</h2>
-      <div class="law-grid" id="law-grid"></div>
+      <div class="law-section__head">
+        <h2 class="section-title">Văn bản pháp luật</h2>
+        <div class="view-toggle" role="group" aria-label="Kiểu hiển thị">
+          <button id="view-cards" class="view-btn" type="button" aria-pressed="true" title="Dạng thẻ">▦ Thẻ</button>
+          <button id="view-list" class="view-btn" type="button" aria-pressed="false" title="Dạng danh sách">☰ Danh sách</button>
+        </div>
+      </div>
+      <div id="law-grid"></div>
       <noscript>
         <ul class="law-fallback">
           <li><a href="./luat-dau-thau-2023/">Luật Đấu thầu 2023 (22/2023/QH15)</a></li>

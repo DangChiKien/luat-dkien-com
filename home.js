@@ -25,33 +25,65 @@
     return m ? m[0] : "Văn bản";
   }
 
-  /* ---- render law cards ---- */
-  function renderCards(laws) {
-    if (!grid) return;
-    grid.innerHTML = "";
-    laws.forEach(function (l) {
-      var card = el("a", {
-        class: "law-card",
-        href: "/" + l.slug + "/",
-        "aria-label": "Đọc " + l.name + ", số hiệu " + l.code
-      }, [
-        el("div", { class: "law-card__badge", text: docType(l.name) }),
-        el("h3", { class: "law-card__title", text: l.name }),
-        el("dl", { class: "law-card__meta" }, [
-          metaRow("Số hiệu", l.code),
-          metaRow("Hiệu lực", l.effective || "—"),
-          metaRow("Quy mô", l.chapters + " chương · " + l.articles + " điều")
-        ]),
-        el("span", { class: "law-card__cta", "aria-hidden": "true", text: "Xem toàn văn →" })
-      ]);
-      grid.appendChild(card);
-    });
+  /* ---- law list rendering: cards | list, grouped by category ---- */
+  var VIEW_KEY = "luat-law-view";
+  var lawsData = [];
+
+  function currentView() {
+    try { return localStorage.getItem(VIEW_KEY) === "list" ? "list" : "cards"; }
+    catch (e) { return "cards"; }
   }
   function metaRow(k, v) {
-    return el("div", { class: "law-card__meta-row" }, [
-      el("dt", { text: k }), el("dd", { text: v })
+    return el("div", { class: "law-card__meta-row" }, [el("dt", { text: k }), el("dd", { text: v })]);
+  }
+  function lawCard(l) {
+    return el("a", { class: "law-card", href: "/" + l.slug + "/", "aria-label": "Đọc " + l.name + ", số hiệu " + l.code }, [
+      el("div", { class: "law-card__badge", text: docType(l.name) }),
+      el("h3", { class: "law-card__title", text: l.name }),
+      el("dl", { class: "law-card__meta" }, [
+        metaRow("Số hiệu", l.code),
+        metaRow("Hiệu lực", l.effective || "—"),
+        metaRow("Quy mô", l.chapters + " chương · " + l.articles + " điều")
+      ]),
+      el("span", { class: "law-card__cta", "aria-hidden": "true", text: "Xem toàn văn →" })
     ]);
   }
+  function lawRow(l) {
+    return el("a", { class: "law-row", href: "/" + l.slug + "/", "aria-label": "Đọc " + l.name + ", " + l.code }, [
+      el("span", { class: "law-row__type", text: docType(l.name) }),
+      el("span", { class: "law-row__name", text: l.name }),
+      el("span", { class: "law-row__code", text: l.code }),
+      el("span", { class: "law-row__meta", text: l.chapters + " chương · " + l.articles + " điều" })
+    ]);
+  }
+  function renderLaws() {
+    if (!grid) return;
+    var view = currentView();
+    grid.innerHTML = "";
+    grid.className = "law-groups";
+    var cats = [];
+    lawsData.forEach(function (l) { if (cats.indexOf(l.category) < 0) cats.push(l.category); });
+    cats.forEach(function (cat) {
+      var inner = el("div", { class: view === "list" ? "law-list" : "law-grid" });
+      lawsData.filter(function (l) { return l.category === cat; })
+        .forEach(function (l) { inner.appendChild(view === "list" ? lawRow(l) : lawCard(l)); });
+      grid.appendChild(el("section", { class: "law-cat-group" }, [
+        el("h3", { class: "law-cat", text: cat }), inner
+      ]));
+    });
+    var bc = document.getElementById("view-cards"), bl = document.getElementById("view-list");
+    if (bc) bc.setAttribute("aria-pressed", String(view === "cards"));
+    if (bl) bl.setAttribute("aria-pressed", String(view === "list"));
+  }
+  function setView(v) {
+    try { localStorage.setItem(VIEW_KEY, v); } catch (e) {}
+    renderLaws();
+  }
+  (function wireViewToggle() {
+    var bc = document.getElementById("view-cards"), bl = document.getElementById("view-list");
+    if (bc) bc.addEventListener("click", function () { setView("cards"); });
+    if (bl) bl.addEventListener("click", function () { setView("list"); });
+  })();
 
   /* ---- search across all laws ---- */
   var items = [];      // {dieu, title, keywords, slug, lawName}
@@ -153,7 +185,8 @@
   fetch("/laws.json", { cache: "no-cache" })
     .then(function (r) { return r.json(); })
     .then(function (laws) {
-      renderCards(laws);
+      lawsData = laws;
+      renderLaws();
       loadSearchIndex(laws);
     })
     .catch(function () {

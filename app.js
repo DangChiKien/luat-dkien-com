@@ -200,6 +200,15 @@
    * SIDEBAR
    * ===================================================================== */
 
+  // Chapter titles in decrees/circulars are often ALL-CAPS in the source.
+  // Show them as readable sentence case (only when the title has no lowercase).
+  function toSentenceCase(s) {
+    if (!s) return s;
+    if (/\p{Ll}/u.test(s)) return s; // already mixed/lower case -> leave as-is
+    const lower = s.toLowerCase();
+    return lower.charAt(0).toUpperCase() + lower.slice(1);
+  }
+
   function buildSidebar(chapters) {
     const nav = $("#chapter-nav");
     if (!nav) return;
@@ -226,9 +235,9 @@
             escapeHtml(ch.roman) +
             "</span> — " +
             '<span class="chap-title">' +
-            escapeHtml(ch.title) +
+            escapeHtml(toSentenceCase(ch.title)) +
             "</span>"
-          : '<span class="chap-title">' + escapeHtml(ch.title || ch.file) + "</span>",
+          : '<span class="chap-title">' + escapeHtml(toSentenceCase(ch.title) || ch.file) + "</span>",
       });
       link.addEventListener("click", (e) => {
         e.preventDefault();
@@ -399,10 +408,10 @@
     // Chapter <h1>. "Chương N" gets its title appended; custom headings
     // ("Toàn văn …", "Phụ lục …") are used as-is to avoid duplication.
     const isChuongN = /^Chương\s+[IVXLCDM]+$/i.test(parsed.chapterHeading || "");
+    const chTitle = toSentenceCase(chMeta.title || parsed.chapterTitle || "");
     const headingText = isChuongN
-      ? parsed.chapterHeading +
-        (chMeta.title ? ": " + chMeta.title : parsed.chapterTitle ? ": " + parsed.chapterTitle : "")
-      : (parsed.chapterHeading || chMeta.title || "Chương " + chMeta.roman);
+      ? parsed.chapterHeading + (chTitle ? ": " + chTitle : "")
+      : (parsed.chapterHeading || chTitle || "Chương " + chMeta.roman);
     chSection.appendChild(el("h1", { class: "chapter-title", text: headingText }));
 
     // Optional chapter intro (source note / blockquote).
