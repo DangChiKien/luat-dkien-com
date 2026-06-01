@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thư viện văn bản pháp luật Việt Nam — tra cứu trực tuyến cho người và cho AI. Luật Nhà ở 2023 và các văn bản khác." />
+  <title>Thư viện Văn bản Pháp luật — dkien.com</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js" defer></script>
+</head>
+<body>
+
+  <!-- ── HEADER ──────────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__brand" href="./">
+        Thư viện Văn bản Pháp luật
+      </a>
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        type="button"
+        aria-label="Chuyển sang giao diện tối"
+      >☾</button>
+    </div>
+  </header>
+
+  <!-- ── MAIN ────────────────────────────────────────────────── -->
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" aria-label="Giới thiệu">
+      <p class="hero__tagline">
+        Tra cứu văn bản pháp luật Việt Nam — cho người và cho AI.
+      </p>
+    </section>
+
+    <!-- Law grid -->
+    <section class="law-section" aria-label="Danh sách văn bản pháp luật">
+      <h2 class="section-title">Văn bản pháp luật</h2>
+      <div class="law-grid">
+
+        <a class="law-card" href="./luat-nha-o-2023/" aria-label="Đọc Luật Nhà ở 2023, số hiệu 27/2023/QH15">
+          <div class="law-card__badge">Luật</div>
+          <h3 class="law-card__title">Luật Nhà ở 2023</h3>
+          <dl class="law-card__meta">
+            <div class="law-card__meta-row">
+              <dt>Số hiệu</dt>
+              <dd>27/2023/QH15</dd>
+            </div>
+            <div class="law-card__meta-row">
+              <dt>Hiệu lực</dt>
+              <dd>01/01/2025</dd>
+            </div>
+            <div class="law-card__meta-row">
+              <dt>Quy mô</dt>
+              <dd>13 chương · 198 điều</dd>
+            </div>
+          </dl>
+          <span class="law-card__cta" aria-hidden="true">Xem toàn văn →</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- AI section -->
+    <section class="ai-section" aria-label="Hướng dẫn dùng với AI">
+      <h2 class="section-title">Dùng với AI</h2>
+      <p class="ai-section__intro">
+        Trang này được thiết kế để bất kỳ trợ lý AI nào — Claude, ChatGPT, Gemini — đều có thể
+        fetch trực tiếp và trả lời câu hỏi pháp lý chính xác mà không cần plugin hay công cụ đặc biệt.
+        Toàn bộ nội dung được phục vụ dưới dạng văn bản thuần, có cấu trúc rõ ràng.
+        Thông thường AI chỉ cần tối đa 3 lượt fetch để định vị và đọc đúng điều luật cần tra cứu.
+      </p>
+
+      <div class="prompt-box" role="region" aria-label="Mẫu prompt cho AI">
+        <div class="prompt-box__header">
+          <span class="prompt-box__label">Mẫu prompt</span>
+          <button
+            type="button"
+            class="js-copy prompt-box__copy-btn"
+            data-copy="Khi cần tra cứu pháp luật Việt Nam:
+1. Fetch https://luat.dkien.com/index.md để xem danh sách văn bản
+2. Fetch file chi-muc.md của luật liên quan để xác định điều cần đọc
+3. Fetch file chương chứa điều đó để lấy nội dung chi tiết"
+            aria-label="Sao chép mẫu prompt vào bộ nhớ tạm"
+          >&#128203; Copy prompt</button>
+        </div>
+        <pre class="prompt-box__text"><code>Khi cần tra cứu pháp luật Việt Nam:
+1. Fetch https://luat.dkien.com/index.md để xem danh sách văn bản
+2. Fetch file chi-muc.md của luật liên quan để xác định điều cần đọc
+3. Fetch file chương chứa điều đó để lấy nội dung chi tiết</code></pre>
+      </div>
+
+      <p class="ai-section__guide-link">
+        <a href="./ai-guide.md">Hướng dẫn chi tiết cho AI →</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ──────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <p>Thư viện văn bản pháp luật — <a href="https://dkien.com">dkien.com</a></p>
+    <p>Văn bản được số hóa phục vụ tra cứu. Hiệu lực pháp lý theo văn bản gốc.</p>
+  </footer>
+
+</body>
+</html>

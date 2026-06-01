@@ -1,0 +1,1177 @@
+/* =============================================================================
+   Luật Kiên — Vietnamese Legal Reference
+   Single stylesheet for BOTH pages (home + reader).
+   Plain CSS, no framework. Mobile-first, responsive, dark-mode aware.
+   Owned by: STYLE agent.
+   ============================================================================= */
+
+/* -----------------------------------------------------------------------------
+   1. DESIGN TOKENS — CSS custom properties
+   Brand constants are identical in both themes; the rest swap per data-theme.
+   ----------------------------------------------------------------------------- */
+:root {
+  /* Brand constants (same in light + dark) */
+  --navy: #0D1B3E;
+  --gold: #D4A843;
+
+  /* Light theme surfaces + ink */
+  --bg: #ffffff;
+  --bg-elev: #f6f7f9;
+  --bg-sunken: #eef0f4;
+  --text: #16203a;
+  --text-muted: #5b6577;
+  --border: #dfe3ea;
+  --link: #0D1B3E;
+  --accent: #D4A843;
+  --accent-ink: #5a4410;
+  --header-bg: #0D1B3E;
+  --header-text: #ffffff;
+  --mark: #fff2c2;
+
+  /* Typography */
+  --font-serif: Georgia, "Noto Serif", "Times New Roman", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: "SFMono-Regular", "Cascadia Code", Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Layout / shape scale */
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 2px rgba(13, 27, 62, 0.06), 0 1px 3px rgba(13, 27, 62, 0.08);
+  --shadow-md: 0 4px 12px rgba(13, 27, 62, 0.10), 0 2px 4px rgba(13, 27, 62, 0.06);
+  --shadow-lg: 0 12px 32px rgba(13, 27, 62, 0.16);
+
+  --header-h: 60px;
+  --content-measure: 72ch;
+
+  --transition: 180ms ease;
+}
+
+/* Dark theme overrides */
+html[data-theme="dark"] {
+  --bg: #0b1020;
+  --bg-elev: #141b30;
+  --bg-sunken: #0f1526;
+  --text: #e7ebf3;
+  --text-muted: #9aa4ba;
+  --border: #26304a;
+  --link: #e7ebf3;
+  --accent: #D4A843;
+  --accent-ink: #1a1405;
+  --header-bg: #070b16;
+  --header-text: #f2f4f8;
+  --mark: #6a5410;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 14px 36px rgba(0, 0, 0, 0.6);
+}
+
+/* -----------------------------------------------------------------------------
+   2. RESET + GLOBAL
+   ----------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  /* Account for sticky header when jumping to #dieu-N anchors */
+  scroll-padding-top: calc(var(--header-h) + 64px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Smooth color transition on theme change */
+  transition: background-color var(--transition), color var(--transition);
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+ul, ol { padding-left: 1.4em; }
+
+h1, h2, h3, h4 {
+  line-height: 1.25;
+  margin: 0 0 0.5em;
+}
+
+/* Accessible focus ring for every interactive element */
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+/* Avoid double-ring where browsers also draw default */
+:focus:not(:focus-visible) { outline: none; }
+
+/* Honour [hidden] universally even when display is overridden elsewhere */
+[hidden] { display: none !important; }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Generic wrapper to centre page content */
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: clamp(16px, 4vw, 32px);
+}
+
+/* -----------------------------------------------------------------------------
+   3. HEADER (.site-header)
+   Navy bar, white text, title left, theme toggle right. Sticky.
+   ----------------------------------------------------------------------------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--header-bg);
+  color: var(--header-text);
+  border-bottom: 1px solid rgba(212, 168, 67, 0.35); /* faint gold rule */
+  transition: background-color var(--transition);
+}
+
+.site-header__inner {
+  min-height: var(--header-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.site-header a { color: inherit; }
+
+.site-title,
+.site-header__title {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.01em;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+.site-title:hover { text-decoration: none; }
+
+/* Gold dot/brand mark accent before the title text */
+.site-title__mark {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--gold);
+  flex: none;
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Theme toggle button (shared id #theme-toggle on both pages) */
+#theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 12px;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: var(--header-text);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color var(--transition), border-color var(--transition);
+}
+#theme-toggle:hover {
+  background: rgba(212, 168, 67, 0.22);
+  border-color: var(--gold);
+}
+
+/* -----------------------------------------------------------------------------
+   4. BUTTONS
+   .btn base + variants. Comfortable 44px-ish tap targets.
+   ----------------------------------------------------------------------------- */
+.btn {
+  --btn-bg: var(--bg-elev);
+  --btn-fg: var(--text);
+  --btn-bd: var(--border);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 9px 16px;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--btn-fg);
+  background: var(--btn-bg);
+  border: 1px solid var(--btn-bd);
+  border-radius: var(--radius);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color var(--transition), border-color var(--transition),
+              color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+.btn:hover { text-decoration: none; }
+.btn:active { transform: translateY(1px); }
+.btn:disabled,
+.btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Primary — prominent gold call-to-action with dark ink */
+.btn-primary {
+  --btn-bg: var(--accent);
+  --btn-fg: var(--accent-ink);
+  --btn-bd: var(--accent);
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+}
+.btn-primary:hover {
+  --btn-bg: #e0b860;
+  --btn-bd: #e0b860;
+  box-shadow: var(--shadow-md);
+}
+
+/* Secondary — outline */
+.btn-secondary {
+  --btn-bg: transparent;
+  --btn-fg: var(--text);
+  --btn-bd: var(--border);
+}
+.btn-secondary:hover {
+  --btn-bd: var(--accent);
+  --btn-fg: var(--accent-ink);
+  --btn-bg: rgba(212, 168, 67, 0.12);
+}
+html[data-theme="dark"] .btn-secondary:hover { --btn-fg: var(--accent); }
+
+/* Ghost — subtle, chrome-less until hover */
+.btn-ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--text-muted);
+  --btn-bd: transparent;
+}
+.btn-ghost:hover {
+  --btn-bg: var(--bg-sunken);
+  --btn-fg: var(--text);
+}
+
+/* Small icon-only button (copylink chips, etc.) */
+.btn-icon {
+  min-height: 0;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 0.95rem;
+  border-radius: var(--radius-sm);
+}
+
+.btn-block { width: 100%; }
+
+/* -----------------------------------------------------------------------------
+   5. HOME PAGE
+   ----------------------------------------------------------------------------- */
+
+/* Hero / intro band */
+.hero {
+  padding: clamp(40px, 7vw, 88px) 0 clamp(28px, 4vw, 48px);
+  text-align: center;
+}
+.hero h1,
+.hero__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 0.35em;
+}
+.hero__lead,
+.hero p {
+  max-width: 60ch;
+  margin: 0 auto 1.4em;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* Responsive card grid of laws */
+.law-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: clamp(16px, 2.5vw, 28px);
+  padding-block: 8px clamp(40px, 6vw, 72px);
+}
+
+/* Elevated law card with gold top accent + hover lift */
+.law-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 26px 24px 24px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition),
+              border-color var(--transition);
+}
+.law-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--gold), #e9c878);
+}
+.law-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(212, 168, 67, 0.5);
+  text-decoration: none;
+}
+.law-card__title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+.law-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: auto;
+}
+.law-card__meta-row {
+  display: flex;
+  gap: 8px;
+}
+.law-card__meta-row dt,
+.law-card__meta-label {
+  font-weight: 600;
+  color: var(--text);
+  min-width: 96px;
+}
+/* Small code/status chip used in card meta */
+.law-card__code,
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 10px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent-ink);
+  background: rgba(212, 168, 67, 0.18);
+  border: 1px solid rgba(212, 168, 67, 0.4);
+  border-radius: 999px;
+}
+html[data-theme="dark"] .law-card__code,
+html[data-theme="dark"] .chip { color: var(--accent); }
+
+/* AI helper section — distinct band */
+.ai-section {
+  background: var(--bg-sunken);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: clamp(36px, 6vw, 64px) 0;
+}
+.ai-section h2,
+.ai-section__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-top: 0;
+}
+.ai-section__lead {
+  max-width: 65ch;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+/* Monospace prompt block with copy button */
+.prompt-box {
+  position: relative;
+  display: block;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--gold);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.prompt-box__code,
+.prompt-box pre {
+  margin: 0;
+  padding: 20px 22px;
+  padding-right: 132px; /* leave room for the copy button */
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+}
+.prompt-box .btn,
+.prompt-box__copy {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+@media (max-width: 560px) {
+  .prompt-box__code,
+  .prompt-box pre { padding-right: 22px; padding-bottom: 64px; }
+  .prompt-box .btn,
+  .prompt-box__copy { top: auto; bottom: 14px; }
+}
+
+/* -----------------------------------------------------------------------------
+   6. READER LAYOUT (.reader-layout)
+   280px sidebar + 1fr content on >=900px; single column below.
+   ----------------------------------------------------------------------------- */
+.reader-layout {
+  display: grid;
+  grid-template-columns: 1fr;          /* mobile-first: single column */
+  gap: 0;
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .reader-layout {
+    grid-template-columns: 280px minmax(0, 1fr);
+    gap: clamp(24px, 3vw, 44px);
+    max-width: 1240px;
+    margin-inline: auto;
+    padding-inline: clamp(16px, 3vw, 32px);
+  }
+}
+
+/* --- Sidebar (table of contents) --- */
+.sidebar {
+  font-family: var(--font-sans);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+@media (min-width: 900px) {
+  .sidebar {
+    position: sticky;
+    top: calc(var(--header-h) + 16px);
+    /* Own scroll region under the sticky header */
+    max-height: calc(100vh - var(--header-h) - 32px);
+    overflow-y: auto;
+    margin-top: clamp(16px, 3vw, 24px);
+  }
+}
+/* On mobile the sidebar becomes a collapsible block stacked above content */
+@media (max-width: 899px) {
+  .sidebar {
+    margin: 12px clamp(16px, 4vw, 32px) 0;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+  /* Collapsible behaviour via <details>/[data-collapsed] hook */
+  .sidebar[data-collapsed] { max-height: none; }
+}
+
+.sidebar__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 14px 16px;
+  background: var(--bg-elev);
+  border-bottom: 1px solid var(--border);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.sidebar__list {
+  list-style: none;
+  margin: 0;
+  padding: 8px;
+}
+
+/* Chapter row: checkbox + link + copy-link icon */
+.chap-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px 6px 10px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid transparent;
+  transition: background-color var(--transition), border-color var(--transition);
+}
+.chap-item:hover { background: var(--bg-sunken); }
+
+.chap-item input[type="checkbox"] {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+.chap-item a,
+.chap-item .chap-link {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--text);
+  font-size: 0.92rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+.chap-item a:hover { color: var(--accent-ink); text-decoration: underline; }
+html[data-theme="dark"] .chap-item a:hover { color: var(--accent); }
+
+/* Roman-numeral / chapter number badge (optional hook) */
+.chap-item .chap-num {
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-right: 2px;
+}
+
+/* Small clipboard icon button on each chapter */
+.chap-copylink {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--transition), background-color var(--transition), color var(--transition);
+}
+.chap-item:hover .chap-copylink,
+.chap-item:focus-within .chap-copylink,
+.chap-copylink:focus-visible { opacity: 1; }
+.chap-copylink:hover { background: var(--bg-elev); color: var(--accent-ink); }
+html[data-theme="dark"] .chap-copylink:hover { color: var(--accent); }
+
+/* Active chapter — gold left-border + bg tint */
+.chap-item.active {
+  background: rgba(212, 168, 67, 0.14);
+  border-left-color: var(--gold);
+}
+.chap-item.active a { color: var(--text); font-weight: 600; }
+
+/* --- Content column --- */
+.content {
+  min-width: 0; /* prevent grid blowout from long words/pre */
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text);
+  padding: clamp(16px, 4vw, 32px) clamp(16px, 4vw, 32px) 120px;
+}
+.content > * { max-width: var(--content-measure); }
+@media (min-width: 900px) {
+  .content { padding-top: clamp(16px, 3vw, 24px); }
+}
+
+/* -----------------------------------------------------------------------------
+   7. SEARCH
+   Sticky bar under the header + absolutely positioned results dropdown.
+   ----------------------------------------------------------------------------- */
+.search-bar {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 90;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 12px clamp(16px, 4vw, 32px);
+  transition: background-color var(--transition), border-color var(--transition);
+}
+/* The dropdown anchors to this positioned wrapper */
+.search-bar__field {
+  position: relative;
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+#search-input {
+  width: 100%;
+  height: 46px;
+  padding: 0 44px 0 44px;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  transition: border-color var(--transition), box-shadow var(--transition), background-color var(--transition);
+  /* search glyph on the left */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%235b6577' stroke-width='2' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+}
+html[data-theme="dark"] #search-input {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%239aa4ba' stroke-width='2' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
+}
+#search-input::placeholder { color: var(--text-muted); }
+#search-input:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(212, 168, 67, 0.3);
+}
+
+/* Results dropdown */
+#search-results {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 8px);
+  z-index: 95;
+  max-height: min(60vh, 460px);
+  overflow-y: auto;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 6px;
+}
+#search-results:empty { display: none; }
+
+.search-result-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text);
+}
+.search-result-item:hover,
+.search-result-item.active {
+  background: rgba(212, 168, 67, 0.16);
+  text-decoration: none;
+}
+.search-result-item.active { outline: 1px solid var(--accent); }
+
+/* Article-number badge in a result row */
+.search-result-item__badge,
+.search-result-item .badge {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 58px;
+  padding: 3px 8px;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-ink);
+  background: rgba(212, 168, 67, 0.22);
+  border: 1px solid rgba(212, 168, 67, 0.4);
+  border-radius: 999px;
+}
+html[data-theme="dark"] .search-result-item__badge,
+html[data-theme="dark"] .search-result-item .badge { color: var(--accent); }
+
+.search-result-item__title {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  line-height: 1.35;
+  color: var(--text);
+}
+.search-result-item__meta {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.search-results__empty {
+  padding: 16px;
+  text-align: center;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+/* -----------------------------------------------------------------------------
+   8. LEGAL TEXT (rendered markdown inside .content)
+   ----------------------------------------------------------------------------- */
+
+/* h1 — chapter heading: navy, gold underline */
+.content h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0.2em 0 0.8em;
+  padding-bottom: 0.35em;
+  border-bottom: 3px solid var(--gold);
+}
+html[data-theme="dark"] .content h1 { color: var(--text); }
+
+/* h2 — article heading (id="dieu-N") */
+.content h2 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 1.6em 0 0.5em;
+  scroll-margin-top: calc(var(--header-h) + 72px);
+}
+
+/* "Mục" section heading variant — uppercase, centred, spaced, muted, smaller.
+   Apply either via .muc-heading class or auto-detected heading. */
+.content h2.muc-heading,
+.content .muc-heading {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  border: 0;
+  margin: 2em auto 1em;
+  padding: 0;
+}
+
+.content h3 {
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  color: var(--text);
+  margin: 1.2em 0 0.4em;
+}
+
+.content p { margin: 0 0 1em; }
+
+/* Khoản / điểm — nested ordered list indentation, readable */
+.content ol,
+.content ul {
+  margin: 0 0 1em;
+  padding-left: 1.7em;
+}
+.content li { margin: 0.35em 0; }
+.content ol ol,
+.content ul ul,
+.content ol ul,
+.content ul ol {
+  margin: 0.4em 0;
+  padding-left: 1.4em;
+}
+
+.content blockquote {
+  margin: 1em 0;
+  padding: 0.6em 1.1em;
+  border-left: 4px solid var(--gold);
+  background: var(--bg-elev);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.content a { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 2px; }
+html[data-theme="dark"] .content a { color: var(--accent); }
+
+.content hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2em 0;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95rem;
+}
+.content th,
+.content td {
+  border: 1px solid var(--border);
+  padding: 8px 10px;
+  text-align: left;
+}
+.content th { background: var(--bg-sunken); font-family: var(--font-sans); }
+
+/* Search highlight */
+.content mark,
+.content .hl,
+mark.hl {
+  background: var(--mark);
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+/* -----------------------------------------------------------------------------
+   9. ARTICLE BLOCK (.article — one wrapper per Điều)
+   Left gutter with a selection checkbox + a copy-link icon on hover/focus.
+   ----------------------------------------------------------------------------- */
+.article {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  column-gap: 10px;
+  margin: 0 0 0.5em;
+  padding: 6px 10px 6px 6px;
+  border-left: 3px solid transparent;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  transition: background-color var(--transition), border-color var(--transition);
+}
+
+/* Gutter holding the checkbox */
+.article-gutter {
+  grid-column: 1;
+  padding-top: 0.35em;
+}
+.article-checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+/* Article body lives in the second column */
+.article > :not(.article-gutter):not(.article-copylink) {
+  grid-column: 2;
+}
+
+/* The 🔗 copy-link icon button (appears on hover/focus of the article) */
+.article-copylink {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--transition), color var(--transition), background-color var(--transition);
+}
+.article:hover .article-copylink,
+.article:focus-within .article-copylink,
+.article-copylink:focus-visible { opacity: 1; }
+.article-copylink:hover { color: var(--accent-ink); border-color: var(--accent); }
+html[data-theme="dark"] .article-copylink:hover { color: var(--accent); }
+
+/* Selected article — subtle gold tint + left border */
+.article.selected {
+  background: rgba(212, 168, 67, 0.10);
+  border-left-color: var(--gold);
+}
+
+/* When :target (navigated via #dieu-N) flash a gentle highlight */
+.content h2:target,
+.article:target {
+  animation: target-flash 1.6s ease;
+}
+@keyframes target-flash {
+  0%, 30% { background: rgba(212, 168, 67, 0.28); }
+  100% { background: transparent; }
+}
+
+/* -----------------------------------------------------------------------------
+   10. SELECTION TOOLBAR (#selection-toolbar)
+   Fixed bottom bar, hidden by default; slides up when there is a selection.
+   ----------------------------------------------------------------------------- */
+#selection-toolbar {
+  position: fixed;
+  left: 50%;
+  bottom: 16px;
+  z-index: 120;
+  transform: translateX(-50%);
+  width: min(960px, calc(100% - 24px));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  transition: transform var(--transition), opacity var(--transition);
+}
+/* Hidden state — pushed out of view (also respects [hidden]) */
+#selection-toolbar[hidden] {
+  display: flex !important;        /* keep it laid out so the slide animates */
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 160%);
+}
+
+.toolbar-count {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-right: auto;          /* push action buttons to the right */
+  white-space: nowrap;
+}
+.toolbar-count strong { color: var(--accent-ink); }
+html[data-theme="dark"] .toolbar-count strong { color: var(--accent); }
+
+/* Group of select/deselect helper buttons */
+.toolbar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+/* #btn-copy-content is the most prominent — already .btn-primary.
+   #btn-copy-links is .btn-secondary and visually smaller. */
+#btn-copy-links { font-size: 0.85rem; padding-block: 7px; }
+
+/* Amber warning shown only for large selections */
+.toolbar-warning {
+  flex-basis: 100%;
+  order: 99;                   /* drop to its own line below the controls */
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: #8a6300;
+  background: rgba(212, 168, 67, 0.16);
+  border: 1px solid rgba(212, 168, 67, 0.45);
+  border-radius: var(--radius-sm);
+  padding: 7px 12px;
+}
+html[data-theme="dark"] .toolbar-warning { color: #f0c869; }
+
+/* Mobile: stack content; keep the primary copy button easily reachable */
+@media (max-width: 640px) {
+  #selection-toolbar {
+    bottom: 0;
+    width: 100%;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+  .toolbar-count { flex-basis: 100%; margin-right: 0; }
+  .toolbar-actions { width: 100%; }
+  #btn-copy-content { flex: 1 1 auto; order: -1; } /* prominent + first */
+  /* Helper buttons can shrink */
+  #btn-select-chapter,
+  #btn-select-all,
+  #btn-deselect-all,
+  #btn-copy-links { flex: 0 1 auto; }
+}
+
+/* -----------------------------------------------------------------------------
+   11. TOAST (.toast) — bottom-centre pill, fades in/out
+   ----------------------------------------------------------------------------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 88px;                /* sit above the selection toolbar */
+  z-index: 200;
+  transform: translate(-50%, 12px);
+  max-width: calc(100% - 32px);
+  padding: 12px 20px;
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--navy);
+  border: 1px solid rgba(212, 168, 67, 0.5);
+  border-radius: 999px;
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition), transform var(--transition);
+}
+html[data-theme="dark"] .toast { background: #1a2342; }
+/* Visible state — toggled by script.js (class "show" or [data-show]) */
+.toast.show,
+.toast.is-visible,
+.toast[data-show] {
+  opacity: 1;
+  transform: translate(-50%, 0);
+  pointer-events: auto;
+}
+
+/* -----------------------------------------------------------------------------
+   12. FOOTER (.site-footer) — muted, centred, small
+   ----------------------------------------------------------------------------- */
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text-muted);
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  padding: 28px clamp(16px, 4vw, 32px);
+  transition: background-color var(--transition), color var(--transition);
+}
+.site-footer a { color: var(--text-muted); text-decoration: underline; }
+.site-footer a:hover { color: var(--accent-ink); }
+html[data-theme="dark"] .site-footer a:hover { color: var(--accent); }
+
+/* -----------------------------------------------------------------------------
+   13. UTILITIES
+   ----------------------------------------------------------------------------- */
+.text-muted { color: var(--text-muted); }
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }
+.center { text-align: center; }
+
+/* Thin, themed scrollbars for sidebar + search results */
+.sidebar,
+#search-results {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.sidebar::-webkit-scrollbar,
+#search-results::-webkit-scrollbar { width: 10px; }
+.sidebar::-webkit-scrollbar-thumb,
+#search-results::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+  border: 2px solid var(--bg-elev);
+}
+
+/* -----------------------------------------------------------------------------
+   14. COMPATIBILITY ALIASES — reader (app.js) emits a few class names that
+   differ from the canonical ones above. These mirror the originals so every
+   rendered element stays styled in both themes.
+   ----------------------------------------------------------------------------- */
+
+/* "Mục" section divider rendered by app.js as .muc-divider (mirror .muc-heading) */
+.content .muc-divider {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin: 2.2em auto 1.1em;
+  padding-top: 1.1em;
+  border-top: 1px solid var(--border);
+  max-width: var(--content-measure);
+}
+
+/* search-result row internals (mirror .search-result-item__badge / __title) */
+.search-result-item .result-badge {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 58px;
+  padding: 3px 8px;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-ink);
+  background: rgba(212, 168, 67, 0.22);
+  border: 1px solid rgba(212, 168, 67, 0.4);
+  border-radius: 999px;
+}
+html[data-theme="dark"] .search-result-item .result-badge { color: var(--accent); }
+.search-result-item .result-title {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  line-height: 1.35;
+  color: var(--text);
+}
+
+/* "no results" message (mirror .search-results__empty) */
+.search-empty {
+  padding: 16px;
+  text-align: center;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+/* fetch/render failure banner */
+.load-error {
+  margin: 24px auto;
+  max-width: var(--content-measure);
+  padding: 16px 18px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+}
+
+/* chapter wrapper anchor offset + source-note intro */
+.chapter { scroll-margin-top: calc(var(--header-h) + 72px); }
+.chapter-intro {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.4em;
+}

@@ -1,0 +1,1492 @@
+{
+  "law": {
+    "name": "Luật Nhà ở 2023",
+    "code": "27/2023/QH15",
+    "effective": "01/01/2025",
+    "passed": "27/11/2023",
+    "chapters": 13,
+    "articles": 198,
+    "source": "https://luat.dkien.com"
+  },
+  "chapters": [
+    {
+      "roman": "I",
+      "title": "Những quy định chung",
+      "file": "chuong-01.md",
+      "from": 1,
+      "to": 5
+    },
+    {
+      "roman": "II",
+      "title": "Sở hữu nhà ở",
+      "file": "chuong-02.md",
+      "from": 6,
+      "to": 22
+    },
+    {
+      "roman": "III",
+      "title": "Chiến lược phát triển nhà ở quốc gia, chương trình, kế hoạch phát triển nhà ở cấp tỉnh",
+      "file": "chuong-03.md",
+      "from": 23,
+      "to": 29
+    },
+    {
+      "roman": "IV",
+      "title": "Phát triển nhà ở",
+      "file": "chuong-04.md",
+      "from": 30,
+      "to": 57
+    },
+    {
+      "roman": "V",
+      "title": "Cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "from": 58,
+      "to": 75
+    },
+    {
+      "roman": "VI",
+      "title": "Chính sách về nhà ở xã hội",
+      "file": "chuong-06.md",
+      "from": 76,
+      "to": 111
+    },
+    {
+      "roman": "VII",
+      "title": "Tài chính để phát triển nhà ở",
+      "file": "chuong-07.md",
+      "from": 112,
+      "to": 117
+    },
+    {
+      "roman": "VIII",
+      "title": "Quản lý, sử dụng nhà ở",
+      "file": "chuong-08.md",
+      "from": 118,
+      "to": 141
+    },
+    {
+      "roman": "IX",
+      "title": "Quản lý, sử dụng nhà chung cư",
+      "file": "chuong-09.md",
+      "from": 142,
+      "to": 158
+    },
+    {
+      "roman": "X",
+      "title": "Giao dịch về nhà ở",
+      "file": "chuong-10.md",
+      "from": 159,
+      "to": 188
+    },
+    {
+      "roman": "XI",
+      "title": "Quản lý nhà nước về nhà ở",
+      "file": "chuong-11.md",
+      "from": 189,
+      "to": 193
+    },
+    {
+      "roman": "XII",
+      "title": "Giải quyết tranh chấp và xử lý vi phạm pháp luật về nhà ở",
+      "file": "chuong-12.md",
+      "from": 194,
+      "to": 195
+    },
+    {
+      "roman": "XIII",
+      "title": "Điều khoản thi hành",
+      "file": "chuong-13.md",
+      "from": 196,
+      "to": 198
+    }
+  ],
+  "articles": [
+    {
+      "dieu": 1,
+      "title": "Phạm vi điều chỉnh",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "phạm vi, luật nhà ở, mua bán nhà, cho thuê nhà, giao dịch bất động sản, áp dụng luật"
+    },
+    {
+      "dieu": 2,
+      "title": "Giải thích từ ngữ",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "định nghĩa, chung cư, nhà ở xã hội, social housing, thuê mua, nhà hình thành trong tương lai"
+    },
+    {
+      "dieu": 3,
+      "title": "Các hành vi bị nghiêm cấm",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "cấm, vi phạm, lấn chiếm chung cư, karaoke chung cư, cháy nổ, xây dựng trái phép"
+    },
+    {
+      "dieu": 4,
+      "title": "Chính sách phát triển và quản lý, sử dụng nhà ở",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "chính sách nhà ở, nhà ở xã hội, vốn đầu tư công, hỗ trợ nhà ở, quỹ đất, tín dụng ưu đãi"
+    },
+    {
+      "dieu": 5,
+      "title": "Yêu cầu chung về phát triển và quản lý, sử dụng nhà ở",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "yêu cầu phát triển nhà ở, quy hoạch đô thị, phân lô bán nền, nhà ở nông thôn, chung cư đô thị, tiết kiệm năng lượng"
+    },
+    {
+      "dieu": 6,
+      "title": "Quyền có chỗ ở và quyền sở hữu nhà ở",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "quyền có chỗ ở, mua nhà, thuê nhà, thừa kế nhà, quyền sở hữu"
+    },
+    {
+      "dieu": 7,
+      "title": "Bảo hộ quyền sở hữu nhà ở",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "bảo hộ sở hữu, quốc hữu hóa, giải tỏa nhà, bồi thường, tái định cư, trưng mua"
+    },
+    {
+      "dieu": 8,
+      "title": "Đối tượng và điều kiện được sở hữu nhà ở tại Việt Nam",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "điều kiện sở hữu nhà, người nước ngoài mua nhà, Việt kiều, đối tượng được sở hữu, foreign ownership"
+    },
+    {
+      "dieu": 9,
+      "title": "Công nhận quyền sở hữu nhà ở",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "sổ hồng, giấy chứng nhận, cấp sổ, sở hữu có thời hạn, nhà ở hình thành tương lai"
+    },
+    {
+      "dieu": 10,
+      "title": "Quyền của chủ sở hữu nhà ở và người sử dụng nhà ở",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "quyền chủ sở hữu, bán nhà, thế chấp, cho thuê, thừa kế, quyền chung cư"
+    },
+    {
+      "dieu": 11,
+      "title": "Nghĩa vụ của chủ sở hữu nhà ở và người sử dụng nhà ở",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "nghĩa vụ chủ nhà, phòng cháy chữa cháy, bảo hiểm cháy nổ, nộp thuế, bảo trì nhà"
+    },
+    {
+      "dieu": 12,
+      "title": "Thời điểm xác lập quyền sở hữu nhà ở",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "thời điểm xác lập quyền sở hữu, nhận bàn giao nhà, thanh toán đủ tiền, khi nào có sổ"
+    },
+    {
+      "dieu": 13,
+      "title": "Nhà ở thuộc tài sản công",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "nhà ở tài sản công, nhà công vụ, nhà tái định cư, nhà ở xã hội nhà nước, nhà thuê ngân sách"
+    },
+    {
+      "dieu": 14,
+      "title": "Đại diện chủ sở hữu nhà ở thuộc tài sản công",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "đại diện chủ sở hữu nhà công, Bộ Xây dựng, UBND tỉnh, Bộ Quốc phòng, quản lý nhà nhà nước"
+    },
+    {
+      "dieu": 15,
+      "title": "Trách nhiệm của đại diện chủ sở hữu nhà ở thuộc tài sản công",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "trách nhiệm quản lý nhà công, giá thuê nhà công vụ, thu hồi nhà, bảo trì nhà tài sản công"
+    },
+    {
+      "dieu": 16,
+      "title": "Khu vực tổ chức, cá nhân nước ngoài được sở hữu nhà ở tại Việt Nam",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "khu vực người nước ngoài mua nhà, quốc phòng an ninh, dự án cho phép ngoại, foreign restricted zone"
+    },
+    {
+      "dieu": 17,
+      "title": "Tổ chức, cá nhân nước ngoài được sở hữu nhà ở và hình thức được sở hữu nhà ở tại Việt Nam",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "người nước ngoài mua nhà Việt Nam, tổ chức nước ngoài, cá nhân nước ngoài, mua căn hộ, foreign ownership"
+    },
+    {
+      "dieu": 18,
+      "title": "Điều kiện tổ chức, cá nhân nước ngoài được sở hữu nhà ở tại Việt Nam",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "điều kiện người nước ngoài mua nhà, giấy chứng nhận đầu tư, nhập cảnh, điều kiện sở hữu ngoại"
+    },
+    {
+      "dieu": 19,
+      "title": "Số lượng nhà ở mà tổ chức, cá nhân nước ngoài được sở hữu tại Việt Nam",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hạn mức người nước ngoài mua nhà, 30% căn hộ, 250 căn, quota nước ngoài, giới hạn sở hữu"
+    },
+    {
+      "dieu": 20,
+      "title": "Quyền của chủ sở hữu nhà ở là tổ chức, cá nhân nước ngoài",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "quyền người nước ngoài sở hữu nhà, sở hữu 50 năm, gia hạn sở hữu, bán nhà hết hạn, kết hôn công dân Việt Nam"
+    },
+    {
+      "dieu": 21,
+      "title": "Nghĩa vụ của chủ sở hữu nhà ở là tổ chức, cá nhân nước ngoài",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "nghĩa vụ người nước ngoài có nhà, cho thuê nhà nước ngoài, nộp thuế cho thuê, thanh toán qua ngân hàng, trục xuất"
+    },
+    {
+      "dieu": 22,
+      "title": "Các trường hợp tổ chức, cá nhân nước ngoài không được cấp Giấy chứng nhận đối với nhà ở",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "người nước ngoài không được cấp sổ, thừa kế nhà vượt hạn mức, bán lại nhà, ủy quyền bán nhà"
+    },
+    {
+      "dieu": 23,
+      "title": "Căn cứ xây dựng Chiến lược phát triển nhà ở quốc gia",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "chiến lược nhà ở quốc gia, quy hoạch tổng thể, kinh tế xã hội, căn cứ lập chiến lược, phát triển nhà ở"
+    },
+    {
+      "dieu": 24,
+      "title": "Nội dung Chiến lược phát triển nhà ở quốc gia",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nội dung chiến lược nhà ở, mục tiêu phát triển nhà ở, nhà ở xã hội, thị trường bất động sản, diện tích nhà ở, social housing"
+    },
+    {
+      "dieu": 25,
+      "title": "Kỳ Chiến lược phát triển nhà ở quốc gia và thẩm quyền phê duyệt Chiến lược phát triển nhà ở quốc gia",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "phê duyệt chiến lược nhà ở, Bộ Xây dựng, Thủ tướng, kỳ 10 năm, diện tích bình quân đầu người, UBND tỉnh"
+    },
+    {
+      "dieu": 26,
+      "title": "Căn cứ xây dựng và kỳ chương trình, kế hoạch phát triển nhà ở cấp tỉnh",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "chương trình kế hoạch nhà ở tỉnh, căn cứ lập kế hoạch, quy hoạch sử dụng đất, kỳ 5 năm, nhà ở xã hội địa phương, tái định cư"
+    },
+    {
+      "dieu": 27,
+      "title": "Nội dung chương trình, kế hoạch phát triển nhà ở cấp tỉnh",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nội dung chương trình nhà ở tỉnh, diện tích sàn nhà ở, chỉ tiêu nhà ở đô thị nông thôn, vốn ngân sách, kế hoạch phát triển địa phương"
+    },
+    {
+      "dieu": 28,
+      "title": "Điều chỉnh chương trình, kế hoạch phát triển nhà ở cấp tỉnh",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "điều chỉnh chương trình nhà ở tỉnh, sửa kế hoạch phát triển nhà ở, thay đổi quy hoạch tỉnh, nhà chung cư, UBND tỉnh"
+    },
+    {
+      "dieu": 29,
+      "title": "Xây dựng, phê duyệt chương trình, kế hoạch phát triển nhà ở cấp tỉnh",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "xây dựng phê duyệt kế hoạch nhà ở tỉnh, Hội đồng nhân dân, công khai chương trình nhà ở, cổng thông tin điện tử, Bộ Xây dựng, đầu tư công"
+    },
+    {
+      "dieu": 30,
+      "title": "Hình thức phát triển nhà ở",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "hình thức phát triển nhà ở, dự án xây dựng, khu đô thị, hạ tầng kỹ thuật, cá nhân tự xây"
+    },
+    {
+      "dieu": 31,
+      "title": "Các loại hình nhà ở phát triển theo dự án đầu tư xây dựng nhà ở và tiêu chuẩn diện tích nhà ở",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "loại hình nhà ở, nhà thương mại, social housing, nhà ở xã hội, căn hộ chung cư, diện tích tối thiểu"
+    },
+    {
+      "dieu": 32,
+      "title": "Quỹ đất để phát triển nhà ở",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "quỹ đất, quy hoạch đất, đất xây nhà, kế hoạch sử dụng đất, bố trí diện tích"
+    },
+    {
+      "dieu": 33,
+      "title": "Yêu cầu đối với dự án đầu tư xây dựng nhà ở",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "yêu cầu dự án nhà ở, chất lượng xây dựng, phòng cháy chữa cháy, hạ tầng xã hội, tiến độ dự án, công khai thông tin"
+    },
+    {
+      "dieu": 34,
+      "title": "Các giai đoạn của dự án đầu tư xây dựng nhà ở",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "giai đoạn dự án, chuẩn bị dự án, thực hiện dự án, kết thúc xây dựng, đưa vào sử dụng"
+    },
+    {
+      "dieu": 35,
+      "title": "Chủ đầu tư và điều kiện làm chủ đầu tư dự án đầu tư xây dựng nhà ở",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "chủ đầu tư, điều kiện chủ đầu tư, doanh nghiệp bất động sản, vốn chủ sở hữu, năng lực kinh nghiệm"
+    },
+    {
+      "dieu": 36,
+      "title": "Chủ đầu tư dự án đầu tư xây dựng nhà ở thương mại",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "chủ đầu tư nhà thương mại, đấu giá đất, đấu thầu dự án, quyền sử dụng đất, chấp thuận nhà đầu tư"
+    },
+    {
+      "dieu": 37,
+      "title": "Thực hiện dự án đầu tư xây dựng nhà ở thương mại",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "thực hiện dự án nhà thương mại, bàn giao nhà, nghiệm thu công trình, tiến độ xây dựng, hạ tầng kỹ thuật"
+    },
+    {
+      "dieu": 38,
+      "title": "Quyền của chủ đầu tư dự án đầu tư xây dựng nhà ở thương mại",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "quyền chủ đầu tư, bán nhà, cho thuê nhà, huy động vốn, chuyển nhượng dự án, cấp sổ hồng"
+    },
+    {
+      "dieu": 39,
+      "title": "Nghĩa vụ của chủ đầu tư dự án đầu tư xây dựng nhà ở thương mại",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "nghĩa vụ chủ đầu tư, ký quỹ, bảo lãnh ngân hàng, bảo hành nhà, cấp giấy chứng nhận, bồi thường thiệt hại"
+    },
+    {
+      "dieu": 40,
+      "title": "Đất để xây dựng nhà ở công vụ",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "đất nhà ở công vụ, quy hoạch xây dựng, lực lượng vũ trang, nhà công vụ, miễn tiền sử dụng đất"
+    },
+    {
+      "dieu": 41,
+      "title": "Hình thức và kế hoạch phát triển nhà ở công vụ",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "kế hoạch nhà công vụ, ngân sách xây dựng, mua thuê nhà thương mại làm công vụ, nhu cầu nhà ở, kế hoạch 5 năm"
+    },
+    {
+      "dieu": 42,
+      "title": "Quyết định chủ trương đầu tư, quyết định đầu tư và quyết định chủ đầu tư dự án đầu tư xây dựng nhà ở công vụ",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "quyết định đầu tư nhà công vụ, chủ trương đầu tư, Thủ tướng phê duyệt, UBND cấp tỉnh, Bộ Quốc phòng Bộ Công an"
+    },
+    {
+      "dieu": 43,
+      "title": "Mua, thuê nhà ở thương mại để làm nhà ở công vụ",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "mua thuê nhà thương mại làm công vụ, quỹ nhà công vụ, giá mua nhà, hợp đồng thuê nhà, thẩm định giá"
+    },
+    {
+      "dieu": 44,
+      "title": "Loại nhà và tiêu chuẩn diện tích nhà ở công vụ",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "tiêu chuẩn nhà công vụ, biệt thự, nhà liền kề, căn hộ chung cư, diện tích nhà công vụ"
+    },
+    {
+      "dieu": 45,
+      "title": "Đối tượng và điều kiện được thuê nhà ở công vụ",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "đối tượng thuê nhà công vụ, cán bộ công chức, lực lượng vũ trang, giáo viên bác sĩ vùng sâu, điều kiện thuê nhà công vụ"
+    },
+    {
+      "dieu": 46,
+      "title": "Nguyên tắc xác định giá thuê nhà ở công vụ",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "giá thuê nhà công vụ, chi phí quản lý vận hành, không tính tiền đất, giá thuê ưu đãi, bảo trì nhà"
+    },
+    {
+      "dieu": 47,
+      "title": "Quyền và nghĩa vụ của người thuê nhà ở công vụ",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "quyền nghĩa vụ người thuê nhà công vụ, trả lại nhà, không cho thuê lại, hợp đồng thuê nhà, thu hồi nhà công vụ"
+    },
+    {
+      "dieu": 48,
+      "title": "Bố trí nhà ở phục vụ tái định cư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "bố trí tái định cư, hình thức tái định cư, mua thuê nhà tái định cư, thanh toán tiền tái định cư, nhà ở xã hội tái định cư"
+    },
+    {
+      "dieu": 49,
+      "title": "Nguyên tắc phát triển nhà ở phục vụ tái định cư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "nguyên tắc tái định cư, bố trí trước khi thu hồi, nhà tốt hơn nơi cũ, giải tỏa nhà, tái định cư tại chỗ"
+    },
+    {
+      "dieu": 50,
+      "title": "Quỹ đất để thực hiện dự án đầu tư xây dựng nhà ở phục vụ tái định cư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "đất tái định cư, quy hoạch khu tái định cư, nghĩa vụ tài chính đất, quỹ đất dự án, quy hoạch phân khu"
+    },
+    {
+      "dieu": 51,
+      "title": "Chủ đầu tư dự án đầu tư xây dựng nhà ở phục vụ tái định cư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "chủ đầu tư tái định cư, ban quản lý dự án, doanh nghiệp bất động sản, vốn đầu tư công, đấu thầu chủ đầu tư"
+    },
+    {
+      "dieu": 52,
+      "title": "Đặt hàng, mua nhà ở thương mại, bố trí nhà ở xã hội phục vụ tái định cư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "đặt hàng mua nhà tái định cư, hợp đồng mua bán tái định cư, nhà ở xã hội tái định cư, cấp sổ hồng tái định cư, bàn giao nhà"
+    },
+    {
+      "dieu": 53,
+      "title": "Yêu cầu đối với nhà ở phục vụ tái định cư",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "yêu cầu chất lượng nhà tái định cư, tiêu chuẩn xây dựng, không thay đổi thiết kế, bàn giao nhà, trách nhiệm chủ đầu tư"
+    },
+    {
+      "dieu": 54,
+      "title": "Yêu cầu về phát triển nhà ở của cá nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "cá nhân xây nhà, điều kiện xây nhà, đất ở cá nhân, quy hoạch xây dựng, bảo tồn kiến trúc truyền thống"
+    },
+    {
+      "dieu": 55,
+      "title": "Phương thức phát triển nhà ở của cá nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "phương thức xây nhà cá nhân, tự xây nhà, thuê thầu xây dựng, nông thôn đô thị, hợp tác xây nhà"
+    },
+    {
+      "dieu": 56,
+      "title": "Trách nhiệm của cá nhân trong phát triển nhà ở",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "trách nhiệm cá nhân xây nhà, an toàn xây dựng, bảo vệ môi trường, bồi thường thiệt hại, nhà nhiều tầng nhiều căn hộ"
+    },
+    {
+      "dieu": 57,
+      "title": "Phát triển nhà ở nhiều tầng nhiều căn hộ của cá nhân để bán, cho thuê mua, cho thuê",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "nhà nhiều tầng nhiều căn hộ cá nhân, bán căn hộ cho thuê, điều kiện chủ đầu tư cá nhân, phòng cháy chữa cháy, mini apartment, sổ hồng căn hộ"
+    },
+    {
+      "dieu": 58,
+      "title": "Thời hạn sử dụng nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "tuổi thọ chung cư, thời hạn sử dụng, hết hạn, kiểm định, cũ nát, apartment lifespan"
+    },
+    {
+      "dieu": 59,
+      "title": "Nhà chung cư thuộc trường hợp phải phá dỡ",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "phá dỡ chung cư, cháy nổ, sập đổ, nguy hiểm, hư hỏng nặng, thiên tai"
+    },
+    {
+      "dieu": 60,
+      "title": "Nguyên tắc thực hiện cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "cải tạo chung cư, xây dựng lại, nguyên tắc, tái định cư tại chỗ, di dời, chủ đầu tư"
+    },
+    {
+      "dieu": 61,
+      "title": "Kiểm định, đánh giá chất lượng nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "kiểm định chung cư, đánh giá chất lượng, kết luận kiểm định, cơ quan thẩm quyền, chất lượng công trình"
+    },
+    {
+      "dieu": 62,
+      "title": "Các hình thức cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "hình thức cải tạo, doanh nghiệp bất động sản, vốn ngân sách, tài sản công, đầu tư công"
+    },
+    {
+      "dieu": 63,
+      "title": "Cơ chế ưu đãi để thực hiện dự án đầu tư cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "ưu đãi chủ đầu tư, miễn tiền sử dụng đất, vay vốn, hỗ trợ ngân sách, incentive developer"
+    },
+    {
+      "dieu": 64,
+      "title": "Yêu cầu về quy hoạch để cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "quy hoạch cải tạo, quy hoạch chi tiết, chỉnh trang đô thị, phê duyệt quy hoạch, urban planning"
+    },
+    {
+      "dieu": 65,
+      "title": "Yêu cầu về kế hoạch cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "kế hoạch cải tạo chung cư, phê duyệt kế hoạch, công khai kế hoạch, UBND tỉnh, điều chỉnh kế hoạch"
+    },
+    {
+      "dieu": 66,
+      "title": "Nội dung kế hoạch cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "nội dung kế hoạch, danh mục chung cư, nguồn vốn, thời gian phá dỡ, trách nhiệm cơ quan"
+    },
+    {
+      "dieu": 67,
+      "title": "Quyết định chủ trương đầu tư, chấp thuận chủ trương đầu tư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "chấp thuận chủ trương đầu tư, quyết định đầu tư, lựa chọn nhà đầu tư, hội nghị nhà chung cư, thủ tục dự án"
+    },
+    {
+      "dieu": 68,
+      "title": "Chủ đầu tư dự án đầu tư cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "chủ đầu tư cải tạo, lựa chọn chủ đầu tư, đấu thầu dự án, quyền nghĩa vụ chủ đầu tư, developer selection"
+    },
+    {
+      "dieu": 69,
+      "title": "Hồ sơ, trình tự, thủ tục chấp thuận chủ trương đầu tư dự án đầu tư cải tạo, xây dựng lại nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "hồ sơ chấp thuận, thủ tục đầu tư, nộp hồ sơ, thẩm định dự án, thời hạn xử lý"
+    },
+    {
+      "dieu": 70,
+      "title": "Nguyên tắc lập phương án bồi thường, tái định cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "phương án bồi thường, tái định cư, nguyên tắc bồi thường, diện tích tái định cư, compensation resettlement"
+    },
+    {
+      "dieu": 71,
+      "title": "Nội dung và thẩm quyền phê duyệt phương án bồi thường, tái định cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "nội dung phương án bồi thường, hệ số K, giá đất bồi thường, tiền chênh lệch, phê duyệt phương án"
+    },
+    {
+      "dieu": 72,
+      "title": "Bố trí nhà ở phục vụ tái định cư và bố trí chỗ ở tạm thời",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "bố trí tái định cư, chỗ ở tạm thời, tái định cư tại chỗ, thuê nhà tạm, temporary housing"
+    },
+    {
+      "dieu": 73,
+      "title": "Di dời chủ sở hữu, người sử dụng nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "di dời chung cư, quyết định di dời, di dời khẩn cấp, kinh phí di dời, buộc dời nhà"
+    },
+    {
+      "dieu": 74,
+      "title": "Cưỡng chế di dời chủ sở hữu, người sử dụng nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "cưỡng chế di dời, không chịu dời, cưỡng bức, quyết định cưỡng chế, forced eviction"
+    },
+    {
+      "dieu": 75,
+      "title": "Phá dỡ nhà chung cư",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "phá dỡ chung cư, thủ tục phá dỡ, phương án phá dỡ, phá dỡ khẩn cấp, kinh phí phá dỡ"
+    },
+    {
+      "dieu": 76,
+      "title": "Đối tượng được hưởng chính sách hỗ trợ về nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "đối tượng nhà ở xã hội, ai được mua, người thu nhập thấp, công nhân, hộ nghèo, social housing eligibility"
+    },
+    {
+      "dieu": 77,
+      "title": "Hình thức thực hiện chính sách hỗ trợ về nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "hình thức hỗ trợ nhà ở xã hội, mua thuê nhà xã hội, vay vốn ưu đãi, học sinh sinh viên thuê nhà, nhà lưu trú công nhân"
+    },
+    {
+      "dieu": 78,
+      "title": "Điều kiện được hưởng chính sách hỗ trợ về nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "điều kiện mua nhà ở xã hội, chưa có nhà, điều kiện thu nhập, vay vốn ưu đãi, hồ sơ chứng minh"
+    },
+    {
+      "dieu": 79,
+      "title": "Nguyên tắc thực hiện chính sách hỗ trợ về nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "nguyên tắc nhà ở xã hội, công khai minh bạch, ưu tiên người có công, một chính sách một hộ"
+    },
+    {
+      "dieu": 80,
+      "title": "Hình thức phát triển nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "hình thức phát triển nhà ở xã hội, nhà nước đầu tư, doanh nghiệp xây nhà xã hội, cá nhân cho thuê, vốn nước ngoài"
+    },
+    {
+      "dieu": 81,
+      "title": "Loại hình dự án và yêu cầu đối với dự án đầu tư xây dựng nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "dự án nhà ở xã hội, loại dự án, yêu cầu xây dựng, bàn giao nhà, không chuyển nhượng đất"
+    },
+    {
+      "dieu": 82,
+      "title": "Loại nhà và tiêu chuẩn diện tích nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "loại nhà xã hội, diện tích nhà ở xã hội, nhà chung cư xã hội, nhà ở riêng lẻ, tiêu chuẩn diện tích"
+    },
+    {
+      "dieu": 83,
+      "title": "Đất để phát triển nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "đất nhà ở xã hội, quỹ đất xã hội, nhà thương mại dành đất xã hội, đất xây dựng nhà xã hội, khu vực nông thôn"
+    },
+    {
+      "dieu": 84,
+      "title": "Chủ đầu tư dự án đầu tư xây dựng nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "chủ đầu tư nhà ở xã hội, lựa chọn chủ đầu tư, đấu thầu dự án xã hội, Tổng Liên đoàn Lao động, chấp thuận nhà đầu tư"
+    },
+    {
+      "dieu": 85,
+      "title": "Ưu đãi chủ đầu tư dự án đầu tư xây dựng nhà ở xã hội để bán, cho thuê mua, cho thuê",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "ưu đãi chủ đầu tư nhà xã hội, miễn tiền sử dụng đất, thuế ưu đãi, lợi nhuận 10%, vay vốn lãi suất thấp"
+    },
+    {
+      "dieu": 86,
+      "title": "Xác định giá thuê, giá thuê mua nhà ở xã hội được đầu tư xây dựng bằng vốn đầu tư công, nguồn tài chính công đoàn",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "giá thuê nhà ở xã hội vốn công, giá thuê mua nhà xã hội, thu hồi vốn đầu tư công, kinh phí bảo trì"
+    },
+    {
+      "dieu": 87,
+      "title": "Xác định giá bán, giá thuê mua, giá thuê nhà ở xã hội được đầu tư xây dựng không bằng vốn đầu tư công, nguồn tài chính công đoàn",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "giá bán nhà ở xã hội, giá thuê mua, xác định giá nhà xã hội, khung giá tỉnh, phương án giá"
+    },
+    {
+      "dieu": 88,
+      "title": "Nguyên tắc bán, cho thuê mua, cho thuê nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "nguyên tắc bán nhà xã hội, không bán lại 5 năm, mỗi người một căn, hợp đồng vô hiệu, điều kiện bán thuê mua"
+    },
+    {
+      "dieu": 89,
+      "title": "Bán, cho thuê mua, cho thuê nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "thủ tục bán thuê mua nhà xã hội, hợp đồng mua nhà xã hội, bán lại sau 5 năm, đặt cọc thuê nhà, thanh toán tiến độ"
+    },
+    {
+      "dieu": 90,
+      "title": "Quản lý vận hành nhà ở xã hội",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "quản lý vận hành nhà ở xã hội, đơn vị quản lý nhà xã hội, phí dịch vụ công ích, kinh doanh dịch vụ trong khu nhà xã hội"
+    },
+    {
+      "dieu": 91,
+      "title": "Đối tượng được hưởng chính sách hỗ trợ về nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "đối tượng nhà lưu trú công nhân, công nhân khu công nghiệp, doanh nghiệp khu công nghiệp, ai được thuê nhà lưu trú"
+    },
+    {
+      "dieu": 92,
+      "title": "Hình thức phát triển nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "phát triển nhà lưu trú công nhân, doanh nghiệp hạ tầng khu công nghiệp, cho thuê lại cho công nhân, đầu tư nhà lưu trú"
+    },
+    {
+      "dieu": 93,
+      "title": "Điều kiện thuê nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "điều kiện thuê nhà lưu trú công nhân, hợp đồng lao động, xác nhận doanh nghiệp, ban quản lý khu công nghiệp"
+    },
+    {
+      "dieu": 94,
+      "title": "Quy hoạch, bố trí quỹ đất phát triển nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "quy hoạch đất nhà lưu trú công nhân, quỹ đất khu công nghiệp, an toàn môi trường, diện tích đất nhà lưu trú"
+    },
+    {
+      "dieu": 95,
+      "title": "Loại dự án và yêu cầu đối với dự án đầu tư xây dựng nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "dự án nhà lưu trú công nhân, yêu cầu dự án, hạ tầng kỹ thuật nhà lưu trú, chấp thuận ban quản lý khu công nghiệp"
+    },
+    {
+      "dieu": 96,
+      "title": "Loại nhà và tiêu chuẩn thiết kế, xây dựng nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "loại nhà lưu trú công nhân, tiêu chuẩn thiết kế nhà lưu trú, nhà chung cư công nhân, quy chuẩn xây dựng"
+    },
+    {
+      "dieu": 97,
+      "title": "Chủ đầu tư dự án đầu tư xây dựng nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "chủ đầu tư nhà lưu trú công nhân, doanh nghiệp hạ tầng khu công nghiệp, lập quy hoạch nhà lưu trú, cho thuê đất xây nhà"
+    },
+    {
+      "dieu": 98,
+      "title": "Ưu đãi chủ đầu tư dự án đầu tư xây dựng nhà lưu trú công nhân trong khu công nghiệp và doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã thuê nhà lưu trú công nhân trong khu công nghiệp cho công nhân của mình thuê lại",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "ưu đãi đầu tư nhà lưu trú công nhân, miễn thuế nhà lưu trú, chi phí xây dựng được trừ thuế, doanh nghiệp thuê lại"
+    },
+    {
+      "dieu": 99,
+      "title": "Giá cho thuê nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "giá thuê nhà lưu trú công nhân, khung giá tỉnh, thỏa thuận giá thuê, tiền thuê nhà lưu trú"
+    },
+    {
+      "dieu": 100,
+      "title": "Nguyên tắc cho thuê và quản lý vận hành nhà lưu trú công nhân trong khu công nghiệp",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "nguyên tắc cho thuê nhà lưu trú công nhân, không cho thuê lại, trả nhà khi nghỉ việc, quản lý vận hành nhà lưu trú"
+    },
+    {
+      "dieu": 101,
+      "title": "Đối tượng được hưởng chính sách hỗ trợ về nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "đối tượng nhà ở lực lượng vũ trang, sĩ quan quân đội công an được mua nhà, giấy tờ chứng minh"
+    },
+    {
+      "dieu": 102,
+      "title": "Phát triển nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "phát triển nhà ở quân đội công an, Bộ Quốc phòng Bộ Công an, kế hoạch nhà ở vũ trang, nhu cầu nhà ở lực lượng vũ trang"
+    },
+    {
+      "dieu": 103,
+      "title": "Hình thức phát triển nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "hình thức phát triển nhà ở lực lượng vũ trang, vốn đầu tư công, doanh nghiệp bất động sản, thuê mua bán nhà quân đội"
+    },
+    {
+      "dieu": 104,
+      "title": "Đất để phát triển nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "đất nhà ở lực lượng vũ trang, bố trí quỹ đất quân đội công an, kết nối hạ tầng, Ủy ban nhân dân cấp tỉnh"
+    },
+    {
+      "dieu": 105,
+      "title": "Loại dự án và yêu cầu đối với dự án đầu tư xây dựng nhà ở cho lực lượng vũ trang nhân dân; loại nhà và tiêu chuẩn diện tích nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "dự án nhà ở lực lượng vũ trang, loại nhà quân đội, tiêu chuẩn diện tích nhà vũ trang, yêu cầu bàn giao nhà"
+    },
+    {
+      "dieu": 106,
+      "title": "Chủ đầu tư dự án đầu tư xây dựng nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "chủ đầu tư nhà ở lực lượng vũ trang, lựa chọn chủ đầu tư dự án quân đội, vốn đầu tư công nhà vũ trang"
+    },
+    {
+      "dieu": 107,
+      "title": "Ưu đãi chủ đầu tư dự án đầu tư xây dựng nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "ưu đãi đầu tư nhà lực lượng vũ trang, miễn tiền đất nhà quân đội, thuế ưu đãi nhà vũ trang"
+    },
+    {
+      "dieu": 108,
+      "title": "Xác định giá bán, giá thuê mua, giá thuê nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "giá bán thuê nhà lực lượng vũ trang, xác định giá nhà quân đội công an, giá thuê mua nhà vũ trang"
+    },
+    {
+      "dieu": 109,
+      "title": "Nguyên tắc bán, cho thuê mua, cho thuê nhà ở cho lực lượng vũ trang nhân dân và quản lý vận hành nhà ở cho lực lượng vũ trang nhân dân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "nguyên tắc bán thuê nhà lực lượng vũ trang, quản lý vận hành nhà quân đội, thủ tục mua nhà sĩ quan"
+    },
+    {
+      "dieu": 110,
+      "title": "Chính sách hỗ trợ về nhà ở cho hộ gia đình, cá nhân tự xây dựng hoặc cải tạo, sửa chữa nhà ở",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "hỗ trợ tự xây sửa nhà, hộ nghèo tự xây nhà, vay vốn ngân hàng chính sách, sửa chữa cải tạo nhà ở, chương trình mục tiêu quốc gia"
+    },
+    {
+      "dieu": 111,
+      "title": "Hình thức thực hiện chính sách hỗ trợ về nhà ở cho hộ gia đình, cá nhân tự xây dựng hoặc cải tạo, sửa chữa nhà ở",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "hình thức hỗ trợ xây sửa nhà, nhà nước hỗ trợ xây nhà, đối tượng không tự xây được, cải tạo nhà ở nghèo"
+    },
+    {
+      "dieu": 112,
+      "title": "Các nguồn vốn để phát triển nhà ở",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "nguồn vốn, phát triển nhà ở, vốn nước ngoài, vốn chủ sở hữu, công đoàn, huy động vốn"
+    },
+    {
+      "dieu": 113,
+      "title": "Nguồn vốn của Nhà nước để phát triển nhà ở",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "vốn nhà nước, ngân sách, nhà ở xã hội, nhà ở công vụ, đầu tư công, tái định cư"
+    },
+    {
+      "dieu": 114,
+      "title": "Hình thức huy động vốn để phát triển nhà ở",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "huy động vốn, góp vốn, trái phiếu, vay ngân hàng, FDI, hình thức huy động"
+    },
+    {
+      "dieu": 115,
+      "title": "Vốn để phát triển đối với từng loại nhà ở",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "vốn nhà ở thương mại, nhà ở xã hội, tái định cư, nhà ở cá nhân, trả trước, vay tín dụng"
+    },
+    {
+      "dieu": 116,
+      "title": "Nguyên tắc huy động, sử dụng vốn để phát triển nhà ở",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "nguyên tắc huy động vốn, rửa tiền, góp vốn, phân chia lợi nhuận, minh bạch, điều kiện huy động"
+    },
+    {
+      "dieu": 117,
+      "title": "Vay vốn ưu đãi thông qua Ngân hàng chính sách xã hội để phát triển nhà ở xã hội",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "ngân hàng chính sách xã hội, vay ưu đãi, lãi suất thấp, mua nhà ở xã hội, tiết kiệm, social housing"
+    },
+    {
+      "dieu": 118,
+      "title": "Nội dung quản lý, sử dụng nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "quản lý nhà ở, hồ sơ nhà ở, bảo trì, bảo hiểm, tài sản công, nội dung quản lý"
+    },
+    {
+      "dieu": 119,
+      "title": "Lập hồ sơ nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "lập hồ sơ nhà ở, giấy tờ hợp pháp, nhà riêng lẻ, chung cư, hoàn công, thiết kế"
+    },
+    {
+      "dieu": 120,
+      "title": "Lưu trữ, bàn giao và quản lý hồ sơ nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "lưu trữ hồ sơ nhà ở, bàn giao hồ sơ, cơ quan quản lý nhà ở, giấy chứng nhận, cấp huyện cấp tỉnh"
+    },
+    {
+      "dieu": 121,
+      "title": "Quản lý, sử dụng nhà ở riêng lẻ trong dự án đầu tư xây dựng nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "nhà ở riêng lẻ trong dự án, ban tự quản khu nhà ở, chủ đầu tư, hạ tầng kỹ thuật, bảo trì kiến trúc"
+    },
+    {
+      "dieu": 122,
+      "title": "Quản lý, sử dụng nhà ở có giá trị nghệ thuật, kiến trúc, văn hóa, lịch sử",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "nhà ở kiến trúc lịch sử, biệt thự cũ, di tích văn hóa, bảo tồn nhà ở, kinh phí bảo tồn"
+    },
+    {
+      "dieu": 123,
+      "title": "Quản lý, sử dụng nhà biệt thự",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "nhà biệt thự, biệt thự nhóm 1 2 3, di tích lịch sử, kiến trúc biệt thự, bảo trì biệt thự"
+    },
+    {
+      "dieu": 124,
+      "title": "Chuyển đổi công năng nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "chuyển đổi công năng nhà ở, nhà ở xã hội, nhà công vụ, tái định cư, thay đổi mục đích sử dụng"
+    },
+    {
+      "dieu": 125,
+      "title": "Việc quản lý, sử dụng nhà ở thuộc tài sản công",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "nhà ở tài sản công, cho thuê nhà công, bán nhà nhà nước, quản lý vận hành, nhà công vụ"
+    },
+    {
+      "dieu": 126,
+      "title": "Đối tượng, điều kiện thuê, thuê mua, mua nhà ở thuộc tài sản công",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "đối tượng thuê nhà công, điều kiện mua nhà xã hội, hợp đồng thuê nhà công, tái định cư, lực lượng vũ trang"
+    },
+    {
+      "dieu": 127,
+      "title": "Các trường hợp thu hồi, cưỡng chế thu hồi nhà ở thuộc tài sản công",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "thu hồi nhà ở tài sản công, cưỡng chế thu hồi nhà, vi phạm hợp đồng thuê nhà, nợ tiền thuê nhà, mất tích"
+    },
+    {
+      "dieu": 128,
+      "title": "Bảo hiểm nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "bảo hiểm nhà ở, bảo hiểm cháy nổ, mua bảo hiểm nhà, bồi thường cháy nhà, phòng cháy chữa cháy"
+    },
+    {
+      "dieu": 129,
+      "title": "Bảo hành nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "bảo hành nhà ở, thời hạn bảo hành, bảo hành chung cư 60 tháng, bảo hành nhà riêng lẻ, sửa chữa sau mua nhà"
+    },
+    {
+      "dieu": 130,
+      "title": "Bảo trì nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "bảo trì nhà ở, kinh phí bảo trì chung cư, sở hữu chung, trách nhiệm bảo trì, phần sở hữu riêng"
+    },
+    {
+      "dieu": 131,
+      "title": "Cải tạo nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "cải tạo nhà ở, sửa nhà biệt thự, cải tạo nhà thuê, giấy phép xây dựng, nhà ở tài sản công"
+    },
+    {
+      "dieu": 132,
+      "title": "Bảo trì, cải tạo nhà ở đang cho thuê",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "bảo trì nhà đang cho thuê, cải tạo nhà thuê, điều chỉnh giá thuê, chỗ ở tạm, quyền bên thuê"
+    },
+    {
+      "dieu": 133,
+      "title": "Bảo trì, cải tạo nhà ở thuộc tài sản công",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "bảo trì nhà tài sản công, cải tạo nhà công, đấu thầu bảo trì, chung cư tài sản công, kinh phí cải tạo"
+    },
+    {
+      "dieu": 134,
+      "title": "Bảo trì, cải tạo nhà ở thuộc sở hữu chung",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "bảo trì nhà sở hữu chung, cải tạo nhà chung, phân chia kinh phí bảo trì, đồng thuận chủ sở hữu, chung cư nhiều chủ"
+    },
+    {
+      "dieu": 135,
+      "title": "Quyền và nghĩa vụ của chủ sở hữu nhà ở trong việc bảo trì, cải tạo nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "quyền chủ sở hữu bảo trì, nghĩa vụ cải tạo nhà, thuê đơn vị bảo trì, giấy phép cải tạo, bồi thường thiệt hại"
+    },
+    {
+      "dieu": 136,
+      "title": "Các trường hợp nhà ở phải phá dỡ",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "nhà ở phải phá dỡ, nhà hư hỏng sập đổ, giải tỏa thu hồi đất, nhà xây trái phép, phá dỡ chung cư"
+    },
+    {
+      "dieu": 137,
+      "title": "Trách nhiệm phá dỡ nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "trách nhiệm phá dỡ nhà, ai phải phá nhà, chủ đầu tư phá dỡ, phá dỡ chung cư, giải tỏa nhà"
+    },
+    {
+      "dieu": 138,
+      "title": "Yêu cầu khi phá dỡ nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "yêu cầu khi phá dỡ nhà, an toàn phá dỡ, di chuyển người khỏi nhà, biển báo phá dỡ, giờ phá dỡ nhà"
+    },
+    {
+      "dieu": 139,
+      "title": "Cưỡng chế phá dỡ nhà ở",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "cưỡng chế phá dỡ nhà, quyết định phá dỡ, thẩm quyền cưỡng chế, kinh phí cưỡng chế, không chịu phá nhà"
+    },
+    {
+      "dieu": 140,
+      "title": "Chỗ ở của chủ sở hữu nhà ở khi nhà ở bị phá dỡ",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "chỗ ở khi nhà bị phá dỡ, tái định cư nhà phá dỡ, chỗ ở tạm sau phá dỡ, thu hồi đất phá nhà, chung cư bị phá"
+    },
+    {
+      "dieu": 141,
+      "title": "Phá dỡ nhà ở đang cho thuê",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "phá dỡ nhà đang cho thuê, thông báo phá dỡ 90 ngày, bố trí chỗ ở thay thế, hợp đồng thuê nhà phá dỡ, quyền bên thuê"
+    },
+    {
+      "dieu": 142,
+      "title": "Phần sở hữu riêng và phần sở hữu chung trong nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "sở hữu riêng, sở hữu chung, căn hộ, ban công, hành lang, thang máy"
+    },
+    {
+      "dieu": 143,
+      "title": "Cách xác định diện tích sử dụng căn hộ, phần diện tích khác trong nhà chung cư; phân hạng nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "diện tích thông thủy, đo căn hộ, ban công, lô gia, phân hạng chung cư, cách tính diện tích"
+    },
+    {
+      "dieu": 144,
+      "title": "Chỗ để xe của nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "chỗ để xe, hầm xe, mua chỗ đậu xe, sạc xe điện, xe ô tô chung cư, phí giữ xe"
+    },
+    {
+      "dieu": 145,
+      "title": "Hội nghị nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "hội nghị nhà chung cư, họp cư dân, bầu ban quản trị, kinh phí bảo trì, nội quy chung cư"
+    },
+    {
+      "dieu": 146,
+      "title": "Ban quản trị nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "ban quản trị, BQT chung cư, thành lập BQT, số lượng thành viên, chung cư dưới 20 căn"
+    },
+    {
+      "dieu": 147,
+      "title": "Quyền của Ban quản trị nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "quyền ban quản trị, yêu cầu bàn giao kinh phí, hồ sơ nhà chung cư, cưỡng chế bàn giao, thù lao BQT"
+    },
+    {
+      "dieu": 148,
+      "title": "Trách nhiệm của Ban quản trị nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "trách nhiệm ban quản trị, BQT ký hợp đồng, quản lý kinh phí bảo trì, nội quy chung cư, xử phạt BQT"
+    },
+    {
+      "dieu": 149,
+      "title": "Đơn vị quản lý vận hành nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "đơn vị quản lý vận hành, công ty quản lý chung cư, nhà có thang máy, thuê quản lý vận hành"
+    },
+    {
+      "dieu": 150,
+      "title": "Điều kiện của đơn vị quản lý vận hành nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "điều kiện quản lý vận hành, chứng chỉ quản lý chung cư, năng lực công ty quản lý, phòng cháy chữa cháy chung cư"
+    },
+    {
+      "dieu": 151,
+      "title": "Giá dịch vụ quản lý vận hành nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "phí quản lý chung cư, giá dịch vụ vận hành, phí dịch vụ căn hộ, khung giá tỉnh, tính phí theo m2"
+    },
+    {
+      "dieu": 152,
+      "title": "Kinh phí bảo trì của nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "kinh phí bảo trì 2%, quỹ bảo trì, đóng phí bảo trì, mua căn hộ đóng thêm 2%, bảo trì chung cư"
+    },
+    {
+      "dieu": 153,
+      "title": "Quản lý, bàn giao kinh phí bảo trì của nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "tài khoản bảo trì, bàn giao quỹ bảo trì, chủ đầu tư giữ tiền bảo trì, BQT nhận kinh phí, 30 ngày bàn giao"
+    },
+    {
+      "dieu": 154,
+      "title": "Cưỡng chế bàn giao kinh phí bảo trì của nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "cưỡng chế bàn giao kinh phí bảo trì, chủ đầu tư chiếm dụng quỹ bảo trì, UBND huyện, thu hồi kinh phí"
+    },
+    {
+      "dieu": 155,
+      "title": "Sử dụng kinh phí bảo trì của nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "sử dụng quỹ bảo trì, chi kinh phí bảo trì, bảo trì phần sở hữu chung, chung cư hỗn hợp, phá dỡ chung cư"
+    },
+    {
+      "dieu": 156,
+      "title": "Công trình hạ tầng kỹ thuật khu vực có nhà chung cư phải bàn giao và thời điểm bàn giao",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "hạ tầng kỹ thuật, bàn giao công trình, chủ đầu tư bàn giao nhà nước, hệ thống điện nước khu chung cư"
+    },
+    {
+      "dieu": 157,
+      "title": "Bàn giao, tiếp nhận và quản lý công trình hạ tầng kỹ thuật khu vực có nhà chung cư",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "bàn giao hạ tầng kỹ thuật, tiếp nhận công trình, hồ sơ bàn giao, cơ quan tiếp nhận hạ tầng"
+    },
+    {
+      "dieu": 158,
+      "title": "Quản lý, khai thác, sử dụng công trình hạ tầng kỹ thuật khu vực có nhà chung cư sau khi bàn giao",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "quản lý hạ tầng sau bàn giao, bảo trì công trình hạ tầng, ngân sách nhà nước, chủ đầu tư quản lý hạ tầng"
+    },
+    {
+      "dieu": 159,
+      "title": "Giao dịch về nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "giao dịch nhà ở, mua bán, cho thuê, thế chấp, thừa kế, tặng cho, các loại giao dịch"
+    },
+    {
+      "dieu": 160,
+      "title": "Điều kiện của nhà ở tham gia giao dịch",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "điều kiện nhà ở, giấy chứng nhận, tranh chấp, kê biên, thu hồi đất, nhà hình thành trong tương lai"
+    },
+    {
+      "dieu": 161,
+      "title": "Điều kiện của các bên tham gia giao dịch về nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "điều kiện mua nhà, người nước ngoài, Việt kiều, tổ chức nước ngoài, foreign ownership, đăng ký cư trú"
+    },
+    {
+      "dieu": 162,
+      "title": "Trình tự, thủ tục thực hiện giao dịch về nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thủ tục giao dịch nhà ở, hợp đồng, cấp giấy chứng nhận, chủ đầu tư, quyền sử dụng đất"
+    },
+    {
+      "dieu": 163,
+      "title": "Hợp đồng về nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "hợp đồng nhà ở, nội dung hợp đồng, chung cư, kinh phí bảo trì, giá mua bán, quyền nghĩa vụ"
+    },
+    {
+      "dieu": 164,
+      "title": "Công chứng, chứng thực hợp đồng và thời điểm có hiệu lực của hợp đồng về nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "công chứng hợp đồng, chứng thực, hiệu lực hợp đồng, notary, ủy ban nhân dân xã"
+    },
+    {
+      "dieu": 165,
+      "title": "Giao dịch mua bán nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "mua bán nhà ở, hợp đồng mua bán, sở hữu có thời hạn, giấy chứng nhận, thỏa thuận"
+    },
+    {
+      "dieu": 166,
+      "title": "Xử lý đối với trường hợp mua bán nhà ở có thời hạn",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "mua nhà có thời hạn, hết thời hạn sở hữu, giấy chứng nhận hết hiệu lực, chuyển lại quyền sở hữu, phá sản"
+    },
+    {
+      "dieu": 167,
+      "title": "Mua bán nhà ở trả chậm, trả dần",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "mua nhà trả góp, trả chậm, trả dần, installment, quyền sử dụng trong thời gian trả góp"
+    },
+    {
+      "dieu": 168,
+      "title": "Mua bán nhà ở đang cho thuê",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "bán nhà đang cho thuê, quyền ưu tiên mua, thông báo bán nhà, bên thuê ưu tiên, 30 ngày"
+    },
+    {
+      "dieu": 169,
+      "title": "Mua trước nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "mua trước nhà ở, nhà nước mua lại, quốc phòng an ninh, thiên tai, bồi thường"
+    },
+    {
+      "dieu": 170,
+      "title": "Thời hạn thuê, giá thuê, cho thuê lại nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thời hạn thuê nhà, giá thuê, tăng giá thuê, cho thuê lại, thỏa thuận tiền thuê"
+    },
+    {
+      "dieu": 171,
+      "title": "Các trường hợp chấm dứt hợp đồng thuê nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "chấm dứt hợp đồng thuê nhà, hết hạn hợp đồng, nhà bị phá dỡ, người thuê chết, tổ chức phá sản"
+    },
+    {
+      "dieu": 172,
+      "title": "Đơn phương chấm dứt thực hiện hợp đồng thuê nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "đơn phương chấm dứt thuê nhà, đuổi người thuê, không trả tiền thuê, cho thuê lại trái phép, vi phạm hợp đồng thuê"
+    },
+    {
+      "dieu": 173,
+      "title": "Quyền tiếp tục thuê nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "tiếp tục thuê nhà, chủ nhà chết, chuyển nhượng nhà đang cho thuê, người thuê chết, kế thừa hợp đồng thuê"
+    },
+    {
+      "dieu": 174,
+      "title": "Thuê mua nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thuê mua nhà ở, rent-to-own, hợp đồng thuê mua, cấp giấy chứng nhận sau thuê mua, nhà ở xã hội thuê mua"
+    },
+    {
+      "dieu": 175,
+      "title": "Quyền và nghĩa vụ của bên thuê mua nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "quyền nghĩa vụ bên thuê mua, chấm dứt thuê mua, hoàn tiền, người thừa kế thuê mua, nhà ở xã hội"
+    },
+    {
+      "dieu": 176,
+      "title": "Các trường hợp chấm dứt hợp đồng thuê mua và thu hồi nhà ở cho thuê mua",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "chấm dứt hợp đồng thuê mua, thu hồi nhà thuê mua, vi phạm hợp đồng, bán lại nhà thuê mua, không trả tiền"
+    },
+    {
+      "dieu": 177,
+      "title": "Tặng cho nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "tặng cho nhà ở, sở hữu chung, nhà đang cho thuê, thông báo tặng cho, tặng nhà"
+    },
+    {
+      "dieu": 178,
+      "title": "Đổi nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "đổi nhà ở, hoán đổi nhà, sở hữu chung, chênh lệch giá trị, nhà đang cho thuê"
+    },
+    {
+      "dieu": 179,
+      "title": "Góp vốn bằng nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "góp vốn bằng nhà ở, kinh doanh bằng nhà, sở hữu chung góp vốn, nhà đang cho thuê góp vốn, điều kiện góp vốn"
+    },
+    {
+      "dieu": 180,
+      "title": "Cho mượn, cho ở nhờ nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "cho mượn nhà, cho ở nhờ, chấm dứt hợp đồng mượn nhà, sở hữu chung, nhà bị phá dỡ"
+    },
+    {
+      "dieu": 181,
+      "title": "Bên thế chấp và bên nhận thế chấp nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thế chấp nhà ở, vay thế chấp, ngân hàng, tổ chức tín dụng, mortgage, cá nhân thế chấp"
+    },
+    {
+      "dieu": 182,
+      "title": "Thế chấp nhà ở đang cho thuê",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thế chấp nhà đang cho thuê, thông báo thế chấp, xử lý tài sản thế chấp, bên thuê tiếp tục thuê"
+    },
+    {
+      "dieu": 183,
+      "title": "Thế chấp dự án đầu tư xây dựng nhà ở và thế chấp nhà ở hình thành trong tương lai",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thế chấp nhà hình thành trong tương lai, thế chấp dự án, vay ngân hàng mua nhà, chủ đầu tư thế chấp, giải chấp"
+    },
+    {
+      "dieu": 184,
+      "title": "Điều kiện thế chấp dự án đầu tư xây dựng nhà ở, thế chấp nhà ở hình thành trong tương lai",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "điều kiện thế chấp, nhà hình thành trong tương lai, hồ sơ dự án, giấy phép xây dựng, hợp đồng mua bán thế chấp"
+    },
+    {
+      "dieu": 185,
+      "title": "Xử lý nhà ở, dự án đầu tư xây dựng nhà ở thế chấp",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "xử lý tài sản thế chấp, phát mại nhà ở, thu hồi tài sản thế chấp, chuyển nhượng dự án thế chấp"
+    },
+    {
+      "dieu": 186,
+      "title": "Nội dung, phạm vi ủy quyền quản lý nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "ủy quyền quản lý nhà ở, thuê quản lý nhà, nội dung ủy quyền, chi phí quản lý, hợp đồng ủy quyền"
+    },
+    {
+      "dieu": 187,
+      "title": "Ủy quyền quản lý nhà ở thuộc sở hữu chung",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "ủy quyền nhà sở hữu chung, đồng ý ủy quyền, sở hữu chung theo phần, thông báo ủy quyền"
+    },
+    {
+      "dieu": 188,
+      "title": "Chấm dứt thực hiện hợp đồng ủy quyền quản lý nhà ở",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "chấm dứt ủy quyền quản lý nhà, hết hợp đồng ủy quyền, tranh chấp ủy quyền, yêu cầu cơ quan"
+    },
+    {
+      "dieu": 189,
+      "title": "Nội dung quản lý nhà nước về nhà ở",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "quản lý nhà nước, chiến lược nhà ở, chính sách nhà ở, tiêu chuẩn kỹ thuật, cơ sở dữ liệu nhà ở, thanh tra nhà ở"
+    },
+    {
+      "dieu": 190,
+      "title": "Cơ quan quản lý nhà nước về nhà ở",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "cơ quan quản lý nhà ở, Bộ Xây dựng, Chính phủ, UBND, trách nhiệm quản lý"
+    },
+    {
+      "dieu": 191,
+      "title": "Trách nhiệm của Bộ Xây dựng",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "Bộ Xây dựng, trách nhiệm, nhà ở công vụ, nhà chung cư, nhà ở xã hội, hồ sơ nhà ở"
+    },
+    {
+      "dieu": 192,
+      "title": "Thanh tra nhà ở",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "thanh tra nhà ở, thanh tra xây dựng, kiểm tra vi phạm, thanh tra chuyên ngành, cấp tỉnh"
+    },
+    {
+      "dieu": 193,
+      "title": "Đào tạo, bồi dưỡng chuyên môn, nghiệp vụ về phát triển, quản lý nhà ở",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "đào tạo nhà ở, bồi dưỡng nghiệp vụ, công chức viên chức, quản lý nhà ở, chương trình đào tạo"
+    },
+    {
+      "dieu": 194,
+      "title": "Giải quyết tranh chấp về nhà ở",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "tranh chấp nhà ở, hòa giải, tòa án, trọng tài, nhà chung cư, kinh phí bảo trì"
+    },
+    {
+      "dieu": 195,
+      "title": "Xử lý vi phạm pháp luật về nhà ở",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "vi phạm nhà ở, xử phạt hành chính, truy cứu hình sự, bồi thường thiệt hại, kỷ luật"
+    },
+    {
+      "dieu": 196,
+      "title": "Sửa đổi, bổ sung một số điều của các luật có liên quan",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sửa đổi luật, luật đầu tư, nhà lưu trú công nhân, khu công nghiệp, nhà ở công vụ, điều khoản liên quan"
+    },
+    {
+      "dieu": 197,
+      "title": "Hiệu lực thi hành",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "hiệu lực thi hành, luật nhà ở 2025, luật cũ hết hiệu lực, nhà ở nhà nước, tài sản công"
+    },
+    {
+      "dieu": 198,
+      "title": "Quy định chuyển tiếp",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "chuyển tiếp, dự án cũ, nhà ở xã hội, cải tạo chung cư, hộ gia đình, sở hữu nhà"
+    }
+  ]
+}
