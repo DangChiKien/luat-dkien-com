@@ -10,7 +10,7 @@
 
 - Site root: `https://luat.dkien.com`
 - Định dạng: Markdown thuần, không cần JavaScript, dễ fetch và parse
-- Nội dung hiện có: **Luật Nhà ở 2023** (số 27/2023/QH15, hiệu lực 01/01/2025, 13 chương, 198 điều)
+- Nội dung hiện có: **10 văn bản** thuộc 2 lĩnh vực — **Đấu thầu** (Luật Đấu thầu 2023 và bản hợp nhất 22+57+90, Luật sửa đổi 57/2024 & 90/2025, Nghị định 214/2025, Thông tư 79/2025 & 80/2025) và **Nhà ở** (Luật Nhà ở 2023, Thông tư 05/2024 và Quy chế quản lý nhà chung cư). Danh sách đầy đủ + đường dẫn luôn cập nhật ở `https://luat.dkien.com/index.md`.
 
 > **Lưu ý pháp lý:** Đây là bản số hóa phục vụ tra cứu tiện lợi. Giá trị pháp lý chính thức thuộc về bản gốc đăng trên Công báo nước Cộng hòa xã hội chủ nghĩa Việt Nam.
 
@@ -176,9 +176,8 @@ Fetch https://luat.dkien.com/{slug}/chuong-NN.md
 - Không bịa đặt nội dung điều luật; chỉ trích dẫn những gì đã fetch được.
 - Đây là bản số hóa tiện lợi; giá trị pháp lý chính thức thuộc bản gốc Công báo.
 
-**Nội dung hiện có trong kho:**
-- Luật Nhà ở 2023 (27/2023/QH15) — hiệu lực 01/01/2025 — 13 chương, 198 điều
-  Chi mục: https://luat.dkien.com/luat-nha-o-2023/chi-muc.md
+**Nội dung hiện có trong kho:** 10 văn bản (lĩnh vực Đấu thầu và Nhà ở).
+Danh sách đầy đủ + đường dẫn chi mục: https://luat.dkien.com/index.md
 ```
 
 ---
