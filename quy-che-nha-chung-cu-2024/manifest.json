@@ -1,0 +1,399 @@
+{
+  "law": {
+    "name": "Quy chế quản lý, sử dụng nhà chung cư",
+    "code": "kèm TT 05/2024/TT-BXD",
+    "effective": "01/08/2024",
+    "source": "https://luat.dkien.com",
+    "chapters": 5,
+    "articles": 50
+  },
+  "chapters": [
+    {
+      "roman": "I",
+      "title": "NHỮNG QUY ĐỊNH CHUNG",
+      "file": "chuong-01.md",
+      "from": 1,
+      "to": 7
+    },
+    {
+      "roman": "II",
+      "title": "NỘI DUNG QUẢN LÝ, SỬ DỤNG NHÀ CHUNG CƯ",
+      "file": "chuong-02.md",
+      "from": 8,
+      "to": 13
+    },
+    {
+      "roman": "III",
+      "title": "TỔ CHỨC VIỆC QUẢN LÝ, SỬ DỤNG NHÀ CHUNG CƯ",
+      "file": "chuong-03.md",
+      "from": 14,
+      "to": 43
+    },
+    {
+      "roman": "IV",
+      "title": "GIẢI QUYẾT TRANH CHẤP VÀ XỬ LÝ VI PHẠM TRONG QUẢN LÝ, SỬ DỤNG NHÀ CHUNG CƯ",
+      "file": "chuong-04.md",
+      "from": 44,
+      "to": 45
+    },
+    {
+      "roman": "V",
+      "title": "",
+      "file": "chuong-05.md",
+      "from": 46,
+      "to": 50
+    }
+  ],
+  "articles": [
+    {
+      "dieu": "1",
+      "title": "Phạm vi điều chỉnh",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "phạm vi áp dụng quy chế chung cư, nhà chung cư thương mại, chung cư xã hội, chung cư hỗn hợp, chung cư tái định cư, nhà ở nhiều tầng nhiều căn hộ"
+    },
+    {
+      "dieu": "2",
+      "title": "Đối tượng áp dụng",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "đối tượng áp dụng quy chế chung cư, chủ đầu tư, ban quản trị, đơn vị quản lý vận hành, cơ quan quản lý nhà nước"
+    },
+    {
+      "dieu": "3",
+      "title": "Giải thích từ ngữ",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "giải thích từ ngữ chung cư, tòa nhà chung cư, cụm nhà chung cư, phần sở hữu chung, chủ sở hữu căn hộ, chung cư hỗn hợp"
+    },
+    {
+      "dieu": "4",
+      "title": "Nguyên tắc quản lý, sử dụng nhà chung cư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "nguyên tắc quản lý sử dụng chung cư, kinh phí bảo trì, kinh phí quản lý vận hành, nội quy chung cư, tranh chấp chung cư, ban quản trị"
+    },
+    {
+      "dieu": "5",
+      "title": "Nguyên tắc xác định diện tích căn hộ, phần diện tích khác trong nhà chung cư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "diện tích căn hộ, cách tính diện tích thông thủy, diện tích ban công lô gia, bàn giao căn hộ, giấy chứng nhận sở hữu"
+    },
+    {
+      "dieu": "6",
+      "title": "Bản nội quy quản lý, sử dụng nhà chung cư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "nội quy quản lý chung cư, quy định sử dụng phần sở hữu chung, phòng cháy chữa cháy chung cư, hội nghị nhà chung cư, kinh phí bảo trì chung cư"
+    },
+    {
+      "dieu": "7",
+      "title": "Các hoạt động quản lý vận hành nhà chung cư",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "hoạt động quản lý vận hành chung cư, thang máy bảo dưỡng, vệ sinh môi trường chung cư, bảo vệ chung cư, hợp đồng dịch vụ quản lý vận hành"
+    },
+    {
+      "dieu": "8",
+      "title": "Quản lý phần sở hữu riêng trong nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "sở hữu riêng nhà chung cư, quản lý căn hộ riêng, ủy quyền quản lý căn hộ, quyền sở hữu riêng chung cư, sử dụng đúng công năng căn hộ"
+    },
+    {
+      "dieu": "9",
+      "title": "Quản lý phần sở hữu chung, sử dụng chung của nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "sở hữu chung nhà chung cư, quản lý diện tích chung, ban quản trị chung cư, hội nghị nhà chung cư, chung cư hỗn hợp thương mại căn hộ, nhà sinh hoạt cộng đồng"
+    },
+    {
+      "dieu": "10",
+      "title": "Lập và bàn giao hồ sơ nhà chung cư",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hồ sơ nhà chung cư, bàn giao hồ sơ chủ đầu tư, bản vẽ hoàn công chung cư, lập hồ sơ chung cư, bàn giao tài liệu ban quản trị"
+    },
+    {
+      "dieu": "11",
+      "title": "Tiếp nhận và lưu trữ hồ sơ nhà chung cư",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "tiếp nhận hồ sơ chung cư, lưu trữ hồ sơ ban quản trị, hồ sơ quản lý vận hành, ban quản trị nhận hồ sơ, UBND cấp huyện tiếp nhận hồ sơ"
+    },
+    {
+      "dieu": "12",
+      "title": "Cưỡng chế bàn giao hồ sơ nhà chung cư",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "cưỡng chế bàn giao hồ sơ, chủ đầu tư không bàn giao hồ sơ, xử phạt vi phạm hành chính nhà chung cư, UBND huyện yêu cầu bàn giao hồ sơ"
+    },
+    {
+      "dieu": "13",
+      "title": "Quản lý vận hành chỗ để xe của nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "chỗ để xe chung cư, quản lý bãi đỗ xe chung cư, mua thuê chỗ để xe ô tô, parking chung cư, chuyển nhượng chỗ để xe, phí trông giữ xe chung cư"
+    },
+    {
+      "dieu": "14",
+      "title": "Hội nghị nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hội nghị nhà chung cư, họp cư dân chung cư, quyết định quản lý chung cư, biên bản hội nghị, chủ sở hữu căn hộ, ủy quyền dự họp"
+    },
+    {
+      "dieu": "15",
+      "title": "Hội nghị nhà chung cư lần đầu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hội nghị chung cư lần đầu, điều kiện tổ chức họp lần đầu, 50% căn hộ bàn giao, chủ đầu tư tổ chức hội nghị, ubnd xã tổ chức họp, bầu ban quản trị lần đầu"
+    },
+    {
+      "dieu": "16",
+      "title": "Hội nghị nhà chung cư bất thường",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hội nghị bất thường chung cư, họp bất thường ban quản trị, bãi nhiệm ban quản trị, thay đơn vị quản lý vận hành, điều kiện họp bất thường, ubnd xã tổ chức họp bất thường"
+    },
+    {
+      "dieu": "17",
+      "title": "Hội nghị nhà chung cư thường niên",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hội nghị thường niên chung cư, họp cư dân hàng năm, báo cáo tài chính ban quản trị, quyết toán kinh phí bảo trì, gia hạn hợp đồng quản lý vận hành, bãi nhiệm thành viên ban quản trị"
+    },
+    {
+      "dieu": "18",
+      "title": "Thành phần tham dự và việc biểu quyết tại Hội nghị nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "thành phần dự họp hội nghị chung cư, biểu quyết theo diện tích, 1m2 một phiếu biểu quyết, ủy quyền biểu quyết, họp trực tuyến chung cư, người khuyết tật bỏ phiếu"
+    },
+    {
+      "dieu": "19",
+      "title": "Ban quản trị nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "ban quản trị nhà chung cư, con dấu ban quản trị, tài khoản ban quản trị, nhiệm kỳ ban quản trị 3 năm, thù lao thành viên ban quản trị, bàn giao hồ sơ ban quản trị"
+    },
+    {
+      "dieu": "20",
+      "title": "Yêu cầu đối với thành viên Ban quản trị",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "yêu cầu thành viên ban quản trị, đào tạo nghiệp vụ quản lý chung cư, chứng nhận bồi dưỡng quản lý vận hành, thành viên ban quản trị người nước ngoài, kiến thức xây dựng tài chính pháp luật"
+    },
+    {
+      "dieu": "21",
+      "title": "Số lượng, thành phần Ban quản trị",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "số lượng thành viên ban quản trị, cơ cấu ban quản trị, trưởng ban phó ban quản trị, ban quản trị cụm nhà chung cư, tối thiểu 3 thành viên, tối thiểu 6 thành viên cụm"
+    },
+    {
+      "dieu": "22",
+      "title": "Hồ sơ đề nghị công nhận Ban quản trị",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hồ sơ công nhận ban quản trị, biên bản bầu ban quản trị, danh sách thành viên ban quản trị, quy chế hoạt động ban quản trị, tách nhập ban quản trị hồ sơ, văn bản đề nghị công nhận"
+    },
+    {
+      "dieu": "23",
+      "title": "Thủ tục công nhận và thông báo hoạt động của Ban quản trị",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "thủ tục công nhận ban quản trị, ubnd cấp huyện công nhận ban quản trị, quyết định công nhận ban quản trị, đăng ký con dấu ban quản trị, mở tài khoản ban quản trị, thông báo hoạt động ban quản trị"
+    },
+    {
+      "dieu": "24",
+      "title": "Quy chế hoạt động và quy chế thu, chi tài chính của Ban quản trị",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quy chế hoạt động ban quản trị, quy chế thu chi tài chính ban quản trị, minh bạch tài chính chung cư, quy trình rút tiền kinh phí bảo trì, mức thù lao thành viên ban quản trị, báo cáo thu chi ban quản trị"
+    },
+    {
+      "dieu": "25",
+      "title": "Biểu quyết thông qua các quyết định của Ban quản trị",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "biểu quyết quyết định ban quản trị, bỏ phiếu ban quản trị, tỷ lệ tán thành 50% ban quản trị, 75% đồng ý rút kinh phí bảo trì, thay đổi đơn vị quản lý vận hành, biên bản họp ban quản trị"
+    },
+    {
+      "dieu": "26",
+      "title": "Miễn nhiệm, bãi nhiệm thành viên Ban quản trị hoặc toàn bộ Ban quản trị",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "miễn nhiệm bãi nhiệm ban quản trị, bãi nhiệm thành viên ban quản trị, bầu thay thế ban quản trị, điều kiện bãi nhiệm vi phạm, lấy ý kiến chủ sở hữu bầu thay thế, hội nghị bất thường bầu lại ban quản trị"
+    },
+    {
+      "dieu": "27",
+      "title": "Tách, nhập Ban quản trị",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "tách ban quản trị cụm nhà chung cư, nhập ban quản trị tòa nhà vào cụm, thành lập ban quản trị tòa nhà riêng, bàn giao kinh phí bảo trì khi tách nhập, hội nghị tòa nhà tách khỏi cụm, thủ tục nhập ban quản trị"
+    },
+    {
+      "dieu": "28",
+      "title": "Đơn vị thực hiện quản lý vận hành nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "đơn vị quản lý vận hành chung cư, property management, điều kiện quản lý vận hành, chủ đầu tư quản lý vận hành, thuê đơn vị vận hành có thang máy, lựa chọn đơn vị quản lý vận hành"
+    },
+    {
+      "dieu": "29",
+      "title": "Hợp đồng dịch vụ quản lý vận hành nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hợp đồng dịch vụ quản lý vận hành, thời hạn hợp đồng quản lý vận hành, nội dung hợp đồng quản lý vận hành, ký kết hợp đồng ban quản trị, gia hạn hợp đồng quản lý vận hành, chấm dứt hợp đồng quản lý vận hành"
+    },
+    {
+      "dieu": "30",
+      "title": "Kinh phí quản lý vận hành nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "kinh phí quản lý vận hành chung cư, phí dịch vụ chung cư, tính phí theo m2 diện tích, đóng phí quản lý vận hành hàng tháng, phí dịch vụ căn hộ, giá dịch vụ quản lý vận hành"
+    },
+    {
+      "dieu": "31",
+      "title": "Nguyên tắc bảo trì nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nguyên tắc bảo trì nhà chung cư, bảo trì phần sở hữu chung riêng, kinh phí bảo trì chung cư, bảo trì nhà chung cư hỗn hợp, lựa chọn đơn vị bảo trì, chào giá cạnh tranh bảo trì"
+    },
+    {
+      "dieu": "32",
+      "title": "Bảo trì nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "bảo trì nhà chung cư, sửa chữa phần sở hữu chung, kiểm định chất lượng chung cư, bảo trì đột xuất thiên tai hỏa hoạn, hư hỏng phần sở hữu riêng ảnh hưởng chung, kế hoạch bảo trì hàng năm"
+    },
+    {
+      "dieu": "33",
+      "title": "Kế hoạch bảo trì phần sở hữu chung của nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "kế hoạch bảo trì phần sở hữu chung, lập kế hoạch bảo trì chung cư, hội nghị thông qua kế hoạch bảo trì, bảo trì đột xuất không có kế hoạch, dự toán kinh phí bảo trì, quy trình bảo trì tòa nhà"
+    },
+    {
+      "dieu": "34",
+      "title": "Các hạng mục của nhà chung cư được sử dụng kinh phí bảo trì phần sở hữu chung để bảo trì",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hạng mục bảo trì kinh phí bảo trì, bảo trì thang máy hệ thống điện nước, xử lý nước thải hút bể phốt, bảo trì phần sở hữu chung, trang thiết bị sở hữu chung, danh mục hạng mục bảo trì"
+    },
+    {
+      "dieu": "35",
+      "title": "Ký kết hợp đồng bảo trì và thực hiện bảo trì phần sở hữu chung của nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "ký hợp đồng bảo trì chung cư, đơn vị thực hiện bảo trì, nghiệm thu bảo trì, thanh quyết toán kinh phí bảo trì, thuê đơn vị bảo trì thiết bị, hợp đồng bảo trì phần xây dựng"
+    },
+    {
+      "dieu": "36",
+      "title": "Lập, bàn giao và quản lý kinh phí bảo trì phần sở hữu chung của nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "lập tài khoản kinh phí bảo trì, bàn giao kinh phí bảo trì cho ban quản trị, tài khoản tiền gửi bảo trì, chủ đầu tư chuyển giao kinh phí bảo trì, quyết toán kinh phí bảo trì, đồng chủ tài khoản bảo trì"
+    },
+    {
+      "dieu": "37",
+      "title": "Sử dụng kinh phí bảo trì phần sở hữu chung của nhà chung cư có nhiều chủ sở hữu",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "sử dụng kinh phí bảo trì, rút tiền bảo trì chung cư, hồ sơ đề nghị chuyển tiền bảo trì, tổ chức tín dụng quản lý kinh phí bảo trì, thanh toán chuyển khoản tiền mặt bảo trì, công khai chi tiêu bảo trì"
+    },
+    {
+      "dieu": "38",
+      "title": "Giám sát hoạt động bảo trì phần sở hữu chung của nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "giám sát bảo trì nhà chung cư, thuê tư vấn giám sát bảo trì, giám sát thang máy điện nước phòng cháy, hội nghị quyết định giám sát, chi phí tư vấn giám sát bảo trì, ban quản trị giám sát bảo trì"
+    },
+    {
+      "dieu": "39",
+      "title": "Lập, quyết toán số liệu, bàn giao kinh phí bảo trì nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyết toán kinh phí bảo trì, bàn giao kinh phí bảo trì, hồ sơ quyết toán bảo trì, chủ đầu tư bàn giao kinh phí bảo trì, biên bản xác định tổng kinh phí bảo trì, phụ lục hợp đồng phân chia kinh phí bảo trì"
+    },
+    {
+      "dieu": "40",
+      "title": "Quyền và trách nhiệm của chủ đầu tư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền trách nhiệm chủ đầu tư chung cư, chủ đầu tư tổ chức hội nghị lần đầu, bàn giao hồ sơ nhà chung cư, bảo hiểm cháy nổ chủ đầu tư, bảo hành bảo trì chủ đầu tư, thu kinh phí bảo trì chủ đầu tư"
+    },
+    {
+      "dieu": "41",
+      "title": "Quyền và trách nhiệm của chủ sở hữu nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền trách nhiệm chủ sở hữu căn hộ, đóng phí quản lý vận hành, bảo trì phần sở hữu riêng, bảo hiểm cháy nổ chủ sở hữu, vi phạm quản lý sử dụng chung cư, tham dự hội nghị nhà chung cư"
+    },
+    {
+      "dieu": "42",
+      "title": "Quyền và trách nhiệm của người sử dụng không phải là chủ sở hữu nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền trách nhiệm người thuê căn hộ, người sử dụng không phải chủ sở hữu, thay mặt chủ sở hữu dự hội nghị, nghĩa vụ người thuê chung cư, ủy quyền đại diện tham dự họp, đóng phí dịch vụ người sử dụng"
+    },
+    {
+      "dieu": "43",
+      "title": "Quyền và trách nhiệm của đơn vị quản lý vận hành nhà chung cư",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền trách nhiệm đơn vị quản lý vận hành, báo cáo quản lý vận hành hội nghị thường niên, bàn giao hồ sơ khi thay đơn vị vận hành, thu phí dịch vụ quản lý vận hành, hợp đồng phụ dịch vụ chung cư, trách nhiệm đơn vị property management"
+    },
+    {
+      "dieu": "44",
+      "title": "Giải quyết tranh chấp",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "tranh chấp nhà chung cư, giải quyết tranh chấp chung cư, kinh phí bảo trì tranh chấp, ban quản trị tranh chấp, tòa án chung cư, trọng tài thương mại"
+    },
+    {
+      "dieu": "45",
+      "title": "Xử lý vi phạm",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "vi phạm nhà chung cư, xử lý vi phạm chung cư, xử phạt hành chính chung cư, bồi thường thiệt hại chung cư, hội nghị nhà chung cư không hợp lệ, trách nhiệm hình sự quản lý chung cư"
+    },
+    {
+      "dieu": "46",
+      "title": "Xử lý chuyển tiếp đối với việc quản lý vận hành nhà ở nhiều tầng nhiều căn hộ",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "chuyển tiếp quản lý vận hành, nhà ở nhiều tầng nhiều căn hộ, thời hạn 6 tháng, hiệu lực quy chế, điều khoản chuyển tiếp"
+    },
+    {
+      "dieu": "47",
+      "title": "Trách nhiệm của Ủy ban nhân dân cấp tỉnh và cơ quan quản lý nhà ở cấp tỉnh",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "trách nhiệm UBND cấp tỉnh, cơ quan quản lý nhà ở tỉnh, khung giá dịch vụ quản lý vận hành, thanh tra nhà chung cư, hướng dẫn quản lý chung cư"
+    },
+    {
+      "dieu": "48",
+      "title": "Trách nhiệm của Ủy ban nhân dân cấp huyện",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "trách nhiệm UBND cấp huyện, công nhận ban quản trị, cưỡng chế kinh phí bảo trì, bàn giao hồ sơ nhà chung cư, xử lý vi phạm chung cư"
+    },
+    {
+      "dieu": "49",
+      "title": "Trách nhiệm của Ủy ban nhân dân cấp xã",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "trách nhiệm UBND cấp xã, hội nghị nhà chung cư, phối hợp ban quản trị, bàn giao hồ sơ chung cư, kiểm tra vận hành nhà chung cư"
+    },
+    {
+      "dieu": "50",
+      "title": "Trách nhiệm của Cục Quản lý nhà và thị trường bất động sản",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "Cục Quản lý nhà thị trường bất động sản, điều kiện quản lý vận hành chung cư, đăng tải đơn vị quản lý vận hành, tập huấn phổ biến pháp luật nhà ở, kiểm tra quản lý chung cư toàn quốc"
+    }
+  ]
+}

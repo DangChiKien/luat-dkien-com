@@ -1,0 +1,63 @@
+{
+  "law": {
+    "name": "Luật 57/2024 (sửa đổi 9 luật)",
+    "code": "57/2024/QH15",
+    "effective": "15/01/2025",
+    "source": "https://luat.dkien.com",
+    "chapters": 1,
+    "articles": 6
+  },
+  "chapters": [
+    {
+      "roman": "",
+      "title": "Toàn văn — Luật 57/2024 (sửa đổi 9 luật)",
+      "file": "chuong-01.md",
+      "from": 1,
+      "to": 6
+    }
+  ],
+  "articles": [
+    {
+      "dieu": "1",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Quy hoạch",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "sửa đổi luật quy hoạch, quy hoạch tổng thể quốc gia, chi phí lập quy hoạch, điều chỉnh quy hoạch rút gọn, quy hoạch vùng tỉnh, planning law amendment"
+    },
+    {
+      "dieu": "2",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Đầu tư",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "sửa đổi luật đầu tư, quỹ hỗ trợ đầu tư, thủ tục đầu tư đặc biệt, khu công nghiệp khu chế xuất, ngành nghề kinh doanh có điều kiện, investment law amendment"
+    },
+    {
+      "dieu": "3",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Đầu tư theo phương thức đối tác công tư",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "sửa đổi luật PPP, hợp đồng BT, đối tác công tư, lựa chọn nhà đầu tư PPP, vốn nhà nước dự án PPP, public private partnership"
+    },
+    {
+      "dieu": "4",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "sửa đổi luật đấu thầu, lựa chọn nhà thầu, đấu thầu trước, chỉ định thầu, hồ sơ mời thầu, procurement law amendment"
+    },
+    {
+      "dieu": "5",
+      "title": "Điều khoản thi hành",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "điều khoản thi hành, hiệu lực luật 57/2024, ngày có hiệu lực 15/01/2025, bãi bỏ điều khoản luật thủ đô"
+    },
+    {
+      "dieu": "6",
+      "title": "Quy định chuyển tiếp",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "quy định chuyển tiếp, dự án đang thực hiện, áp dụng luật mới, chuyển tiếp quy hoạch đầu tư đấu thầu PPP, transitional provisions"
+    }
+  ]
+}

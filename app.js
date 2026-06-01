@@ -221,13 +221,14 @@
       const link = el("a", {
         class: "chap-link",
         href: "#chuong-" + slugRoman(ch.roman),
-        html:
-          '<span class="chap-roman">Chương ' +
-          escapeHtml(ch.roman) +
-          "</span> — " +
-          '<span class="chap-title">' +
-          escapeHtml(ch.title) +
-          "</span>",
+        html: ch.roman
+          ? '<span class="chap-roman">Chương ' +
+            escapeHtml(ch.roman) +
+            "</span> — " +
+            '<span class="chap-title">' +
+            escapeHtml(ch.title) +
+            "</span>"
+          : '<span class="chap-title">' + escapeHtml(ch.title || ch.file) + "</span>",
       });
       link.addEventListener("click", (e) => {
         e.preventDefault();
@@ -333,11 +334,19 @@
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
 
-      // Chapter heading: "# Chương X: TITLE"
-      const chMatch = /^#\s+(Chương\s+[^\n:]+):?\s*(.*)$/i.exec(line);
+      // Chapter heading = first level-1 heading. Usually "# Chương X: TITLE",
+      // but single-chapter docs use "# Toàn văn …" / "# Phụ lục …".
+      const chMatch = /^#\s+(.+?)\s*$/.exec(line);
       if (chMatch && !result.chapterHeading) {
-        result.chapterHeading = chMatch[1].trim();
-        result.chapterTitle = (chMatch[2] || "").trim();
+        const full = chMatch[1].trim();
+        const cm = full.match(/^(Chương\s+[IVXLCDM]+)\s*:?\.?\s*(.*)$/i);
+        if (cm) {
+          result.chapterHeading = cm[1].trim();
+          result.chapterTitle = (cm[2] || "").trim();
+        } else {
+          result.chapterHeading = full; // e.g. "Toàn văn — …", "Phụ lục — …"
+          result.chapterTitle = "";
+        }
         started = true;
         continue;
       }
@@ -387,10 +396,13 @@
       "data-roman": chMeta.roman,
     });
 
-    // Chapter <h1>.
-    const headingText =
-      (parsed.chapterHeading || "Chương " + chMeta.roman) +
-      (chMeta.title ? ": " + chMeta.title : parsed.chapterTitle ? ": " + parsed.chapterTitle : "");
+    // Chapter <h1>. "Chương N" gets its title appended; custom headings
+    // ("Toàn văn …", "Phụ lục …") are used as-is to avoid duplication.
+    const isChuongN = /^Chương\s+[IVXLCDM]+$/i.test(parsed.chapterHeading || "");
+    const headingText = isChuongN
+      ? parsed.chapterHeading +
+        (chMeta.title ? ": " + chMeta.title : parsed.chapterTitle ? ": " + parsed.chapterTitle : "")
+      : (parsed.chapterHeading || chMeta.title || "Chương " + chMeta.roman);
     chSection.appendChild(el("h1", { class: "chapter-title", text: headingText }));
 
     // Optional chapter intro (source note / blockquote).

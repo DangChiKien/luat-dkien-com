@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/thong-tu-05-2024/">
+  <title>Thông tư 05/2024/TT-BXD (05/2024/TT-BXD) — Tra cứu</title>
+  <meta name="description" content="Tra cứu Thông tư 05/2024/TT-BXD (05/2024/TT-BXD): tìm theo số điều hoặc từ khóa, chọn điều và sao chép nội dung cho AI.">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <a class="back-link" href="/" aria-label="Về trang chủ" title="Về trang chủ">←</a>
+      <h1 class="topbar-title">Thông tư 05/2024/TT-BXD <span class="topbar-code">(05/2024/TT-BXD)</span></h1>
+      <div class="topbar-search search-box">
+        <input id="search-input" type="search" autocomplete="off" spellcheck="false"
+          placeholder="Tìm số điều hoặc từ khóa…" aria-label="Tìm theo số điều hoặc từ khóa"
+          aria-controls="search-results" aria-expanded="false">
+        <div id="search-results" class="search-results" role="listbox" hidden></div>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">
+        <span class="theme-glyph" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </header>
+  <div class="reader-layout">
+    <aside class="sidebar" aria-label="Mục lục các chương"><nav id="chapter-nav" class="chapter-nav"></nav></aside>
+    <main class="content">
+      <div id="loading" class="loading-indicator" role="status" aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span><span>Đang tải nội dung…</span>
+      </div>
+      <article id="law-content" class="law-content"></article>
+    </main>
+  </div>
+  <div id="selection-toolbar" class="selection-toolbar" hidden aria-live="polite">
+    <div class="selection-toolbar-inner">
+      <div class="toolbar-info">
+        <span class="toolbar-count">Đã chọn: 0 điều (~0 từ)</span>
+        <span class="toolbar-warning" hidden>⚠ Nội dung lớn, có thể vượt context window một số AI</span>
+      </div>
+      <div class="toolbar-actions">
+        <button id="btn-select-chapter" class="btn btn-ghost" type="button">Chọn tất cả chương này</button>
+        <button id="btn-select-all" class="btn btn-ghost" type="button">Chọn tất cả</button>
+        <button id="btn-deselect-all" class="btn btn-ghost" type="button">Bỏ chọn tất cả</button>
+        <button id="btn-copy-links" class="btn btn-secondary" type="button">🔗 Copy links</button>
+        <button id="btn-copy-content" class="btn btn-primary" type="button">📋 Copy nội dung</button>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <p>© 2025 luat.dkien.com — Tra cứu văn bản pháp luật.</p>
+    <p>Nội dung chỉ mang tính tham khảo; khi trích dẫn pháp lý hãy đối chiếu bản chính thức.</p>
+  </footer>
+</body>
+</html>

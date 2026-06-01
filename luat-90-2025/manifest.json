@@ -1,0 +1,91 @@
+{
+  "law": {
+    "name": "Luật 90/2025 (sửa Luật Đấu thầu…)",
+    "code": "90/2025/QH15",
+    "effective": "01/07/2025",
+    "source": "https://luat.dkien.com",
+    "chapters": 1,
+    "articles": 10
+  },
+  "chapters": [
+    {
+      "roman": "",
+      "title": "Toàn văn — Luật 90/2025 (sửa Luật Đấu thầu…)",
+      "file": "chuong-01.md",
+      "from": 1,
+      "to": 10
+    }
+  ],
+  "articles": [
+    {
+      "dieu": "1",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "sửa đổi luật đấu thầu, lựa chọn nhà thầu, chỉ định thầu, chào hàng cạnh tranh, đấu thầu rộng rãi, hồ sơ mời thầu, kế hoạch lựa chọn nhà thầu, đấu thầu quốc tế, procurement law amendment, bidding"
+    },
+    {
+      "dieu": "2",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Đầu tư theo phương thức đối tác công tư",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "luật đầu tư PPP, đối tác công tư, dự án PPP, chỉ định nhà đầu tư, hợp đồng BOT, hợp đồng BT, chia sẻ doanh thu, public-private partnership"
+    },
+    {
+      "dieu": "3",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Hải quan",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "luật hải quan, doanh nghiệp ưu tiên, chế độ ưu tiên hải quan, xuất nhập khẩu tại chỗ, kiểm tra hải quan, customs priority, on-spot import export"
+    },
+    {
+      "dieu": "4",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Thuế giá trị gia tăng",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "thuế giá trị gia tăng, hàng hóa xuất khẩu, thuế GTGT 0%, khu phi thuế quan, cửa hàng miễn thuế, VAT export goods"
+    },
+    {
+      "dieu": "5",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Thuế xuất khẩu, thuế nhập khẩu",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "thuế xuất nhập khẩu, miễn thuế nhập khẩu, khoa học công nghệ, đổi mới sáng tạo, công nghệ cao, chip bán dẫn, import export tax exemption"
+    },
+    {
+      "dieu": "6",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Đầu tư",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "sửa đổi luật đầu tư, ưu đãi đầu tư, khu công nghiệp, khu công nghệ cao, chấp thuận chủ trương đầu tư, giấy chứng nhận đăng ký đầu tư, investment incentives"
+    },
+    {
+      "dieu": "7",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Đầu tư công",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "luật đầu tư công, dự án đầu tư công, kế hoạch đầu tư công trung hạn, quyết định chủ trương đầu tư, dự án quan trọng quốc gia, dự án đặc biệt, public investment"
+    },
+    {
+      "dieu": "8",
+      "title": "Sửa đổi, bổ sung một số điều của Luật Quản lý, sử dụng tài sản công",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "quản lý tài sản công, sử dụng tài sản công, hợp đồng xây dựng chuyển giao, kết cấu hạ tầng, xử lý tài sản công, state asset management"
+    },
+    {
+      "dieu": "9",
+      "title": "Điều khoản thi hành",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "điều khoản thi hành, hiệu lực luật, bãi bỏ điều khoản, luật nhà ở, quản lý nợ công, effective date"
+    },
+    {
+      "dieu": "10",
+      "title": "Quy định chuyển tiếp",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "quy định chuyển tiếp, gói thầu chuyển tiếp, dự án PPP chuyển tiếp, hồ sơ mời thầu cũ, đầu tư công chuyển tiếp, transitional provisions"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "law": {
+    "name": "Thông tư 80/2025 (biểu mẫu báo cáo đấu thầu)",
+    "code": "80/2025/TT-BTC",
+    "effective": "08/08/2025",
+    "source": "https://luat.dkien.com",
+    "chapters": 2,
+    "articles": 6
+  },
+  "chapters": [
+    {
+      "roman": "",
+      "title": "Toàn văn — Thông tư 80/2025 (biểu mẫu báo cáo đấu thầu)",
+      "file": "chuong-01.md",
+      "from": 1,
+      "to": 6
+    },
+    {
+      "roman": "",
+      "title": "Phụ lục — Biểu mẫu",
+      "file": "chuong-02.md",
+      "from": null,
+      "to": null
+    }
+  ],
+  "articles": [
+    {
+      "dieu": "1",
+      "title": "Phạm vi điều chỉnh và đối tượng áp dụng",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "phạm vi điều chỉnh, đối tượng áp dụng, thông tư 80/2025, mẫu hồ sơ đấu thầu, báo cáo đấu thầu, scope of application"
+    },
+    {
+      "dieu": "2",
+      "title": "Áp dụng Mẫu và Phụ lục",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "mẫu hồ sơ yêu cầu, chỉ định thầu, báo cáo đánh giá, báo cáo thẩm định, kiểm tra đấu thầu, phụ lục biểu mẫu"
+    },
+    {
+      "dieu": "3",
+      "title": "Cơ quan, tổ chức thực hiện báo cáo tình hình thực hiện hoạt động đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "báo cáo tình hình đấu thầu, cơ quan báo cáo, hệ thống mạng đấu thầu quốc gia, chủ đầu tư bên mời thầu, sở tài chính"
+    },
+    {
+      "dieu": "4",
+      "title": "Thời gian báo cáo tình hình thực hiện hoạt động đấu thầu",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "thời gian báo cáo đấu thầu, hạn nộp báo cáo, định kỳ hàng năm, trước ngày 01/02, deadline nộp báo cáo"
+    },
+    {
+      "dieu": "5",
+      "title": "Quy định chuyển tiếp",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "quy định chuyển tiếp, hồ sơ yêu cầu cũ, thông tư cũ hết hiệu lực, gói thầu đang thực hiện, transitional provisions"
+    },
+    {
+      "dieu": "6",
+      "title": "Tổ chức thực hiện",
+      "file": "chuong-01.md",
+      "chRoman": "",
+      "keywords": "tổ chức thực hiện, hiệu lực thông tư, sửa đổi tiêu chuẩn đánh giá, điểm giá dự thầu, CPTPP EVFTA UKVFTA"
+    }
+  ]
+}

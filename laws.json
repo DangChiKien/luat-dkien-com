@@ -18,6 +18,24 @@
     "category": "Đấu thầu"
   },
   {
+    "slug": "luat-57-2024",
+    "name": "Luật 57/2024 (sửa đổi 9 luật)",
+    "code": "57/2024/QH15",
+    "effective": "15/01/2025",
+    "chapters": 1,
+    "articles": 6,
+    "category": "Đấu thầu"
+  },
+  {
+    "slug": "luat-90-2025",
+    "name": "Luật 90/2025 (sửa Luật Đấu thầu…)",
+    "code": "90/2025/QH15",
+    "effective": "01/07/2025",
+    "chapters": 1,
+    "articles": 10,
+    "category": "Đấu thầu"
+  },
+  {
     "slug": "nghi-dinh-214-2025",
     "name": "Nghị định 214/2025",
     "code": "214/2025/NĐ-CP",
@@ -36,12 +54,39 @@
     "category": "Đấu thầu"
   },
   {
+    "slug": "thong-tu-80-2025",
+    "name": "Thông tư 80/2025 (biểu mẫu báo cáo đấu thầu)",
+    "code": "80/2025/TT-BTC",
+    "effective": "08/08/2025",
+    "chapters": 2,
+    "articles": 6,
+    "category": "Đấu thầu"
+  },
+  {
     "slug": "luat-nha-o-2023",
     "name": "Luật Nhà ở 2023",
     "code": "27/2023/QH15",
     "effective": "01/01/2025",
     "chapters": 13,
     "articles": 198,
+    "category": "Nhà ở"
+  },
+  {
+    "slug": "thong-tu-05-2024",
+    "name": "Thông tư 05/2024/TT-BXD",
+    "code": "05/2024/TT-BXD",
+    "effective": "01/08/2024",
+    "chapters": 7,
+    "articles": 21,
+    "category": "Nhà ở"
+  },
+  {
+    "slug": "quy-che-nha-chung-cu-2024",
+    "name": "Quy chế quản lý, sử dụng nhà chung cư",
+    "code": "kèm TT 05/2024/TT-BXD",
+    "effective": "01/08/2024",
+    "chapters": 5,
+    "articles": 50,
     "category": "Nhà ở"
   }
 ]
