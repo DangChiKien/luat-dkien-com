@@ -107,10 +107,26 @@
     }
   }
 
+  /* ── sticky header height → --header-h ───────────────────────── */
+  /* The sticky top bar can change height (search wraps to a second row on
+     mobile, web font swaps). Publish its real height so sidebar offset and
+     article scroll-margins always match and nothing hides under the bar. */
+  function syncHeaderHeight() {
+    var h = document.querySelector('.site-header');
+    if (h) {
+      document.documentElement.style.setProperty('--header-h', h.offsetHeight + 'px');
+    }
+  }
+
   /* ── DOMContentLoaded wiring ─────────────────────────────────── */
 
   document.addEventListener('DOMContentLoaded', function () {
     LuatUI.initTheme();
+    syncHeaderHeight();
+    window.addEventListener('resize', syncHeaderHeight);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(syncHeaderHeight);
+    }
 
     document.querySelectorAll('.js-copy').forEach(function (el) {
       el.addEventListener('click', function () {

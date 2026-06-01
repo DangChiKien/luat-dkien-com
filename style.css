@@ -29,8 +29,8 @@
   --mark: #fff2c2;
 
   /* Typography */
-  --font-serif: Georgia, "Noto Serif", "Times New Roman", serif;
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-serif: "Noto Serif", Georgia, "Times New Roman", serif;
+  --font-sans: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --font-mono: "SFMono-Regular", "Cascadia Code", Consolas, "Liberation Mono", Menlo, monospace;
 
   /* Layout / shape scale */
@@ -79,8 +79,9 @@ html[data-theme="dark"] {
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
-  /* Account for sticky header when jumping to #dieu-N anchors */
-  scroll-padding-top: calc(var(--header-h) + 64px);
+  /* Account for the single sticky top bar when jumping to #dieu-N anchors.
+     --header-h is kept in sync with the bar's real height by script.js. */
+  scroll-padding-top: calc(var(--header-h) + 14px);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -780,7 +781,7 @@ html[data-theme="dark"] .content h1 { color: var(--text); }
   font-weight: 700;
   color: var(--text);
   margin: 1.6em 0 0.5em;
-  scroll-margin-top: calc(var(--header-h) + 72px);
+  scroll-margin-top: calc(var(--header-h) + 14px);
 }
 
 /* "Mục" section heading variant — uppercase, centred, spaced, muted, smaller.
@@ -1168,10 +1169,79 @@ html[data-theme="dark"] .search-result-item .result-badge { color: var(--accent)
 }
 
 /* chapter wrapper anchor offset + source-note intro */
-.chapter { scroll-margin-top: calc(var(--header-h) + 72px); }
+.chapter { scroll-margin-top: calc(var(--header-h) + 14px); }
 .chapter-intro {
   font-family: var(--font-sans);
   font-size: 0.85rem;
   color: var(--text-muted);
   margin-bottom: 1.4em;
+}
+
+/* -----------------------------------------------------------------------------
+   15. TOPBAR — one sticky top block (title + inline search) on BOTH pages.
+   Replaces the old separate .site-header__inner + .search-bar. The whole
+   .site-header is the single sticky block (top:0); script.js keeps --header-h
+   equal to its real height so nothing hides underneath.
+   ----------------------------------------------------------------------------- */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  min-height: var(--header-h);
+  padding: 8px clamp(16px, 4vw, 32px);
+}
+
+/* round back button (reader) */
+.back-link {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--header-text);
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.back-link:hover { background: rgba(255, 255, 255, 0.12); text-decoration: none; }
+
+/* title (h1 on reader, brand link on home) */
+.topbar-title {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: clamp(1rem, 2.3vw, 1.18rem);
+  letter-spacing: 0.01em;
+  color: var(--header-text);
+  margin: 0;
+  white-space: nowrap;
+  text-decoration: none;
+}
+a.topbar-title:hover { text-decoration: none; opacity: 0.92; }
+.topbar-code { font-weight: 400; opacity: 0.82; font-size: 0.85em; }
+
+/* inline search box: takes the middle/right space, dropdown anchors here */
+.topbar-search {
+  position: relative;
+  flex: 1 1 240px;
+  max-width: 460px;
+  margin-left: auto;          /* push search + toggle to the right edge */
+}
+.topbar-search #search-input { height: 40px; }
+.topbar #theme-toggle { flex: none; }
+
+/* On narrow screens the search drops to its own full-width row (still inside
+   the sticky bar). --header-h grows automatically via script.js. */
+@media (max-width: 680px) {
+  .topbar { gap: 10px 12px; }
+  .topbar-title { white-space: normal; }
+  .topbar-search {
+    order: 5;
+    flex-basis: 100%;
+    max-width: none;
+    margin-left: 0;
+  }
 }

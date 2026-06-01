@@ -5,23 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Thư viện văn bản pháp luật Việt Nam — tra cứu trực tuyến cho người và cho AI. Luật Nhà ở 2023 và các văn bản khác." />
   <title>Thư viện Văn bản Pháp luật — dkien.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap" />
   <link rel="stylesheet" href="./style.css" />
   <script src="./script.js" defer></script>
+  <script src="./home.js" defer></script>
 </head>
 <body>
 
-  <!-- ── HEADER ──────────────────────────────────────────────── -->
+  <!-- ── HEADER: title + inline search (one fixed block) ───────── -->
   <header class="site-header">
-    <div class="site-header__inner">
-      <a class="site-header__brand" href="./">
-        Thư viện Văn bản Pháp luật
-      </a>
+    <div class="topbar">
+      <a class="topbar-title" href="./">Thư viện Văn bản Pháp luật</a>
+      <div class="topbar-search search-box">
+        <input
+          id="search-input"
+          type="search"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Tìm điều luật…"
+          aria-label="Tìm điều luật trong các văn bản"
+          aria-controls="search-results"
+          aria-expanded="false">
+        <div id="search-results" class="search-results" role="listbox" hidden></div>
+      </div>
       <button
         id="theme-toggle"
         class="theme-toggle"
         type="button"
         aria-label="Chuyển sang giao diện tối"
-      >☾</button>
+      ><span class="theme-glyph" aria-hidden="true">☾</span></button>
     </div>
   </header>
 

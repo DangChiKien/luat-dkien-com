@@ -10,6 +10,10 @@
   <meta name="description" content="Tra cứu Luật Nhà ở 2023 (27/2023/QH15): tìm theo số điều hoặc từ khóa, chọn điều và sao chép nội dung cho AI.">
   <!-- Markdown renderer (must load before app.js) -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Vietnamese-complete webfonts (full Latin Extended Additional coverage) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap">
   <!-- Shared design system + utilities -->
   <link rel="stylesheet" href="../style.css">
   <script src="../script.js" defer></script>
@@ -17,35 +21,29 @@
   <script src="./app.js" defer></script>
 </head>
 <body>
-  <!-- ===== Sticky site header ===== -->
+  <!-- ===== Sticky top bar: title + inline search (one fixed block) ===== -->
   <header class="site-header">
-    <div class="site-header-inner">
-      <a class="back-link" href="../index.html" aria-label="Về trang chủ">← Trang chủ</a>
-      <h1 class="site-header-title">Luật Nhà ở 2023 <span class="site-header-code">(27/2023/QH15)</span></h1>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">
-        <span class="theme-glyph" aria-hidden="true">☾</span>
-      </button>
-    </div>
-  </header>
-
-  <!-- ===== Sticky search bar ===== -->
-  <div class="search-bar">
-    <div class="search-bar-inner">
-      <div class="search-box">
+    <div class="topbar">
+      <a class="back-link" href="../index.html" aria-label="Về trang chủ" title="Về trang chủ">←</a>
+      <h1 class="topbar-title">Luật Nhà ở 2023 <span class="topbar-code">(27/2023/QH15)</span></h1>
+      <div class="topbar-search search-box">
         <input
           id="search-input"
           type="search"
           autocomplete="off"
           spellcheck="false"
-          placeholder="Tìm theo số điều hoặc từ khóa…"
+          placeholder="Tìm số điều hoặc từ khóa…"
           aria-label="Tìm theo số điều hoặc từ khóa"
           aria-controls="search-results"
           aria-expanded="false">
         <!-- Dropdown of matches, populated at runtime -->
         <div id="search-results" class="search-results" role="listbox" hidden></div>
       </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">
+        <span class="theme-glyph" aria-hidden="true">☾</span>
+      </button>
     </div>
-  </div>
+  </header>
 
   <!-- ===== Main reader layout ===== -->
   <div class="reader-layout">
