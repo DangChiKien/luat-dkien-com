@@ -105,11 +105,22 @@
 
   /* ---- URL helpers ----------------------------------------------------- */
 
+  // --- AI / .md targets (raw markdown — the fetch target documented in ai-guide.md).
   function chapterUrl(file) {
     return `${BASE_URL}${LAW_PATH}/${file}`;
   }
   function articleUrl(file, dieu) {
     return `${chapterUrl(file)}#dieu-${dieu}`;
+  }
+
+  // --- Human-facing reader links (open the rendered page, then jump via #anchor).
+  // These point at the law folder (/{slug}/#…), NOT the raw .md, so a person who
+  // clicks a shared link lands on the styled reader instead of plain markdown.
+  function articleReaderUrl(dieu) {
+    return `${BASE_URL}${LAW_PATH}/#dieu-${dieu}`;
+  }
+  function chapterReaderUrl(roman) {
+    return `${BASE_URL}${LAW_PATH}/#chuong-${slugRoman(roman)}`;
   }
 
   /* =======================================================================
@@ -169,11 +180,20 @@
     setupSelection();
     updateToolbar();
 
-    // If the page was opened with a #dieu-N hash, jump to it.
-    if (location.hash && /^#dieu-[0-9a-zđ]+$/i.test(location.hash)) {
-      const dieu = location.hash.slice(6).toLowerCase();
+    // If the page was opened with a #dieu-N or #chuong-X hash, jump to it.
+    // Content is client-rendered, so the browser's native anchor jump already
+    // missed (the target element didn't exist at initial load) — replay it here.
+    const initHash = location.hash || "";
+    if (/^#dieu-[0-9a-zđ]+$/i.test(initHash)) {
+      const dieu = initHash.slice(6).toLowerCase();
       // Defer so layout is settled.
       requestAnimationFrame(() => scrollToArticle(dieu, true));
+    } else if (/^#chuong-[a-z0-9]+$/i.test(initHash)) {
+      const id = initHash.slice(1).toLowerCase();
+      requestAnimationFrame(() => {
+        const sec = document.getElementById(id);
+        if (sec) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
     }
   }
 
@@ -255,7 +275,7 @@
       copyBtn.addEventListener("click", (e) => {
         e.preventDefault();
         e.stopPropagation();
-        LuatUI.copyText(chapterUrl(ch.file)).then(() =>
+        LuatUI.copyText(chapterReaderUrl(ch.roman)).then(() =>
           LuatUI.toast("Đã sao chép liên kết chương")
         );
       });
@@ -463,7 +483,7 @@
       copyLink.addEventListener("click", (e) => {
         e.preventDefault();
         e.stopPropagation();
-        LuatUI.copyText(articleUrl(chMeta.file, block.dieu)).then(() =>
+        LuatUI.copyText(articleReaderUrl(block.dieu)).then(() =>
           LuatUI.toast("Đã sao chép liên kết Điều " + block.dieu)
         );
       });
