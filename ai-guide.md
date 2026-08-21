@@ -10,7 +10,7 @@
 
 - Site root: `https://luat.dkien.com`
 - Định dạng: Markdown thuần, không cần JavaScript, dễ fetch và parse
-- Nội dung hiện có: **10 văn bản** thuộc 2 lĩnh vực — **Đấu thầu** (Luật Đấu thầu 2023 và bản hợp nhất 22+57+90, Luật sửa đổi 57/2024 & 90/2025, Nghị định 214/2025, Thông tư 79/2025 & 80/2025) và **Nhà ở** (Luật Nhà ở 2023, Thông tư 05/2024 và Quy chế quản lý nhà chung cư). Danh sách đầy đủ + đường dẫn luôn cập nhật ở `https://luat.dkien.com/index.md`.
+- Nội dung hiện có: **11 văn bản** thuộc 3 lĩnh vực — **Đấu thầu** (Luật Đấu thầu 2023 và bản hợp nhất 22+57+90, Luật sửa đổi 57/2024 & 90/2025, Nghị định 214/2025, Thông tư 79/2025 & 80/2025), **Nhà ở** (Luật Nhà ở 2023, Thông tư 05/2024 và Quy chế quản lý nhà chung cư) và **Dân sự** (Bộ luật Dân sự 2015). Danh sách đầy đủ + đường dẫn luôn cập nhật ở `https://luat.dkien.com/index.md`.
 
 > **Lưu ý pháp lý:** Đây là bản số hóa phục vụ tra cứu tiện lợi. Giá trị pháp lý chính thức thuộc về bản gốc đăng trên Công báo nước Cộng hòa xã hội chủ nghĩa Việt Nam.
 
@@ -176,7 +176,7 @@ Fetch https://luat.dkien.com/{slug}/chuong-NN.md
 - Không bịa đặt nội dung điều luật; chỉ trích dẫn những gì đã fetch được.
 - Đây là bản số hóa tiện lợi; giá trị pháp lý chính thức thuộc bản gốc Công báo.
 
-**Nội dung hiện có trong kho:** 10 văn bản (lĩnh vực Đấu thầu và Nhà ở).
+**Nội dung hiện có trong kho:** 11 văn bản (lĩnh vực Đấu thầu, Nhà ở và Dân sự).
 Danh sách đầy đủ + đường dẫn chi mục: https://luat.dkien.com/index.md
 ```
 
@@ -210,6 +210,20 @@ Trong đó `{NN}` là số chương 2 chữ số, ví dụ `01`, `02`, ..., `13`
 | Số chương | 13 |
 | Số điều | 198 |
 | Slug | `luat-nha-o-2023` |
+
+### Bộ luật Dân sự 2015
+
+| Thuộc tính | Giá trị |
+|---|---|
+| Tên đầy đủ | Bộ luật Dân sự năm 2015 |
+| Số văn bản | 91/2015/QH13 |
+| Ngày thông qua | 24/11/2015 |
+| Hiệu lực | 01/01/2017 (thay thế Bộ luật Dân sự 2005 — 33/2005/QH11) |
+| Cấu trúc | 6 phần, 27 chương, 689 điều |
+| Số file chương | 28 (`chuong-01.md` … `chuong-28.md`; `chuong-28.md` là Phần thứ sáu — Điều khoản thi hành, không thuộc chương nào) |
+| Slug | `bo-luat-dan-su-2015` |
+
+Hai chương lớn nhất: Chương XV (Điều 274–429, quy định chung về nghĩa vụ và hợp đồng) và Chương XVI (Điều 430–569, các hợp đồng thông dụng) — file tương ứng khoảng 90–100 KB, nên fetch đúng chương thay vì tải toàn bộ.
 
 ---
 

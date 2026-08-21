@@ -1,0 +1,5090 @@
+{
+  "law": {
+    "name": "Bộ luật Dân sự 2015",
+    "code": "91/2015/QH13",
+    "effective": "01/01/2017",
+    "passed": "24/11/2015",
+    "chapters": 27,
+    "articles": 689,
+    "source": "https://luat.dkien.com"
+  },
+  "chapters": [
+    {
+      "roman": "I",
+      "title": "NHỮNG QUY ĐỊNH CHUNG",
+      "file": "chuong-01.md",
+      "from": 1,
+      "to": 7,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "II",
+      "title": "XÁC LẬP, THỰC HIỆN VÀ BẢO VỆ QUYỀN DÂN SỰ",
+      "file": "chuong-02.md",
+      "from": 8,
+      "to": 15,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "III",
+      "title": "CÁ NHÂN",
+      "file": "chuong-03.md",
+      "from": 16,
+      "to": 73,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "IV",
+      "title": "PHÁP NHÂN",
+      "file": "chuong-04.md",
+      "from": 74,
+      "to": 96,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "V",
+      "title": "NHÀ NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM, CƠ QUAN NHÀ NƯỚC Ở TRUNG ƯƠNG, Ở ĐỊA PHƯƠNG TRONG QUAN HỆ DÂN SỰ",
+      "file": "chuong-05.md",
+      "from": 97,
+      "to": 100,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "VI",
+      "title": "HỘ GIA ĐÌNH, TỔ HỢP TÁC VÀ TỔ CHỨC KHÁC KHÔNG CÓ TƯ CÁCH PHÁP NHÂN TRONG QUAN HỆ DÂN SỰ",
+      "file": "chuong-06.md",
+      "from": 101,
+      "to": 104,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "VII",
+      "title": "TÀI SẢN",
+      "file": "chuong-07.md",
+      "from": 105,
+      "to": 115,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "VIII",
+      "title": "GIAO DỊCH DÂN SỰ",
+      "file": "chuong-08.md",
+      "from": 116,
+      "to": 133,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "IX",
+      "title": "ĐẠI DIỆN",
+      "file": "chuong-09.md",
+      "from": 134,
+      "to": 143,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "X",
+      "title": "THỜI HẠN VÀ THỜI HIỆU",
+      "file": "chuong-10.md",
+      "from": 144,
+      "to": 157,
+      "part": 1,
+      "partTitle": "QUY ĐỊNH CHUNG"
+    },
+    {
+      "roman": "XI",
+      "title": "QUY ĐỊNH CHUNG",
+      "file": "chuong-11.md",
+      "from": 158,
+      "to": 178,
+      "part": 2,
+      "partTitle": "QUYỀN SỞ HỮU VÀ QUYỀN KHÁC ĐỐI VỚI TÀI SẢN"
+    },
+    {
+      "roman": "XII",
+      "title": "CHIẾM HỮU",
+      "file": "chuong-12.md",
+      "from": 179,
+      "to": 185,
+      "part": 2,
+      "partTitle": "QUYỀN SỞ HỮU VÀ QUYỀN KHÁC ĐỐI VỚI TÀI SẢN"
+    },
+    {
+      "roman": "XIII",
+      "title": "QUYỀN SỞ HỮU",
+      "file": "chuong-13.md",
+      "from": 186,
+      "to": 244,
+      "part": 2,
+      "partTitle": "QUYỀN SỞ HỮU VÀ QUYỀN KHÁC ĐỐI VỚI TÀI SẢN"
+    },
+    {
+      "roman": "XIV",
+      "title": "QUYỀN KHÁC ĐỐI VỚI TÀI SẢN",
+      "file": "chuong-14.md",
+      "from": 245,
+      "to": 273,
+      "part": 2,
+      "partTitle": "QUYỀN SỞ HỮU VÀ QUYỀN KHÁC ĐỐI VỚI TÀI SẢN"
+    },
+    {
+      "roman": "XV",
+      "title": "QUY ĐỊNH CHUNG",
+      "file": "chuong-15.md",
+      "from": 274,
+      "to": 429,
+      "part": 3,
+      "partTitle": "NGHĨA VỤ VÀ HỢP ĐỒNG"
+    },
+    {
+      "roman": "XVI",
+      "title": "MỘT SỐ HỢP ĐỒNG THÔNG DỤNG",
+      "file": "chuong-16.md",
+      "from": 430,
+      "to": 569,
+      "part": 3,
+      "partTitle": "NGHĨA VỤ VÀ HỢP ĐỒNG"
+    },
+    {
+      "roman": "XVII",
+      "title": "HỨA THƯỞNG, THI CÓ GIẢI",
+      "file": "chuong-17.md",
+      "from": 570,
+      "to": 573,
+      "part": 3,
+      "partTitle": "NGHĨA VỤ VÀ HỢP ĐỒNG"
+    },
+    {
+      "roman": "XVIII",
+      "title": "THỰC HIỆN CÔNG VIỆC KHÔNG CÓ ỦY QUYỀN",
+      "file": "chuong-18.md",
+      "from": 574,
+      "to": 578,
+      "part": 3,
+      "partTitle": "NGHĨA VỤ VÀ HỢP ĐỒNG"
+    },
+    {
+      "roman": "XIX",
+      "title": "NGHĨA VỤ HOÀN TRẢ DO CHIẾM HỮU, SỬ DỤNG TÀI SẢN, ĐƯỢC LỢI VỀ TÀI SẢN KHÔNG CÓ CĂN CỨ PHÁP LUẬT",
+      "file": "chuong-19.md",
+      "from": 579,
+      "to": 583,
+      "part": 3,
+      "partTitle": "NGHĨA VỤ VÀ HỢP ĐỒNG"
+    },
+    {
+      "roman": "XX",
+      "title": "TRÁCH NHIỆM BỒI THƯỜNG THIỆT HẠI NGOÀI HỢP ĐỒNG",
+      "file": "chuong-20.md",
+      "from": 584,
+      "to": 608,
+      "part": 3,
+      "partTitle": "NGHĨA VỤ VÀ HỢP ĐỒNG"
+    },
+    {
+      "roman": "XXI",
+      "title": "QUY ĐỊNH CHUNG",
+      "file": "chuong-21.md",
+      "from": 609,
+      "to": 623,
+      "part": 4,
+      "partTitle": "THỪA KẾ"
+    },
+    {
+      "roman": "XXII",
+      "title": "THỪA KẾ THEO DI CHÚC",
+      "file": "chuong-22.md",
+      "from": 624,
+      "to": 648,
+      "part": 4,
+      "partTitle": "THỪA KẾ"
+    },
+    {
+      "roman": "XXIII",
+      "title": "THỪA KẾ THEO PHÁP LUẬT",
+      "file": "chuong-23.md",
+      "from": 649,
+      "to": 655,
+      "part": 4,
+      "partTitle": "THỪA KẾ"
+    },
+    {
+      "roman": "XXIV",
+      "title": "THANH TOÁN VÀ PHÂN CHIA DI SẢN",
+      "file": "chuong-24.md",
+      "from": 656,
+      "to": 662,
+      "part": 4,
+      "partTitle": "THỪA KẾ"
+    },
+    {
+      "roman": "XXV",
+      "title": "QUY ĐỊNH CHUNG",
+      "file": "chuong-25.md",
+      "from": 663,
+      "to": 671,
+      "part": 5,
+      "partTitle": "PHÁP LUẬT ÁP DỤNG ĐỐI VỚI QUAN HỆ DÂN SỰ CÓ YẾU TỐ NƯỚC NGOÀI"
+    },
+    {
+      "roman": "XXVI",
+      "title": "PHÁP LUẬT ÁP DỤNG ĐỐI VỚI CÁ NHÂN, PHÁP NHÂN",
+      "file": "chuong-26.md",
+      "from": 672,
+      "to": 676,
+      "part": 5,
+      "partTitle": "PHÁP LUẬT ÁP DỤNG ĐỐI VỚI QUAN HỆ DÂN SỰ CÓ YẾU TỐ NƯỚC NGOÀI"
+    },
+    {
+      "roman": "XXVII",
+      "title": "PHÁP LUẬT ÁP DỤNG ĐỐI VỚI QUAN HỆ TÀI SẢN, QUAN HỆ NHÂN THÂN",
+      "file": "chuong-27.md",
+      "from": 677,
+      "to": 687,
+      "part": 5,
+      "partTitle": "PHÁP LUẬT ÁP DỤNG ĐỐI VỚI QUAN HỆ DÂN SỰ CÓ YẾU TỐ NƯỚC NGOÀI"
+    },
+    {
+      "roman": "",
+      "title": "Phần thứ sáu: ĐIỀU KHOẢN THI HÀNH",
+      "file": "chuong-28.md",
+      "from": 688,
+      "to": 689,
+      "part": 6,
+      "partTitle": "ĐIỀU KHOẢN THI HÀNH"
+    }
+  ],
+  "articles": [
+    {
+      "dieu": "1",
+      "title": "Phạm vi điều chỉnh",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "phạm vi điều chỉnh, luật dân sự áp dụng cho ai, quan hệ dân sự, cá nhân pháp nhân, scope"
+    },
+    {
+      "dieu": "2",
+      "title": "Công nhận, tôn trọng, bảo vệ và bảo đảm quyền dân sự",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "công nhận quyền dân sự, hạn chế quyền, quốc phòng an ninh, hiến pháp, bảo đảm quyền"
+    },
+    {
+      "dieu": "3",
+      "title": "Các nguyên tắc cơ bản của pháp luật dân sự",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "nguyên tắc cơ bản, bình đẳng, tự nguyện thỏa thuận, thiện chí trung thực, không trái đạo đức"
+    },
+    {
+      "dieu": "4",
+      "title": "Áp dụng Bộ luật dân sự",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "áp dụng bộ luật dân sự, luật chung, luật chuyên ngành, điều ước quốc tế, xung đột luật"
+    },
+    {
+      "dieu": "5",
+      "title": "Áp dụng tập quán",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "tập quán, thói quen địa phương, phong tục, áp dụng tập quán, custom"
+    },
+    {
+      "dieu": "6",
+      "title": "Áp dụng tương tự pháp luật",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "áp dụng tương tự pháp luật, án lệ, lẽ công bằng, không có quy định, analogy"
+    },
+    {
+      "dieu": "7",
+      "title": "Chính sách của Nhà nước đối với quan hệ dân sự",
+      "file": "chuong-01.md",
+      "chRoman": "I",
+      "keywords": "chính sách nhà nước, hòa giải, bản sắc dân tộc, khuyến khích thỏa thuận, phong tục tốt đẹp"
+    },
+    {
+      "dieu": "8",
+      "title": "Căn cứ xác lập quyền dân sự",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "căn cứ xác lập quyền dân sự, hợp đồng, hành vi pháp lý đơn phương, bản án, sự kiện pháp lý"
+    },
+    {
+      "dieu": "9",
+      "title": "Thực hiện quyền dân sự",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "thực hiện quyền dân sự, tự do định đoạt, không thực hiện quyền, từ bỏ quyền"
+    },
+    {
+      "dieu": "10",
+      "title": "Giới hạn việc thực hiện quyền dân sự",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "giới hạn thực hiện quyền, lạm dụng quyền, gây thiệt hại người khác, abuse of rights"
+    },
+    {
+      "dieu": "11",
+      "title": "Các phương thức bảo vệ quyền dân sự",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "phương thức bảo vệ quyền, công nhận quyền, buộc xin lỗi cải chính, đòi tài sản, bồi thường"
+    },
+    {
+      "dieu": "12",
+      "title": "Tự bảo vệ quyền dân sự",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "tự bảo vệ quyền dân sự, phòng vệ, tương xứng, tự vệ dân sự"
+    },
+    {
+      "dieu": "13",
+      "title": "Bồi thường thiệt hại",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "bồi thường thiệt hại, quyền bị xâm phạm, đòi bồi thường, damages"
+    },
+    {
+      "dieu": "14",
+      "title": "Bảo vệ quyền dân sự thông qua cơ quan có thẩm quyền",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "bảo vệ quyền qua tòa án, trọng tài, tòa không được từ chối, giải quyết tranh chấp"
+    },
+    {
+      "dieu": "15",
+      "title": "Hủy quyết định cá biệt trái pháp luật của cơ quan, tổ chức, người có thẩm quyền",
+      "file": "chuong-02.md",
+      "chRoman": "II",
+      "keywords": "hủy quyết định cá biệt trái luật, khiếu nại quyết định hành chính, tòa hủy quyết định, cơ quan nhà nước sai"
+    },
+    {
+      "dieu": "16",
+      "title": "Năng lực pháp luật dân sự của cá nhân",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "năng lực pháp luật dân sự cá nhân, có quyền từ khi sinh ra, chấm dứt khi chết, tư cách chủ thể"
+    },
+    {
+      "dieu": "17",
+      "title": "Nội dung năng lực pháp luật dân sự của cá nhân",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nội dung năng lực pháp luật, quyền nhân thân, quyền sở hữu thừa kế, tham gia quan hệ dân sự"
+    },
+    {
+      "dieu": "18",
+      "title": "Không hạn chế năng lực pháp luật dân sự của cá nhân",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "không hạn chế năng lực pháp luật, trừ khi luật quy định, quyền không bị tước"
+    },
+    {
+      "dieu": "19",
+      "title": "Năng lực hành vi dân sự của cá nhân",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "năng lực hành vi dân sự, tự xác lập giao dịch, khả năng hành vi, legal capacity"
+    },
+    {
+      "dieu": "20",
+      "title": "Người thành niên",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "người thành niên, đủ 18 tuổi, năng lực hành vi đầy đủ, adult"
+    },
+    {
+      "dieu": "21",
+      "title": "Người chưa thành niên",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "người chưa thành niên, dưới 18 tuổi, trẻ em giao dịch, dưới 6 tuổi, từ đủ 15 đến 18 tuổi"
+    },
+    {
+      "dieu": "22",
+      "title": "Mất năng lực hành vi dân sự",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "mất năng lực hành vi dân sự, tâm thần, tòa tuyên bố mất năng lực, giám định pháp y tâm thần"
+    },
+    {
+      "dieu": "23",
+      "title": "Người có khó khăn trong nhận thức, làm chủ hành vi",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "người có khó khăn trong nhận thức làm chủ hành vi, người già lú lẫn, tòa chỉ định người giám hộ"
+    },
+    {
+      "dieu": "24",
+      "title": "Hạn chế năng lực hành vi dân sự",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hạn chế năng lực hành vi, nghiện ma túy, nghiện rượu, phá tán tài sản, tòa tuyên hạn chế"
+    },
+    {
+      "dieu": "25",
+      "title": "Quyền nhân thân",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền nhân thân, gắn với cá nhân, không chuyển giao, personal rights"
+    },
+    {
+      "dieu": "26",
+      "title": "Quyền có họ, tên",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền có họ tên, đặt tên con, tên bằng tiếng Việt, họ theo cha mẹ, con ngoài giá thú"
+    },
+    {
+      "dieu": "27",
+      "title": "Quyền thay đổi họ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền thay đổi họ, đổi họ cho con, đổi họ theo cha nuôi mẹ nuôi, thủ tục đổi họ"
+    },
+    {
+      "dieu": "28",
+      "title": "Quyền thay đổi tên",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền thay đổi tên, đổi tên khai sinh, tên gây nhầm lẫn, đổi tên khi xác định lại giới tính"
+    },
+    {
+      "dieu": "29",
+      "title": "Quyền xác định, xác định lại dân tộc",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền xác định dân tộc, xác định lại dân tộc, dân tộc của con, cha mẹ khác dân tộc, con nuôi"
+    },
+    {
+      "dieu": "30",
+      "title": "Quyền được khai sinh, khai tử",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền khai sinh khai tử, đăng ký khai sinh, giấy khai tử, trẻ chết sau sinh, hộ tịch"
+    },
+    {
+      "dieu": "31",
+      "title": "Quyền đối với quốc tịch",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền đối với quốc tịch, quốc tịch Việt Nam, nhập quốc tịch, thôi quốc tịch"
+    },
+    {
+      "dieu": "32",
+      "title": "Quyền của cá nhân đối với hình ảnh",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền của cá nhân đối với hình ảnh, dùng ảnh người khác, đăng ảnh lên mạng, xin phép chụp ảnh, right to image"
+    },
+    {
+      "dieu": "33",
+      "title": "Quyền sống, quyền được bảo đảm an toàn về tính mạng, sức khỏe, thân thể",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền sống, an toàn tính mạng sức khỏe, cấp cứu người bị nạn, thử nghiệm y học, mổ xẻ"
+    },
+    {
+      "dieu": "34",
+      "title": "Quyền được bảo vệ danh dự, nhân phẩm, uy tín",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền được bảo vệ danh dự nhân phẩm uy tín, bôi nhọ, vu khống trên mạng, xin lỗi cải chính, defamation"
+    },
+    {
+      "dieu": "35",
+      "title": "Quyền hiến, nhận mô, bộ phận cơ thể người và hiến, lấy xác",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hiến mô tạng, hiến xác, nhận bộ phận cơ thể, hiến tạng sau khi chết, không vì mục đích thương mại"
+    },
+    {
+      "dieu": "36",
+      "title": "Quyền xác định lại giới tính",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "xác định lại giới tính, khuyết tật bẩm sinh về giới tính, chưa định hình chính xác, thay đổi hộ tịch"
+    },
+    {
+      "dieu": "37",
+      "title": "Chuyển đổi giới tính",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "chuyển đổi giới tính, người chuyển giới, đăng ký thay đổi hộ tịch, transgender"
+    },
+    {
+      "dieu": "38",
+      "title": "Quyền về đời sống riêng tư, bí mật cá nhân, bí mật gia đình",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền riêng tư, bí mật cá nhân, bí mật gia đình, đọc trộm tin nhắn, thư tín điện thoại, privacy"
+    },
+    {
+      "dieu": "39",
+      "title": "Quyền nhân thân trong hôn nhân và gia đình",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền nhân thân trong hôn nhân gia đình, kết hôn ly hôn, nhận con nuôi, xác định cha mẹ con"
+    },
+    {
+      "dieu": "40",
+      "title": "Nơi cư trú của cá nhân",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nơi cư trú của cá nhân, thường trú tạm trú, nơi sinh sống thường xuyên, địa chỉ liên lạc"
+    },
+    {
+      "dieu": "41",
+      "title": "Nơi cư trú của người chưa thành niên",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nơi cư trú người chưa thành niên, con ở với cha mẹ, nơi cư trú của trẻ"
+    },
+    {
+      "dieu": "42",
+      "title": "Nơi cư trú của người được giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nơi cư trú người được giám hộ, ở với người giám hộ, nơi cư trú riêng"
+    },
+    {
+      "dieu": "43",
+      "title": "Nơi cư trú của vợ, chồng",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nơi cư trú của vợ chồng, vợ chồng ở khác nơi, nơi cư trú chung"
+    },
+    {
+      "dieu": "44",
+      "title": "Nơi cư trú của quân nhân",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nơi cư trú của quân nhân, đơn vị đóng quân, sĩ quan bộ đội"
+    },
+    {
+      "dieu": "45",
+      "title": "Nơi cư trú của người làm nghề lưu động",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nơi cư trú người làm nghề lưu động, tàu thuyền, nghề di động"
+    },
+    {
+      "dieu": "46",
+      "title": "Giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "giám hộ là gì, người giám hộ, chăm sóc người chưa thành niên, đăng ký giám hộ, guardianship"
+    },
+    {
+      "dieu": "47",
+      "title": "Người được giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "người được giám hộ, trẻ mồ côi, người mất năng lực hành vi, ai cần giám hộ"
+    },
+    {
+      "dieu": "48",
+      "title": "Người giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "người giám hộ, cá nhân pháp nhân làm giám hộ, giám hộ nhiều người, đồng ý làm giám hộ"
+    },
+    {
+      "dieu": "49",
+      "title": "Điều kiện của cá nhân làm người giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "điều kiện của cá nhân làm người giám hộ, năng lực hành vi đầy đủ, không bị truất quyền cha mẹ, tư cách đạo đức"
+    },
+    {
+      "dieu": "50",
+      "title": "Điều kiện của pháp nhân làm người giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "điều kiện pháp nhân làm giám hộ, tổ chức làm giám hộ, năng lực pháp luật phù hợp"
+    },
+    {
+      "dieu": "51",
+      "title": "Giám sát việc giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "giám sát việc giám hộ, người thân thích cử người giám sát, đăng ký tại UBND xã, quyền người giám sát"
+    },
+    {
+      "dieu": "52",
+      "title": "Người giám hộ đương nhiên của người chưa thành niên",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "người giám hộ đương nhiên của người chưa thành niên, anh chị ruột, ông bà, bác chú cậu cô dì"
+    },
+    {
+      "dieu": "53",
+      "title": "Người giám hộ đương nhiên của người mất năng lực hành vi dân sự",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "người giám hộ đương nhiên của người mất năng lực hành vi, vợ chồng giám hộ nhau, con giám hộ cha mẹ"
+    },
+    {
+      "dieu": "54",
+      "title": "Cử, chỉ định người giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "cử chỉ định người giám hộ, UBND cấp xã cử giám hộ, tòa chỉ định, ý kiến người được giám hộ"
+    },
+    {
+      "dieu": "55",
+      "title": "Nghĩa vụ của người giám hộ đối với người được giám hộ chưa đủ mười lăm tuổi",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nghĩa vụ người giám hộ với trẻ dưới 15 tuổi, chăm sóc giáo dục, đại diện giao dịch, quản lý tài sản"
+    },
+    {
+      "dieu": "56",
+      "title": "Nghĩa vụ của người giám hộ đối với người được giám hộ từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nghĩa vụ người giám hộ với trẻ từ 15 đến 18 tuổi, quản lý tài sản, đại diện giao dịch, tôn trọng ý kiến"
+    },
+    {
+      "dieu": "57",
+      "title": "Nghĩa vụ của người giám hộ đối với người được giám hộ mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nghĩa vụ người giám hộ với người mất năng lực hành vi, chăm sóc chữa bệnh, người khó khăn trong nhận thức"
+    },
+    {
+      "dieu": "58",
+      "title": "Quyền của người giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền của người giám hộ, thanh toán chi phí, đại diện, dùng tài sản chăm sóc người được giám hộ"
+    },
+    {
+      "dieu": "59",
+      "title": "Quản lý tài sản của người được giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quản lý tài sản của người được giám hộ, bán tài sản người được giám hộ, đồng ý của người giám sát, không được tặng cho"
+    },
+    {
+      "dieu": "60",
+      "title": "Thay đổi người giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "thay đổi người giám hộ, người giám hộ chết, không còn đủ điều kiện, đề nghị thay giám hộ"
+    },
+    {
+      "dieu": "61",
+      "title": "Chuyển giao giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "chuyển giao giám hộ, bàn giao tài sản, biên bản chuyển giao, người giám hộ mới"
+    },
+    {
+      "dieu": "62",
+      "title": "Chấm dứt việc giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "chấm dứt việc giám hộ, đủ 18 tuổi, khôi phục năng lực hành vi, người được giám hộ chết"
+    },
+    {
+      "dieu": "63",
+      "title": "Hậu quả chấm dứt việc giám hộ",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hậu quả chấm dứt giám hộ, thanh toán tài sản, bàn giao lại tài sản, thừa kế"
+    },
+    {
+      "dieu": "64",
+      "title": "Yêu cầu thông báo tìm kiếm người vắng mặt tại nơi cư trú và quản lý tài sản của người đó",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "thông báo tìm kiếm người vắng mặt, biệt tích 6 tháng, quản lý tài sản người vắng mặt, tìm người thân"
+    },
+    {
+      "dieu": "65",
+      "title": "Quản lý tài sản của người vắng mặt tại nơi cư trú",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quản lý tài sản người vắng mặt tại nơi cư trú, ai giữ tài sản, tài sản chung vợ chồng, tòa chỉ định người quản lý"
+    },
+    {
+      "dieu": "66",
+      "title": "Nghĩa vụ của người quản lý tài sản của người vắng mặt tại nơi cư trú",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "nghĩa vụ người quản lý tài sản người vắng mặt, giữ gìn tài sản, trả nợ thay, cấp dưỡng"
+    },
+    {
+      "dieu": "67",
+      "title": "Quyền của người quản lý tài sản của người vắng mặt tại nơi cư trú",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quyền của người quản lý tài sản người vắng mặt, quản lý tài sản, thanh toán chi phí, hưởng thù lao"
+    },
+    {
+      "dieu": "68",
+      "title": "Tuyên bố mất tích",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "tuyên bố mất tích, biệt tích 2 năm, tòa tuyên bố mất tích, ly hôn khi chồng mất tích"
+    },
+    {
+      "dieu": "69",
+      "title": "Quản lý tài sản của người bị tuyên bố mất tích",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quản lý tài sản người bị tuyên bố mất tích, ai giữ tài sản, tài sản người mất tích"
+    },
+    {
+      "dieu": "70",
+      "title": "Hủy bỏ quyết định tuyên bố mất tích",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hủy bỏ quyết định tuyên bố mất tích, người mất tích trở về, nhận lại tài sản, quan hệ hôn nhân"
+    },
+    {
+      "dieu": "71",
+      "title": "Tuyên bố chết",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "tuyên bố chết, mất tích 5 năm, tai nạn thảm họa, tòa tuyên bố là đã chết, ngày chết"
+    },
+    {
+      "dieu": "72",
+      "title": "Quan hệ nhân thân và quan hệ tài sản của người bị Tòa án tuyên bố là đã chết",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "quan hệ nhân thân tài sản của người bị tuyên bố đã chết, chia thừa kế, hôn nhân chấm dứt, di sản"
+    },
+    {
+      "dieu": "73",
+      "title": "Hủy bỏ quyết định tuyên bố chết",
+      "file": "chuong-03.md",
+      "chRoman": "III",
+      "keywords": "hủy bỏ quyết định tuyên bố chết, người chết trở về, đòi lại tài sản, vợ đã kết hôn với người khác"
+    },
+    {
+      "dieu": "74",
+      "title": "Pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "pháp nhân là gì, điều kiện là pháp nhân, tổ chức có tư cách pháp nhân, tài sản độc lập, legal entity"
+    },
+    {
+      "dieu": "75",
+      "title": "Pháp nhân thương mại",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "pháp nhân thương mại, doanh nghiệp, mục tiêu lợi nhuận, công ty hợp tác xã"
+    },
+    {
+      "dieu": "76",
+      "title": "Pháp nhân phi thương mại",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "pháp nhân phi thương mại, cơ quan nhà nước, tổ chức xã hội, quỹ từ thiện, không vì lợi nhuận"
+    },
+    {
+      "dieu": "77",
+      "title": "Điều lệ của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "điều lệ của pháp nhân, nội dung điều lệ, tên trụ sở, vốn điều lệ, sửa đổi điều lệ"
+    },
+    {
+      "dieu": "78",
+      "title": "Tên gọi của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "tên gọi của pháp nhân, đặt tên công ty, tên bằng tiếng Việt, không gây nhầm lẫn"
+    },
+    {
+      "dieu": "79",
+      "title": "Trụ sở của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "trụ sở của pháp nhân, địa chỉ liên lạc, thay đổi trụ sở, cơ quan điều hành"
+    },
+    {
+      "dieu": "80",
+      "title": "Quốc tịch của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "quốc tịch của pháp nhân, pháp nhân Việt Nam, thành lập theo pháp luật Việt Nam"
+    },
+    {
+      "dieu": "81",
+      "title": "Tài sản của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "tài sản của pháp nhân, vốn góp, tài sản độc lập, tài sản của công ty"
+    },
+    {
+      "dieu": "82",
+      "title": "Thành lập, đăng ký pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "thành lập đăng ký pháp nhân, đăng ký doanh nghiệp, công bố thông tin, sáng lập"
+    },
+    {
+      "dieu": "83",
+      "title": "Cơ cấu tổ chức của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "cơ cấu tổ chức pháp nhân, cơ quan điều hành, hội đồng thành viên, ban giám đốc"
+    },
+    {
+      "dieu": "84",
+      "title": "Chi nhánh, văn phòng đại diện của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "chi nhánh văn phòng đại diện, không phải pháp nhân, ủy quyền cho chi nhánh, trách nhiệm của công ty"
+    },
+    {
+      "dieu": "85",
+      "title": "Đại diện của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "đại diện của pháp nhân, người đại diện theo pháp luật, đại diện theo ủy quyền, giám đốc ký hợp đồng"
+    },
+    {
+      "dieu": "86",
+      "title": "Năng lực pháp luật dân sự của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "năng lực pháp luật dân sự của pháp nhân, phát sinh từ khi thành lập, chấm dứt khi giải thể"
+    },
+    {
+      "dieu": "87",
+      "title": "Trách nhiệm dân sự của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "trách nhiệm dân sự của pháp nhân, công ty chịu trách nhiệm bằng tài sản, thành viên không trả nợ thay, trách nhiệm hữu hạn"
+    },
+    {
+      "dieu": "88",
+      "title": "Hợp nhất pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "hợp nhất pháp nhân, hợp nhất công ty, chuyển quyền nghĩa vụ, merger"
+    },
+    {
+      "dieu": "89",
+      "title": "Sáp nhập pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "sáp nhập pháp nhân, công ty bị sáp nhập chấm dứt, kế thừa nghĩa vụ, acquisition"
+    },
+    {
+      "dieu": "90",
+      "title": "Chia pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "chia pháp nhân, chia công ty, liên đới thực hiện nghĩa vụ, division"
+    },
+    {
+      "dieu": "91",
+      "title": "Tách pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "tách pháp nhân, tách công ty, pháp nhân cũ vẫn tồn tại, spin-off"
+    },
+    {
+      "dieu": "92",
+      "title": "Chuyển đổi hình thức của pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "chuyển đổi hình thức pháp nhân, chuyển đổi loại hình doanh nghiệp, kế thừa quyền nghĩa vụ"
+    },
+    {
+      "dieu": "93",
+      "title": "Giải thể pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "giải thể pháp nhân, hết thời hạn hoạt động, quyết định giải thể, thực hiện nghĩa vụ tài sản"
+    },
+    {
+      "dieu": "94",
+      "title": "Thanh toán tài sản của pháp nhân bị giải thể",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "thanh toán tài sản khi giải thể, thứ tự ưu tiên, nợ lương bảo hiểm, nợ thuế, chi phí giải thể"
+    },
+    {
+      "dieu": "95",
+      "title": "Phá sản pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "phá sản pháp nhân, luật phá sản, doanh nghiệp mất khả năng thanh toán"
+    },
+    {
+      "dieu": "96",
+      "title": "Chấm dứt tồn tại pháp nhân",
+      "file": "chuong-04.md",
+      "chRoman": "IV",
+      "keywords": "chấm dứt tồn tại pháp nhân, xóa tên trong sổ đăng ký, thời điểm chấm dứt, giải thể phá sản"
+    },
+    {
+      "dieu": "97",
+      "title": "Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương trong quan hệ dân sự",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "nhà nước trong quan hệ dân sự, cơ quan nhà nước bình đẳng, chịu trách nhiệm dân sự"
+    },
+    {
+      "dieu": "98",
+      "title": "Đại diện tham gia quan hệ dân sự",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "đại diện tham gia quan hệ dân sự, cơ quan đại diện nhà nước, ủy quyền cho cá nhân pháp nhân"
+    },
+    {
+      "dieu": "99",
+      "title": "Trách nhiệm về nghĩa vụ dân sự",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "trách nhiệm về nghĩa vụ dân sự, tài sản nhà nước trả nợ, không kế thừa nghĩa vụ"
+    },
+    {
+      "dieu": "100",
+      "title": "Trách nhiệm về nghĩa vụ dân sự của Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương trong quan hệ dân sự với một bên là nhà nước, pháp nhân, cá nhân nước ngoài",
+      "file": "chuong-05.md",
+      "chRoman": "V",
+      "keywords": "trách nhiệm của nhà nước với bên nước ngoài, miễn trừ quốc gia, điều ước quốc tế, tranh chấp có yếu tố nước ngoài"
+    },
+    {
+      "dieu": "101",
+      "title": "Chủ thể trong quan hệ dân sự có sự tham gia của hộ gia đình, tổ hợp tác, tổ chức khác không có tư cách pháp nhân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "hộ gia đình tổ hợp tác, tổ chức không có tư cách pháp nhân, thành viên là chủ thể, ủy quyền cho chủ hộ"
+    },
+    {
+      "dieu": "102",
+      "title": "Tài sản chung của các thành viên hộ gia đình, tổ hợp tác, tổ chức khác không có tư cách pháp nhân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "tài sản chung của hộ gia đình, tài sản chung tổ hợp tác, phần quyền của thành viên, chia tài sản chung"
+    },
+    {
+      "dieu": "103",
+      "title": "Trách nhiệm dân sự của thành viên hộ gia đình, tổ hợp tác, tổ chức khác không có tư cách pháp nhân",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "trách nhiệm dân sự của thành viên hộ gia đình, trách nhiệm liên đới, tài sản chung trả nợ, tài sản riêng"
+    },
+    {
+      "dieu": "104",
+      "title": "Hậu quả pháp lý đối với giao dịch dân sự do thành viên không có quyền đại diện hoặc vượt quá phạm vi đại diện xác lập, thực hiện",
+      "file": "chuong-06.md",
+      "chRoman": "VI",
+      "keywords": "giao dịch do thành viên không có quyền đại diện, vượt quá phạm vi đại diện, hậu quả pháp lý, hộ gia đình"
+    },
+    {
+      "dieu": "105",
+      "title": "Tài sản",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "tài sản là gì, vật tiền giấy tờ có giá, quyền tài sản, bất động sản động sản, property"
+    },
+    {
+      "dieu": "106",
+      "title": "Đăng ký tài sản",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "đăng ký tài sản, đăng ký bất động sản, sang tên sổ đỏ, đăng ký quyền sở hữu, công khai"
+    },
+    {
+      "dieu": "107",
+      "title": "Bất động sản và động sản",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "bất động sản và động sản, đất đai nhà ở, tài sản gắn liền với đất, tài sản di dời được"
+    },
+    {
+      "dieu": "108",
+      "title": "Tài sản hiện có và tài sản hình thành trong tương lai",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "tài sản hình thành trong tương lai, nhà ở hình thành trong tương lai, tài sản hiện có, mua nhà trên giấy"
+    },
+    {
+      "dieu": "109",
+      "title": "Hoa lợi, lợi tức",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "hoa lợi lợi tức, tiền cho thuê, hoa màu thu hoạch, lãi tiền gửi, thu nhập từ tài sản"
+    },
+    {
+      "dieu": "110",
+      "title": "Vật chính và vật phụ",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "vật chính vật phụ, phụ kiện đi kèm, chuyển giao cả vật phụ, bán kèm phụ kiện"
+    },
+    {
+      "dieu": "111",
+      "title": "Vật chia được và vật không chia được",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "vật chia được và không chia được, chia tài sản, giữ nguyên tính năng, trị giá thành tiền"
+    },
+    {
+      "dieu": "112",
+      "title": "Vật tiêu hao và vật không tiêu hao",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "vật tiêu hao và không tiêu hao, xăng dầu thực phẩm, không dùng làm tài sản cho thuê"
+    },
+    {
+      "dieu": "113",
+      "title": "Vật cùng loại và vật đặc định",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "vật cùng loại vật đặc định, thay thế được, tài sản đặc định, giao đúng vật"
+    },
+    {
+      "dieu": "114",
+      "title": "Vật đồng bộ",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "vật đồng bộ, bộ sản phẩm, không tách rời, bán cả bộ"
+    },
+    {
+      "dieu": "115",
+      "title": "Quyền tài sản",
+      "file": "chuong-07.md",
+      "chRoman": "VII",
+      "keywords": "quyền tài sản, quyền sở hữu trí tuệ, quyền sử dụng đất, quyền đòi nợ, trị giá được bằng tiền"
+    },
+    {
+      "dieu": "116",
+      "title": "Giao dịch dân sự",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "giao dịch dân sự là gì, hợp đồng, hành vi pháp lý đơn phương, phát sinh quyền nghĩa vụ"
+    },
+    {
+      "dieu": "117",
+      "title": "Điều kiện có hiệu lực của giao dịch dân sự",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "điều kiện có hiệu lực của giao dịch, năng lực hành vi, tự nguyện, không vi phạm điều cấm, hình thức"
+    },
+    {
+      "dieu": "118",
+      "title": "Mục đích của giao dịch dân sự",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "mục đích của giao dịch dân sự, lợi ích mong muốn, mục đích hợp pháp"
+    },
+    {
+      "dieu": "119",
+      "title": "Hình thức giao dịch dân sự",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "hình thức giao dịch dân sự, bằng lời nói văn bản, hợp đồng điện tử, công chứng chứng thực, đăng ký"
+    },
+    {
+      "dieu": "120",
+      "title": "Giao dịch dân sự có điều kiện",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "giao dịch dân sự có điều kiện, điều kiện phát sinh, điều kiện hủy bỏ, cố ý cản trở điều kiện"
+    },
+    {
+      "dieu": "121",
+      "title": "Giải thích giao dịch dân sự",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "giải thích giao dịch dân sự, hiểu theo nghĩa nào, ý chí các bên, điều khoản không rõ ràng"
+    },
+    {
+      "dieu": "122",
+      "title": "Giao dịch dân sự vô hiệu",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "giao dịch dân sự vô hiệu, không có hiệu lực, void transaction"
+    },
+    {
+      "dieu": "123",
+      "title": "Giao dịch dân sự vô hiệu do vi phạm điều cấm của luật, trái đạo đức xã hội",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "vô hiệu do vi phạm điều cấm của luật, trái đạo đức xã hội, hợp đồng trái luật"
+    },
+    {
+      "dieu": "124",
+      "title": "Giao dịch dân sự vô hiệu do giả tạo",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "vô hiệu do giả tạo, hợp đồng giả cách, che giấu giao dịch khác, trốn tránh nghĩa vụ, bán nhà giả cách"
+    },
+    {
+      "dieu": "125",
+      "title": "Giao dịch dân sự vô hiệu do người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi, người bị hạn chế năng lực hành vi dân sự xác lập, thực hiện",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "vô hiệu do người chưa thành niên xác lập, người mất năng lực hành vi, người đại diện yêu cầu, trẻ em mua bán"
+    },
+    {
+      "dieu": "126",
+      "title": "Giao dịch dân sự vô hiệu do bị nhầm lẫn",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "vô hiệu do nhầm lẫn, hiểu sai đối tượng, nhầm lẫn nội dung giao dịch, mistake"
+    },
+    {
+      "dieu": "127",
+      "title": "Giao dịch dân sự vô hiệu do bị lừa dối, đe dọa, cưỡng ép",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "vô hiệu do bị lừa dối đe dọa cưỡng ép, bị ép ký hợp đồng, gian dối thông tin, fraud duress"
+    },
+    {
+      "dieu": "128",
+      "title": "Giao dịch dân sự vô hiệu do người xác lập không nhận thức và làm chủ được hành vi của mình",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "vô hiệu do không nhận thức làm chủ hành vi, ký khi say rượu, mất tỉnh táo lúc ký"
+    },
+    {
+      "dieu": "129",
+      "title": "Giao dịch dân sự vô hiệu do không tuân thủ quy định về hình thức",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "vô hiệu do vi phạm về hình thức, không công chứng, đã thực hiện hai phần ba nghĩa vụ, tòa công nhận hiệu lực"
+    },
+    {
+      "dieu": "130",
+      "title": "Giao dịch dân sự vô hiệu từng phần",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "giao dịch vô hiệu từng phần, một phần hợp đồng vô hiệu, phần còn lại vẫn có hiệu lực"
+    },
+    {
+      "dieu": "131",
+      "title": "Hậu quả pháp lý của giao dịch dân sự vô hiệu",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "hậu quả pháp lý của giao dịch vô hiệu, hoàn trả cho nhau, khôi phục tình trạng ban đầu, bồi thường, hoa lợi lợi tức"
+    },
+    {
+      "dieu": "132",
+      "title": "Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "thời hiệu yêu cầu tuyên bố giao dịch vô hiệu, 2 năm, không hạn chế thời hiệu, hết thời hiệu thì có hiệu lực"
+    },
+    {
+      "dieu": "133",
+      "title": "Bảo vệ quyền lợi của người thứ ba ngay tình khi giao dịch dân sự vô hiệu",
+      "file": "chuong-08.md",
+      "chRoman": "VIII",
+      "keywords": "bảo vệ người thứ ba ngay tình, mua nhầm tài sản, đã đăng ký quyền sở hữu, đòi lại tài sản, người mua ngay tình"
+    },
+    {
+      "dieu": "134",
+      "title": "Đại diện",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "đại diện là gì, nhân danh người khác, đại diện theo pháp luật, đại diện theo ủy quyền, representation"
+    },
+    {
+      "dieu": "135",
+      "title": "Căn cứ xác lập quyền đại diện",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "căn cứ xác lập quyền đại diện, ủy quyền, quyết định của cơ quan, điều lệ pháp nhân"
+    },
+    {
+      "dieu": "136",
+      "title": "Đại diện theo pháp luật của cá nhân",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "đại diện theo pháp luật của cá nhân, cha mẹ đại diện cho con, người giám hộ, tòa chỉ định"
+    },
+    {
+      "dieu": "137",
+      "title": "Đại diện theo pháp luật của pháp nhân",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "đại diện theo pháp luật của pháp nhân, giám đốc, nhiều người đại diện, điều lệ công ty"
+    },
+    {
+      "dieu": "138",
+      "title": "Đại diện theo ủy quyền",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "đại diện theo ủy quyền, giấy ủy quyền, ủy quyền cho người khác, từ đủ 15 tuổi làm đại diện"
+    },
+    {
+      "dieu": "139",
+      "title": "Hậu quả pháp lý của hành vi đại diện",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "hậu quả pháp lý của hành vi đại diện, người được đại diện chịu trách nhiệm, biết phạm vi đại diện"
+    },
+    {
+      "dieu": "140",
+      "title": "Thời hạn đại diện",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "thời hạn đại diện, hết hạn ủy quyền, chấm dứt đại diện, hủy bỏ ủy quyền, người đại diện chết"
+    },
+    {
+      "dieu": "141",
+      "title": "Phạm vi đại diện",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "phạm vi đại diện, vượt quá phạm vi, một người đại diện cho nhiều bên, giới hạn ủy quyền"
+    },
+    {
+      "dieu": "142",
+      "title": "Hậu quả của giao dịch dân sự do người không có quyền đại diện xác lập, thực hiện",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "giao dịch do người không có quyền đại diện xác lập, ký thay không có ủy quyền, công nhận giao dịch, bồi thường"
+    },
+    {
+      "dieu": "143",
+      "title": "Hậu quả của giao dịch dân sự do người đại diện xác lập, thực hiện vượt quá phạm vi đại diện",
+      "file": "chuong-09.md",
+      "chRoman": "IX",
+      "keywords": "giao dịch vượt quá phạm vi đại diện, ký vượt quyền, phần vượt quá không phát sinh nghĩa vụ, bồi thường"
+    },
+    {
+      "dieu": "144",
+      "title": "Thời hạn",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thời hạn là gì, tính bằng phút giờ ngày tháng năm, sự kiện xảy ra, thời hạn hợp đồng"
+    },
+    {
+      "dieu": "145",
+      "title": "Áp dụng cách tính thời hạn",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "cách tính thời hạn, áp dụng quy định về thời hạn, thỏa thuận khác"
+    },
+    {
+      "dieu": "146",
+      "title": "Quy định về thời hạn, thời điểm tính thời hạn",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "quy định về thời hạn, thời điểm tính thời hạn, đầu tháng giữa tháng cuối tháng, một năm là bao nhiêu ngày"
+    },
+    {
+      "dieu": "147",
+      "title": "Thời điểm bắt đầu thời hạn",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thời điểm bắt đầu thời hạn, không tính ngày đầu tiên, bắt đầu bằng sự kiện"
+    },
+    {
+      "dieu": "148",
+      "title": "Kết thúc thời hạn",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "kết thúc thời hạn, ngày cuối cùng, ngày nghỉ ngày lễ, hết hạn lúc 24 giờ"
+    },
+    {
+      "dieu": "149",
+      "title": "Thời hiệu",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thời hiệu là gì, hết thời hiệu mất quyền, thời hạn do luật quy định, statute of limitations"
+    },
+    {
+      "dieu": "150",
+      "title": "Các loại thời hiệu",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "các loại thời hiệu, thời hiệu hưởng quyền, thời hiệu miễn trừ nghĩa vụ, thời hiệu khởi kiện, thời hiệu yêu cầu"
+    },
+    {
+      "dieu": "151",
+      "title": "Cách tính thời hiệu",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "cách tính thời hiệu, bắt đầu từ thời điểm nào, tính theo dương lịch, kết thúc thời hiệu"
+    },
+    {
+      "dieu": "152",
+      "title": "Hiệu lực của thời hiệu hưởng quyền dân sự, miễn trừ nghĩa vụ dân sự",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "hiệu lực của thời hiệu hưởng quyền, miễn trừ nghĩa vụ, tài sản của nhà nước, không áp dụng"
+    },
+    {
+      "dieu": "153",
+      "title": "Tính liên tục của thời hiệu hưởng quyền dân sự, miễn trừ nghĩa vụ dân sự",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "tính liên tục của thời hiệu, gián đoạn thời hiệu, chuyển giao tài sản, thời hiệu tính lại"
+    },
+    {
+      "dieu": "154",
+      "title": "Bắt đầu thời hiệu khởi kiện vụ án dân sự, thời hiệu yêu cầu giải quyết việc dân sự",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "bắt đầu thời hiệu khởi kiện, biết quyền bị xâm phạm, ngày bắt đầu tính, thời hiệu yêu cầu giải quyết việc dân sự"
+    },
+    {
+      "dieu": "155",
+      "title": "Không áp dụng thời hiệu khởi kiện",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "không áp dụng thời hiệu khởi kiện, quyền nhân thân, quyền sở hữu, đòi lại tài sản, tranh chấp quyền sử dụng đất"
+    },
+    {
+      "dieu": "156",
+      "title": "Thời gian không tính vào thời hiệu khởi kiện vụ án dân sự, thời hiệu yêu cầu giải quyết việc dân sự",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "thời gian không tính vào thời hiệu, sự kiện bất khả kháng, trở ngại khách quan, chưa có người đại diện"
+    },
+    {
+      "dieu": "157",
+      "title": "Bắt đầu lại thời hiệu khởi kiện vụ án dân sự",
+      "file": "chuong-10.md",
+      "chRoman": "X",
+      "keywords": "bắt đầu lại thời hiệu khởi kiện, bên có nghĩa vụ thừa nhận nợ, trả một phần nợ, hai bên tự hòa giải"
+    },
+    {
+      "dieu": "158",
+      "title": "Quyền sở hữu",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "quyền sở hữu là gì, chiếm hữu sử dụng định đoạt, quyền của chủ sở hữu, ownership"
+    },
+    {
+      "dieu": "159",
+      "title": "Quyền khác đối với tài sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "quyền khác đối với tài sản, quyền với bất động sản liền kề, quyền hưởng dụng, quyền bề mặt"
+    },
+    {
+      "dieu": "160",
+      "title": "Nguyên tắc xác lập, thực hiện quyền sở hữu, quyền khác đối với tài sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "nguyên tắc xác lập quyền sở hữu, không được gây thiệt hại, tôn trọng quyền người khác"
+    },
+    {
+      "dieu": "161",
+      "title": "Thời điểm xác lập quyền sở hữu, quyền khác đối với tài sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "thời điểm xác lập quyền sở hữu, khi chuyển giao tài sản, khi đăng ký, chịu rủi ro từ khi nào"
+    },
+    {
+      "dieu": "162",
+      "title": "Chịu rủi ro về tài sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "chịu rủi ro về tài sản, tài sản bị mất hư hỏng, rủi ro thuộc về ai, thiên tai"
+    },
+    {
+      "dieu": "163",
+      "title": "Bảo vệ quyền sở hữu, quyền khác đối với tài sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "bảo vệ quyền sở hữu, không bị hạn chế tước đoạt, trưng mua trưng dụng, bồi thường"
+    },
+    {
+      "dieu": "164",
+      "title": "Biện pháp bảo vệ quyền sở hữu, quyền khác đối với tài sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "biện pháp bảo vệ quyền sở hữu, tự bảo vệ, yêu cầu tòa án, đòi lại tài sản, chấm dứt hành vi cản trở"
+    },
+    {
+      "dieu": "165",
+      "title": "Chiếm hữu có căn cứ pháp luật",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "chiếm hữu có căn cứ pháp luật, chủ sở hữu, được ủy quyền, thông qua giao dịch, chiếm hữu ngay tình"
+    },
+    {
+      "dieu": "166",
+      "title": "Quyền đòi lại tài sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "quyền đòi lại tài sản, kiện đòi tài sản, người chiếm hữu không có căn cứ, chủ sở hữu đòi lại"
+    },
+    {
+      "dieu": "167",
+      "title": "Quyền đòi lại động sản không phải đăng ký quyền sở hữu từ người chiếm hữu ngay tình",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "đòi lại động sản không phải đăng ký từ người ngay tình, hợp đồng không đền bù, bị mất bị trộm"
+    },
+    {
+      "dieu": "168",
+      "title": "Quyền đòi lại động sản phải đăng ký quyền sở hữu hoặc bất động sản từ người chiếm hữu ngay tình",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "đòi lại động sản phải đăng ký hoặc bất động sản từ người ngay tình, xe ô tô nhà đất, người thứ ba ngay tình"
+    },
+    {
+      "dieu": "169",
+      "title": "Quyền yêu cầu chấm dứt hành vi cản trở trái pháp luật đối với việc thực hiện quyền sở hữu, quyền khác đối với tài sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "yêu cầu chấm dứt hành vi cản trở, gây khó dễ sử dụng tài sản, cản trở lối đi, chấm dứt vi phạm"
+    },
+    {
+      "dieu": "170",
+      "title": "Quyền yêu cầu bồi thường thiệt hại",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "quyền yêu cầu bồi thường thiệt hại, tài sản bị hư hỏng, người xâm phạm bồi thường"
+    },
+    {
+      "dieu": "171",
+      "title": "Quyền và nghĩa vụ của chủ sở hữu, chủ thể có quyền khác đối với tài sản trong trường hợp xảy ra tình thế cấp thiết",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "tình thế cấp thiết, phá tài sản để chống thiệt hại lớn hơn, cháy nổ, bồi thường trong tình thế cấp thiết"
+    },
+    {
+      "dieu": "172",
+      "title": "Nghĩa vụ bảo vệ môi trường",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "nghĩa vụ bảo vệ môi trường, gây ô nhiễm, xả thải, khắc phục môi trường, bồi thường"
+    },
+    {
+      "dieu": "173",
+      "title": "Nghĩa vụ tôn trọng, bảo đảm trật tự, an toàn xã hội",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "nghĩa vụ tôn trọng trật tự an toàn xã hội, gây ồn, ảnh hưởng hàng xóm, an toàn công cộng"
+    },
+    {
+      "dieu": "174",
+      "title": "Nghĩa vụ tôn trọng quy tắc xây dựng",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "nghĩa vụ tôn trọng quy tắc xây dựng, xây nhà đúng phép, bảo đảm an toàn cho nhà bên cạnh, lún nứt nhà hàng xóm"
+    },
+    {
+      "dieu": "175",
+      "title": "Ranh giới giữa các bất động sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "ranh giới giữa các bất động sản, mốc giới đất, lấn ranh, cây cối vượt ranh giới, tranh chấp ranh đất"
+    },
+    {
+      "dieu": "176",
+      "title": "Mốc giới ngăn cách các bất động sản",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "mốc giới ngăn cách, xây tường rào chung, cột mốc hàng rào, chi phí xây tường chung"
+    },
+    {
+      "dieu": "177",
+      "title": "Bảo đảm an toàn trong trường hợp cây cối, công trình có nguy cơ gây thiệt hại",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "cây cối công trình có nguy cơ gây thiệt hại, cây nghiêng đổ, nhà sắp sập, buộc chặt cây phá dỡ"
+    },
+    {
+      "dieu": "178",
+      "title": "Trổ cửa nhìn sang bất động sản liền kề",
+      "file": "chuong-11.md",
+      "chRoman": "XI",
+      "keywords": "trổ cửa nhìn sang bất động sản liền kề, mở cửa sổ, ban công nhìn sang nhà bên, khoảng cách trổ cửa"
+    },
+    {
+      "dieu": "179",
+      "title": "Khái niệm chiếm hữu",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "khái niệm chiếm hữu, nắm giữ chi phối tài sản, chiếm hữu của chủ sở hữu, possession"
+    },
+    {
+      "dieu": "180",
+      "title": "Chiếm hữu ngay tình",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "chiếm hữu ngay tình, không biết mình không có quyền, người ngay tình, good faith"
+    },
+    {
+      "dieu": "181",
+      "title": "Chiếm hữu không ngay tình",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "chiếm hữu không ngay tình, biết mình không có quyền, chiếm giữ trái phép"
+    },
+    {
+      "dieu": "182",
+      "title": "Chiếm hữu liên tục",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "chiếm hữu liên tục, chiếm giữ liên tục 30 năm, không có tranh chấp, tính liên tục"
+    },
+    {
+      "dieu": "183",
+      "title": "Chiếm hữu công khai",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "chiếm hữu công khai, minh bạch không giấu giếm, chiếm hữu công khai đúng tính năng"
+    },
+    {
+      "dieu": "184",
+      "title": "Suy đoán về tình trạng và quyền của người chiếm hữu",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "suy đoán tình trạng chiếm hữu, suy đoán ngay tình, ai chứng minh, người chiếm hữu được suy đoán là chủ"
+    },
+    {
+      "dieu": "185",
+      "title": "Bảo vệ việc chiếm hữu",
+      "file": "chuong-12.md",
+      "chRoman": "XII",
+      "keywords": "bảo vệ việc chiếm hữu, bị chiếm giữ cản trở trái phép, yêu cầu trả lại, tòa bảo vệ người chiếm hữu"
+    },
+    {
+      "dieu": "186",
+      "title": "Quyền chiếm hữu của chủ sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền chiếm hữu của chủ sở hữu, nắm giữ tài sản, chi phối tài sản của mình"
+    },
+    {
+      "dieu": "187",
+      "title": "Quyền chiếm hữu của người được chủ sở hữu ủy quyền quản lý tài sản",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền chiếm hữu của người được ủy quyền quản lý, giữ hộ tài sản, không trở thành chủ sở hữu"
+    },
+    {
+      "dieu": "188",
+      "title": "Quyền chiếm hữu của người được giao tài sản thông qua giao dịch dân sự",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền chiếm hữu của người được giao tài sản qua giao dịch, thuê mượn tài sản, giao dịch dân sự"
+    },
+    {
+      "dieu": "189",
+      "title": "Quyền sử dụng",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền sử dụng, khai thác công dụng, hưởng hoa lợi lợi tức, right to use"
+    },
+    {
+      "dieu": "190",
+      "title": "Quyền sử dụng của chủ sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền sử dụng của chủ sở hữu, khai thác tài sản, không gây thiệt hại"
+    },
+    {
+      "dieu": "191",
+      "title": "Quyền sử dụng của người không phải là chủ sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền sử dụng của người không phải chủ sở hữu, người thuê, theo thỏa thuận, theo quy định"
+    },
+    {
+      "dieu": "192",
+      "title": "Quyền định đoạt",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền định đoạt, bán tặng cho, tiêu dùng tiêu hủy, chuyển quyền sở hữu"
+    },
+    {
+      "dieu": "193",
+      "title": "Điều kiện thực hiện quyền định đoạt",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "điều kiện thực hiện quyền định đoạt, năng lực hành vi, đúng trình tự thủ tục, công chứng"
+    },
+    {
+      "dieu": "194",
+      "title": "Quyền định đoạt của chủ sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền định đoạt của chủ sở hữu, bán trao đổi tặng cho, cho vay để thừa kế, từ bỏ tài sản"
+    },
+    {
+      "dieu": "195",
+      "title": "Quyền định đoạt của người không phải là chủ sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền định đoạt của người không phải chủ sở hữu, được ủy quyền bán, theo quy định của luật"
+    },
+    {
+      "dieu": "196",
+      "title": "Hạn chế quyền định đoạt",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "hạn chế quyền định đoạt, tài sản bị kê biên, di tích lịch sử, quyền ưu tiên mua của nhà nước"
+    },
+    {
+      "dieu": "197",
+      "title": "Tài sản thuộc sở hữu toàn dân",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản thuộc sở hữu toàn dân, đất đai tài nguyên, tài sản công, vùng biển vùng trời"
+    },
+    {
+      "dieu": "198",
+      "title": "Thực hiện quyền của chủ sở hữu đối với tài sản thuộc sở hữu toàn dân",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "thực hiện quyền của chủ sở hữu toàn dân, nhà nước đại diện, chính phủ quản lý"
+    },
+    {
+      "dieu": "199",
+      "title": "Chiếm hữu, sử dụng, định đoạt tài sản thuộc sở hữu toàn dân",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "chiếm hữu sử dụng định đoạt tài sản sở hữu toàn dân, theo thẩm quyền, đúng mục đích, tài sản công"
+    },
+    {
+      "dieu": "200",
+      "title": "Thực hiện quyền sở hữu toàn dân đối với tài sản được đầu tư vào doanh nghiệp",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản toàn dân đầu tư vào doanh nghiệp, vốn nhà nước tại doanh nghiệp, quyền của nhà nước"
+    },
+    {
+      "dieu": "201",
+      "title": "Thực hiện quyền sở hữu toàn dân đối với tài sản được giao cho cơ quan nhà nước, đơn vị vũ trang nhân dân",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản toàn dân giao cho cơ quan nhà nước, đơn vị vũ trang, quản lý sử dụng tài sản công"
+    },
+    {
+      "dieu": "202",
+      "title": "Thực hiện quyền sở hữu toàn dân đối với tài sản được giao cho tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản toàn dân giao cho tổ chức chính trị xã hội, quản lý sử dụng, đúng mục đích"
+    },
+    {
+      "dieu": "203",
+      "title": "Quyền của cá nhân, pháp nhân đối với việc sử dụng, khai thác tài sản thuộc sở hữu toàn dân",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quyền của cá nhân pháp nhân khai thác tài sản toàn dân, giao đất cho thuê đất, khai thác tài nguyên"
+    },
+    {
+      "dieu": "204",
+      "title": "Tài sản thuộc sở hữu toàn dân chưa được giao cho cá nhân, pháp nhân quản lý",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản toàn dân chưa giao cho ai quản lý, chính phủ quản lý, tài sản chưa giao"
+    },
+    {
+      "dieu": "205",
+      "title": "Sở hữu riêng và tài sản thuộc sở hữu riêng",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu riêng, tài sản của một cá nhân một pháp nhân, tài sản riêng, không hạn chế số lượng"
+    },
+    {
+      "dieu": "206",
+      "title": "Chiếm hữu, sử dụng, định đoạt tài sản thuộc sở hữu riêng",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "chiếm hữu sử dụng định đoạt tài sản riêng, toàn quyền với tài sản của mình, không gây thiệt hại"
+    },
+    {
+      "dieu": "207",
+      "title": "Sở hữu chung và các loại sở hữu chung",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu chung, sở hữu chung theo phần, sở hữu chung hợp nhất, nhiều người cùng sở hữu, co-ownership"
+    },
+    {
+      "dieu": "208",
+      "title": "Xác lập quyền sở hữu chung",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu chung, theo thỏa thuận, theo luật, cùng nhận tài sản"
+    },
+    {
+      "dieu": "209",
+      "title": "Sở hữu chung theo phần",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu chung theo phần, phần quyền của mỗi người, góp tiền mua chung, chia theo tỷ lệ"
+    },
+    {
+      "dieu": "210",
+      "title": "Sở hữu chung hợp nhất",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu chung hợp nhất, không phân chia phần, tài sản vợ chồng, quyền ngang nhau"
+    },
+    {
+      "dieu": "211",
+      "title": "Sở hữu chung của cộng đồng",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu chung của cộng đồng, tài sản của dòng họ, đình chùa, tài sản chung thôn làng"
+    },
+    {
+      "dieu": "212",
+      "title": "Sở hữu chung của các thành viên gia đình",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu chung của các thành viên gia đình, tài sản chung hộ gia đình, định đoạt bất động sản, đồng ý của tất cả thành viên"
+    },
+    {
+      "dieu": "213",
+      "title": "Sở hữu chung của vợ chồng",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu chung của vợ chồng, tài sản chung vợ chồng, chia tài sản khi ly hôn, định đoạt tài sản chung"
+    },
+    {
+      "dieu": "214",
+      "title": "Sở hữu chung trong nhà chung cư",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu chung trong nhà chung cư, phần sở hữu chung, hành lang thang máy, không được phân chia, phí bảo trì"
+    },
+    {
+      "dieu": "215",
+      "title": "Sở hữu chung hỗn hợp",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sở hữu chung hỗn hợp, vốn góp nhiều chủ thể, doanh nghiệp liên doanh"
+    },
+    {
+      "dieu": "216",
+      "title": "Quản lý tài sản chung",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "quản lý tài sản chung, các chủ sở hữu cùng quản lý, ủy quyền quản lý"
+    },
+    {
+      "dieu": "217",
+      "title": "Sử dụng tài sản chung",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "sử dụng tài sản chung, khai thác tài sản chung, hưởng hoa lợi theo phần, thỏa thuận sử dụng"
+    },
+    {
+      "dieu": "218",
+      "title": "Định đoạt tài sản chung",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "định đoạt tài sản chung, bán tài sản chung, quyền ưu tiên mua của đồng sở hữu, bán phần quyền"
+    },
+    {
+      "dieu": "219",
+      "title": "Chia tài sản thuộc sở hữu chung",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "chia tài sản thuộc sở hữu chung, chia tài sản chung, chia bằng hiện vật hoặc tiền, chủ nợ yêu cầu chia"
+    },
+    {
+      "dieu": "220",
+      "title": "Chấm dứt sở hữu chung",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "chấm dứt sở hữu chung, tài sản đã chia, một chủ sở hữu còn lại, tài sản bị tiêu hủy"
+    },
+    {
+      "dieu": "221",
+      "title": "Căn cứ xác lập quyền sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "căn cứ xác lập quyền sở hữu, do lao động, do hợp đồng, do thừa kế, theo bản án"
+    },
+    {
+      "dieu": "222",
+      "title": "Xác lập quyền sở hữu đối với tài sản có được từ lao động, hoạt động sản xuất, kinh doanh hợp pháp, hoạt động sáng tạo ra đối tượng quyền sở hữu trí tuệ",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu do lao động sản xuất kinh doanh, tài sản làm ra, quyền sở hữu trí tuệ"
+    },
+    {
+      "dieu": "223",
+      "title": "Xác lập quyền sở hữu theo hợp đồng",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu theo hợp đồng, mua bán tặng cho trao đổi, chuyển quyền sở hữu"
+    },
+    {
+      "dieu": "224",
+      "title": "Xác lập quyền sở hữu đối với hoa lợi, lợi tức",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu với hoa lợi lợi tức, trái cây thu được, tiền cho thuê, người sử dụng hưởng"
+    },
+    {
+      "dieu": "225",
+      "title": "Xác lập quyền sở hữu trong trường hợp sáp nhập",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu khi sáp nhập tài sản, tài sản gắn liền nhau, thanh toán giá trị, sáp nhập vật"
+    },
+    {
+      "dieu": "226",
+      "title": "Xác lập quyền sở hữu trong trường hợp trộn lẫn",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu khi trộn lẫn, trộn tài sản của hai người, sở hữu chung, bồi thường"
+    },
+    {
+      "dieu": "227",
+      "title": "Xác lập quyền sở hữu trong trường hợp chế biến",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu khi chế biến, gia công thành vật mới, người chế biến ngay tình, thanh toán công sức"
+    },
+    {
+      "dieu": "228",
+      "title": "Xác lập quyền sở hữu đối với tài sản vô chủ, tài sản không xác định được chủ sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản vô chủ, tài sản không xác định được chủ, nhặt được của rơi, giao nộp UBND xã, một năm không tìm được chủ"
+    },
+    {
+      "dieu": "229",
+      "title": "Xác lập quyền sở hữu đối với tài sản bị chôn, giấu, bị vùi lấp, chìm đắm được tìm thấy",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản bị chôn giấu vùi lấp chìm đắm, đào được vàng, tìm thấy cổ vật, di tích lịch sử, chia phần thưởng"
+    },
+    {
+      "dieu": "230",
+      "title": "Xác lập quyền sở hữu đối với tài sản do người khác đánh rơi, bỏ quên",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "nhặt được của rơi, tài sản do người khác đánh rơi bỏ quên, giao nộp công an, một năm không ai nhận, mười lần lương cơ sở"
+    },
+    {
+      "dieu": "231",
+      "title": "Xác lập quyền sở hữu đối với gia súc bị thất lạc",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "gia súc bị thất lạc, bắt được trâu bò, nuôi giữ báo UBND xã, sáu tháng không ai nhận, chi phí nuôi giữ"
+    },
+    {
+      "dieu": "232",
+      "title": "Xác lập quyền sở hữu đối với gia cầm bị thất lạc",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "gia cầm bị thất lạc, bắt được gà vịt, một tháng không ai nhận, hưởng hoa lợi"
+    },
+    {
+      "dieu": "233",
+      "title": "Xác lập quyền sở hữu đối với vật nuôi dưới nước",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "vật nuôi dưới nước, cá bơi vào ruộng ao, tôm cá thất lạc, xác lập quyền sở hữu"
+    },
+    {
+      "dieu": "234",
+      "title": "Xác lập quyền sở hữu do được thừa kế",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu do được thừa kế, nhận di sản, thừa kế tài sản"
+    },
+    {
+      "dieu": "235",
+      "title": "Xác lập quyền sở hữu theo bản án, quyết định của Tòa án, cơ quan nhà nước có thẩm quyền khác",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu theo bản án quyết định, tòa án tuyên, quyết định cơ quan nhà nước"
+    },
+    {
+      "dieu": "236",
+      "title": "Xác lập quyền sở hữu theo thời hiệu do chiếm hữu, được lợi về tài sản không có căn cứ pháp luật",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xác lập quyền sở hữu theo thời hiệu, chiếm hữu ngay tình liên tục công khai, 10 năm động sản, 30 năm bất động sản"
+    },
+    {
+      "dieu": "237",
+      "title": "Căn cứ chấm dứt quyền sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "căn cứ chấm dứt quyền sở hữu, bán tặng cho, từ bỏ, tài sản bị tiêu hủy, bị tịch thu"
+    },
+    {
+      "dieu": "238",
+      "title": "Chủ sở hữu chuyển giao quyền sở hữu của mình cho người khác",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "chuyển giao quyền sở hữu cho người khác, bán tặng cho trao đổi, thời điểm chấm dứt quyền"
+    },
+    {
+      "dieu": "239",
+      "title": "Từ bỏ quyền sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "từ bỏ quyền sở hữu, vứt bỏ tài sản, tuyên bố từ bỏ, không gây hại môi trường"
+    },
+    {
+      "dieu": "240",
+      "title": "Tài sản đã được xác lập quyền sở hữu cho người khác",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản đã xác lập quyền sở hữu cho người khác, mất quyền sở hữu, người khác xác lập quyền"
+    },
+    {
+      "dieu": "241",
+      "title": "Xử lý tài sản để thực hiện nghĩa vụ của chủ sở hữu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "xử lý tài sản để thực hiện nghĩa vụ, kê biên bán đấu giá, trả nợ bằng tài sản, thi hành án"
+    },
+    {
+      "dieu": "242",
+      "title": "Tài sản được tiêu dùng hoặc bị tiêu hủy",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản được tiêu dùng hoặc bị tiêu hủy, dùng hết tài sản, tài sản cháy hỏng"
+    },
+    {
+      "dieu": "243",
+      "title": "Tài sản bị trưng mua",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản bị trưng mua, nhà nước trưng mua, bồi thường theo giá thị trường, lý do quốc phòng"
+    },
+    {
+      "dieu": "244",
+      "title": "Tài sản bị tịch thu",
+      "file": "chuong-13.md",
+      "chRoman": "XIII",
+      "keywords": "tài sản bị tịch thu, tịch thu sung công, vi phạm pháp luật, quyết định tịch thu"
+    },
+    {
+      "dieu": "245",
+      "title": "Quyền đối với bất động sản liền kề",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền đối với bất động sản liền kề, quyền địa dịch, đất liền kề, lối đi cấp thoát nước, easement"
+    },
+    {
+      "dieu": "246",
+      "title": "Căn cứ xác lập quyền đối với bất động sản liền kề",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "căn cứ xác lập quyền với bất động sản liền kề, theo địa thế tự nhiên, theo thỏa thuận, theo di chúc"
+    },
+    {
+      "dieu": "247",
+      "title": "Hiệu lực của quyền đối với bất động sản liền kề",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "hiệu lực quyền với bất động sản liền kề, chuyển nhượng đất vẫn giữ quyền, người mua đất kế thừa"
+    },
+    {
+      "dieu": "248",
+      "title": "Nguyên tắc thực hiện quyền đối với bất động sản liền kề",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "nguyên tắc thực hiện quyền với bất động sản liền kề, hợp lý không gây cản trở, thỏa thuận sử dụng"
+    },
+    {
+      "dieu": "249",
+      "title": "Thay đổi việc thực hiện quyền đối với bất động sản liền kề",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "thay đổi việc thực hiện quyền bất động sản liền kề, thay đổi lối đi, thay đổi vị trí, chi phí thay đổi"
+    },
+    {
+      "dieu": "250",
+      "title": "Nghĩa vụ của chủ sở hữu trong việc thoát nước mưa",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "nghĩa vụ thoát nước mưa, nước mưa chảy sang nhà bên, mái nhà thoát nước, lắp đặt máng"
+    },
+    {
+      "dieu": "251",
+      "title": "Nghĩa vụ của chủ sở hữu trong việc thoát nước thải",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "nghĩa vụ thoát nước thải, nước thải sang nhà hàng xóm, đường ống nước thải, ô nhiễm"
+    },
+    {
+      "dieu": "252",
+      "title": "Quyền về cấp, thoát nước qua bất động sản liền kề",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền cấp thoát nước qua bất động sản liền kề, đi ống nước qua đất người khác, đền bù thiệt hại"
+    },
+    {
+      "dieu": "253",
+      "title": "Quyền về tưới nước, tiêu nước trong canh tác",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền tưới nước tiêu nước trong canh tác, dẫn nước qua ruộng người khác, thủy lợi, đất nông nghiệp"
+    },
+    {
+      "dieu": "254",
+      "title": "Quyền về lối đi qua",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền về lối đi qua, mở lối đi qua đất người khác, đất không có lối ra đường công cộng, đền bù lối đi, đất kẹt"
+    },
+    {
+      "dieu": "255",
+      "title": "Mắc đường dây tải điện, thông tin liên lạc qua bất động sản khác",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "mắc đường dây tải điện thông tin qua bất động sản khác, kéo điện qua đất người khác, cáp viễn thông, đền bù"
+    },
+    {
+      "dieu": "256",
+      "title": "Chấm dứt quyền đối với bất động sản liền kề",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "chấm dứt quyền với bất động sản liền kề, nhập làm một, không còn nhu cầu sử dụng, chấm dứt địa dịch"
+    },
+    {
+      "dieu": "257",
+      "title": "Quyền hưởng dụng",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền hưởng dụng, khai thác tài sản của người khác, hưởng hoa lợi lợi tức, usufruct"
+    },
+    {
+      "dieu": "258",
+      "title": "Căn cứ xác lập quyền hưởng dụng",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "căn cứ xác lập quyền hưởng dụng, theo luật, theo thỏa thuận, theo di chúc"
+    },
+    {
+      "dieu": "259",
+      "title": "Hiệu lực của quyền hưởng dụng",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "hiệu lực quyền hưởng dụng, thời điểm phát sinh, đăng ký, hiệu lực với người thứ ba"
+    },
+    {
+      "dieu": "260",
+      "title": "Thời hạn của quyền hưởng dụng",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "thời hạn quyền hưởng dụng, tối đa đến hết đời người hưởng dụng, ba mươi năm với pháp nhân"
+    },
+    {
+      "dieu": "261",
+      "title": "Quyền của người hưởng dụng",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền của người hưởng dụng, tự khai thác cho thuê, yêu cầu bảo vệ, hưởng hoa lợi"
+    },
+    {
+      "dieu": "262",
+      "title": "Nghĩa vụ của người hưởng dụng",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "nghĩa vụ của người hưởng dụng, giữ gìn tài sản, sửa chữa bảo dưỡng, hoàn trả khi hết hạn"
+    },
+    {
+      "dieu": "263",
+      "title": "Quyền và nghĩa vụ của chủ sở hữu tài sản",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền nghĩa vụ chủ sở hữu khi có quyền hưởng dụng, định đoạt tài sản, không cản trở người hưởng dụng"
+    },
+    {
+      "dieu": "264",
+      "title": "Quyền hưởng hoa lợi, lợi tức",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền hưởng hoa lợi lợi tức, hoa lợi khi chấm dứt quyền hưởng dụng, chia hoa lợi"
+    },
+    {
+      "dieu": "265",
+      "title": "Chấm dứt quyền hưởng dụng",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "chấm dứt quyền hưởng dụng, hết thời hạn, người hưởng dụng chết, tài sản bị tiêu hủy, từ bỏ quyền"
+    },
+    {
+      "dieu": "266",
+      "title": "Hoàn trả tài sản khi chấm dứt quyền hưởng dụng",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "hoàn trả tài sản khi chấm dứt hưởng dụng, trả lại tài sản, tình trạng tài sản, bồi thường hư hỏng"
+    },
+    {
+      "dieu": "267",
+      "title": "Quyền bề mặt",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "quyền bề mặt, xây dựng trên đất người khác, quyền với mặt đất mặt nước lòng đất, surface right"
+    },
+    {
+      "dieu": "268",
+      "title": "Căn cứ xác lập quyền bề mặt",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "căn cứ xác lập quyền bề mặt, theo luật, chuyển nhượng, di chúc, thỏa thuận"
+    },
+    {
+      "dieu": "269",
+      "title": "Hiệu lực của quyền bề mặt",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "hiệu lực quyền bề mặt, thời điểm có hiệu lực, hiệu lực với người thứ ba"
+    },
+    {
+      "dieu": "270",
+      "title": "Thời hạn của quyền bề mặt",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "thời hạn quyền bề mặt, thời hạn thỏa thuận, không quá thời hạn quyền sử dụng đất, ba mươi năm"
+    },
+    {
+      "dieu": "271",
+      "title": "Nội dung của quyền bề mặt",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "nội dung quyền bề mặt, xây dựng công trình, trồng cây canh tác, chuyển nhượng để thừa kế"
+    },
+    {
+      "dieu": "272",
+      "title": "Chấm dứt quyền bề mặt",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "chấm dứt quyền bề mặt, hết thời hạn, chủ thể trùng nhau, từ bỏ quyền, thu hồi đất"
+    },
+    {
+      "dieu": "273",
+      "title": "Xử lý tài sản khi quyền bề mặt chấm dứt",
+      "file": "chuong-14.md",
+      "chRoman": "XIV",
+      "keywords": "xử lý tài sản khi quyền bề mặt chấm dứt, trả lại đất, tháo dỡ công trình, chi phí xử lý tài sản"
+    },
+    {
+      "dieu": "274",
+      "title": "Nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ là gì, bên có nghĩa vụ bên có quyền, chuyển giao vật trả tiền, obligation"
+    },
+    {
+      "dieu": "275",
+      "title": "Căn cứ phát sinh nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "căn cứ phát sinh nghĩa vụ, hợp đồng, hành vi pháp lý đơn phương, gây thiệt hại, chiếm hữu không căn cứ"
+    },
+    {
+      "dieu": "276",
+      "title": "Đối tượng của nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "đối tượng của nghĩa vụ, tài sản công việc phải làm, công việc không được làm, xác định được"
+    },
+    {
+      "dieu": "277",
+      "title": "Địa điểm thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "địa điểm thực hiện nghĩa vụ, giao hàng ở đâu, nơi cư trú bên có quyền, nơi có bất động sản"
+    },
+    {
+      "dieu": "278",
+      "title": "Thời hạn thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thời hạn thực hiện nghĩa vụ, khi nào phải trả, thực hiện trước hạn, yêu cầu thực hiện bất cứ lúc nào"
+    },
+    {
+      "dieu": "279",
+      "title": "Thực hiện nghĩa vụ giao vật",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện nghĩa vụ giao vật, giao đúng vật, vật đặc định vật cùng loại, chi phí giao vật"
+    },
+    {
+      "dieu": "280",
+      "title": "Thực hiện nghĩa vụ trả tiền",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện nghĩa vụ trả tiền, trả đủ đúng hạn, trả tiền lãi, nợ tiền"
+    },
+    {
+      "dieu": "281",
+      "title": "Nghĩa vụ phải thực hiện hoặc không được thực hiện một công việc",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ phải làm hoặc không được làm một công việc, thực hiện công việc, vi phạm điều cấm trong hợp đồng"
+    },
+    {
+      "dieu": "282",
+      "title": "Thực hiện nghĩa vụ theo định kỳ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện nghĩa vụ theo định kỳ, trả góp hàng tháng, chậm một kỳ, nghĩa vụ định kỳ"
+    },
+    {
+      "dieu": "283",
+      "title": "Thực hiện nghĩa vụ thông qua người thứ ba",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện nghĩa vụ thông qua người thứ ba, nhờ người khác làm thay, vẫn chịu trách nhiệm"
+    },
+    {
+      "dieu": "284",
+      "title": "Thực hiện nghĩa vụ có điều kiện",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện nghĩa vụ có điều kiện, điều kiện phát sinh nghĩa vụ, khi điều kiện xảy ra"
+    },
+    {
+      "dieu": "285",
+      "title": "Thực hiện nghĩa vụ có đối tượng tùy ý lựa chọn",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ có đối tượng tùy ý lựa chọn, chọn một trong nhiều tài sản, quyền lựa chọn"
+    },
+    {
+      "dieu": "286",
+      "title": "Thực hiện nghĩa vụ thay thế được",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện nghĩa vụ thay thế được, thay bằng nghĩa vụ khác, bên có quyền đồng ý"
+    },
+    {
+      "dieu": "287",
+      "title": "Thực hiện nghĩa vụ riêng rẽ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện nghĩa vụ riêng rẽ, nhiều người mỗi người một phần, nghĩa vụ độc lập"
+    },
+    {
+      "dieu": "288",
+      "title": "Thực hiện nghĩa vụ liên đới",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện nghĩa vụ liên đới, nhiều người cùng trả nợ, đòi bất kỳ ai, joint and several liability"
+    },
+    {
+      "dieu": "289",
+      "title": "Thực hiện nghĩa vụ đối với nhiều người có quyền liên đới",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ với nhiều người có quyền liên đới, nhiều chủ nợ liên đới, trả cho một người"
+    },
+    {
+      "dieu": "290",
+      "title": "Thực hiện nghĩa vụ phân chia được theo phần",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ phân chia được theo phần, chia nghĩa vụ thành nhiều phần, thực hiện từng phần"
+    },
+    {
+      "dieu": "291",
+      "title": "Thực hiện nghĩa vụ không phân chia được theo phần",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ không phân chia được theo phần, phải thực hiện cùng lúc, nghĩa vụ nguyên vẹn"
+    },
+    {
+      "dieu": "292",
+      "title": "Biện pháp bảo đảm thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "biện pháp bảo đảm thực hiện nghĩa vụ, cầm cố thế chấp đặt cọc, bảo lãnh tín chấp, cầm giữ bảo lưu"
+    },
+    {
+      "dieu": "293",
+      "title": "Phạm vi nghĩa vụ được bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "phạm vi nghĩa vụ được bảo đảm, bảo đảm một phần toàn bộ, tiền lãi tiền phạt, bồi thường thiệt hại"
+    },
+    {
+      "dieu": "294",
+      "title": "Bảo đảm thực hiện nghĩa vụ trong tương lai",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bảo đảm nghĩa vụ trong tương lai, nghĩa vụ hình thành sau, không cần thỏa thuận lại"
+    },
+    {
+      "dieu": "295",
+      "title": "Tài sản bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "tài sản bảo đảm, tài sản thuộc sở hữu bên bảo đảm, tài sản hình thành trong tương lai, mô tả tài sản"
+    },
+    {
+      "dieu": "296",
+      "title": "Một tài sản dùng để bảo đảm thực hiện nhiều nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "một tài sản bảo đảm nhiều nghĩa vụ, thế chấp nhiều nơi, giá trị lớn hơn nghĩa vụ, thông báo cho các bên nhận bảo đảm"
+    },
+    {
+      "dieu": "297",
+      "title": "Hiệu lực đối kháng với người thứ ba",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hiệu lực đối kháng với người thứ ba, đăng ký biện pháp bảo đảm, nắm giữ tài sản, quyền truy đòi, ưu tiên thanh toán"
+    },
+    {
+      "dieu": "298",
+      "title": "Đăng ký biện pháp bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "đăng ký biện pháp bảo đảm, đăng ký thế chấp, đăng ký giao dịch bảo đảm, hiệu lực đối kháng"
+    },
+    {
+      "dieu": "299",
+      "title": "Các trường hợp xử lý tài sản bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trường hợp xử lý tài sản bảo đảm, đến hạn không trả nợ, vi phạm nghĩa vụ, ngân hàng siết nợ"
+    },
+    {
+      "dieu": "300",
+      "title": "Thông báo về việc xử lý tài sản bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thông báo xử lý tài sản bảo đảm, báo trước khi bán tài sản, thời hạn hợp lý, bồi thường nếu không thông báo"
+    },
+    {
+      "dieu": "301",
+      "title": "Giao tài sản bảo đảm để xử lý",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "giao tài sản bảo đảm để xử lý, không giao tài sản, yêu cầu tòa án, thu giữ tài sản"
+    },
+    {
+      "dieu": "302",
+      "title": "Quyền nhận lại tài sản bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền nhận lại tài sản bảo đảm, chuộc lại tài sản trước khi bán, thanh toán nghĩa vụ, chi phí phát sinh"
+    },
+    {
+      "dieu": "303",
+      "title": "Phương thức xử lý tài sản cầm cố, thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "phương thức xử lý tài sản cầm cố thế chấp, bán đấu giá, bên nhận bảo đảm tự bán, nhận chính tài sản"
+    },
+    {
+      "dieu": "304",
+      "title": "Bán tài sản cầm cố, thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bán tài sản cầm cố thế chấp, bán đấu giá tài sản, thủ tục bán, tự bán tài sản"
+    },
+    {
+      "dieu": "305",
+      "title": "Nhận chính tài sản bảo đảm để thay thế cho việc thực hiện nghĩa vụ của bên bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nhận chính tài sản bảo đảm thay cho nghĩa vụ, gán nợ bằng tài sản, chênh lệch giá trị"
+    },
+    {
+      "dieu": "306",
+      "title": "Định giá tài sản bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "định giá tài sản bảo đảm, thỏa thuận giá, tổ chức định giá, khách quan phù hợp giá thị trường"
+    },
+    {
+      "dieu": "307",
+      "title": "Thanh toán số tiền có được từ việc xử lý tài sản cầm cố, thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thanh toán tiền từ xử lý tài sản bảo đảm, thứ tự thanh toán, chi phí bảo quản bán tài sản, tiền thừa trả lại"
+    },
+    {
+      "dieu": "308",
+      "title": "Thứ tự ưu tiên thanh toán giữa các bên cùng nhận tài sản bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thứ tự ưu tiên thanh toán, nhiều bên cùng nhận bảo đảm, đăng ký trước được ưu tiên, thay đổi thứ tự"
+    },
+    {
+      "dieu": "309",
+      "title": "Cầm cố tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "cầm cố tài sản, giao tài sản cho bên cho vay giữ, cầm đồ, pledge"
+    },
+    {
+      "dieu": "310",
+      "title": "Hiệu lực của cầm cố tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hiệu lực của cầm cố tài sản, thời điểm giao tài sản, hiệu lực đối kháng, đăng ký cầm cố"
+    },
+    {
+      "dieu": "311",
+      "title": "Nghĩa vụ của bên cầm cố",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ của bên cầm cố, giao tài sản, báo về quyền của người thứ ba, thanh toán chi phí bảo quản"
+    },
+    {
+      "dieu": "312",
+      "title": "Quyền của bên cầm cố",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền của bên cầm cố, yêu cầu trả lại tài sản, bán thay thế tài sản cầm cố, yêu cầu bồi thường"
+    },
+    {
+      "dieu": "313",
+      "title": "Nghĩa vụ của bên nhận cầm cố",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ của bên nhận cầm cố, bảo quản tài sản, không được bán cho thuê, trả lại tài sản"
+    },
+    {
+      "dieu": "314",
+      "title": "Quyền của bên nhận cầm cố",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền của bên nhận cầm cố, yêu cầu chấm dứt việc sử dụng, xử lý tài sản cầm cố, được thanh toán chi phí"
+    },
+    {
+      "dieu": "315",
+      "title": "Chấm dứt cầm cố tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt cầm cố tài sản, nghĩa vụ chấm dứt, hủy bỏ thay thế cầm cố, xử lý xong tài sản"
+    },
+    {
+      "dieu": "316",
+      "title": "Trả lại tài sản cầm cố",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trả lại tài sản cầm cố, hoàn trả giấy tờ, trả lại hoa lợi lợi tức, chấm dứt cầm cố"
+    },
+    {
+      "dieu": "317",
+      "title": "Thế chấp tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thế chấp tài sản, không giao tài sản, thế chấp sổ đỏ vay ngân hàng, mortgage"
+    },
+    {
+      "dieu": "318",
+      "title": "Tài sản thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "tài sản thế chấp, thế chấp toàn bộ hay một phần, vật phụ, quyền sử dụng đất, tài sản được bảo hiểm"
+    },
+    {
+      "dieu": "319",
+      "title": "Hiệu lực của thế chấp tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hiệu lực của thế chấp tài sản, có hiệu lực từ khi giao kết, đăng ký thế chấp, hiệu lực đối kháng"
+    },
+    {
+      "dieu": "320",
+      "title": "Nghĩa vụ của bên thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ của bên thế chấp, giao giấy tờ, bảo quản tài sản, thông báo quyền người thứ ba, không được bán tài sản thế chấp"
+    },
+    {
+      "dieu": "321",
+      "title": "Quyền của bên thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền của bên thế chấp, được khai thác sử dụng, bán hàng hóa luân chuyển, cho thuê tài sản thế chấp, nhận lại giấy tờ"
+    },
+    {
+      "dieu": "322",
+      "title": "Nghĩa vụ của bên nhận thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ của bên nhận thế chấp, trả lại giấy tờ, không cản trở sử dụng, thực hiện thủ tục xử lý tài sản"
+    },
+    {
+      "dieu": "323",
+      "title": "Quyền của bên nhận thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền của bên nhận thế chấp, kiểm tra tài sản, yêu cầu bổ sung tài sản, xử lý tài sản thế chấp, giữ giấy tờ"
+    },
+    {
+      "dieu": "324",
+      "title": "Quyền và nghĩa vụ của người thứ ba giữ tài sản thế chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "người thứ ba giữ tài sản thế chấp, gửi giữ tài sản thế chấp, quyền nghĩa vụ bên giữ tài sản"
+    },
+    {
+      "dieu": "325",
+      "title": "Thế chấp quyền sử dụng đất mà không thế chấp tài sản gắn liền với đất",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thế chấp quyền sử dụng đất không thế chấp tài sản gắn liền, thế chấp đất không thế chấp nhà, xử lý tài sản trên đất"
+    },
+    {
+      "dieu": "326",
+      "title": "Thế chấp tài sản gắn liền với đất mà không thế chấp quyền sử dụng đất",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thế chấp tài sản gắn liền với đất không thế chấp quyền sử dụng đất, thế chấp nhà không thế chấp đất, xử lý tài sản"
+    },
+    {
+      "dieu": "327",
+      "title": "Chấm dứt thế chấp tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt thế chấp tài sản, nghĩa vụ được bảo đảm chấm dứt, hủy bỏ thế chấp, thay thế biện pháp bảo đảm, giải chấp"
+    },
+    {
+      "dieu": "328",
+      "title": "Đặt cọc",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "đặt cọc, tiền đặt cọc mua nhà, phạt cọc, mất cọc, đền gấp đôi tiền cọc, deposit"
+    },
+    {
+      "dieu": "329",
+      "title": "Ký cược",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "ký cược, thuê động sản đặt tiền, trả lại tài sản thuê, mất tài sản thuê"
+    },
+    {
+      "dieu": "330",
+      "title": "Ký quỹ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "ký quỹ, gửi tiền vào ngân hàng để bảo đảm, tài khoản phong tỏa, escrow"
+    },
+    {
+      "dieu": "331",
+      "title": "Bảo lưu quyền sở hữu",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bảo lưu quyền sở hữu, mua trả chậm trả dần, chưa trả hết chưa có quyền sở hữu, retention of title"
+    },
+    {
+      "dieu": "332",
+      "title": "Quyền đòi lại tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền đòi lại tài sản khi bảo lưu quyền sở hữu, lấy lại hàng khi không trả tiền, hoàn trả tiền đã nhận"
+    },
+    {
+      "dieu": "333",
+      "title": "Quyền và nghĩa vụ của bên mua tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền nghĩa vụ bên mua trong bảo lưu quyền sở hữu, được sử dụng tài sản, chịu rủi ro, bán trả góp"
+    },
+    {
+      "dieu": "334",
+      "title": "Chấm dứt bảo lưu quyền sở hữu",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt bảo lưu quyền sở hữu, trả đủ tiền, lấy lại tài sản, thỏa thuận chấm dứt"
+    },
+    {
+      "dieu": "335",
+      "title": "Bảo lãnh",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bảo lãnh, người thứ ba trả nợ thay, cam kết bảo lãnh, guarantee"
+    },
+    {
+      "dieu": "336",
+      "title": "Phạm vi bảo lãnh",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "phạm vi bảo lãnh, bảo lãnh một phần toàn bộ, bảo lãnh cả tiền lãi tiền phạt, nghĩa vụ trong tương lai"
+    },
+    {
+      "dieu": "337",
+      "title": "Thù lao",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thù lao bảo lãnh, phí bảo lãnh, bên được bảo lãnh trả thù lao"
+    },
+    {
+      "dieu": "338",
+      "title": "Nhiều người cùng bảo lãnh",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nhiều người cùng bảo lãnh, liên đới bảo lãnh, yêu cầu một người trả toàn bộ"
+    },
+    {
+      "dieu": "339",
+      "title": "Quan hệ giữa bên bảo lãnh và bên nhận bảo lãnh",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quan hệ giữa bên bảo lãnh và bên nhận bảo lãnh, khi nào phải trả thay, không có khả năng thực hiện nghĩa vụ"
+    },
+    {
+      "dieu": "340",
+      "title": "Quyền yêu cầu của bên bảo lãnh",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền yêu cầu của bên bảo lãnh, đòi lại tiền đã trả thay, hoàn trả, thù lao"
+    },
+    {
+      "dieu": "341",
+      "title": "Miễn việc thực hiện nghĩa vụ bảo lãnh",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "miễn thực hiện nghĩa vụ bảo lãnh, được miễn bảo lãnh, nhiều người bảo lãnh liên đới"
+    },
+    {
+      "dieu": "342",
+      "title": "Trách nhiệm dân sự của bên bảo lãnh",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trách nhiệm dân sự của bên bảo lãnh, phải trả nợ thay, tài sản của bên bảo lãnh, lãi chậm trả"
+    },
+    {
+      "dieu": "343",
+      "title": "Chấm dứt bảo lãnh",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt bảo lãnh, nghĩa vụ được bảo lãnh chấm dứt, hủy bỏ bảo lãnh, thay thế biện pháp bảo đảm"
+    },
+    {
+      "dieu": "344",
+      "title": "Bảo đảm bằng tín chấp của tổ chức chính trị - xã hội",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bảo đảm bằng tín chấp, hội phụ nữ hội nông dân bảo lãnh, vay vốn hộ nghèo, tín chấp tổ chức chính trị xã hội"
+    },
+    {
+      "dieu": "345",
+      "title": "Hình thức, nội dung tín chấp",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hình thức nội dung tín chấp, văn bản có xác nhận, số tiền mục đích thời hạn vay, lãi suất"
+    },
+    {
+      "dieu": "346",
+      "title": "Cầm giữ tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "cầm giữ tài sản, giữ hàng cho đến khi trả tiền, hợp đồng song vụ, sửa xe không trả tiền, lien"
+    },
+    {
+      "dieu": "347",
+      "title": "Xác lập cầm giữ tài sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "xác lập cầm giữ tài sản, phát sinh khi đến hạn không thực hiện, hiệu lực đối kháng"
+    },
+    {
+      "dieu": "348",
+      "title": "Quyền của bên cầm giữ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền của bên cầm giữ, giữ tài sản, khai thác thu hoa lợi, yêu cầu thanh toán chi phí bảo quản"
+    },
+    {
+      "dieu": "349",
+      "title": "Nghĩa vụ của bên cầm giữ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ của bên cầm giữ, giữ gìn tài sản, không thay đổi tình trạng, giao lại tài sản, không cho thuê"
+    },
+    {
+      "dieu": "350",
+      "title": "Chấm dứt cầm giữ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt cầm giữ, đã thực hiện xong nghĩa vụ, bên cầm giữ vi phạm, tài sản không còn"
+    },
+    {
+      "dieu": "351",
+      "title": "Trách nhiệm dân sự do vi phạm nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trách nhiệm dân sự do vi phạm nghĩa vụ, không thực hiện đúng nghĩa vụ, sự kiện bất khả kháng, miễn trách nhiệm"
+    },
+    {
+      "dieu": "352",
+      "title": "Trách nhiệm tiếp tục thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trách nhiệm tiếp tục thực hiện nghĩa vụ, vẫn phải làm dù đã bồi thường, buộc thực hiện đúng hợp đồng"
+    },
+    {
+      "dieu": "353",
+      "title": "Chậm thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chậm thực hiện nghĩa vụ, quá hạn chưa thực hiện, gia hạn thực hiện, chậm trả nợ"
+    },
+    {
+      "dieu": "354",
+      "title": "Hoãn thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hoãn thực hiện nghĩa vụ, xin lùi thời hạn, thông báo hoãn, đồng ý cho hoãn"
+    },
+    {
+      "dieu": "355",
+      "title": "Chậm tiếp nhận việc thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chậm tiếp nhận việc thực hiện nghĩa vụ, bên có quyền không nhận hàng, không nhận tiền, quá hạn tiếp nhận"
+    },
+    {
+      "dieu": "356",
+      "title": "Trách nhiệm do không thực hiện nghĩa vụ giao vật",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trách nhiệm do không giao vật, không giao đúng vật, mua vật cùng loại, trị giá thành tiền, bồi thường"
+    },
+    {
+      "dieu": "357",
+      "title": "Trách nhiệm do chậm thực hiện nghĩa vụ trả tiền",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trách nhiệm do chậm trả tiền, lãi chậm trả, lãi suất nợ quá hạn, tính lãi trên số tiền chậm trả"
+    },
+    {
+      "dieu": "358",
+      "title": "Trách nhiệm do không thực hiện hoặc không được thực hiện một công việc",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trách nhiệm do không thực hiện một công việc, tự làm hoặc thuê người khác làm, chi phí, buộc chấm dứt công việc"
+    },
+    {
+      "dieu": "359",
+      "title": "Trách nhiệm do chậm tiếp nhận việc thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trách nhiệm do chậm tiếp nhận nghĩa vụ, chi phí bảo quản hàng, rủi ro thuộc bên chậm tiếp nhận, gửi giữ tài sản"
+    },
+    {
+      "dieu": "360",
+      "title": "Trách nhiệm bồi thường thiệt hại do vi phạm nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trách nhiệm bồi thường thiệt hại do vi phạm nghĩa vụ, bồi thường toàn bộ thiệt hại, thỏa thuận khác"
+    },
+    {
+      "dieu": "361",
+      "title": "Thiệt hại do vi phạm nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thiệt hại do vi phạm nghĩa vụ, thiệt hại vật chất, thiệt hại tinh thần, lợi ích bị mất, chi phí hợp lý"
+    },
+    {
+      "dieu": "362",
+      "title": "Nghĩa vụ ngăn chặn, hạn chế thiệt hại",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ ngăn chặn hạn chế thiệt hại, không áp dụng biện pháp hạn chế, không được bồi thường phần thiệt hại tăng thêm"
+    },
+    {
+      "dieu": "363",
+      "title": "Bồi thường thiệt hại trong trường hợp bên bị vi phạm có lỗi",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bồi thường khi bên bị vi phạm có lỗi, lỗi của cả hai bên, giảm mức bồi thường"
+    },
+    {
+      "dieu": "364",
+      "title": "Lỗi trong trách nhiệm dân sự",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "lỗi trong trách nhiệm dân sự, lỗi cố ý lỗi vô ý, phân biệt lỗi, fault"
+    },
+    {
+      "dieu": "365",
+      "title": "Chuyển giao quyền yêu cầu",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chuyển giao quyền yêu cầu, bán nợ, chuyển nhượng khoản phải thu, thông báo cho bên có nghĩa vụ, không cần đồng ý"
+    },
+    {
+      "dieu": "366",
+      "title": "Nghĩa vụ cung cấp thông tin và chuyển giao giấy tờ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ cung cấp thông tin chuyển giao giấy tờ, bàn giao hồ sơ khoản nợ, bồi thường nếu không cung cấp"
+    },
+    {
+      "dieu": "367",
+      "title": "Không chịu trách nhiệm sau khi chuyển giao quyền yêu cầu",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "không chịu trách nhiệm sau khi chuyển giao quyền yêu cầu, bên chuyển giao hết trách nhiệm, khả năng trả nợ"
+    },
+    {
+      "dieu": "368",
+      "title": "Chuyển giao quyền yêu cầu có biện pháp bảo đảm thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chuyển giao quyền yêu cầu có bảo đảm, chuyển cả thế chấp cầm cố, biện pháp bảo đảm đi kèm"
+    },
+    {
+      "dieu": "369",
+      "title": "Quyền từ chối của bên có nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền từ chối của bên có nghĩa vụ, không được thông báo chuyển giao, từ chối trả cho người nhận chuyển giao"
+    },
+    {
+      "dieu": "370",
+      "title": "Chuyển giao nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chuyển giao nghĩa vụ, chuyển nợ cho người khác, phải được bên có quyền đồng ý, thay đổi con nợ"
+    },
+    {
+      "dieu": "371",
+      "title": "Chuyển giao nghĩa vụ có biện pháp bảo đảm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chuyển giao nghĩa vụ có biện pháp bảo đảm, biện pháp bảo đảm chấm dứt, cầm cố thế chấp khi chuyển nợ"
+    },
+    {
+      "dieu": "372",
+      "title": "Căn cứ chấm dứt nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "căn cứ chấm dứt nghĩa vụ, hoàn thành nghĩa vụ, được miễn, bù trừ, hết thời hiệu, bên có nghĩa vụ chết"
+    },
+    {
+      "dieu": "373",
+      "title": "Hoàn thành nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hoàn thành nghĩa vụ, đã thực hiện xong, trả hết nợ, chấm dứt nghĩa vụ"
+    },
+    {
+      "dieu": "374",
+      "title": "Hoàn thành nghĩa vụ trong trường hợp bên có quyền chậm tiếp nhận đối tượng của nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hoàn thành nghĩa vụ khi bên có quyền chậm tiếp nhận, gửi giữ tài sản, thông báo, coi như đã hoàn thành"
+    },
+    {
+      "dieu": "375",
+      "title": "Chấm dứt nghĩa vụ theo thỏa thuận",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt nghĩa vụ theo thỏa thuận, hai bên thống nhất chấm dứt, không gây thiệt hại người khác"
+    },
+    {
+      "dieu": "376",
+      "title": "Chấm dứt nghĩa vụ do được miễn thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt nghĩa vụ do được miễn, xóa nợ, miễn thực hiện nghĩa vụ, chủ nợ miễn cho con nợ"
+    },
+    {
+      "dieu": "377",
+      "title": "Chấm dứt nghĩa vụ do được thay thế bằng nghĩa vụ khác",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt nghĩa vụ do thay thế bằng nghĩa vụ khác, đổi nghĩa vụ, thay bằng nghĩa vụ dân sự khác"
+    },
+    {
+      "dieu": "378",
+      "title": "Chấm dứt nghĩa vụ do bù trừ nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bù trừ nghĩa vụ, cấn trừ công nợ, hai bên cùng nợ nhau, offset"
+    },
+    {
+      "dieu": "379",
+      "title": "Những trường hợp không được bù trừ nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "trường hợp không được bù trừ nghĩa vụ, nghĩa vụ cấp dưỡng, bồi thường tính mạng sức khỏe, đang tranh chấp"
+    },
+    {
+      "dieu": "380",
+      "title": "Chấm dứt nghĩa vụ do hòa nhập bên có nghĩa vụ và bên có quyền",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt nghĩa vụ do hòa nhập, người có quyền trở thành người có nghĩa vụ, sáp nhập chủ nợ và con nợ"
+    },
+    {
+      "dieu": "381",
+      "title": "Chấm dứt nghĩa vụ do hết thời hiệu miễn trừ nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt nghĩa vụ do hết thời hiệu miễn trừ, hết thời hiệu, không phải thực hiện nữa"
+    },
+    {
+      "dieu": "382",
+      "title": "Chấm dứt nghĩa vụ khi bên có quyền là cá nhân chết hoặc pháp nhân chấm dứt tồn tại",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt nghĩa vụ khi bên có quyền chết, pháp nhân chấm dứt, nghĩa vụ gắn với nhân thân"
+    },
+    {
+      "dieu": "383",
+      "title": "Chấm dứt nghĩa vụ khi vật đặc định không còn",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt nghĩa vụ khi vật đặc định không còn, vật bị mất bị hủy, thay bằng tiền, bồi thường"
+    },
+    {
+      "dieu": "384",
+      "title": "Chấm dứt nghĩa vụ trong trường hợp phá sản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt nghĩa vụ khi phá sản, luật phá sản, doanh nghiệp phá sản"
+    },
+    {
+      "dieu": "385",
+      "title": "Khái niệm hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hợp đồng là gì, khái niệm hợp đồng, thỏa thuận xác lập quyền nghĩa vụ, contract"
+    },
+    {
+      "dieu": "386",
+      "title": "Đề nghị giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "đề nghị giao kết hợp đồng, chào hàng, ràng buộc bởi đề nghị, offer"
+    },
+    {
+      "dieu": "387",
+      "title": "Thông tin trong giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thông tin trong giao kết hợp đồng, nghĩa vụ cung cấp thông tin, giữ bí mật thông tin, bồi thường do che giấu"
+    },
+    {
+      "dieu": "388",
+      "title": "Thời điểm đề nghị giao kết hợp đồng có hiệu lực",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thời điểm đề nghị giao kết có hiệu lực, khi bên được đề nghị nhận được, ấn định thời điểm"
+    },
+    {
+      "dieu": "389",
+      "title": "Thay đổi, rút lại đề nghị giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thay đổi rút lại đề nghị giao kết, rút lại chào hàng, điều kiện thay đổi đề nghị"
+    },
+    {
+      "dieu": "390",
+      "title": "Hủy bỏ đề nghị giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hủy bỏ đề nghị giao kết hợp đồng, quyền hủy bỏ, thông báo hủy bỏ"
+    },
+    {
+      "dieu": "391",
+      "title": "Chấm dứt đề nghị giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt đề nghị giao kết hợp đồng, hết thời hạn trả lời, bị từ chối, bên đề nghị chết"
+    },
+    {
+      "dieu": "392",
+      "title": "Sửa đổi đề nghị do bên được đề nghị đề xuất",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "sửa đổi đề nghị do bên được đề nghị đề xuất, đề nghị mới, sửa điều khoản chào hàng"
+    },
+    {
+      "dieu": "393",
+      "title": "Chấp nhận đề nghị giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấp nhận đề nghị giao kết hợp đồng, đồng ý toàn bộ, im lặng có phải chấp nhận, acceptance"
+    },
+    {
+      "dieu": "394",
+      "title": "Thời hạn trả lời chấp nhận giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thời hạn trả lời chấp nhận, trả lời chậm, hết thời hạn, chấp nhận muộn"
+    },
+    {
+      "dieu": "395",
+      "title": "Trường hợp bên đề nghị giao kết hợp đồng chết, mất năng lực hành vi dân sự hoặc có khó khăn trong nhận thức, làm chủ hành vi",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bên đề nghị chết mất năng lực hành vi, đề nghị vẫn có giá trị, giao kết hợp đồng"
+    },
+    {
+      "dieu": "396",
+      "title": "Trường hợp bên được đề nghị giao kết hợp đồng chết, mất năng lực hành vi dân sự hoặc có khó khăn trong nhận thức, làm chủ hành vi",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "bên được đề nghị chết mất năng lực hành vi, trả lời chấp nhận vẫn có giá trị, giao kết hợp đồng"
+    },
+    {
+      "dieu": "397",
+      "title": "Rút lại thông báo chấp nhận giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "rút lại thông báo chấp nhận giao kết, hủy chấp nhận, thông báo đến trước hoặc cùng lúc"
+    },
+    {
+      "dieu": "398",
+      "title": "Nội dung của hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nội dung của hợp đồng, điều khoản hợp đồng, đối tượng giá phương thức thanh toán, quyền nghĩa vụ, phạt vi phạm"
+    },
+    {
+      "dieu": "399",
+      "title": "Địa điểm giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "địa điểm giao kết hợp đồng, nơi ký hợp đồng, nơi cư trú bên đề nghị"
+    },
+    {
+      "dieu": "400",
+      "title": "Thời điểm giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thời điểm giao kết hợp đồng, khi nhận trả lời chấp nhận, hợp đồng bằng văn bản, ký kết"
+    },
+    {
+      "dieu": "401",
+      "title": "Hiệu lực của hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hiệu lực của hợp đồng, có hiệu lực từ thời điểm giao kết, sửa đổi hủy bỏ hợp đồng"
+    },
+    {
+      "dieu": "402",
+      "title": "Các loại hợp đồng chủ yếu",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "các loại hợp đồng chủ yếu, hợp đồng song vụ đơn vụ, hợp đồng chính phụ, hợp đồng vì lợi ích người thứ ba, hợp đồng có điều kiện"
+    },
+    {
+      "dieu": "403",
+      "title": "Phụ lục hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "phụ lục hợp đồng, thêm điều khoản, phụ lục trái hợp đồng, sửa đổi bằng phụ lục"
+    },
+    {
+      "dieu": "404",
+      "title": "Giải thích hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "giải thích hợp đồng, điều khoản không rõ ràng, hiểu bất lợi cho bên soạn thảo, tập quán"
+    },
+    {
+      "dieu": "405",
+      "title": "Hợp đồng theo mẫu",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hợp đồng theo mẫu, hợp đồng in sẵn, điều khoản bất lợi cho người tiêu dùng, hiểu có lợi cho bên yếu thế"
+    },
+    {
+      "dieu": "406",
+      "title": "Điều kiện giao dịch chung trong giao kết hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "điều kiện giao dịch chung, điều khoản chung áp dụng nhiều bên, công khai điều kiện, vô hiệu điều khoản bất lợi"
+    },
+    {
+      "dieu": "407",
+      "title": "Hợp đồng vô hiệu",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hợp đồng vô hiệu, hợp đồng không có hiệu lực, hợp đồng phụ vô hiệu, giao dịch dân sự vô hiệu"
+    },
+    {
+      "dieu": "408",
+      "title": "Hợp đồng vô hiệu do có đối tượng không thể thực hiện được",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hợp đồng vô hiệu do đối tượng không thể thực hiện, ngay từ khi giao kết, bồi thường thiệt hại"
+    },
+    {
+      "dieu": "409",
+      "title": "Thực hiện hợp đồng đơn vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện hợp đồng đơn vụ, một bên có nghĩa vụ, thực hiện đúng thời hạn"
+    },
+    {
+      "dieu": "410",
+      "title": "Thực hiện hợp đồng song vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện hợp đồng song vụ, hai bên cùng có nghĩa vụ, thực hiện đồng thời, không được yêu cầu bên kia trước"
+    },
+    {
+      "dieu": "411",
+      "title": "Quyền hoãn thực hiện nghĩa vụ trong hợp đồng song vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền hoãn thực hiện nghĩa vụ trong hợp đồng song vụ, bên kia chưa thực hiện, tài sản giảm sút, hoãn giao hàng"
+    },
+    {
+      "dieu": "412",
+      "title": "Cầm giữ tài sản trong hợp đồng song vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "cầm giữ tài sản trong hợp đồng song vụ, giữ tài sản đến khi được trả tiền, sửa chữa gia công"
+    },
+    {
+      "dieu": "413",
+      "title": "Nghĩa vụ không thực hiện được do lỗi của một bên",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "nghĩa vụ không thực hiện được do lỗi một bên, bên có lỗi bồi thường, bên kia được yêu cầu thanh toán"
+    },
+    {
+      "dieu": "414",
+      "title": "Không thực hiện được nghĩa vụ nhưng không do lỗi của các bên",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "không thực hiện được nghĩa vụ không do lỗi các bên, bất khả kháng, không có quyền yêu cầu bên kia thực hiện"
+    },
+    {
+      "dieu": "415",
+      "title": "Thực hiện hợp đồng vì lợi ích của người thứ ba",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hợp đồng vì lợi ích của người thứ ba, người thứ ba hưởng lợi, bảo hiểm nhân thọ, yêu cầu thực hiện"
+    },
+    {
+      "dieu": "416",
+      "title": "Quyền từ chối của người thứ ba",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "quyền từ chối của người thứ ba, không nhận lợi ích, hợp đồng bị hủy bỏ"
+    },
+    {
+      "dieu": "417",
+      "title": "Không được sửa đổi hoặc hủy bỏ hợp đồng vì lợi ích của người thứ ba",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "không được sửa đổi hủy bỏ hợp đồng vì lợi ích người thứ ba, đã đồng ý hưởng lợi ích, đồng ý của người thứ ba"
+    },
+    {
+      "dieu": "418",
+      "title": "Thỏa thuận phạt vi phạm",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thỏa thuận phạt vi phạm, mức phạt hợp đồng, phạt và bồi thường, penalty clause"
+    },
+    {
+      "dieu": "419",
+      "title": "Thiệt hại được bồi thường do vi phạm hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thiệt hại được bồi thường do vi phạm hợp đồng, lợi ích lẽ ra được hưởng, chi phí phát sinh, tổn thất tinh thần"
+    },
+    {
+      "dieu": "420",
+      "title": "Thực hiện hợp đồng khi hoàn cảnh thay đổi cơ bản",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thực hiện hợp đồng khi hoàn cảnh thay đổi cơ bản, hardship, yêu cầu đàm phán lại, tòa sửa đổi chấm dứt hợp đồng, giá biến động"
+    },
+    {
+      "dieu": "421",
+      "title": "Sửa đổi hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "sửa đổi hợp đồng, thỏa thuận sửa đổi, hình thức sửa đổi, phụ lục"
+    },
+    {
+      "dieu": "422",
+      "title": "Chấm dứt hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "chấm dứt hợp đồng, hoàn thành hợp đồng, thỏa thuận chấm dứt, hủy bỏ, đơn phương chấm dứt"
+    },
+    {
+      "dieu": "423",
+      "title": "Hủy bỏ hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hủy bỏ hợp đồng, vi phạm nghiêm trọng, điều kiện hủy bỏ, thông báo hủy bỏ, bồi thường"
+    },
+    {
+      "dieu": "424",
+      "title": "Hủy bỏ hợp đồng do chậm thực hiện nghĩa vụ",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hủy bỏ hợp đồng do chậm thực hiện nghĩa vụ, gia hạn rồi vẫn không thực hiện, không đạt mục đích giao kết"
+    },
+    {
+      "dieu": "425",
+      "title": "Hủy bỏ hợp đồng do không có khả năng thực hiện",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hủy bỏ hợp đồng do không có khả năng thực hiện, mất khả năng thực hiện, thông báo, bồi thường"
+    },
+    {
+      "dieu": "426",
+      "title": "Hủy bỏ hợp đồng trong trường hợp tài sản bị mất, bị hư hỏng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hủy bỏ hợp đồng do tài sản bị mất hư hỏng, làm mất làm hỏng tài sản, giảm giá thay thế tài sản"
+    },
+    {
+      "dieu": "427",
+      "title": "Hậu quả của việc hủy bỏ hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "hậu quả của việc hủy bỏ hợp đồng, hợp đồng không có hiệu lực từ đầu, hoàn trả cho nhau, bồi thường thiệt hại"
+    },
+    {
+      "dieu": "428",
+      "title": "Đơn phương chấm dứt thực hiện hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "đơn phương chấm dứt thực hiện hợp đồng, chấm dứt hợp đồng trước hạn, thông báo, bồi thường, vi phạm nghiêm trọng"
+    },
+    {
+      "dieu": "429",
+      "title": "Thời hiệu khởi kiện về hợp đồng",
+      "file": "chuong-15.md",
+      "chRoman": "XV",
+      "keywords": "thời hiệu khởi kiện về hợp đồng, 3 năm, tranh chấp hợp đồng, kể từ ngày biết quyền bị xâm phạm"
+    },
+    {
+      "dieu": "430",
+      "title": "Hợp đồng mua bán tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng mua bán tài sản, mua bán hàng hóa, chuyển quyền sở hữu, trả tiền, sale contract"
+    },
+    {
+      "dieu": "431",
+      "title": "Đối tượng của hợp đồng mua bán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đối tượng của hợp đồng mua bán, tài sản được phép giao dịch, xác định rõ tài sản, hàng cấm"
+    },
+    {
+      "dieu": "432",
+      "title": "Chất lượng của tài sản mua bán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "chất lượng của tài sản mua bán, hàng không đúng chất lượng, tiêu chuẩn công bố, chất lượng thông thường"
+    },
+    {
+      "dieu": "433",
+      "title": "Giá và phương thức thanh toán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giá và phương thức thanh toán, thỏa thuận giá, giá thị trường, trả tiền mặt chuyển khoản"
+    },
+    {
+      "dieu": "434",
+      "title": "Thời hạn thực hiện hợp đồng mua bán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "thời hạn thực hiện hợp đồng mua bán, giao hàng đúng hạn, giao sớm giao muộn, thời hạn thanh toán"
+    },
+    {
+      "dieu": "435",
+      "title": "Địa điểm giao tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "địa điểm giao tài sản, giao hàng ở đâu, nơi có bất động sản, nơi cư trú bên mua"
+    },
+    {
+      "dieu": "436",
+      "title": "Phương thức giao tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "phương thức giao tài sản, giao một lần hay nhiều lần, giao từng phần, chi phí giao nhận"
+    },
+    {
+      "dieu": "437",
+      "title": "Trách nhiệm do giao tài sản không đúng số lượng",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giao tài sản không đúng số lượng, thiếu hàng, thừa hàng, nhận hoặc trả lại phần thừa, hủy hợp đồng"
+    },
+    {
+      "dieu": "438",
+      "title": "Trách nhiệm do giao vật không đồng bộ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giao vật không đồng bộ, thiếu bộ phận, không sử dụng được, giảm giá hủy hợp đồng, bồi thường"
+    },
+    {
+      "dieu": "439",
+      "title": "Trách nhiệm giao tài sản không đúng chủng loại",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giao tài sản không đúng chủng loại, giao sai loại hàng, nhận và thanh toán theo giá, hủy bỏ hợp đồng"
+    },
+    {
+      "dieu": "440",
+      "title": "Nghĩa vụ trả tiền",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ trả tiền, trả đủ đúng hạn, trả tiền khi nhận hàng, lãi chậm trả"
+    },
+    {
+      "dieu": "441",
+      "title": "Thời điểm chịu rủi ro",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "thời điểm chịu rủi ro, rủi ro chuyển cho bên mua khi nào, hàng hư hỏng khi vận chuyển, đăng ký quyền sở hữu"
+    },
+    {
+      "dieu": "442",
+      "title": "Chi phí vận chuyển và chi phí liên quan đến việc chuyển quyền sở hữu",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "chi phí vận chuyển và chuyển quyền sở hữu, ai trả phí sang tên, chi phí giao hàng, tập quán"
+    },
+    {
+      "dieu": "443",
+      "title": "Nghĩa vụ cung cấp thông tin và hướng dẫn cách sử dụng",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ cung cấp thông tin và hướng dẫn sử dụng, hướng dẫn sử dụng sản phẩm, thông tin hàng hóa, bồi thường"
+    },
+    {
+      "dieu": "444",
+      "title": "Bảo đảm quyền sở hữu của bên mua đối với tài sản mua bán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "bảo đảm quyền sở hữu của bên mua, tranh chấp về quyền sở hữu, người thứ ba đòi tài sản, hoàn tiền"
+    },
+    {
+      "dieu": "445",
+      "title": "Bảo đảm chất lượng vật mua bán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "bảo đảm chất lượng vật mua bán, hàng có khuyết tật, khuyết tật bên mua đã biết, yêu cầu sửa chữa giảm giá"
+    },
+    {
+      "dieu": "446",
+      "title": "Nghĩa vụ bảo hành",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ bảo hành, thời hạn bảo hành, bảo hành sản phẩm, warranty"
+    },
+    {
+      "dieu": "447",
+      "title": "Quyền yêu cầu bảo hành",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền yêu cầu bảo hành, yêu cầu sửa chữa miễn phí, đổi hàng, trả lại hàng lấy tiền"
+    },
+    {
+      "dieu": "448",
+      "title": "Sửa chữa vật trong thời hạn bảo hành",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "sửa chữa vật trong thời hạn bảo hành, thời hạn sửa chữa, đổi vật mới, chi phí sửa chữa vận chuyển"
+    },
+    {
+      "dieu": "449",
+      "title": "Bồi thường thiệt hại trong thời hạn bảo hành",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "bồi thường thiệt hại trong thời hạn bảo hành, hàng lỗi gây thiệt hại, miễn bồi thường, không sửa chữa kịp thời"
+    },
+    {
+      "dieu": "450",
+      "title": "Mua bán quyền tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "mua bán quyền tài sản, mua bán quyền đòi nợ, chuyển quyền sở hữu trí tuệ, giấy tờ chứng nhận quyền"
+    },
+    {
+      "dieu": "451",
+      "title": "Bán đấu giá tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "bán đấu giá tài sản, đấu giá, luật đấu giá tài sản, người trả giá cao nhất"
+    },
+    {
+      "dieu": "452",
+      "title": "Mua sau khi sử dụng thử",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "mua sau khi sử dụng thử, dùng thử sản phẩm, thời hạn dùng thử, trả lại hàng dùng thử, rủi ro khi dùng thử"
+    },
+    {
+      "dieu": "453",
+      "title": "Mua trả chậm, trả dần",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "mua trả chậm trả dần, mua trả góp, bảo lưu quyền sở hữu, không trả được tiếp, lấy lại tài sản"
+    },
+    {
+      "dieu": "454",
+      "title": "Chuộc lại tài sản đã bán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "chuộc lại tài sản đã bán, quyền chuộc lại, thời hạn chuộc, bán có điều kiện chuộc lại"
+    },
+    {
+      "dieu": "455",
+      "title": "Hợp đồng trao đổi tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng trao đổi tài sản, đổi tài sản cho nhau, mỗi bên vừa là người mua vừa là người bán, hàng đổi hàng"
+    },
+    {
+      "dieu": "456",
+      "title": "Thanh toán giá trị chênh lệch",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "thanh toán giá trị chênh lệch, bù tiền khi đổi tài sản, chênh lệch giá trị"
+    },
+    {
+      "dieu": "457",
+      "title": "Hợp đồng tặng cho tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng tặng cho tài sản, tặng cho, cho không, không đền bù, gift"
+    },
+    {
+      "dieu": "458",
+      "title": "Tặng cho động sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "tặng cho động sản, thời điểm có hiệu lực khi nhận, tặng xe máy, đăng ký quyền sở hữu"
+    },
+    {
+      "dieu": "459",
+      "title": "Tặng cho bất động sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "tặng cho bất động sản, tặng nhà đất, phải công chứng, đăng ký sang tên, thời điểm có hiệu lực"
+    },
+    {
+      "dieu": "460",
+      "title": "Trách nhiệm do cố ý tặng cho tài sản không thuộc sở hữu của mình",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "tặng cho tài sản không thuộc sở hữu của mình, cố ý tặng tài sản người khác, bồi thường thiệt hại"
+    },
+    {
+      "dieu": "461",
+      "title": "Thông báo khuyết tật của tài sản tặng cho",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "thông báo khuyết tật của tài sản tặng cho, giấu khuyết tật, bồi thường thiệt hại cho bên được tặng"
+    },
+    {
+      "dieu": "462",
+      "title": "Tặng cho tài sản có điều kiện",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "tặng cho tài sản có điều kiện, tặng nhà kèm điều kiện, không thực hiện điều kiện, đòi lại tài sản đã tặng"
+    },
+    {
+      "dieu": "463",
+      "title": "Hợp đồng vay tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng vay tài sản, vay tiền, cho vay, trả nợ, loan"
+    },
+    {
+      "dieu": "464",
+      "title": "Quyền sở hữu đối với tài sản vay",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền sở hữu đối với tài sản vay, bên vay thành chủ sở hữu, nhận tiền vay"
+    },
+    {
+      "dieu": "465",
+      "title": "Nghĩa vụ của bên cho vay",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên cho vay, giao tiền đủ đúng hạn, không được yêu cầu trả trước hạn, bồi thường"
+    },
+    {
+      "dieu": "466",
+      "title": "Nghĩa vụ trả nợ của bên vay",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ trả nợ của bên vay, trả đủ tiền khi đến hạn, lãi quá hạn, không trả được nợ, nợ vay không lãi"
+    },
+    {
+      "dieu": "467",
+      "title": "Sử dụng tài sản vay",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "sử dụng tài sản vay, vay đúng mục đích, kiểm tra việc sử dụng, đòi lại tiền trước hạn"
+    },
+    {
+      "dieu": "468",
+      "title": "Lãi suất",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "lãi suất cho vay, trần lãi suất 20%/năm, vay nặng lãi, lãi suất thỏa thuận, interest rate"
+    },
+    {
+      "dieu": "469",
+      "title": "Thực hiện hợp đồng vay không kỳ hạn",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng vay không kỳ hạn, đòi nợ bất cứ lúc nào, báo trước thời gian hợp lý, vay không lãi"
+    },
+    {
+      "dieu": "470",
+      "title": "Thực hiện hợp đồng vay có kỳ hạn",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng vay có kỳ hạn, trả nợ trước hạn, đòi nợ trước hạn, trả toàn bộ lãi theo kỳ hạn"
+    },
+    {
+      "dieu": "471",
+      "title": "Họ, hụi, biêu, phường",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "họ hụi biêu phường, chơi hụi, chủ hụi, vỡ hụi, lãi suất hụi, cấm cho vay nặng lãi qua hụi"
+    },
+    {
+      "dieu": "472",
+      "title": "Hợp đồng thuê tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng thuê tài sản, cho thuê, bên thuê bên cho thuê, trả tiền thuê, lease"
+    },
+    {
+      "dieu": "473",
+      "title": "Giá thuê",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giá thuê, tiền thuê thỏa thuận, giá thuê theo thị trường, điều chỉnh giá thuê"
+    },
+    {
+      "dieu": "474",
+      "title": "Thời hạn thuê",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "thời hạn thuê, hết hạn thuê, thuê không xác định thời hạn, chấm dứt hợp đồng thuê"
+    },
+    {
+      "dieu": "475",
+      "title": "Cho thuê lại",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "cho thuê lại, thuê lại tài sản, phải được bên cho thuê đồng ý, sublease"
+    },
+    {
+      "dieu": "476",
+      "title": "Giao tài sản thuê",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giao tài sản thuê, giao đúng số lượng chất lượng, chậm giao tài sản thuê, hủy hợp đồng"
+    },
+    {
+      "dieu": "477",
+      "title": "Nghĩa vụ bảo đảm giá trị sử dụng của tài sản thuê",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "bảo đảm giá trị sử dụng của tài sản thuê, tài sản hư hỏng, sửa chữa tài sản cho thuê, giảm tiền thuê"
+    },
+    {
+      "dieu": "478",
+      "title": "Nghĩa vụ bảo đảm quyền sử dụng tài sản cho bên thuê",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "bảo đảm quyền sử dụng tài sản cho bên thuê, tranh chấp về tài sản thuê, giảm giá đơn phương chấm dứt"
+    },
+    {
+      "dieu": "479",
+      "title": "Nghĩa vụ bảo quản tài sản thuê",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ bảo quản tài sản thuê, giữ gìn tài sản, sửa chữa nhỏ, làm mất hư hỏng phải bồi thường"
+    },
+    {
+      "dieu": "480",
+      "title": "Nghĩa vụ sử dụng tài sản thuê đúng công dụng, mục đích",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "sử dụng tài sản thuê đúng công dụng mục đích, dùng sai mục đích, đơn phương chấm dứt hợp đồng"
+    },
+    {
+      "dieu": "481",
+      "title": "Trả tiền thuê",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trả tiền thuê, kỳ hạn trả tiền thuê, chậm trả tiền thuê, không trả tiền thuê ba kỳ"
+    },
+    {
+      "dieu": "482",
+      "title": "Trả lại tài sản thuê",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trả lại tài sản thuê, trả đúng tình trạng, chậm trả tài sản, tiền thuê trong thời gian chậm trả"
+    },
+    {
+      "dieu": "483",
+      "title": "Hợp đồng thuê khoán tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng thuê khoán tài sản, thuê khoán, khai thác công dụng hưởng hoa lợi, thuê đất canh tác"
+    },
+    {
+      "dieu": "484",
+      "title": "Đối tượng của hợp đồng thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đối tượng hợp đồng thuê khoán, đất đai rừng, mặt nước, gia súc, cơ sở sản xuất kinh doanh"
+    },
+    {
+      "dieu": "485",
+      "title": "Thời hạn thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "thời hạn thuê khoán, theo chu kỳ sản xuất, thời hạn khai thác"
+    },
+    {
+      "dieu": "486",
+      "title": "Giá thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giá thuê khoán, tiền thuê khoán, đấu thầu thuê khoán, thỏa thuận giá"
+    },
+    {
+      "dieu": "487",
+      "title": "Giao tài sản thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giao tài sản thuê khoán, tình trạng tài sản khi giao, mô tả tài sản, giá trị tài sản"
+    },
+    {
+      "dieu": "488",
+      "title": "Trả tiền thuê khoán và phương thức trả",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trả tiền thuê khoán, trả bằng hiện vật hoặc tiền, kỳ hạn trả, giảm tiền thuê khoán khi mất mùa"
+    },
+    {
+      "dieu": "489",
+      "title": "Khai thác tài sản thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "khai thác tài sản thuê khoán, khai thác đúng mục đích, thay đổi mục đích sử dụng"
+    },
+    {
+      "dieu": "490",
+      "title": "Bảo quản, bảo dưỡng, định đoạt tài sản thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "bảo quản bảo dưỡng định đoạt tài sản thuê khoán, sửa chữa tài sản, không được cho thuê khoán lại"
+    },
+    {
+      "dieu": "491",
+      "title": "Hưởng hoa lợi, chịu thiệt hại về gia súc thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hưởng hoa lợi chịu thiệt hại về gia súc thuê khoán, gia súc sinh con, gia súc chết, chia hoa lợi"
+    },
+    {
+      "dieu": "492",
+      "title": "Đơn phương chấm dứt thực hiện hợp đồng thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đơn phương chấm dứt hợp đồng thuê khoán, vi phạm nghiêm trọng, báo trước, bồi thường"
+    },
+    {
+      "dieu": "493",
+      "title": "Trả lại tài sản thuê khoán",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trả lại tài sản thuê khoán, tình trạng khi trả, tài sản tăng giảm giá trị, thanh toán chênh lệch"
+    },
+    {
+      "dieu": "494",
+      "title": "Hợp đồng mượn tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng mượn tài sản, mượn đồ, cho mượn không phải trả tiền, trả lại tài sản mượn"
+    },
+    {
+      "dieu": "495",
+      "title": "Đối tượng của hợp đồng mượn tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đối tượng hợp đồng mượn tài sản, vật không tiêu hao, tài sản được mượn"
+    },
+    {
+      "dieu": "496",
+      "title": "Nghĩa vụ của bên mượn tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên mượn tài sản, giữ gìn tài sản mượn, không cho người khác mượn lại, bồi thường hư hỏng"
+    },
+    {
+      "dieu": "497",
+      "title": "Quyền của bên mượn tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên mượn tài sản, sử dụng tài sản mượn, được hưởng hoa lợi nếu thỏa thuận, chi phí sửa chữa"
+    },
+    {
+      "dieu": "498",
+      "title": "Nghĩa vụ của bên cho mượn tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên cho mượn tài sản, báo khuyết tật, bồi thường thiệt hại, không đòi lại đột ngột"
+    },
+    {
+      "dieu": "499",
+      "title": "Quyền của bên cho mượn tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên cho mượn tài sản, đòi lại tài sản, đòi lại khi có nhu cầu cấp bách, yêu cầu bồi thường"
+    },
+    {
+      "dieu": "500",
+      "title": "Hợp đồng về quyền sử dụng đất",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng về quyền sử dụng đất, chuyển nhượng đất, cho thuê đất, tặng cho thế chấp góp vốn quyền sử dụng đất"
+    },
+    {
+      "dieu": "501",
+      "title": "Nội dung của hợp đồng về quyền sử dụng đất",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nội dung hợp đồng về quyền sử dụng đất, thông tin thửa đất, diện tích vị trí, quyền của người thứ ba"
+    },
+    {
+      "dieu": "502",
+      "title": "Hình thức, thủ tục thực hiện hợp đồng về quyền sử dụng đất",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hình thức thủ tục hợp đồng quyền sử dụng đất, công chứng chứng thực, đăng ký đất đai, luật đất đai"
+    },
+    {
+      "dieu": "503",
+      "title": "Hiệu lực của việc chuyển quyền sử dụng đất",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hiệu lực của việc chuyển quyền sử dụng đất, có hiệu lực khi đăng ký, sang tên sổ đỏ, thời điểm chuyển quyền"
+    },
+    {
+      "dieu": "504",
+      "title": "Hợp đồng hợp tác",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng hợp tác, góp vốn cùng làm ăn, hợp tác kinh doanh không lập pháp nhân, thành viên hợp tác"
+    },
+    {
+      "dieu": "505",
+      "title": "Nội dung của hợp đồng hợp tác",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nội dung hợp đồng hợp tác, mục đích hợp tác, đóng góp của thành viên, phân chia lợi nhuận, điều kiện tham gia rút khỏi"
+    },
+    {
+      "dieu": "506",
+      "title": "Tài sản chung của các thành viên hợp tác",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "tài sản chung của thành viên hợp tác, tài sản góp vốn, không được phân chia trước khi chấm dứt, tài sản chung hợp tác"
+    },
+    {
+      "dieu": "507",
+      "title": "Quyền, nghĩa vụ của thành viên hợp tác",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền nghĩa vụ của thành viên hợp tác, hưởng hoa lợi lợi tức, tham gia quyết định, chuyển giao phần tài sản"
+    },
+    {
+      "dieu": "508",
+      "title": "Xác lập, thực hiện giao dịch dân sự",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "xác lập thực hiện giao dịch dân sự trong hợp tác, người đại diện của tổ hợp tác, ủy quyền, quyết định chung"
+    },
+    {
+      "dieu": "509",
+      "title": "Trách nhiệm dân sự của thành viên hợp tác",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trách nhiệm dân sự của thành viên hợp tác, trách nhiệm liên đới, tài sản chung trả nợ, tài sản riêng"
+    },
+    {
+      "dieu": "510",
+      "title": "Rút khỏi hợp đồng hợp tác",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "rút khỏi hợp đồng hợp tác, xin ra khỏi nhóm hợp tác, nhận lại phần tài sản, trách nhiệm sau khi rút"
+    },
+    {
+      "dieu": "511",
+      "title": "Gia nhập hợp đồng hợp tác",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "gia nhập hợp đồng hợp tác, thành viên mới, đồng ý của các thành viên"
+    },
+    {
+      "dieu": "512",
+      "title": "Chấm dứt hợp đồng hợp tác",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "chấm dứt hợp đồng hợp tác, hết thời hạn, đạt mục đích, tòa tuyên bố chấm dứt, thanh toán tài sản"
+    },
+    {
+      "dieu": "513",
+      "title": "Hợp đồng dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng dịch vụ, cung ứng dịch vụ, trả tiền dịch vụ, service contract"
+    },
+    {
+      "dieu": "514",
+      "title": "Đối tượng của hợp đồng dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đối tượng của hợp đồng dịch vụ, công việc có thể thực hiện, không vi phạm điều cấm, dịch vụ hợp pháp"
+    },
+    {
+      "dieu": "515",
+      "title": "Nghĩa vụ của bên sử dụng dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên sử dụng dịch vụ, cung cấp thông tin tài liệu, trả tiền dịch vụ, phương tiện"
+    },
+    {
+      "dieu": "516",
+      "title": "Quyền của bên sử dụng dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên sử dụng dịch vụ, yêu cầu thực hiện đúng chất lượng, đơn phương chấm dứt, yêu cầu bồi thường"
+    },
+    {
+      "dieu": "517",
+      "title": "Nghĩa vụ của bên cung ứng dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên cung ứng dịch vụ, thực hiện đúng công việc, bảo quản tài liệu, giữ bí mật, báo tin"
+    },
+    {
+      "dieu": "518",
+      "title": "Quyền của bên cung ứng dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên cung ứng dịch vụ, yêu cầu cung cấp thông tin, thay đổi điều kiện dịch vụ, yêu cầu trả tiền"
+    },
+    {
+      "dieu": "519",
+      "title": "Trả tiền dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trả tiền dịch vụ, thời điểm trả tiền, hoàn thành công việc mới trả, giá dịch vụ thị trường"
+    },
+    {
+      "dieu": "520",
+      "title": "Đơn phương chấm dứt thực hiện hợp đồng dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đơn phương chấm dứt hợp đồng dịch vụ, ngừng dịch vụ, báo trước, trả tiền phần đã thực hiện, bồi thường"
+    },
+    {
+      "dieu": "521",
+      "title": "Tiếp tục hợp đồng dịch vụ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "tiếp tục hợp đồng dịch vụ, hết hạn mà vẫn tiếp tục, hợp đồng đương nhiên tiếp tục"
+    },
+    {
+      "dieu": "522",
+      "title": "Hợp đồng vận chuyển hành khách",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng vận chuyển hành khách, chở khách, vé xe vé máy bay, trách nhiệm nhà xe"
+    },
+    {
+      "dieu": "523",
+      "title": "Hình thức hợp đồng vận chuyển hành khách",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hình thức hợp đồng vận chuyển hành khách, vé là bằng chứng, bằng văn bản lời nói"
+    },
+    {
+      "dieu": "524",
+      "title": "Nghĩa vụ của bên vận chuyển",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên vận chuyển hành khách, chở đúng địa điểm thời gian, bảo đảm an toàn, mua bảo hiểm, chở hành lý"
+    },
+    {
+      "dieu": "525",
+      "title": "Quyền của bên vận chuyển",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên vận chuyển hành khách, từ chối chở khách, thu cước phí, kiểm tra hành lý"
+    },
+    {
+      "dieu": "526",
+      "title": "Nghĩa vụ của hành khách",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của hành khách, trả cước phí, chấp hành nội quy, không mang hàng cấm, bảo quản hành lý"
+    },
+    {
+      "dieu": "527",
+      "title": "Quyền của hành khách",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của hành khách, yêu cầu chở đúng chỗ, được miễn giảm cước, nhận lại tiền vé, hành lý miễn cước"
+    },
+    {
+      "dieu": "528",
+      "title": "Trách nhiệm bồi thường thiệt hại",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trách nhiệm bồi thường thiệt hại vận chuyển hành khách, tai nạn, hành khách bị thương, mất hành lý, chậm chuyến"
+    },
+    {
+      "dieu": "529",
+      "title": "Đơn phương chấm dứt thực hiện hợp đồng vận chuyển hành khách",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đơn phương chấm dứt hợp đồng vận chuyển hành khách, trả lại vé, hoàn tiền vé, từ chối chuyên chở"
+    },
+    {
+      "dieu": "530",
+      "title": "Hợp đồng vận chuyển tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng vận chuyển tài sản, chở hàng, thuê vận chuyển hàng hóa, giao nhận hàng"
+    },
+    {
+      "dieu": "531",
+      "title": "Hình thức hợp đồng vận chuyển tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hình thức hợp đồng vận chuyển tài sản, vận đơn, chứng từ vận chuyển, hợp đồng bằng văn bản"
+    },
+    {
+      "dieu": "532",
+      "title": "Giao tài sản cho bên vận chuyển",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giao tài sản cho bên vận chuyển, đóng gói hàng hóa, giao hàng đúng thời hạn, giấy tờ hàng hóa"
+    },
+    {
+      "dieu": "533",
+      "title": "Cước phí vận chuyển",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "cước phí vận chuyển, tiền cước, thời điểm trả cước, cước phí theo thỏa thuận"
+    },
+    {
+      "dieu": "534",
+      "title": "Nghĩa vụ của bên vận chuyển",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên vận chuyển tài sản, bảo quản hàng, giao đúng người nhận, bồi thường hư hỏng mất mát"
+    },
+    {
+      "dieu": "535",
+      "title": "Quyền của bên vận chuyển",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên vận chuyển tài sản, kiểm tra hàng, từ chối vận chuyển, yêu cầu trả cước, cầm giữ hàng"
+    },
+    {
+      "dieu": "536",
+      "title": "Nghĩa vụ của bên thuê vận chuyển",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên thuê vận chuyển, trả cước phí, cung cấp thông tin hàng hóa, đóng gói, trông coi hàng"
+    },
+    {
+      "dieu": "537",
+      "title": "Quyền của bên thuê vận chuyển",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên thuê vận chuyển, chỉ định người nhận, yêu cầu bồi thường, thay đổi hợp đồng vận chuyển"
+    },
+    {
+      "dieu": "538",
+      "title": "Giao tài sản cho bên nhận tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giao tài sản cho bên nhận tài sản, giao hàng đúng địa điểm, thông báo cho người nhận, người nhận vắng mặt"
+    },
+    {
+      "dieu": "539",
+      "title": "Nghĩa vụ của bên nhận tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên nhận tài sản, xuất trình giấy tờ, nhận hàng đúng hạn, thanh toán chi phí"
+    },
+    {
+      "dieu": "540",
+      "title": "Quyền của bên nhận tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên nhận tài sản, kiểm tra hàng, yêu cầu lập biên bản, yêu cầu bồi thường hàng hư hỏng"
+    },
+    {
+      "dieu": "541",
+      "title": "Trách nhiệm bồi thường thiệt hại",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trách nhiệm bồi thường thiệt hại vận chuyển tài sản, mất hàng hỏng hàng, lỗi bên thuê vận chuyển, bất khả kháng"
+    },
+    {
+      "dieu": "542",
+      "title": "Hợp đồng gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng gia công, đặt gia công, may gia công, nhận làm sản phẩm theo yêu cầu"
+    },
+    {
+      "dieu": "543",
+      "title": "Đối tượng của hợp đồng gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đối tượng của hợp đồng gia công, vật được xác định theo mẫu, tiêu chuẩn sản phẩm"
+    },
+    {
+      "dieu": "544",
+      "title": "Nghĩa vụ của bên đặt gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên đặt gia công, cung cấp nguyên vật liệu, chỉ dẫn, nhận sản phẩm, trả tiền công"
+    },
+    {
+      "dieu": "545",
+      "title": "Quyền của bên đặt gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên đặt gia công, nhận sản phẩm đúng chất lượng, đơn phương chấm dứt, yêu cầu sửa chữa"
+    },
+    {
+      "dieu": "546",
+      "title": "Nghĩa vụ của bên nhận gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên nhận gia công, bảo quản nguyên vật liệu, giao sản phẩm đúng hạn, giữ bí mật, chịu trách nhiệm chất lượng"
+    },
+    {
+      "dieu": "547",
+      "title": "Quyền của bên nhận gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên nhận gia công, yêu cầu cung cấp nguyên vật liệu, từ chối chỉ dẫn không hợp lý, yêu cầu trả tiền công"
+    },
+    {
+      "dieu": "548",
+      "title": "Trách nhiệm chịu rủi ro",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trách nhiệm chịu rủi ro trong gia công, nguyên vật liệu hư hỏng, sản phẩm bị mất, chưa giao sản phẩm"
+    },
+    {
+      "dieu": "549",
+      "title": "Giao, nhận sản phẩm gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "giao nhận sản phẩm gia công, đúng thời hạn địa điểm, chất lượng sản phẩm"
+    },
+    {
+      "dieu": "550",
+      "title": "Chậm giao, chậm nhận sản phẩm gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "chậm giao chậm nhận sản phẩm gia công, chậm giao hàng gia công, gửi giữ sản phẩm, bồi thường"
+    },
+    {
+      "dieu": "551",
+      "title": "Đơn phương chấm dứt thực hiện hợp đồng gia công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đơn phương chấm dứt hợp đồng gia công, ngừng gia công, bồi thường thiệt hại, thanh toán phần đã làm"
+    },
+    {
+      "dieu": "552",
+      "title": "Trả tiền công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trả tiền công gia công, tiền công theo thỏa thuận, giá trị thị trường, sản phẩm không bảo đảm chất lượng"
+    },
+    {
+      "dieu": "553",
+      "title": "Thanh lý nguyên vật liệu",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "thanh lý nguyên vật liệu, trả lại nguyên vật liệu thừa, giấy tờ nguyên vật liệu, hoàn trả sau khi gia công"
+    },
+    {
+      "dieu": "554",
+      "title": "Hợp đồng gửi giữ tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng gửi giữ tài sản, gửi xe, trông giữ tài sản, kho gửi hàng, tiền công gửi giữ"
+    },
+    {
+      "dieu": "555",
+      "title": "Nghĩa vụ của bên gửi tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên gửi tài sản, báo tình trạng tài sản, trả tiền công, bồi thường thiệt hại do tài sản gửi"
+    },
+    {
+      "dieu": "556",
+      "title": "Quyền của bên gửi tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên gửi tài sản, lấy lại tài sản bất cứ lúc nào, yêu cầu bồi thường mất mát hư hỏng"
+    },
+    {
+      "dieu": "557",
+      "title": "Nghĩa vụ của bên giữ tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên giữ tài sản, bảo quản tài sản, trả lại đúng tài sản, báo nguy cơ hư hỏng, bồi thường mất xe"
+    },
+    {
+      "dieu": "558",
+      "title": "Quyền của bên giữ tài sản",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên giữ tài sản, yêu cầu trả tiền công, bán tài sản có nguy cơ hư hỏng, yêu cầu nhận lại tài sản"
+    },
+    {
+      "dieu": "559",
+      "title": "Trả lại tài sản gửi giữ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trả lại tài sản gửi giữ, trả đúng tài sản và hoa lợi, thời hạn trả, mất giấy gửi xe"
+    },
+    {
+      "dieu": "560",
+      "title": "Chậm giao, chậm nhận tài sản gửi giữ",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "chậm giao chậm nhận tài sản gửi giữ, quá hạn không nhận, tiền công thêm, rủi ro"
+    },
+    {
+      "dieu": "561",
+      "title": "Trả tiền công",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "trả tiền công gửi giữ, tiền gửi xe, thời điểm trả tiền công, chấm dứt trước hạn"
+    },
+    {
+      "dieu": "562",
+      "title": "Hợp đồng ủy quyền",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "hợp đồng ủy quyền, giấy ủy quyền, nhân danh người khác, thù lao ủy quyền, power of attorney"
+    },
+    {
+      "dieu": "563",
+      "title": "Thời hạn ủy quyền",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "thời hạn ủy quyền, thời hạn của giấy ủy quyền, một năm nếu không thỏa thuận, hết hạn ủy quyền"
+    },
+    {
+      "dieu": "564",
+      "title": "Ủy quyền lại",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "ủy quyền lại, ủy quyền cho người khác, đồng ý của bên ủy quyền, hình thức ủy quyền lại"
+    },
+    {
+      "dieu": "565",
+      "title": "Nghĩa vụ của bên được ủy quyền",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên được ủy quyền, thực hiện đúng công việc, báo cáo, giao lại tài sản, giữ bí mật, bồi thường"
+    },
+    {
+      "dieu": "566",
+      "title": "Quyền của bên được ủy quyền",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên được ủy quyền, yêu cầu cung cấp thông tin, nhận thù lao, thanh toán chi phí"
+    },
+    {
+      "dieu": "567",
+      "title": "Nghĩa vụ của bên ủy quyền",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "nghĩa vụ của bên ủy quyền, cung cấp thông tin phương tiện, chịu trách nhiệm về công việc đã ủy quyền, trả thù lao"
+    },
+    {
+      "dieu": "568",
+      "title": "Quyền của bên ủy quyền",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "quyền của bên ủy quyền, yêu cầu báo cáo, đòi lại tài sản, yêu cầu bồi thường thiệt hại"
+    },
+    {
+      "dieu": "569",
+      "title": "Đơn phương chấm dứt thực hiện hợp đồng ủy quyền",
+      "file": "chuong-16.md",
+      "chRoman": "XVI",
+      "keywords": "đơn phương chấm dứt hợp đồng ủy quyền, hủy ủy quyền, báo trước, thông báo cho người thứ ba, bồi thường"
+    },
+    {
+      "dieu": "570",
+      "title": "Hứa thưởng",
+      "file": "chuong-17.md",
+      "chRoman": "XVII",
+      "keywords": "hứa thưởng, treo thưởng, thưởng cho người tìm được, công khai hứa thưởng, reward"
+    },
+    {
+      "dieu": "571",
+      "title": "Rút lại tuyên bố hứa thưởng",
+      "file": "chuong-17.md",
+      "chRoman": "XVII",
+      "keywords": "rút lại tuyên bố hứa thưởng, hủy treo thưởng, chưa đến hạn thực hiện, thông báo rút lại"
+    },
+    {
+      "dieu": "572",
+      "title": "Trả thưởng",
+      "file": "chuong-17.md",
+      "chRoman": "XVII",
+      "keywords": "trả thưởng, nhiều người cùng thực hiện, chia phần thưởng, người hoàn thành đầu tiên"
+    },
+    {
+      "dieu": "573",
+      "title": "Thi có giải",
+      "file": "chuong-17.md",
+      "chRoman": "XVII",
+      "keywords": "thi có giải, cuộc thi, giải thưởng, thể lệ cuộc thi, thay đổi thể lệ"
+    },
+    {
+      "dieu": "574",
+      "title": "Thực hiện công việc không có ủy quyền",
+      "file": "chuong-18.md",
+      "chRoman": "XVIII",
+      "keywords": "thực hiện công việc không có ủy quyền, làm giúp người khác không được nhờ, vì lợi ích người khác, hoàn toàn tự nguyện"
+    },
+    {
+      "dieu": "575",
+      "title": "Nghĩa vụ thực hiện công việc không có ủy quyền",
+      "file": "chuong-18.md",
+      "chRoman": "XVIII",
+      "keywords": "nghĩa vụ khi thực hiện công việc không có ủy quyền, làm như công việc của mình, báo cho người có công việc, tiếp tục thực hiện"
+    },
+    {
+      "dieu": "576",
+      "title": "Nghĩa vụ thanh toán của người có công việc được thực hiện",
+      "file": "chuong-18.md",
+      "chRoman": "XVIII",
+      "keywords": "nghĩa vụ thanh toán của người có công việc được thực hiện, hoàn trả chi phí hợp lý, trả thù lao"
+    },
+    {
+      "dieu": "577",
+      "title": "Nghĩa vụ bồi thường thiệt hại",
+      "file": "chuong-18.md",
+      "chRoman": "XVIII",
+      "keywords": "nghĩa vụ bồi thường thiệt hại khi thực hiện công việc không có ủy quyền, do lỗi cố ý vô ý, giảm mức bồi thường"
+    },
+    {
+      "dieu": "578",
+      "title": "Chấm dứt thực hiện công việc không có ủy quyền",
+      "file": "chuong-18.md",
+      "chRoman": "XVIII",
+      "keywords": "chấm dứt thực hiện công việc không có ủy quyền, người có công việc yêu cầu chấm dứt, người thực hiện chết"
+    },
+    {
+      "dieu": "579",
+      "title": "Nghĩa vụ hoàn trả",
+      "file": "chuong-19.md",
+      "chRoman": "XIX",
+      "keywords": "nghĩa vụ hoàn trả, chiếm hữu sử dụng tài sản không có căn cứ pháp luật, được lợi về tài sản, unjust enrichment"
+    },
+    {
+      "dieu": "580",
+      "title": "Tài sản hoàn trả",
+      "file": "chuong-19.md",
+      "chRoman": "XIX",
+      "keywords": "tài sản hoàn trả, hoàn trả bằng hiện vật, trả bằng tiền, tài sản không còn"
+    },
+    {
+      "dieu": "581",
+      "title": "Nghĩa vụ hoàn trả hoa lợi, lợi tức",
+      "file": "chuong-19.md",
+      "chRoman": "XIX",
+      "keywords": "nghĩa vụ hoàn trả hoa lợi lợi tức, người ngay tình, người không ngay tình, hoàn trả hoa lợi"
+    },
+    {
+      "dieu": "582",
+      "title": "Quyền yêu cầu người thứ ba hoàn trả",
+      "file": "chuong-19.md",
+      "chRoman": "XIX",
+      "keywords": "quyền yêu cầu người thứ ba hoàn trả, tài sản đã chuyển cho người khác, đòi lại từ người thứ ba"
+    },
+    {
+      "dieu": "583",
+      "title": "Nghĩa vụ thanh toán",
+      "file": "chuong-19.md",
+      "chRoman": "XIX",
+      "keywords": "nghĩa vụ thanh toán, chi phí bảo quản giữ gìn tài sản, thanh toán cho người hoàn trả"
+    },
+    {
+      "dieu": "584",
+      "title": "Căn cứ phát sinh trách nhiệm bồi thường thiệt hại",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "căn cứ phát sinh trách nhiệm bồi thường thiệt hại ngoài hợp đồng, xâm phạm tính mạng sức khỏe tài sản, bất khả kháng, lỗi bên bị thiệt hại"
+    },
+    {
+      "dieu": "585",
+      "title": "Nguyên tắc bồi thường thiệt hại",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "nguyên tắc bồi thường thiệt hại, bồi thường toàn bộ kịp thời, giảm mức bồi thường, thay đổi mức bồi thường"
+    },
+    {
+      "dieu": "586",
+      "title": "Năng lực chịu trách nhiệm bồi thường thiệt hại của cá nhân",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "năng lực chịu trách nhiệm bồi thường của cá nhân, người chưa đủ 15 tuổi, cha mẹ bồi thường thay, người mất năng lực hành vi"
+    },
+    {
+      "dieu": "587",
+      "title": "Bồi thường thiệt hại do nhiều người cùng gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường thiệt hại do nhiều người cùng gây ra, trách nhiệm liên đới, mức độ lỗi mỗi người"
+    },
+    {
+      "dieu": "588",
+      "title": "Thời hiệu khởi kiện yêu cầu bồi thường thiệt hại",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "thời hiệu khởi kiện yêu cầu bồi thường thiệt hại, 3 năm, kể từ ngày biết quyền bị xâm phạm"
+    },
+    {
+      "dieu": "589",
+      "title": "Thiệt hại do tài sản bị xâm phạm",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "thiệt hại do tài sản bị xâm phạm, tài sản bị mất hủy hoại hư hỏng, lợi ích gắn liền, chi phí ngăn chặn khắc phục"
+    },
+    {
+      "dieu": "590",
+      "title": "Thiệt hại do sức khỏe bị xâm phạm",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "thiệt hại do sức khỏe bị xâm phạm, chi phí cứu chữa, thu nhập bị mất, người chăm sóc, bù đắp tổn thất tinh thần, 50 lần lương cơ sở"
+    },
+    {
+      "dieu": "591",
+      "title": "Thiệt hại do tính mạng bị xâm phạm",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "thiệt hại do tính mạng bị xâm phạm, chi phí mai táng, tiền cấp dưỡng người phụ thuộc, tổn thất tinh thần, 100 lần lương cơ sở"
+    },
+    {
+      "dieu": "592",
+      "title": "Thiệt hại do danh dự, nhân phẩm, uy tín bị xâm phạm",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "thiệt hại do danh dự nhân phẩm uy tín bị xâm phạm, chi phí cải chính, thu nhập bị mất, tổn thất tinh thần, 10 lần lương cơ sở"
+    },
+    {
+      "dieu": "593",
+      "title": "Thời hạn hưởng bồi thường thiệt hại do tính mạng, sức khỏe bị xâm phạm",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "thời hạn hưởng bồi thường do tính mạng sức khỏe bị xâm phạm, bồi thường đến khi chết, cấp dưỡng cho con đến 18 tuổi, mất khả năng lao động"
+    },
+    {
+      "dieu": "594",
+      "title": "Bồi thường thiệt hại trong trường hợp vượt quá giới hạn phòng vệ chính đáng",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do vượt quá giới hạn phòng vệ chính đáng, phòng vệ quá mức, tự vệ gây thiệt hại"
+    },
+    {
+      "dieu": "595",
+      "title": "Bồi thường thiệt hại trong trường hợp vượt quá yêu cầu của tình thế cấp thiết",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do vượt quá yêu cầu của tình thế cấp thiết, gây thiệt hại quá mức cần thiết, người gây tình thế cấp thiết"
+    },
+    {
+      "dieu": "596",
+      "title": "Bồi thường thiệt hại do người dùng chất kích thích gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do người dùng chất kích thích gây ra, say rượu gây tai nạn, dùng ma túy, người cho uống rượu"
+    },
+    {
+      "dieu": "597",
+      "title": "Bồi thường thiệt hại do người của pháp nhân gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường thiệt hại do người của pháp nhân gây ra, nhân viên gây thiệt hại, công ty bồi thường, hoàn trả cho pháp nhân"
+    },
+    {
+      "dieu": "598",
+      "title": "Bồi thường thiệt hại do người thi hành công vụ gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do người thi hành công vụ gây ra, trách nhiệm bồi thường của nhà nước, cán bộ công chức gây thiệt hại"
+    },
+    {
+      "dieu": "599",
+      "title": "Bồi thường thiệt hại do người dưới mười lăm tuổi, người mất năng lực hành vi dân sự gây ra trong thời gian trường học, bệnh viện, pháp nhân khác trực tiếp quản lý",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do người dưới 15 tuổi người mất năng lực hành vi gây ra tại trường học bệnh viện, trách nhiệm nhà trường, học sinh đánh nhau"
+    },
+    {
+      "dieu": "600",
+      "title": "Bồi thường thiệt hại do người làm công, người học nghề gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do người làm công người học nghề gây ra, chủ sử dụng lao động bồi thường, hoàn trả"
+    },
+    {
+      "dieu": "601",
+      "title": "Bồi thường thiệt hại do nguồn nguy hiểm cao độ gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do nguồn nguy hiểm cao độ, tai nạn ô tô xe máy, điện giật, chủ sở hữu bồi thường không có lỗi, chiếm hữu trái pháp luật"
+    },
+    {
+      "dieu": "602",
+      "title": "Bồi thường thiệt hại do làm ô nhiễm môi trường",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do làm ô nhiễm môi trường, xả thải gây thiệt hại, bồi thường kể cả không có lỗi"
+    },
+    {
+      "dieu": "603",
+      "title": "Bồi thường thiệt hại do súc vật gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường thiệt hại do súc vật gây ra, chó cắn người, trâu bò húc, chủ vật nuôi bồi thường, thả rông súc vật"
+    },
+    {
+      "dieu": "604",
+      "title": "Bồi thường thiệt hại do cây cối gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường thiệt hại do cây cối gây ra, cây đổ đè người, cành cây gãy, chủ sở hữu cây"
+    },
+    {
+      "dieu": "605",
+      "title": "Bồi thường thiệt hại do nhà cửa, công trình xây dựng khác gây ra",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường thiệt hại do nhà cửa công trình xây dựng gây ra, nhà sập, tường đổ, chủ sở hữu người thi công bồi thường"
+    },
+    {
+      "dieu": "606",
+      "title": "Bồi thường thiệt hại do xâm phạm thi thể",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do xâm phạm thi thể, xâm phạm xác người chết, tổn thất tinh thần cho thân nhân, 30 lần lương cơ sở"
+    },
+    {
+      "dieu": "607",
+      "title": "Bồi thường thiệt hại do xâm phạm mồ mả",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do xâm phạm mồ mả, phá mồ mả, di dời mộ, bồi thường cho thân nhân, 10 lần lương cơ sở"
+    },
+    {
+      "dieu": "608",
+      "title": "Bồi thường thiệt hại do vi phạm quyền lợi của người tiêu dùng",
+      "file": "chuong-20.md",
+      "chRoman": "XX",
+      "keywords": "bồi thường do vi phạm quyền lợi người tiêu dùng, hàng hóa không bảo đảm chất lượng, sản phẩm gây hại, nhà sản xuất bồi thường"
+    },
+    {
+      "dieu": "609",
+      "title": "Quyền thừa kế",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "quyền thừa kế, lập di chúc, để lại tài sản, hưởng di sản, inheritance"
+    },
+    {
+      "dieu": "610",
+      "title": "Quyền bình đẳng về thừa kế của cá nhân",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "quyền bình đẳng về thừa kế, mọi cá nhân đều có quyền, không phân biệt"
+    },
+    {
+      "dieu": "611",
+      "title": "Thời điểm, địa điểm mở thừa kế",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "thời điểm địa điểm mở thừa kế, thời điểm người chết, nơi cư trú cuối cùng, nơi có di sản"
+    },
+    {
+      "dieu": "612",
+      "title": "Di sản",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "di sản là gì, tài sản riêng của người chết, phần tài sản chung, di sản thừa kế"
+    },
+    {
+      "dieu": "613",
+      "title": "Người thừa kế",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "người thừa kế, cá nhân còn sống khi mở thừa kế, thai nhi, tổ chức được hưởng di sản"
+    },
+    {
+      "dieu": "614",
+      "title": "Thời điểm phát sinh quyền và nghĩa vụ của người thừa kế",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "thời điểm phát sinh quyền nghĩa vụ của người thừa kế, từ thời điểm mở thừa kế, kế thừa quyền nghĩa vụ, mở thừa kế"
+    },
+    {
+      "dieu": "615",
+      "title": "Thực hiện nghĩa vụ tài sản do người chết để lại",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "thực hiện nghĩa vụ tài sản do người chết để lại, trả nợ thay người chết, trong phạm vi di sản, người thừa kế trả nợ"
+    },
+    {
+      "dieu": "616",
+      "title": "Người quản lý di sản",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "người quản lý di sản, ai giữ di sản, chỉ định trong di chúc, thỏa thuận cử người quản lý"
+    },
+    {
+      "dieu": "617",
+      "title": "Nghĩa vụ của người quản lý di sản",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "nghĩa vụ của người quản lý di sản, lập danh mục di sản, bảo quản di sản, giao lại di sản, thông báo"
+    },
+    {
+      "dieu": "618",
+      "title": "Quyền của người quản lý di sản",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "quyền của người quản lý di sản, đại diện cho người thừa kế, hưởng thù lao, thanh toán chi phí bảo quản"
+    },
+    {
+      "dieu": "619",
+      "title": "Việc thừa kế của những người có quyền thừa kế di sản của nhau mà chết cùng thời điểm",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "thừa kế khi chết cùng thời điểm, không thừa kế của nhau, chết cùng lúc, tai nạn chết cùng"
+    },
+    {
+      "dieu": "620",
+      "title": "Từ chối nhận di sản",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "từ chối nhận di sản, không nhận thừa kế, văn bản từ chối, không được trốn tránh nghĩa vụ trả nợ"
+    },
+    {
+      "dieu": "621",
+      "title": "Người không được quyền hưởng di sản",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "người không được quyền hưởng di sản, giết người để lại di sản, ngược đãi cha mẹ, giả mạo di chúc, truất quyền"
+    },
+    {
+      "dieu": "622",
+      "title": "Tài sản không có người nhận thừa kế",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "tài sản không có người nhận thừa kế, di sản thuộc về nhà nước, không còn người thừa kế"
+    },
+    {
+      "dieu": "623",
+      "title": "Thời hiệu thừa kế",
+      "file": "chuong-21.md",
+      "chRoman": "XXI",
+      "keywords": "thời hiệu thừa kế, 30 năm với bất động sản, 10 năm với động sản, 3 năm yêu cầu chia di sản, khởi kiện thừa kế"
+    },
+    {
+      "dieu": "624",
+      "title": "Di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc là gì, ý chí cá nhân chuyển tài sản sau khi chết, will testament"
+    },
+    {
+      "dieu": "625",
+      "title": "Người lập di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "người lập di chúc, người thành niên, người từ 15 đến 18 tuổi lập di chúc, minh mẫn sáng suốt"
+    },
+    {
+      "dieu": "626",
+      "title": "Quyền của người lập di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "quyền của người lập di chúc, chỉ định người thừa kế, truất quyền hưởng di sản, phân chia phần di sản, di sản thờ cúng"
+    },
+    {
+      "dieu": "627",
+      "title": "Hình thức của di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "hình thức của di chúc, di chúc bằng văn bản, di chúc miệng"
+    },
+    {
+      "dieu": "628",
+      "title": "Di chúc bằng văn bản",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc bằng văn bản, có người làm chứng, không có người làm chứng, công chứng chứng thực"
+    },
+    {
+      "dieu": "629",
+      "title": "Di chúc miệng",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc miệng, tính mạng bị đe dọa, hai người làm chứng, hết hiệu lực sau 3 tháng"
+    },
+    {
+      "dieu": "630",
+      "title": "Di chúc hợp pháp",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc hợp pháp, điều kiện có hiệu lực, minh mẫn không bị lừa dối, nội dung không trái đạo đức, di chúc của người 15 đến 18 tuổi"
+    },
+    {
+      "dieu": "631",
+      "title": "Nội dung của di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "nội dung của di chúc, ngày tháng năm lập, họ tên người thừa kế, di sản, không viết tắt, sửa chữa di chúc"
+    },
+    {
+      "dieu": "632",
+      "title": "Người làm chứng cho việc lập di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "người làm chứng cho việc lập di chúc, ai không được làm chứng, người thừa kế không được làm chứng, người chưa thành niên"
+    },
+    {
+      "dieu": "633",
+      "title": "Di chúc bằng văn bản không có người làm chứng",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc bằng văn bản không có người làm chứng, tự viết tay ký tên, di chúc viết tay"
+    },
+    {
+      "dieu": "634",
+      "title": "Di chúc bằng văn bản có người làm chứng",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc bằng văn bản có người làm chứng, đánh máy nhờ người viết, hai người làm chứng, ký trước mặt người làm chứng"
+    },
+    {
+      "dieu": "635",
+      "title": "Di chúc có công chứng hoặc chứng thực",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc có công chứng hoặc chứng thực, công chứng di chúc, chứng thực tại UBND xã"
+    },
+    {
+      "dieu": "636",
+      "title": "Thủ tục lập di chúc tại tổ chức hành nghề công chứng hoặc Ủy ban nhân dân cấp xã",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "thủ tục lập di chúc tại phòng công chứng hoặc UBND cấp xã, tuyên bố nội dung di chúc, ghi chép ký tên, công chứng viên"
+    },
+    {
+      "dieu": "637",
+      "title": "Người không được công chứng, chứng thực di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "người không được công chứng chứng thực di chúc, người thừa kế, người thân thích, có quyền nghĩa vụ tài sản liên quan"
+    },
+    {
+      "dieu": "638",
+      "title": "Di chúc bằng văn bản có giá trị như di chúc được công chứng hoặc chứng thực",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc có giá trị như di chúc được công chứng, di chúc của quân nhân, người đi trên tàu bay tàu biển, người đang điều trị tại bệnh viện, người đang bị tạm giam"
+    },
+    {
+      "dieu": "639",
+      "title": "Di chúc do công chứng viên lập tại chỗ ở",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc do công chứng viên lập tại chỗ ở, lập di chúc tại nhà, người ốm không đi lại được"
+    },
+    {
+      "dieu": "640",
+      "title": "Sửa đổi, bổ sung, thay thế, hủy bỏ di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "sửa đổi bổ sung thay thế hủy bỏ di chúc, thay di chúc mới, di chúc sau cùng có hiệu lực"
+    },
+    {
+      "dieu": "641",
+      "title": "Gửi giữ di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "gửi giữ di chúc, gửi di chúc tại phòng công chứng, giữ bí mật di chúc, trả lại di chúc"
+    },
+    {
+      "dieu": "642",
+      "title": "Di chúc bị thất lạc, hư hại",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di chúc bị thất lạc hư hại, mất di chúc, chia theo pháp luật, tìm lại được di chúc"
+    },
+    {
+      "dieu": "643",
+      "title": "Hiệu lực của di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "hiệu lực của di chúc, có hiệu lực từ thời điểm mở thừa kế, người thừa kế chết trước, di sản không còn, di chúc vô hiệu một phần"
+    },
+    {
+      "dieu": "644",
+      "title": "Người thừa kế không phụ thuộc vào nội dung của di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "người thừa kế không phụ thuộc vào nội dung di chúc, con chưa thành niên, cha mẹ vợ chồng, hai phần ba suất thừa kế theo pháp luật"
+    },
+    {
+      "dieu": "645",
+      "title": "Di sản dùng vào việc thờ cúng",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di sản dùng vào việc thờ cúng, nhà thờ họ, đất hương hỏa, người quản lý di sản thờ cúng"
+    },
+    {
+      "dieu": "646",
+      "title": "Di tặng",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "di tặng, tặng một phần di sản trong di chúc, người được di tặng, không phải trả nợ"
+    },
+    {
+      "dieu": "647",
+      "title": "Công bố di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "công bố di chúc, công bố di chúc sau khi mở thừa kế, sao gửi di chúc cho người thừa kế, di chúc bằng tiếng nước ngoài"
+    },
+    {
+      "dieu": "648",
+      "title": "Giải thích nội dung di chúc",
+      "file": "chuong-22.md",
+      "chRoman": "XXII",
+      "keywords": "giải thích nội dung di chúc, di chúc không rõ ràng, ý nguyện người lập di chúc, tòa giải quyết"
+    },
+    {
+      "dieu": "649",
+      "title": "Thừa kế theo pháp luật",
+      "file": "chuong-23.md",
+      "chRoman": "XXIII",
+      "keywords": "thừa kế theo pháp luật, chia theo hàng thừa kế, không có di chúc, intestate succession"
+    },
+    {
+      "dieu": "650",
+      "title": "Những trường hợp thừa kế theo pháp luật",
+      "file": "chuong-23.md",
+      "chRoman": "XXIII",
+      "keywords": "trường hợp thừa kế theo pháp luật, không có di chúc, di chúc không hợp lệ, người thừa kế chết trước, từ chối nhận di sản"
+    },
+    {
+      "dieu": "651",
+      "title": "Người thừa kế theo pháp luật",
+      "file": "chuong-23.md",
+      "chRoman": "XXIII",
+      "keywords": "người thừa kế theo pháp luật, hàng thừa kế thứ nhất vợ chồng cha mẹ con, hàng thứ hai ông bà anh chị em, hàng thứ ba, chia đều"
+    },
+    {
+      "dieu": "652",
+      "title": "Thừa kế thế vị",
+      "file": "chuong-23.md",
+      "chRoman": "XXIII",
+      "keywords": "thừa kế thế vị, cháu thay cha mẹ nhận thừa kế, con chết trước ông bà, chắt hưởng thừa kế"
+    },
+    {
+      "dieu": "653",
+      "title": "Quan hệ thừa kế giữa con nuôi và cha nuôi, mẹ nuôi và cha đẻ, mẹ đẻ",
+      "file": "chuong-23.md",
+      "chRoman": "XXIII",
+      "keywords": "thừa kế giữa con nuôi và cha mẹ nuôi, con nuôi hưởng di sản, thừa kế của cha mẹ đẻ"
+    },
+    {
+      "dieu": "654",
+      "title": "Quan hệ thừa kế giữa con riêng và bố dượng, mẹ kế",
+      "file": "chuong-23.md",
+      "chRoman": "XXIII",
+      "keywords": "thừa kế giữa con riêng và bố dượng mẹ kế, chăm sóc nuôi dưỡng như cha con, con riêng của vợ chồng"
+    },
+    {
+      "dieu": "655",
+      "title": "Việc thừa kế trong trường hợp vợ, chồng đã chia tài sản chung; vợ, chồng đang xin ly hôn hoặc đã kết hôn với người khác",
+      "file": "chuong-23.md",
+      "chRoman": "XXIII",
+      "keywords": "thừa kế khi vợ chồng đã chia tài sản chung, đang xin ly hôn, đã kết hôn với người khác, vẫn được thừa kế"
+    },
+    {
+      "dieu": "656",
+      "title": "Họp mặt những người thừa kế",
+      "file": "chuong-24.md",
+      "chRoman": "XXIV",
+      "keywords": "họp mặt những người thừa kế, thỏa thuận cử người quản lý di sản, cách phân chia di sản, lập văn bản"
+    },
+    {
+      "dieu": "657",
+      "title": "Người phân chia di sản",
+      "file": "chuong-24.md",
+      "chRoman": "XXIV",
+      "keywords": "người phân chia di sản, chỉ định trong di chúc, thỏa thuận cử, hưởng thù lao phân chia"
+    },
+    {
+      "dieu": "658",
+      "title": "Thứ tự ưu tiên thanh toán",
+      "file": "chuong-24.md",
+      "chRoman": "XXIV",
+      "keywords": "thứ tự ưu tiên thanh toán, chi phí mai táng, tiền cấp dưỡng, tiền lương, tiền bồi thường, thuế nợ nhà nước"
+    },
+    {
+      "dieu": "659",
+      "title": "Phân chia di sản theo di chúc",
+      "file": "chuong-24.md",
+      "chRoman": "XXIV",
+      "keywords": "phân chia di sản theo di chúc, chia theo hiện vật, chia theo tỷ lệ, di chúc không xác định rõ phần"
+    },
+    {
+      "dieu": "660",
+      "title": "Phân chia di sản theo pháp luật",
+      "file": "chuong-24.md",
+      "chRoman": "XXIV",
+      "keywords": "phân chia di sản theo pháp luật, chia đều cho hàng thừa kế, người thừa kế mới sinh, chia bằng hiện vật hoặc tiền"
+    },
+    {
+      "dieu": "661",
+      "title": "Hạn chế phân chia di sản",
+      "file": "chuong-24.md",
+      "chRoman": "XXIV",
+      "keywords": "hạn chế phân chia di sản, chưa chia di sản theo di chúc, vợ hoặc chồng còn sống, đời sống gia đình bị ảnh hưởng"
+    },
+    {
+      "dieu": "662",
+      "title": "Phân chia di sản trong trường hợp có người thừa kế mới hoặc có người thừa kế bị bác bỏ quyền thừa kế",
+      "file": "chuong-24.md",
+      "chRoman": "XXIV",
+      "keywords": "phân chia lại di sản khi có người thừa kế mới, người bị bác bỏ quyền thừa kế, thanh toán bằng tiền, chia lại di sản"
+    },
+    {
+      "dieu": "663",
+      "title": "Phạm vi áp dụng",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "phạm vi áp dụng, quan hệ dân sự có yếu tố nước ngoài, người nước ngoài, tài sản ở nước ngoài"
+    },
+    {
+      "dieu": "664",
+      "title": "Xác định pháp luật áp dụng đối với quan hệ dân sự có yếu tố nước ngoài",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "xác định pháp luật áp dụng, chọn luật áp dụng, điều ước quốc tế, pháp luật nước có mối liên hệ gắn bó nhất"
+    },
+    {
+      "dieu": "665",
+      "title": "Áp dụng điều ước quốc tế đối với quan hệ dân sự có yếu tố nước ngoài",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "áp dụng điều ước quốc tế, ưu tiên điều ước quốc tế, Việt Nam là thành viên"
+    },
+    {
+      "dieu": "666",
+      "title": "Áp dụng tập quán quốc tế",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "áp dụng tập quán quốc tế, tập quán thương mại quốc tế, không trái nguyên tắc cơ bản"
+    },
+    {
+      "dieu": "667",
+      "title": "Áp dụng pháp luật nước ngoài",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "áp dụng pháp luật nước ngoài, giải thích áp dụng luật nước ngoài, không xác định được nội dung"
+    },
+    {
+      "dieu": "668",
+      "title": "Phạm vi pháp luật được dẫn chiếu đến",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "phạm vi pháp luật được dẫn chiếu đến, dẫn chiếu ngược, dẫn chiếu đến nước thứ ba, renvoi"
+    },
+    {
+      "dieu": "669",
+      "title": "Áp dụng pháp luật của nước có nhiều hệ thống pháp luật",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "áp dụng pháp luật của nước có nhiều hệ thống pháp luật, liên bang, chọn hệ thống pháp luật"
+    },
+    {
+      "dieu": "670",
+      "title": "Trường hợp không áp dụng pháp luật nước ngoài",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "không áp dụng pháp luật nước ngoài, trái nguyên tắc cơ bản, hậu quả không phù hợp, trốn tránh pháp luật"
+    },
+    {
+      "dieu": "671",
+      "title": "Thời hiệu",
+      "file": "chuong-25.md",
+      "chRoman": "XXV",
+      "keywords": "thời hiệu trong quan hệ dân sự có yếu tố nước ngoài, luật áp dụng cho thời hiệu, thời hiệu khởi kiện"
+    },
+    {
+      "dieu": "672",
+      "title": "Căn cứ xác định pháp luật áp dụng đối với người không quốc tịch, người có nhiều quốc tịch",
+      "file": "chuong-26.md",
+      "chRoman": "XXVI",
+      "keywords": "người không quốc tịch người có nhiều quốc tịch, pháp luật áp dụng, nơi cư trú, quốc tịch Việt Nam"
+    },
+    {
+      "dieu": "673",
+      "title": "Năng lực pháp luật dân sự của cá nhân",
+      "file": "chuong-26.md",
+      "chRoman": "XXVI",
+      "keywords": "năng lực pháp luật dân sự của cá nhân nước ngoài, pháp luật nước người đó có quốc tịch, quyền tại Việt Nam"
+    },
+    {
+      "dieu": "674",
+      "title": "Năng lực hành vi dân sự của cá nhân",
+      "file": "chuong-26.md",
+      "chRoman": "XXVI",
+      "keywords": "năng lực hành vi dân sự của cá nhân nước ngoài, luật nơi có quốc tịch, xác lập giao dịch tại Việt Nam"
+    },
+    {
+      "dieu": "675",
+      "title": "Xác định cá nhân mất tích hoặc chết",
+      "file": "chuong-26.md",
+      "chRoman": "XXVI",
+      "keywords": "xác định cá nhân mất tích hoặc chết, luật nơi cư trú, tuyên bố mất tích người nước ngoài"
+    },
+    {
+      "dieu": "676",
+      "title": "Pháp nhân",
+      "file": "chuong-26.md",
+      "chRoman": "XXVI",
+      "keywords": "pháp nhân nước ngoài, quốc tịch pháp nhân, pháp luật nước nơi thành lập, hoạt động tại Việt Nam"
+    },
+    {
+      "dieu": "677",
+      "title": "Phân loại tài sản",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "phân loại tài sản có yếu tố nước ngoài, động sản bất động sản, pháp luật nơi có tài sản"
+    },
+    {
+      "dieu": "678",
+      "title": "Quyền sở hữu và quyền khác đối với tài sản",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "quyền sở hữu và quyền khác đối với tài sản có yếu tố nước ngoài, luật nơi có tài sản, động sản đang trên đường vận chuyển"
+    },
+    {
+      "dieu": "679",
+      "title": "Quyền sở hữu trí tuệ",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "quyền sở hữu trí tuệ có yếu tố nước ngoài, luật nước nơi được bảo hộ, bản quyền sáng chế"
+    },
+    {
+      "dieu": "680",
+      "title": "Thừa kế",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "thừa kế có yếu tố nước ngoài, luật nước người để lại di sản có quốc tịch, bất động sản ở nước ngoài"
+    },
+    {
+      "dieu": "681",
+      "title": "Di chúc",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "di chúc có yếu tố nước ngoài, năng lực lập di chúc, hình thức di chúc, luật nơi lập di chúc"
+    },
+    {
+      "dieu": "682",
+      "title": "Giám hộ",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "giám hộ có yếu tố nước ngoài, luật nơi người được giám hộ cư trú, giám hộ người nước ngoài"
+    },
+    {
+      "dieu": "683",
+      "title": "Hợp đồng",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "hợp đồng có yếu tố nước ngoài, chọn luật áp dụng cho hợp đồng, pháp luật có mối liên hệ gắn bó nhất, hợp đồng lao động tiêu dùng"
+    },
+    {
+      "dieu": "684",
+      "title": "Hành vi pháp lý đơn phương",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "hành vi pháp lý đơn phương có yếu tố nước ngoài, luật nơi cư trú nơi thành lập của bên xác lập, hứa thưởng có yếu tố nước ngoài"
+    },
+    {
+      "dieu": "685",
+      "title": "Nghĩa vụ hoàn trả do chiếm hữu, sử dụng, được lợi về tài sản không có căn cứ pháp luật",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "nghĩa vụ hoàn trả có yếu tố nước ngoài, được lợi về tài sản không có căn cứ, luật nơi thực hiện"
+    },
+    {
+      "dieu": "686",
+      "title": "Thực hiện công việc không có ủy quyền",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "thực hiện công việc không có ủy quyền có yếu tố nước ngoài, luật nơi thực hiện công việc, luật áp dụng"
+    },
+    {
+      "dieu": "687",
+      "title": "Bồi thường thiệt hại ngoài hợp đồng",
+      "file": "chuong-27.md",
+      "chRoman": "XXVII",
+      "keywords": "bồi thường thiệt hại ngoài hợp đồng có yếu tố nước ngoài, luật nơi phát sinh hậu quả, cùng cư trú một nước, tai nạn ở nước ngoài"
+    },
+    {
+      "dieu": "688",
+      "title": "Điều khoản chuyển tiếp",
+      "file": "chuong-28.md",
+      "chRoman": "",
+      "keywords": "điều khoản chuyển tiếp, giao dịch xác lập trước 01/01/2017, áp dụng Bộ luật dân sự 2005, thời hiệu, giám đốc thẩm tái thẩm"
+    },
+    {
+      "dieu": "689",
+      "title": "Hiệu lực thi hành",
+      "file": "chuong-28.md",
+      "chRoman": "",
+      "keywords": "hiệu lực thi hành, có hiệu lực từ 01/01/2017, thay thế Bộ luật dân sự 2005, Quốc hội khóa XIII thông qua"
+    }
+  ]
+}

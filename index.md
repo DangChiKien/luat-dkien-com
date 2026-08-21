@@ -22,6 +22,12 @@ Ngân hàng tra cứu văn bản pháp luật Việt Nam — phục vụ cả co
 | Thông tư 05/2024/TT-BXD | 05/2024/TT-BXD | 01/08/2024 | [/thong-tu-05-2024/chi-muc.md](thong-tu-05-2024/chi-muc.md) | 21 |
 | Quy chế quản lý, sử dụng nhà chung cư | kèm TT 05/2024/TT-BXD | 01/08/2024 | [/quy-che-nha-chung-cu-2024/chi-muc.md](quy-che-nha-chung-cu-2024/chi-muc.md) | 50 |
 
+## Dân sự
+
+| Văn bản | Số hiệu | Hiệu lực | Chỉ mục | Số điều |
+|---|---|---|---|---|
+| Bộ luật Dân sự 2015 | 91/2015/QH13 | 01/01/2017 | [/bo-luat-dan-su-2015/chi-muc.md](bo-luat-dan-su-2015/chi-muc.md) | 689 |
+
 ## Dùng với AI
 
 Khi cần tra cứu pháp luật Việt Nam:

@@ -1122,6 +1122,16 @@ html[data-theme="dark"] .site-footer a:hover { color: var(--accent); }
   max-width: var(--content-measure);
 }
 
+/* "Tiểu mục" nests inside a Mục: lighter, no rule above */
+.content .muc-divider-sub {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin: 1.6em auto 0.9em;
+  padding-top: 0;
+  border-top: 0;
+}
+
 /* search-result row internals (mirror .search-result-item__badge / __title) */
 .search-result-item .result-badge {
   flex: none;

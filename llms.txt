@@ -26,3 +26,6 @@ Quy tắc: chỉ trích dẫn nội dung đã fetch được, không suy đoán;
 - [Luật Nhà ở 2023](https://luat.dkien.com/luat-nha-o-2023/chi-muc.md): số 27/2023/QH15, hiệu lực 01/01/2025
 - [Thông tư 05/2024/TT-BXD](https://luat.dkien.com/thong-tu-05-2024/chi-muc.md): số 05/2024/TT-BXD, hiệu lực 01/08/2024
 - [Quy chế quản lý, sử dụng nhà chung cư](https://luat.dkien.com/quy-che-nha-chung-cu-2024/chi-muc.md): kèm TT 05/2024/TT-BXD, hiệu lực 01/08/2024
+
+## Dân sự
+- [Bộ luật Dân sự 2015](https://luat.dkien.com/bo-luat-dan-su-2015/chi-muc.md): số 91/2015/QH13, hiệu lực 01/01/2017, 6 phần · 27 chương · 689 điều

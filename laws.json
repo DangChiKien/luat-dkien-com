@@ -88,5 +88,14 @@
     "chapters": 5,
     "articles": 50,
     "category": "Nhà ở"
+  },
+  {
+    "slug": "bo-luat-dan-su-2015",
+    "name": "Bộ luật Dân sự 2015",
+    "code": "91/2015/QH13",
+    "effective": "01/01/2017",
+    "chapters": 27,
+    "articles": 689,
+    "category": "Dân sự"
   }
 ]

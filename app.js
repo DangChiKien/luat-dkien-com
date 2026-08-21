@@ -241,7 +241,7 @@
       const cb = el("input", {
         type: "checkbox",
         class: "chap-checkbox",
-        "aria-label": "Chọn cả Chương " + ch.roman,
+        "aria-label": ch.roman ? "Chọn cả Chương " + ch.roman : "Chọn cả " + ch.title,
       });
       cb.dataset.file = ch.file;
       cb.addEventListener("change", () => toggleChapterSelection(ch.file, cb.checked));
@@ -381,10 +381,14 @@
       }
 
       // "Mục N: ..." section heading -> divider block.
-      const mucMatch = /^##\s+(Mục\s+.+)$/i.exec(line);
+      const mucMatch = /^##\s+((Tiểu\s+)?Mục\s+.+)$/i.exec(line);
       if (mucMatch) {
         pushCurrent();
-        result.blocks.push({ type: "muc", title: mucMatch[1].trim() });
+        result.blocks.push({
+          type: "muc",
+          title: mucMatch[1].trim(),
+          sub: Boolean(mucMatch[2]),
+        });
         continue;
       }
 
@@ -446,7 +450,10 @@
     parsed.blocks.forEach((block) => {
       if (block.type === "muc") {
         chSection.appendChild(
-          el("div", { class: "muc-divider", text: block.title })
+          el("div", {
+            class: block.sub ? "muc-divider muc-divider-sub" : "muc-divider",
+            text: block.title,
+          })
         );
         return;
       }
