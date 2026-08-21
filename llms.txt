@@ -29,3 +29,4 @@ Quy tắc: chỉ trích dẫn nội dung đã fetch được, không suy đoán;
 
 ## Dân sự
 - [Bộ luật Dân sự 2015](https://luat.dkien.com/bo-luat-dan-su-2015/chi-muc.md): số 91/2015/QH13, hiệu lực 01/01/2017, 6 phần · 27 chương · 689 điều
+- [Bộ luật Dân sự 2015 — chỉ mục từ khóa](https://luat.dkien.com/bo-luat-dan-su-2015/chi-muc-tu-khoa.md): cùng 689 điều, kèm từ khóa đời thường/tiếng Anh cho từng điều; dùng khi câu hỏi diễn đạt bằng ngôn ngữ thường ngày thay vì tên điều luật

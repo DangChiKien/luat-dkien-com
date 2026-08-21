@@ -222,6 +222,11 @@ Trong đó `{NN}` là số chương 2 chữ số, ví dụ `01`, `02`, ..., `13`
 | Cấu trúc | 6 phần, 27 chương, 689 điều |
 | Số file chương | 28 (`chuong-01.md` … `chuong-28.md`; `chuong-28.md` là Phần thứ sáu — Điều khoản thi hành, không thuộc chương nào) |
 | Slug | `bo-luat-dan-su-2015` |
+| Chỉ mục | `chi-muc.md` (điều hướng, ~79 KB) và `chi-muc-tu-khoa.md` (cùng 689 điều + cột từ khóa, ~165 KB) |
+
+Bộ luật này có **hai file chỉ mục** ở tầng 2 — chọn một, vẫn đủ 3 lượt fetch:
+- `chi-muc.md` — mặc định: 6 phần, bảng tra 28 file chương, và đủ 689 dòng (số điều + tên điều + link).
+- `chi-muc-tu-khoa.md` — khi câu hỏi dùng ngôn ngữ đời thường ("vay nặng lãi", "chia thừa kế", "chó cắn người"): cùng 689 dòng nhưng có thêm cột từ khóa.
 
 Hai chương lớn nhất: Chương XV (Điều 274–429, quy định chung về nghĩa vụ và hợp đồng) và Chương XVI (Điều 430–569, các hợp đồng thông dụng) — file tương ứng khoảng 90–100 KB, nên fetch đúng chương thay vì tải toàn bộ.
 
