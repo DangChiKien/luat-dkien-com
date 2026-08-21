@@ -326,6 +326,22 @@
       }
       return `<h${lvl}>${body}</h${lvl}>`;
     };
+    // Tag khoản / điểm paragraphs so CSS can indent điểm under their khoản.
+    // Delegates to the base renderer and only rewrites the opening tag, so it
+    // stays correct across marked versions (the CDN copy is unpinned).
+    const baseParagraph = renderer.paragraph.bind(renderer);
+    renderer.paragraph = function () {
+      const html = baseParagraph.apply(renderer, arguments);
+      if (typeof html !== "string" || html.slice(0, 3) !== "<p>") return html;
+      const plain = stripTags(html).trim();
+      const cls = /^\d{1,2}\./.test(plain)
+        ? "clause-khoan"
+        : /^[a-zà-ỹđ]\)/i.test(plain)
+        ? "clause-diem"
+        : null;
+      return cls ? '<p class="' + cls + '">' + html.slice(3) : html;
+    };
+
     return renderer;
   }
 
@@ -337,10 +353,71 @@
     }
   })();
 
+  // Article bodies follow one convention across every law in this repo: one
+  // paragraph per source line. Markdown disagrees on two counts. Consecutive
+  // lines are swallowed as lazy continuation, so điểm a/b/c all run together
+  // in a single block; and a leading "N." becomes an <ol>, which the browser
+  // renumbers from 1 — an article whose khoản are 1, 3, 4 (khoản 2 đã bị bãi
+  // bỏ) rendered as 1, 2, 3, i.e. the wrong khoản number on screen.
+  //
+  // So: give every clause line its own markdown block, and escape the "N." so
+  // no ordered list is ever built and the number shown is the number written
+  // in the law. Headings, tables, fenced code, bullet lists and blockquote
+  // structure pass through untouched. Display only — the copy-for-AI path
+  // (markdownToPlain) still reads the raw markdown.
+  const BACKSLASH = String.fromCharCode(92);
+  function clauseBlocks(md) {
+    const src = String(md == null ? "" : md).split(/\r?\n/);
+    const out = [];
+    let fence = false;
+    let prevBlank = true;
+    let prevPrefix = "";
+    const KHOAN = /^(\d{1,2})\.(\s)/;
+    const PASSTHROUGH = /^(#{1,6}\s|\||[-*+]\s|\d+\.\s*$)/;
+
+    for (let i = 0; i < src.length; i++) {
+      const raw = src[i];
+      if (/^\s*(```|~~~)/.test(raw)) {
+        fence = !fence;
+        out.push(raw);
+        prevBlank = false;
+        continue;
+      }
+      if (fence) {
+        out.push(raw);
+        continue;
+      }
+      const t = raw.trim();
+      if (!t) {
+        out.push("");
+        prevBlank = true;
+        prevPrefix = "";
+        continue;
+      }
+      // Blockquote: keep the "> " prefix, treat the remainder as a clause line.
+      const q = t.match(/^((?:>\s?)+)(.*)$/);
+      const prefix = q ? q[1] : "";
+      let body = q ? q[2] : t;
+      if (PASSTHROUGH.test(body)) {
+        out.push(prefix + body);
+        prevBlank = false;
+        prevPrefix = prefix;
+        continue;
+      }
+      body = body.replace(KHOAN, (m, n, sp) => n + BACKSLASH + "." + sp);
+      if (!prevBlank) out.push(prefix || prevPrefix || "");
+      out.push(prefix + body);
+      prevBlank = false;
+      prevPrefix = prefix;
+    }
+    return out.join("\n");
+  }
+
   function renderMarkdown(md) {
     if (typeof marked === "undefined") return escapeHtml(md);
     const parse = marked.parse || marked;
-    return ARTICLE_RENDERER ? parse(md, { renderer: ARTICLE_RENDERER }) : parse(md);
+    const src = clauseBlocks(md);
+    return ARTICLE_RENDERER ? parse(src, { renderer: ARTICLE_RENDERER }) : parse(src);
   }
 
   // Split a chapter's raw markdown into blocks keyed by structure.

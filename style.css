@@ -809,7 +809,17 @@ html[data-theme="dark"] .content h1 { color: var(--text); }
 
 .content p { margin: 0 0 1em; }
 
-/* Khoản / điểm — nested ordered list indentation, readable */
+/* Khoản / điểm — mỗi khoản và mỗi điểm là một đoạn riêng, mang đúng số ghi
+   trong văn bản (trước đây markdown biến khoản thành <ol> và trình duyệt tự
+   đánh số lại, nên điều nào khuyết khoản sẽ hiển thị sai số). Điểm thụt vào
+   một cấp dưới khoản. */
+.content .article-body p,
+.content .chapter-intro p { margin: 0 0 0.55em; }
+.content .article-body p:last-child,
+.content .chapter-intro p:last-child { margin-bottom: 0; }
+.content .article-body p.clause-diem { padding-left: 1.7em; }
+
+/* Danh sách gạch đầu dòng thật sự có trong văn bản */
 .content ol,
 .content ul {
   margin: 0 0 1em;
