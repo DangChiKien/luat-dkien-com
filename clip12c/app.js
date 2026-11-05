@@ -1,6 +1,8 @@
 (function(){
 "use strict";
 const D = JSON.parse(document.getElementById("data").textContent);
+D.segments.push({ id:"_kho", part:"Ảnh khác", kind:"kho", t0:0, t1:0, photos:[],
+  text:"Ảnh nào Sinh muốn đưa vào clip mà chưa biết đặt ở đoạn nào thì tải lên đây (chọn được nhiều ảnh một lúc) và ghi ảnh đó là gì. Kiên sẽ đưa vào chùm ảnh cuối hoặc đoạn hợp nhất." });
 const CFG = window.C12 || {};
 const KEY = "clip12c-chon-anh-v2";
 const BUCKET = "clip12c";
@@ -166,6 +168,7 @@ function saveNow(id){
 // ---------- recommended counts
 function advice(s){
   const dur = s.t1 - s.t0;
+  if (s.kind === "kho") return {lo:0, hi:9999, text:"Ảnh Sinh tải thêm"};
   if (s.kind === "memorial") return {lo:1, hi:2, text:"Đoạn tưởng nhớ: ảnh chuyển đen trắng, nên 1–2 ảnh"};
   if (s.kind === "montage") { const n = Math.round(dur/3.7); return {lo:n-4, hi:n+4, text:"Mỗi ảnh khoảng 3,7 giây, nên " + (n-4) + "–" + (n+4) + " ảnh"}; }
   if (s.kind === "interlude") { const n = Math.round(dur/3.6); return {lo:n-1, hi:n+1, text:"Đoạn nhạc chuyển, mỗi ảnh khoảng 3,6 giây"}; }
@@ -217,20 +220,21 @@ function renderSeg(id){
   const s = D.segments.find(x => x.id === id), st = S.segs[id], el = $("#seg-" + id);
   if (!el) return;
   const a = advice(s), n = st.photos.length;
-  const pill = n === 0 ? '<span class="pill warn">chưa có ảnh</span>' : (n < a.lo ? '<span class="pill warn">hơi ít, mỗi ảnh sẽ hiện lâu</span>' : (n > a.hi ? '<span class="pill warn">hơi nhiều, ảnh sẽ chuyển nhanh</span>' : '<span class="pill ok">vừa</span>'));
+  const kho = s.kind === "kho";
+  const pill = kho ? '' : n === 0 ? '<span class="pill warn">chưa có ảnh</span>' : (n < a.lo ? '<span class="pill warn">hơi ít, mỗi ảnh sẽ hiện lâu</span>' : (n > a.hi ? '<span class="pill warn">hơi nhiều, ảnh sẽ chuyển nhanh</span>' : '<span class="pill ok">vừa</span>'));
   const long = s.text.length > 260;
   const busy = uploading[id] ? '<div class="tile"><div class="ph" style="aspect-ratio:4/3"></div><div class="spin">Đang tải ' + uploading[id] + '</div></div>' : '';
   el.className = "seg" + (changed(id) ? " changed" : "");
   el.innerHTML =
-    '<div class="seg-head"><span class="time">' + mmss(s.t0) + ' – ' + mmss(s.t1) + '</span><span class="sid">đoạn ' + id + '</span>' + (changed(id) ? '<span class="badge">Đã sửa</span>' : '') + '</div>' +
+    '<div class="seg-head">' + (kho ? '<span class="time">Ảnh khác muốn đưa vào clip</span>' : '<span class="time">' + mmss(s.t0) + ' – ' + mmss(s.t1) + '</span><span class="sid">đoạn ' + id + '</span>') + (changed(id) ? '<span class="badge">Đã sửa</span>' : '') + '</div>' +
     '<p class="text' + (long && !expanded[id] ? ' clamp' : '') + '">' + esc(s.text) + '</p>' +
     (long ? '<button class="more" type="button" data-act="more">' + (expanded[id] ? 'Thu gọn' : 'Xem cả đoạn') + '</button>' : '') +
-    '<div class="count">' + esc(a.text) + ' · đang có ' + n + ' ' + pill + '</div>' +
+    (kho ? (n ? '<div class="count">Đã tải lên ' + n + ' ảnh</div>' : '') : '<div class="count">' + esc(a.text) + ' · đang có ' + n + ' ' + pill + '</div>') +
     '<div class="tiles">' + st.photos.map((x,i) => tileHTML(x, i, n)).join("") + busy + '</div>' +
-    '<div class="btns"><button class="btn primary" type="button" data-act="add">+ Thêm ảnh từ kho</button>' +
-    '<button class="btn" type="button" data-act="upload">+ Tải ảnh lên</button>' +
+    '<div class="btns">' + (kho ? '' : '<button class="btn primary" type="button" data-act="add">+ Thêm ảnh từ kho</button>') +
+    '<button class="btn' + (kho ? ' primary' : '') + '" type="button" data-act="upload">+ Tải ảnh lên</button>' +
     (JSON.stringify(st.photos) !== JSON.stringify(orig[id]) ? '<button class="btn ghost" type="button" data-act="reset">Khôi phục như cũ</button>' : '') + '</div>' +
-    '<label class="note" for="note-' + id + '">Ghi chú cho đoạn này</label>' +
+    '<label class="note" for="note-' + id + '">' + (kho ? 'Ghi chú cho các ảnh này' : 'Ghi chú cho đoạn này') + '</label>' +
     '<textarea id="note-' + id + '" data-note="1" placeholder="Ví dụ: ảnh số 2 là thầy Lệ; tên ‘Vững’ đọc chưa đúng…">' + esc(st.note) + '</textarea>' +
     '<div class="note-row"><button class="btn sm" type="button" data-act="savenote">Ghi</button><span class="note-st" id="nst-' + id + '"></span></div>';
   noteStatus(id);
@@ -277,9 +281,7 @@ function updateBadge(id){
 let uploadFor = null;
 function startUpload(id){
   if (!sb || !online) {
-    S.newSeq++; const k = "MOI" + S.newSeq; S.news[k] = { desc:"" }; S.segs[id].photos.push(k);
-    renderSeg(id); markSeg(id);
-    toast("Chưa kết nối máy chủ: ghi ảnh đó là gì vào ô vừa thêm, rồi gửi ảnh cho Kiên qua Zalo dạng file.");
+    toast("Chưa kết nối được máy chủ nên chưa tải ảnh được. Sinh đợi ít phút rồi tải lại trang và thử lại nhé.");
     return;
   }
   uploadFor = id; $("#fileIn").value = ""; $("#fileIn").click();
@@ -294,7 +296,8 @@ $("#fileIn").addEventListener("change", async e => {
     try {
       const ext = ((f.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "") || "jpg").slice(0, 5);
       const path = "sinh/" + Date.now() + "-" + Math.random().toString(36).slice(2, 8) + "." + ext;
-      const up = await sb.storage.from(BUCKET).upload(path, f, { contentType: f.type || "image/jpeg", upsert: false, cacheControl: "3600" });
+      let up = await sb.storage.from(BUCKET).upload(path, f, { contentType: f.type || "image/jpeg", upsert: false, cacheControl: "3600" });
+      if (up.error) { await new Promise(r => setTimeout(r, 1500)); up = await sb.storage.from(BUCKET).upload(path, f, { contentType: f.type || "image/jpeg", upsert: true, cacheControl: "3600" }); }
       if (up.error) throw up.error;
       const ins = await sb.from("clip12c_uploads").insert({ path: path, name: f.name, descr: "" }).select().single();
       if (ins.error) throw ins.error;
@@ -302,7 +305,7 @@ $("#fileIn").addEventListener("change", async e => {
       S.segs[id].photos.push("UP:" + ins.data.id);
       dirty.add(id); ok++;
     } catch(err) {
-      toast("Không tải được ảnh “" + f.name + "”. Sinh thử lại, hoặc gửi ảnh đó cho Kiên qua Zalo.");
+      toast("Không tải được ảnh “" + f.name + "” (có thể do mạng). Sinh bấm Tải ảnh lên để thử lại nhé.");
     }
   }
   delete uploading[id]; renderSeg(id); renderChips(); renderOut(); scheduleFlush(100);
@@ -389,7 +392,7 @@ function renderDone(){ $("#doneMsg").textContent = S.done ? "Đã báo xong: " +
 $("#doneBtn").onclick = () => {
   const d = new Date(); S.done = (S.who || "Sinh") + " lúc " + hhmm(d) + " ngày " + d.getDate() + "/" + (d.getMonth()+1);
   dirty.add("_xong"); renderDone(); scheduleFlush(100);
-  toast(sb ? "Cảm ơn Sinh! Kiên sẽ thấy ngay." : "Cảm ơn Sinh! Nhớ bấm Sao chép kết quả rồi gửi Kiên qua Zalo.");
+  toast(sb ? "Cảm ơn Sinh! Kiên sẽ thấy ngay." : "Cảm ơn Sinh! Trang chưa kết nối được máy chủ, nhớ bấm Sao chép kết quả rồi dán vào Zalo gửi Kiên.");
 };
 function resultText(){
   const L = ["GÓP Ý CLIP 12C – từ " + (S.who || "Sinh")];
@@ -398,11 +401,11 @@ function resultText(){
     L.push("", "ĐOẠN ĐÃ SỬA:");
     ch.forEach(s => {
       const st = S.segs[s.id];
-      L.push("• " + s.id + " (" + mmss(s.t0) + "–" + mmss(s.t1) + "): " + (st.photos.length ? st.photos.map(label).join(", ") : "(bỏ hết ảnh)"));
+      L.push("• " + (s.kind === "kho" ? "Ảnh khác" : s.id + " (" + mmss(s.t0) + "–" + mmss(s.t1) + ")") + ": " + (st.photos.length ? st.photos.map(label).join(", ") : "(bỏ hết ảnh)"));
       if (st.note.trim()) L.push("   Ghi chú: " + st.note.trim().replace(/\s*\n\s*/g, " / "));
     });
   } else L.push("", "Chưa sửa đoạn nào.");
-  if (keep.length) L.push("", "GIỮ NGUYÊN: " + keep.map(s => s.id).join(", "));
+  if (keep.length) L.push("", "GIỮ NGUYÊN: " + keep.filter(s => s.kind !== "kho").map(s => s.id).join(", "));
   if (S.gnote.trim()) L.push("", "GHI CHÚ CHUNG: " + S.gnote.trim());
   return L.join("\n");
 }
