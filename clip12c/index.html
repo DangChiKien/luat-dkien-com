@@ -40,6 +40,9 @@ header.top{padding-block:28px 8px}
 .eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600}
 h1{font-family:var(--f-display);font-weight:700;font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.15;margin:.3rem 0 .4rem;text-wrap:balance}
 .lede{color:var(--muted);margin:0 0 14px}
+.callout{background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:12px;padding:14px 16px;margin:6px 0 14px;box-shadow:var(--shadow);max-width:68ch}
+.callout p{margin:0}
+.callout p+p{margin-top:8px}
 .deadline{display:inline-flex;gap:8px;align-items:center;background:var(--accent-soft);color:var(--accent);font-weight:600;border-radius:999px;padding:6px 14px;font-size:.95rem}
 .howto{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:16px 18px;margin:18px 0 6px;box-shadow:var(--shadow)}
 .howto h2{font-size:1.05rem;margin:0 0 8px}
@@ -123,7 +126,10 @@ input[type=text]{border:1px solid var(--rule);border-radius:10px;background:var(
   <header class="top">
     <div class="eyebrow">Lớp 12C · THPT Cổ Loa · 1989–1992</div>
     <h1>Chọn ảnh cho clip “Một thời để nhớ, một đời để thương”</h1>
-    <p class="lede">Gửi Sinh: đây là bản dựng ngày 6/11, dài <span id="dur"></span>. Mình xếp ảnh theo những gì nhìn thấy nên chưa biết ai là ai. Sinh xem và sửa giúp để ảnh khớp với lời bình nhé.</p>
+    <div class="callout">
+      <p><b>Sinh ơi, đây là bản dựng đầu tiên của clip</b> (dài <span id="dur"></span>). Mình không biết mặt các bạn và thầy cô, nên ảnh ghép vào từng đoạn lời bình có thể chưa hợp với nội dung.</p>
+      <p>Nhờ Sinh làm thêm một việc: <b>chọn giúp ảnh để ghép đúng vào nội dung từng đoạn</b>. Đoạn nhắc thầy cô nào, bạn nào, kỷ niệm nào thì chọn ảnh có người đó, cảnh đó. Đoạn nào thấy ổn rồi thì cứ để nguyên.</p>
+    </div>
     <div class="deadline">Hạn góp ý: 12:00 trưa thứ Sáu 6/11</div>
     <section class="howto" aria-labelledby="howto-h">
       <h2 id="howto-h">Cách làm</h2>
