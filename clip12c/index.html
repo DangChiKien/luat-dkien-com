@@ -70,7 +70,8 @@ h2.part{font-family:var(--f-display);font-weight:700;font-size:1.45rem;margin:34
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:10px;align-items:start}
 .tile{position:relative;background:var(--bg);border:1px solid var(--rule);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
 .tile .ph{aspect-ratio:4/3;background:#0002;border:0;padding:0;width:100%;display:block}
-.tile .ph img{width:100%;height:100%;object-fit:cover}
+.tile .ph{position:relative;overflow:hidden}
+.tile .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .tile .ord{position:absolute;top:6px;left:6px;background:rgba(12,18,34,.78);color:#fff;font-size:.75rem;font-weight:700;border-radius:6px;padding:1px 7px;font-variant-numeric:tabular-nums}
 .tile .code{position:absolute;top:6px;right:6px;background:rgba(255,255,255,.9);color:#18264a;font-size:.72rem;font-weight:700;border-radius:6px;padding:1px 6px}
 .tile .acts{display:flex}
@@ -102,7 +103,7 @@ input[type=text]{border:1px solid var(--rule);border-radius:10px;background:var(
 .sheet-body h4{margin:16px 0 8px;font-size:.95rem}
 .pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px}
 .pk{position:relative;border:2px solid transparent;border-radius:10px;overflow:hidden;padding:0;background:var(--surface);aspect-ratio:4/3}
-.pk img{width:100%;height:100%;object-fit:cover}
+.pk img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .pk .code{position:absolute;left:5px;bottom:5px;background:rgba(255,255,255,.9);color:#18264a;font-size:.7rem;font-weight:700;border-radius:5px;padding:0 5px}
 .pk .used{position:absolute;right:5px;bottom:5px;background:rgba(12,18,34,.75);color:#fff;font-size:.68rem;border-radius:5px;padding:0 5px}
 .pk.sel{border-color:var(--accent)}
@@ -125,6 +126,11 @@ input[type=text]{border:1px solid var(--rule);border-radius:10px;background:var(
 .tile .spin{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(12,18,34,.55);color:#fff;font-weight:600;font-size:.85rem}
 .done-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
 .done-msg{color:var(--ok);font-weight:600}
+.note-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:8px}
+.btn.sm{padding:6px 16px;font-size:.88rem;background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.note-st{font-size:.84rem;color:var(--muted)}
+.note-st.ok{color:var(--ok);font-weight:600}
+.note-st.warn{color:var(--warn);font-weight:600}
 details.backup{margin-top:16px;color:var(--muted);font-size:.9rem}
 details.backup summary{cursor:pointer}
 @media (prefers-reduced-motion:no-preference){.seg{transition:border-color .2s}}
@@ -147,7 +153,7 @@ details.backup summary{cursor:pointer}
         <li>Mỗi khung bên dưới là một đoạn lời bình, có mốc phút:giây trong clip và các ảnh đang dùng, theo đúng thứ tự xuất hiện.</li>
         <li>Bấm <b>✕</b> để bỏ ảnh, <b>◀ ▶</b> để đổi thứ tự, <b>+ Thêm ảnh từ kho</b> để chọn ảnh khác. Bấm vào ảnh để xem to.</li>
         <li>Có ảnh khác chưa có trong kho thì bấm <b>+ Tải ảnh lên</b> ngay ở đoạn đó, chọn ảnh trong máy, rồi ghi ảnh đó là gì.</li>
-        <li>Ghi chú thêm nếu cần, ví dụ trong ảnh có ai hoặc chữ nào đọc chưa đúng.</li>
+        <li>Ghi chú thêm nếu cần, ví dụ trong ảnh có ai hoặc chữ nào đọc chưa đúng, rồi bấm nút <b>Ghi</b> ngay dưới ô ghi chú đó.</li>
       </ol>
       <p id="howtoSave"><b>Mọi thay đổi tự lưu ngay, Kiên xem được luôn, không cần gửi gì thêm.</b> Sinh làm lúc nào cũng được, làm nhiều lần cũng được, trên điện thoại hay máy tính đều được.</p>
     </section>
@@ -167,6 +173,7 @@ details.backup summary{cursor:pointer}
       <div>
         <label class="note" for="gnote">Ghi chú chung (nhạc, chữ trên màn hình, ý khác)</label>
         <textarea id="gnote" placeholder="Ví dụ: đoạn bài thơ muốn dùng bài hát khác…"></textarea>
+        <div class="note-row"><button class="btn sm" type="button" id="gsave">Ghi</button><span class="note-st" id="gst"></span></div>
       </div>
     </div>
     <div class="done-row">

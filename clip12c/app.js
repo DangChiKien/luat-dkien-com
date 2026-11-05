@@ -45,6 +45,8 @@ const dirty = new Set(Object.keys(localDirty));
 let generalDirty = !!localDirty.__general;
 const upDirty = new Set();
 let flushTimer = null, flushing = false, backoff = 0;
+const savedNote = {}, savedAt = {};
+let savedG = null, savedGAt = null;
 
 function persistLocal(){
   try {
@@ -72,12 +74,14 @@ async function flush(){
       const rows = ids.map(id => ({ seg_id: id, photos: id === "_xong" ? [] : S.segs[id].photos, note: id === "_xong" ? S.done : S.segs[id].note, updated_by: S.who || "", updated_at: now }));
       const { error } = await sb.from("clip12c_choices").upsert(rows, { onConflict: "seg_id" });
       if (error) throw error;
-      ids.forEach(id => dirty.delete(id));
+      const at = new Date();
+      rows.forEach(r => { dirty.delete(r.seg_id); savedNote[r.seg_id] = r.note; savedAt[r.seg_id] = at; noteStatus(r.seg_id); });
     }
     if (generalDirty) {
-      const { error } = await sb.from("clip12c_general").upsert({ id: 1, who: S.who || "", note: S.gnote || "", updated_at: now }, { onConflict: "id" });
+      const gsent = S.gnote || "";
+      const { error } = await sb.from("clip12c_general").upsert({ id: 1, who: S.who || "", note: gsent, updated_at: now }, { onConflict: "id" });
       if (error) throw error;
-      generalDirty = false;
+      generalDirty = false; savedG = gsent; savedGAt = new Date(); gStatus();
     }
     for (const id of [...upDirty]) {
       const { error } = await sb.from("clip12c_uploads").update({ descr: (S.ups[id] && S.ups[id].descr) || "" }).eq("id", id);
@@ -105,10 +109,10 @@ async function pull(){
   (u.data || []).forEach(r => { S.ups[r.id] = { path: r.path, name: r.name || "", descr: upDirty.has(r.id) && S.ups[r.id] ? S.ups[r.id].descr : (r.descr || "") }; });
   (c.data || []).forEach(r => {
     if (r.seg_id === "_xong") { if (!dirty.has("_xong")) S.done = r.note || ""; return; }
-    if (S.segs[r.seg_id] && !dirty.has(r.seg_id)) S.segs[r.seg_id] = { photos: Array.isArray(r.photos) ? r.photos : [], note: r.note || "" };
+    if (S.segs[r.seg_id] && !dirty.has(r.seg_id)) { S.segs[r.seg_id] = { photos: Array.isArray(r.photos) ? r.photos : [], note: r.note || "" }; savedNote[r.seg_id] = r.note || ""; }
   });
   const gr = (g.data || [])[0];
-  if (gr && !generalDirty) { S.who = gr.who || S.who; S.gnote = gr.note || ""; }
+  if (gr && !generalDirty) { S.who = gr.who || S.who; S.gnote = gr.note || ""; savedG = S.gnote; }
 }
 async function initBackend(){
   if (!window.supabase || !/^https:\/\//.test(CFG.url || "") || !CFG.key || CFG.key.indexOf("__") === 0) {
@@ -136,6 +140,28 @@ document.addEventListener("visibilitychange", async () => {
     try { await pull(); renderAll(); syncInputs(); } catch(e) {}
   }
 });
+
+function noteStatus(id){
+  const el = document.getElementById("nst-" + id); if (!el) return;
+  const cur = S.segs[id].note, saved = savedNote[id] == null ? "" : savedNote[id];
+  if (!sb) { el.textContent = cur ? "Lưu trên máy này" : ""; el.className = "note-st"; return; }
+  if (cur === saved) { el.textContent = savedAt[id] ? "Đã ghi lúc " + hhmm(savedAt[id]) : (cur ? "Đã ghi" : ""); el.className = "note-st ok"; }
+  else { el.textContent = "Chưa ghi, bấm Ghi (hoặc dừng gõ vài giây sẽ tự ghi)"; el.className = "note-st warn"; }
+}
+function gStatus(){
+  const el = document.getElementById("gst"); if (!el) return;
+  const saved = savedG == null ? "" : savedG;
+  if (!sb) { el.textContent = S.gnote ? "Lưu trên máy này" : ""; el.className = "note-st"; return; }
+  if (S.gnote === saved) { el.textContent = savedGAt ? "Đã ghi lúc " + hhmm(savedGAt) : (S.gnote ? "Đã ghi" : ""); el.className = "note-st ok"; }
+  else { el.textContent = "Chưa ghi, bấm Ghi"; el.className = "note-st warn"; }
+}
+function saveNow(id){
+  dirty.add(id);
+  if (!sb) { persistLocal(); savedNote[id] = S.segs[id].note; savedAt[id] = new Date(); noteStatus(id); toast("Đã ghi trên máy này."); return; }
+  clearTimeout(flushTimer);
+  const el = document.getElementById("nst-" + id); if (el) { el.textContent = "Đang ghi…"; el.className = "note-st"; }
+  if (flushing) scheduleFlush(300); else flush();
+}
 
 // ---------- recommended counts
 function advice(s){
@@ -205,7 +231,9 @@ function renderSeg(id){
     '<button class="btn" type="button" data-act="upload">+ Tải ảnh lên</button>' +
     (JSON.stringify(st.photos) !== JSON.stringify(orig[id]) ? '<button class="btn ghost" type="button" data-act="reset">Khôi phục như cũ</button>' : '') + '</div>' +
     '<label class="note" for="note-' + id + '">Ghi chú cho đoạn này</label>' +
-    '<textarea id="note-' + id + '" data-note="1" placeholder="Ví dụ: ảnh số 2 là thầy Lệ; tên ‘Vững’ đọc chưa đúng…">' + esc(st.note) + '</textarea>';
+    '<textarea id="note-' + id + '" data-note="1" placeholder="Ví dụ: ảnh số 2 là thầy Lệ; tên ‘Vững’ đọc chưa đúng…">' + esc(st.note) + '</textarea>' +
+    '<div class="note-row"><button class="btn sm" type="button" data-act="savenote">Ghi</button><span class="note-st" id="nst-' + id + '"></span></div>';
+  noteStatus(id);
 }
 function markSeg(id){ dirty.add(id); renderChips(); renderOut(); scheduleFlush(); }
 
@@ -222,6 +250,7 @@ $("#main").addEventListener("click", e => {
   if (act === "more") { expanded[id] = !expanded[id]; renderSeg(id); return; }
   if (act === "add") { openPicker(id); return; }
   if (act === "upload") { startUpload(id); return; }
+  if (act === "savenote") { saveNow(id); return; }
   if (act === "rm") st.photos.splice(i,1);
   else if (act === "left" && i > 0) [st.photos[i-1], st.photos[i]] = [st.photos[i], st.photos[i-1]];
   else if (act === "right" && i < st.photos.length-1) [st.photos[i+1], st.photos[i]] = [st.photos[i], st.photos[i+1]];
@@ -232,11 +261,17 @@ $("#main").addEventListener("click", e => {
 $("#main").addEventListener("input", e => {
   const t = e.target, seg = t.closest(".seg"); if (!seg) return;
   const id = seg.dataset.id;
-  if (t.dataset.note) { S.segs[id].note = t.value; seg.classList.toggle("changed", changed(id)); markSeg(id); }
+  if (t.dataset.note) { S.segs[id].note = t.value; updateBadge(id); dirty.add(id); renderChips(); renderOut(); noteStatus(id); scheduleFlush(4000); }
   else if (t.dataset.up) { const u = S.ups[t.dataset.up]; if (u) { u.descr = t.value; upDirty.add(t.dataset.up); renderOut(); scheduleFlush(); } }
   else if (t.dataset.new) { S.news[t.dataset.new] = { desc: t.value }; markSeg(id); }
 });
-$("#main").addEventListener("change", e => { const seg = e.target.closest(".seg"); if (seg && e.target.dataset.note) renderSeg(seg.dataset.id); });
+function updateBadge(id){
+  const seg = $("#seg-" + id); if (!seg) return;
+  const ch = changed(id); seg.classList.toggle("changed", ch);
+  let b = seg.querySelector(".badge");
+  if (ch && !b) { b = document.createElement("span"); b.className = "badge"; b.textContent = "Đã sửa"; seg.querySelector(".seg-head").appendChild(b); }
+  else if (!ch && b) b.remove();
+}
 
 // ---------- uploads
 let uploadFor = null;
@@ -346,9 +381,10 @@ $("#lb").addEventListener("touchstart", e => { tx = e.touches[0].clientX; }, {pa
 $("#lb").addEventListener("touchend", e => { if (tx === null) return; const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 50) (dx > 0 ? $("#lbPrev") : $("#lbNext")).click(); tx = null; });
 
 // ---------- general, done, backup text
-function syncInputs(){ $("#who").value = S.who; $("#gnote").value = S.gnote; renderDone(); }
+function syncInputs(){ $("#who").value = S.who; $("#gnote").value = S.gnote; renderDone(); gStatus(); }
 $("#who").addEventListener("input", e => { S.who = e.target.value; generalDirty = true; renderOut(); scheduleFlush(); });
-$("#gnote").addEventListener("input", e => { S.gnote = e.target.value; generalDirty = true; renderOut(); scheduleFlush(); });
+$("#gnote").addEventListener("input", e => { S.gnote = e.target.value; generalDirty = true; renderOut(); gStatus(); scheduleFlush(4000); });
+$("#gsave").onclick = () => { generalDirty = true; if (!sb) { persistLocal(); savedG = S.gnote; savedGAt = new Date(); gStatus(); toast("Đã ghi trên máy này."); return; } clearTimeout(flushTimer); flushing ? scheduleFlush(300) : flush(); };
 function renderDone(){ $("#doneMsg").textContent = S.done ? "Đã báo xong: " + S.done + ". Sửa thêm vẫn được, trang vẫn tự lưu." : ""; }
 $("#doneBtn").onclick = () => {
   const d = new Date(); S.done = (S.who || "Sinh") + " lúc " + hhmm(d) + " ngày " + d.getDate() + "/" + (d.getMonth()+1);
