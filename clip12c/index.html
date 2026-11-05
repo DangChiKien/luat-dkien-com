@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Chọn ảnh clip 12C</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,600&display=swap">
+<style>
+/* Layout: một cột như cuốn sổ lưu bút — mỗi đoạn lời bình là một trang, ảnh xếp như tờ ảnh liên hoàn */
+:root{
+  --bg:#f2f5f9; --surface:#ffffff; --ink:#18264a; --muted:#5a6785; --rule:#d8e0ec;
+  --accent:#c4381f; --accent-ink:#ffffff; --accent-soft:#fbe6e1;
+  --gold:#a8791f; --ok:#2c7a4b; --ok-soft:#e3f2e8; --warn:#9a5b00; --warn-soft:#fff1d6;
+  --shadow:0 1px 2px rgba(24,38,74,.06),0 4px 14px rgba(24,38,74,.06);
+  --f-display:"Playfair Display",Georgia,"Times New Roman",serif;
+  --f-body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0e1424; --surface:#161f35; --ink:#e7ecf6; --muted:#9eabc6; --rule:#2a3653;
+  --accent:#ff7b5c; --accent-ink:#1a0f0c; --accent-soft:#3a1e19;
+  --gold:#e2b55a; --ok:#73c995; --ok-soft:#173326; --warn:#f2b54c; --warn-soft:#3a2b10;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+  color-scheme:dark;
+}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--f-body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-bottom:max(40px,env(safe-area-inset-bottom,0px))}
+img{max-width:100%;display:block}
+button,textarea,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:860px;margin:0 auto}
+header.top{padding-block:28px 8px}
+.eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.15;margin:.3rem 0 .4rem;text-wrap:balance}
+.lede{color:var(--muted);margin:0 0 14px}
+.deadline{display:inline-flex;gap:8px;align-items:center;background:var(--accent-soft);color:var(--accent);font-weight:600;border-radius:999px;padding:6px 14px;font-size:.95rem}
+.howto{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:16px 18px;margin:18px 0 6px;box-shadow:var(--shadow)}
+.howto h2{font-size:1.05rem;margin:0 0 8px}
+.howto ol{margin:0;padding-left:1.3rem;display:grid;gap:6px}
+.howto p{margin:10px 0 0;color:var(--muted);font-size:.92rem}
+nav.parts{position:sticky;top:0;z-index:5;background:var(--bg);padding-block:10px;margin-top:10px;border-bottom:1px solid var(--rule)}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
+.chips a{flex:none;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:6px 12px;font-size:.88rem;white-space:nowrap}
+.chips a .n{color:var(--accent);font-weight:700;margin-left:4px}
+.save-state{font-size:.82rem;color:var(--muted);margin-top:6px;min-height:1.2em}
+h2.part{font-family:var(--f-display);font-weight:700;font-size:1.45rem;margin:34px 0 10px;scroll-margin-top:70px}
+.seg{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:16px;margin-bottom:14px;box-shadow:var(--shadow);scroll-margin-top:70px}
+.seg.changed{border-color:var(--accent)}
+.seg-head{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:baseline}
+.time{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.05rem}
+.sid{color:var(--muted);font-size:.85rem}
+.badge{margin-left:auto;font-size:.78rem;font-weight:600;border-radius:999px;padding:3px 10px;background:var(--accent-soft);color:var(--accent)}
+.text{margin:8px 0 6px;white-space:pre-line;color:var(--ink);font-size:.96rem;max-width:68ch}
+.text.clamp{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.more{background:none;border:0;color:var(--accent);padding:0;font-size:.88rem;font-weight:600}
+.count{font-size:.88rem;margin:10px 0 8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;color:var(--muted)}
+.pill{border-radius:999px;padding:2px 10px;font-weight:600;font-size:.8rem}
+.pill.ok{background:var(--ok-soft);color:var(--ok)}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:10px}
+.tile{position:relative;background:var(--bg);border:1px solid var(--rule);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.tile .ph{aspect-ratio:4/3;background:#0002;border:0;padding:0;width:100%;display:block}
+.tile .ph img{width:100%;height:100%;object-fit:cover}
+.tile .ord{position:absolute;top:6px;left:6px;background:rgba(12,18,34,.78);color:#fff;font-size:.75rem;font-weight:700;border-radius:6px;padding:1px 7px;font-variant-numeric:tabular-nums}
+.tile .code{position:absolute;top:6px;right:6px;background:rgba(255,255,255,.9);color:#18264a;font-size:.72rem;font-weight:700;border-radius:6px;padding:1px 6px}
+.tile .acts{display:flex}
+.tile .acts button{flex:1;border:0;border-top:1px solid var(--rule);background:var(--surface);padding:8px 0;font-size:1rem;line-height:1}
+.tile .acts button+button{border-left:1px solid var(--rule)}
+.tile .acts button:disabled{opacity:.3;cursor:default}
+.tile .acts .rm{color:var(--accent);font-weight:700}
+.tile.new .ph{display:flex;align-items:center;justify-content:center;background:var(--accent-soft);color:var(--accent);font-weight:700;text-align:center;padding:8px}
+.tile.new input{border:0;border-top:1px solid var(--rule);background:var(--surface);padding:7px 8px;font-size:.85rem;width:100%}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.btn{border:1px solid var(--rule);background:var(--surface);border-radius:10px;padding:9px 14px;font-weight:600;font-size:.92rem}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:transparent;color:var(--muted)}
+label.note{display:block;margin-top:12px;font-size:.85rem;color:var(--muted);font-weight:600}
+textarea{width:100%;margin-top:4px;border:1px solid var(--rule);border-radius:10px;background:var(--bg);padding:9px 11px;min-height:58px;resize:vertical}
+input[type=text]{border:1px solid var(--rule);border-radius:10px;background:var(--bg);padding:9px 11px;width:100%}
+.final{background:var(--surface);border:2px solid var(--accent);border-radius:16px;padding:18px;margin-top:30px;box-shadow:var(--shadow)}
+.final h2{font-family:var(--f-display);margin:0 0 6px;font-size:1.5rem}
+.final .row{display:grid;gap:12px;grid-template-columns:1fr}
+#out{min-height:160px;font-size:.85rem;font-family:ui-monospace,Menlo,Consolas,monospace}
+.toast{position:fixed;left:50%;bottom:max(18px,env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-weight:600;z-index:50;max-width:calc(100% - 32px)}
+/* overlays */
+.overlay{position:fixed;inset:0;z-index:30;background:rgba(8,12,24,.72);display:flex;align-items:stretch;justify-content:center}
+.sheet{background:var(--bg);width:min(980px,100%);display:flex;flex-direction:column;max-height:100%}
+.sheet-head{padding:14px max(16px,env(safe-area-inset-left,0px)) 10px;border-bottom:1px solid var(--rule);background:var(--surface);padding-top:max(14px,env(safe-area-inset-top,0px))}
+.sheet-head h3{margin:0;font-size:1.05rem}
+.sheet-head p{margin:4px 0 0;color:var(--muted);font-size:.85rem}
+.sheet-body{overflow-y:auto;padding:6px max(16px,env(safe-area-inset-right,0px)) 16px max(16px,env(safe-area-inset-left,0px));flex:1}
+.sheet-body h4{margin:16px 0 8px;font-size:.95rem}
+.pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px}
+.pk{position:relative;border:2px solid transparent;border-radius:10px;overflow:hidden;padding:0;background:var(--surface);aspect-ratio:4/3}
+.pk img{width:100%;height:100%;object-fit:cover}
+.pk .code{position:absolute;left:5px;bottom:5px;background:rgba(255,255,255,.9);color:#18264a;font-size:.7rem;font-weight:700;border-radius:5px;padding:0 5px}
+.pk .used{position:absolute;right:5px;bottom:5px;background:rgba(12,18,34,.75);color:#fff;font-size:.68rem;border-radius:5px;padding:0 5px}
+.pk.sel{border-color:var(--accent)}
+.pk .selno{position:absolute;top:5px;right:5px;width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:.8rem;display:flex;align-items:center;justify-content:center}
+.pk .zoom{position:absolute;top:5px;left:5px;width:26px;height:26px;border-radius:7px;border:0;background:rgba(255,255,255,.88);color:#18264a;font-size:.85rem}
+.sheet-foot{display:flex;gap:8px;justify-content:flex-end;padding:12px max(16px,env(safe-area-inset-right,0px)) max(12px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));border-top:1px solid var(--rule);background:var(--surface)}
+.lb{position:fixed;inset:0;z-index:40;background:rgba(5,8,16,.94);display:flex;flex-direction:column}
+.lb-img{flex:1;display:flex;align-items:center;justify-content:center;padding:12px;min-height:0}
+.lb-img img{max-height:100%;max-width:100%;object-fit:contain}
+.lb-bar{display:flex;gap:8px;align-items:center;justify-content:space-between;padding:10px max(16px,env(safe-area-inset-left,0px)) max(12px,env(safe-area-inset-bottom,0px));color:#e9edf6;flex-wrap:wrap}
+.lb-bar .cap{font-size:.9rem;min-width:0}
+.lb-bar button{background:#ffffff1f;border:1px solid #ffffff33;color:#fff;border-radius:10px;padding:8px 14px;font-weight:600}
+.lb-top{display:flex;justify-content:flex-end;padding:max(10px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 0}
+.lb-top button{background:#ffffff1f;border:1px solid #ffffff33;color:#fff;border-radius:10px;padding:8px 14px;font-weight:600}
+@media (prefers-reduced-motion:no-preference){.seg{transition:border-color .2s}}
+@media (min-width:640px){.final .row{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Lớp 12C · THPT Cổ Loa · 1989–1992</div>
+    <h1>Chọn ảnh cho clip “Một thời để nhớ, một đời để thương”</h1>
+    <p class="lede">Gửi Sinh: đây là bản dựng ngày 6/11, dài <span id="dur"></span>. Mình xếp ảnh theo những gì nhìn thấy nên chưa biết ai là ai. Sinh xem và sửa giúp để ảnh khớp với lời bình nhé.</p>
+    <div class="deadline">Hạn góp ý: 12:00 trưa thứ Sáu 6/11</div>
+    <section class="howto" aria-labelledby="howto-h">
+      <h2 id="howto-h">Cách làm</h2>
+      <ol>
+        <li>Mỗi khung bên dưới là một đoạn lời bình, có mốc phút:giây trong clip và các ảnh đang dùng, theo đúng thứ tự xuất hiện.</li>
+        <li>Bấm <b>✕</b> để bỏ ảnh, <b>◀ ▶</b> để đổi thứ tự, <b>+ Thêm ảnh từ kho</b> để chọn ảnh khác. Bấm vào ảnh để xem to.</li>
+        <li>Có ảnh mới chưa có trong kho thì bấm <b>+ Ảnh mới</b>, ghi ảnh đó là gì, rồi gửi ảnh cho Kiên qua Zalo <b>dạng file</b> (để khỏi bị mờ).</li>
+        <li>Ghi chú thêm nếu cần, ví dụ trong ảnh có ai hoặc chữ nào đọc sai. Xong thì xuống cuối trang, bấm <b>Sao chép kết quả</b> rồi dán vào Zalo gửi Kiên.</li>
+      </ol>
+      <p>Trang tự lưu nháp trên máy này: đóng đi mở lại vẫn còn. Sang máy khác thì không thấy nháp. Đoạn nào thấy ổn thì cứ để nguyên.</p>
+    </section>
+  </header>
+  <nav class="parts" aria-label="Các phần của clip">
+    <div class="chips" id="chips"></div>
+    <div class="save-state" id="saveState" aria-live="polite"></div>
+  </nav>
+  <main id="main"></main>
+  <section class="final" id="ket-qua" aria-labelledby="final-h">
+    <h2 id="final-h">Gửi kết quả cho Kiên</h2>
+    <div class="row">
+      <div>
+        <label class="note" for="who">Người góp ý</label>
+        <input type="text" id="who" value="Sinh">
+      </div>
+      <div>
+        <label class="note" for="gnote">Ghi chú chung (nhạc, chữ trên màn hình, ý khác)</label>
+        <textarea id="gnote" placeholder="Ví dụ: đoạn bài thơ muốn dùng bài hát khác…"></textarea>
+      </div>
+    </div>
+    <div class="btns">
+      <button class="btn primary" id="copyBtn" type="button">Sao chép kết quả</button>
+      <button class="btn" id="dlBtn" type="button">Tải file kết quả</button>
+    </div>
+    <label class="note" for="out">Nội dung sẽ gửi (dán vào Zalo)</label>
+    <textarea id="out" readonly></textarea>
+  </section>
+</div>
+
+<div class="overlay" id="picker" hidden role="dialog" aria-modal="true" aria-labelledby="pickTitle">
+  <div class="sheet">
+    <div class="sheet-head"><h3 id="pickTitle">Thêm ảnh</h3><p id="pickSub">Chạm để chọn, chạm lần nữa để bỏ chọn. Ảnh được thêm theo thứ tự bạn chọn. Số ở góc là số đoạn đang dùng ảnh đó.</p></div>
+    <div class="sheet-body" id="pickBody"></div>
+    <div class="sheet-foot">
+      <button class="btn ghost" type="button" id="pickCancel">Huỷ</button>
+      <button class="btn primary" type="button" id="pickOk">Thêm</button>
+    </div>
+  </div>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Xem ảnh lớn">
+  <div class="lb-top"><button type="button" id="lbClose">Đóng ✕</button></div>
+  <div class="lb-img"><img id="lbImg" alt=""></div>
+  <div class="lb-bar">
+    <button type="button" id="lbPrev" aria-label="Ảnh trước">◀ Trước</button>
+    <div class="cap" id="lbCap"></div>
+    <button type="button" id="lbNext" aria-label="Ảnh sau">Sau ▶</button>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script id="data" type="application/json">{"segments": [{"id": "p0", "part": "Mở đầu", "kind": "narr", "t0": 16.2, "t1": 43.4, "text": "Có những tháng năm đã đi qua rất lâu, nhưng mỗi khi nhớ lại, ta vẫn ngỡ như mới hôm qua. Có những gương mặt, tiếng cười, những câu chuyện bình dị của một thời áo trắng, đã trở thành hành trang theo ta suốt cuộc đời. Và trong miền ký ức ấy, mái trường Phổ thông trung học Cổ Loa, thầy cô, và những người bạn lớp mười hai xê, luôn chiếm một vị trí thật đặc biệt.", "photos": ["B05", "B04", "A56", "B11"]}, {"id": "1a", "part": "Phần 1 · Ngày đầu gặp gỡ", "kind": "narr", "t0": 50.7, "t1": 80.9, "text": "Năm học một chín tám chín, một chín chín mươi, là một dấu mốc đáng nhớ đối với thế hệ học sinh chúng ta. Khi ấy, để được bước chân vào trường Phổ thông trung học Cổ Loa, các sĩ tử phải trải qua kỳ thi tuyển sinh lớp mười khá khốc liệt. Đặc biệt, nếu không vượt qua kỳ thi, học sinh phải tiếp tục học lớp chín, và chờ đến năm sau mới có cơ hội thi lại. Vì thế, ngày nhận được tin trúng tuyển, chắc hẳn là niềm vui, niềm tự hào khó quên của mỗi người.", "photos": ["B07", "B04", "B10", "A10"]}, {"id": "1b", "part": "Phần 1 · Ngày đầu gặp gỡ", "kind": "narr", "t0": 80.9, "t1": 104.3, "text": "Ngày mùng năm tháng chín năm một chín tám chín, lớp mười xê chính thức được thành lập với ba mươi tám thành viên, chủ yếu đến từ xã Đông Hội, huyện Đông Anh cũ; đặc biệt có hai bạn Nguyễn Thị Minh Hương và Nguyễn Thế Phong, đến từ xã Mai Lâm. Từ những miền quê khác nhau, chúng ta đã gặp nhau dưới một mái trường, bắt đầu viết nên câu chuyện thanh xuân của mình.", "photos": ["B05", "B05", "B11", "B06"]}, {"id": "1c", "part": "Phần 1 · Ngày đầu gặp gỡ", "kind": "narr", "t0": 104.3, "t1": 138.0, "text": "Thầy Dũng, giáo viên Vật lý, người ở phố Hàng Buồm, Hà Nội, là giáo viên chủ nhiệm đầu tiên. Sau khi thầy chuyển công tác về nội thành, thầy Ngô Quý Lệ tiếp tục đảm nhiệm vai trò chủ nhiệm lớp. Những năm tháng ấy, chúng ta còn được học tập dưới sự dìu dắt của cô Nhung dạy Toán, thầy Hoàng Xuân Trường dạy Văn, cô Hoàn dạy Hóa, thầy Nhàn dạy Sử, cô Lợi dạy Địa, cô Hòa dạy Kỹ thuật công nghiệp, cô Luân dạy Sinh, thầy Nguyễn Quỳnh Giao dạy Thể dục... cùng nhiều thầy cô khác.", "photos": ["A09", "A11", "A15", "A32", "A41"]}, {"id": "1d", "part": "Phần 1 · Ngày đầu gặp gỡ", "kind": "narr", "t0": 138.0, "t1": 157.2, "text": "Mỗi thầy cô một phong cách, nhưng tất cả đều đã góp phần vun đắp tri thức, và dạy chúng ta những bài học làm người. Có thể hôm nay, chúng ta không còn nhớ hết từng bài giảng, nhưng hình ảnh thầy cô bên bục giảng, những lời nhắc nhở ân cần, vẫn luôn ở lại trong ký ức.", "photos": ["A42", "A43", "A39"]}, {"id": "1e", "part": "Phần 1 · Ngày đầu gặp gỡ", "kind": "narr", "t0": 157.2, "t1": 191.9, "text": "Bạn Nguyễn Thị Minh Hương làm lớp trưởng kiêm bí thư, bạn Ngô Thị Minh Hải làm lớp phó, phụ trách sổ đầu bài. Lớp được chia thành bốn tổ. Đặc biệt, phải nhắc đến bạn Nguyễn Thị Hải Phương, với thành tích thể thao đáng tự hào: hai huy chương vàng chạy tám trăm mét và một nghìn năm trăm mét cấp thành phố, một huy chương bạc giải chạy Báo Hà Nội Mới. Đến năm lớp mười một, bạn tiếp tục giành thêm một huy chương vàng chạy tám trăm mét cấp thành phố. Đó là niềm tự hào của tập thể lớp chúng ta.", "photos": ["B12", "B06", "B07", "B04"]}, {"id": "2a", "part": "Phần 2 · Lớp 11C", "kind": "narr", "t0": 200.7, "t1": 212.7, "text": "Bước sang năm học một chín chín mươi, một chín chín mốt, do yêu cầu tổ chức của nhà trường, một số lớp được giải thể, sáp nhập. Lớp chúng ta có thêm nhiều thành viên mới.", "photos": ["B11", "B11"]}, {"id": "2b", "part": "Phần 2 · Lớp 11C", "kind": "narr", "t0": 212.7, "t1": 243.6, "text": "Từ thị trấn Đông Anh, có các bạn Đỗ Trung Hiếu, Vương Quốc Thắng, Bùi Sĩ Hiển, Cao Đoan Trang, Nguyễn Thị Minh Mây, Nguyễn Thị Thanh, Nguyễn Thị Hằng, Nghiêm Thị Loan, Đào Thị Bích Lan... Từ xã Cổ Loa, có Nguyễn Văn Quang, Nguyễn Văn Vững, Nguyễn Xuân Hiền, Nguyễn Văn Khiêm, và bạn Thủy, với biệt danh thân thương: cá rô phi đỏ. Các bạn Vũ Hồng Chuyên, Nguyễn Thị Minh Châu, Nguyễn Thị Vân và Vũ Thị Thái, từ xã Xuân Canh, cũng về chung mái lớp.", "photos": ["B09", "B10", "B06", "B04", "B07"]}, {"id": "2c", "part": "Phần 2 · Lớp 11C", "kind": "narr", "t0": 243.6, "t1": 258.6, "text": "Bên cạnh đó, vì hoàn cảnh gia đình, một số bạn đã phải dừng việc học sau khi kết thúc lớp mười. Mỗi người một hoàn cảnh, một con đường riêng, nhưng tất cả vẫn là những mảnh ghép của ký ức mười xê ngày ấy.", "photos": ["B04", "B05"]}, {"id": "2d", "part": "Phần 2 · Lớp 11C", "kind": "narr", "t0": 258.6, "t1": 289.0, "text": "Năm học này, lớp có bốn mươi lăm thành viên, do cô Hà Thị Luân, giáo viên Sinh học, làm chủ nhiệm. Bạn Vương Xuân Sinh làm lớp trưởng, bạn Minh Hương làm bí thư, bạn Ngô Thị Minh Hải tiếp tục làm lớp phó và giữ sổ đầu bài. Các thầy cô bộ môn cơ bản vẫn như cũ; môn Toán có thầy Ngô Văn Tuấn, và thầy Tuấn, chồng cô Lý, thay cô Nhung; học kỳ hai, môn Vật lý do thầy Hoàng Toàn đảm nhiệm, thay thầy Ngô Quý Lệ.", "photos": ["B11", "B10", "A55", "A09"]}, {"id": "2e", "part": "Phần 2 · Lớp 11C", "kind": "narr", "t0": 289.0, "t1": 307.4, "text": "Những người bạn mới nhanh chóng hòa nhập, những khoảng cách ban đầu dần được xóa nhòa. Lớp học không chỉ là nơi gặp nhau để nghe giảng, ghi bài, mà còn trở thành mái nhà chung, nơi chúng ta cùng chia sẻ niềm vui, giúp đỡ nhau trong học tập và cuộc sống.", "photos": ["B06", "B02", "B07"]}, {"id": "3a", "part": "Phần 3 · Lớp 12C", "kind": "narr", "t0": 315.7, "t1": 331.6, "text": "Năm học một chín chín mốt, một chín chín hai, năm cuối cùng dưới mái trường Cổ Loa, lớp chúng ta có bốn mươi thành viên. Cô Hà Thị Luân tiếp tục làm chủ nhiệm; môn Giáo dục công dân do thầy Nguyễn Đăng Kiểm giảng dạy, thay thầy Bái.", "photos": ["B05", "A56"]}, {"id": "3b", "part": "Phần 3 · Lớp 12C", "kind": "narr", "t0": 331.6, "t1": 353.5, "text": "Đây là năm học có nhiều cảm xúc nhất. Chúng ta vẫn hồn nhiên, nghịch ngợm, vẫn say sưa với những câu chuyện bạn bè, nhưng cũng bắt đầu cảm nhận thời gian học trò đang dần khép lại. Ban cán sự lớp cùng tập thể luôn phát huy tinh thần đoàn kết, tương trợ, tham gia đầy đủ các phong trào của nhà trường, và tích cực phấn đấu trong học tập.", "photos": ["B12", "B10", "B06", "B04"]}, {"id": "3c", "part": "Phần 3 · Lớp 12C", "kind": "narr", "t0": 353.5, "t1": 375.4, "text": "Ngoài những giờ học trên lớp, chúng ta còn thường xuyên giao lưu theo nhóm, theo tổ, từng bàn, và tổ chức đến thăm nhà nhau. Đến hôm nay, tôi vẫn nhớ như in một buổi cả lớp về nhà bạn Minh Hương ở ngoài đê, thôn Thái Bình. Hôm ấy, chúng ta cùng ăn uống, vui chơi, tiếng cười nói rộn ràng cả một góc quê.", "photos": ["B09", "B02", "B02"]}, {"id": "3d", "part": "Phần 3 · Lớp 12C", "kind": "narr", "t0": 375.4, "t1": 404.0, "text": "Nhà bạn Hương nằm gần sông Đuống, nơi có con đê dài, những khóm chuối xanh, rặng tre làng thân thuộc. Chiều xuống, gió từ mặt sông thổi lên mát rượi, mang đến cảm giác bình yên và dễ chịu. Những cô cậu học trò ngày ấy đã có với nhau những giờ phút thật vui vẻ, vô tư. Ai có thể ngờ rằng, chính những buổi gặp gỡ bình dị ấy, lại trở thành những kỷ niệm quý giá theo chúng ta suốt cuộc đời?", "photos": ["B01", "B08", "B01", "B12"]}, {"id": "3e", "part": "Phần 3 · Lớp 12C", "kind": "narr", "t0": 404.0, "t1": 422.4, "text": "Rồi học kỳ hai cũng đến. Mỗi thành viên đều tập trung học tập, rèn luyện, chấp hành kỷ luật, và chuẩn bị cho kỳ thi tốt nghiệp phổ thông trung học năm một chín chín hai. Tháng sáu năm ấy, ba năm học dưới mái trường Cổ Loa chính thức khép lại.", "photos": ["B11", "B07", "B05"]}, {"id": "4a", "part": "Phần 4 · Mùa hè năm 1992", "kind": "narr", "t0": 431.6, "t1": 447.0, "text": "Mùa hè năm một chín chín hai, có lẽ là dấu mốc không thể nào quên đối với mỗi thành viên lớp mười hai xê. Chúng ta rời xa mái trường, xa lớp học, xa thầy cô, và những người bạn đã cùng nhau đi qua ba năm tuổi trẻ.", "photos": ["B05", "B12"]}, {"id": "4b", "part": "Phần 4 · Mùa hè năm 1992", "kind": "narr", "t0": 447.0, "t1": 478.8, "text": "Sân trường vẫn xanh màu lá, phượng vẫn đỏ rực, tiếng ve vẫn ngân vang, nhưng chúng ta sắp phải chia tay. Hành trang mang theo là tri thức, những lời dạy bảo của thầy cô, những ước mơ, và cả những trang lưu bút viết vội cho nhau trước lúc rời xa tuổi học trò. Những dòng chữ nghiêng nghiêng, lời chúc vụng về, lời hẹn gặp lại, và có thể cả những giọt nước mắt... tất cả đã trở thành một phần ký ức không thể phai mờ.", "photos": ["B04", "A12", "A12", "A13"]}, {"id": "4c", "part": "Phần 4 · Mùa hè năm 1992", "kind": "narr", "t0": 478.8, "t1": 495.8, "text": "Sau khi tốt nghiệp, mỗi người chọn cho mình một con đường riêng. Có bạn thi vào Sư phạm, Xây dựng, Kiến trúc, Ngân hàng, Y Dược, lực lượng vũ trang... Mỗi người một ước mơ, một chí hướng, một hành trình lập thân, lập nghiệp.", "photos": ["B09", "B08", "B01"]}, {"id": "4d", "part": "Phần 4 · Mùa hè năm 1992", "kind": "narr", "t0": 495.8, "t1": 513.0, "text": "Từ năm một chín chín hai đến nay, lớp chúng ta đã nhiều lần tổ chức họp mặt, gặp gỡ thầy cô và bạn bè. Mỗi lần hội ngộ, những mái đầu xanh ngày nào lại có dịp trở về với tuổi mười bảy, mười tám, qua những câu chuyện cũ, những tiếng cười thân thuộc.", "photos": ["A01", "A08", "A07", "A04"]}, {"id": "i4", "part": "Phần 4 · Mùa hè năm 1992", "kind": "interlude", "t0": 512.4, "t1": 536.5, "text": "(Đoạn nhạc chuyển, không có lời bình: ảnh các lần họp mặt.)", "photos": ["A18", "A02", "A05", "A20", "A22", "A24"]}, {"id": "5a", "part": "Phần 5 · Sau 37 năm", "kind": "narr", "t0": 544.2, "t1": 554.4, "text": "Thấm thoắt đã ba mươi bảy năm kể từ ngày lớp mười xê được thành lập, và ba mươi tư năm kể từ ngày chúng ta rời xa mái trường trung học phổ thông Cổ Loa.", "photos": ["A23", "A53"]}, {"id": "5b", "part": "Phần 5 · Sau 37 năm", "kind": "narr", "t0": 554.4, "t1": 582.1, "text": "Hôm nay, chúng ta đều đã ngoài năm mươi tuổi, mái tóc nhiều người đã điểm bạc, khuôn mặt in dấu thời gian. Những thầy cô năm xưa cũng đã cao tuổi, sức khỏe giảm sút, nhưng vẫn dành tình cảm và thời gian đến chung vui cùng tập thể lớp mười hai xê. Sự hiện diện của thầy cô hôm nay thực sự là món quà quý giá, nhắc chúng ta nhớ về những người đã dìu dắt, nâng đỡ, và góp phần làm nên con người mình.", "photos": ["A51", "A33", "A35", "A36", "A46", "A45"]}, {"id": "5c1", "part": "Phần 5 · Sau 37 năm", "kind": "memorial", "t0": 582.1, "t1": 594.5, "text": "Trong niềm vui hội ngộ, chúng ta cũng không khỏi chạnh lòng khi nhớ đến những người bạn đã mãi mãi đi xa. Đặc biệt, xin được dành một phút lặng lòng, tưởng nhớ bạn Hà.", "photos": ["B05"]}, {"id": "5c2", "part": "Phần 5 · Sau 37 năm", "kind": "memorial", "t0": 600.5, "t1": 623.3, "text": "Bạn không còn có thể ngồi bên chúng ta, cùng ôn lại chuyện xưa, cùng cười vang trước những kỷ niệm ngây ngô của một thời áo trắng. Nhưng hình ảnh, tên tuổi, và những kỷ niệm về bạn, vẫn luôn ở lại trong trái tim tập thể mười hai xê. Bạn mãi là một phần của lớp, của thanh xuân mà chúng ta đã cùng nhau đi qua.", "photos": ["B04", "B11"]}, {"id": "5d", "part": "Phần 5 · Sau 37 năm", "kind": "narr", "t0": 623.3, "t1": 648.9, "text": "Cuộc đời mỗi người có những ngã rẽ, những niềm vui, và cả những nỗi buồn riêng. Nhưng có một điều không thay đổi: chúng ta đã từng chung một mái trường, một lớp học, một thời tuổi trẻ. Thời gian có thể lấy đi tuổi thanh xuân, nhưng không thể xóa nhòa những ký ức đẹp; khoảng cách có thể làm chúng ta xa nhau, nhưng không thể làm phai nhạt tình bạn.", "photos": ["A40", "A48", "A19", "A21", "A49"]}, {"id": "5e", "part": "Phần 5 · Sau 37 năm", "kind": "narr", "t0": 648.9, "t1": 669.7, "text": "Để khép lại những dòng hồi ức thân thương này, xin mời các bạn cùng lắng lòng với bài thơ: Nỗi lòng oi ả. Những câu thơ như đưa chúng ta trở về mùa hè năm ấy, với sắc phượng đỏ, tiếng ve ngân, sân trường vắng bóng, và những trang lưu bút còn dang dở.", "photos": ["A57", "A13"]}, {"id": "pm1", "part": "Bài thơ · Nỗi lòng oi ả", "kind": "poem", "t0": 675.3, "t1": 690.1, "text": "Thì cũng hết nỗi đợi chờ nắng hạ\nChân ai đi vội vã cuối con đường\nÔi điên cuồng cái nhớ ngây ngất hương\nMột ngày gần thôi khoảng sân trường sẽ vắng", "photos": ["A53", "A56"]}, {"id": "pm2", "part": "Bài thơ · Nỗi lòng oi ả", "kind": "poem", "t0": 690.1, "t1": 706.0, "text": "Để cành phượng ghé lớp vờ nghe giảng\nThầy viết câu gì trên bảng trắng mênh mông\nThầy viết câu gì, ve ơi nghe rõ không?\nXin mách lại, một nỗi lòng oi ả", "photos": ["A57", "A54"]}, {"id": "pm3", "part": "Bài thơ · Nỗi lòng oi ả", "kind": "poem", "t0": 706.0, "t1": 718.5, "text": "Cồn cào nhớ: Trời ơi! Trưa nắng hạ!\nMắt người đưa tan vỡ cả khung trời\nMắt người đưa thầm thầm khóc xa xôi...", "photos": ["B12", "A51"]}, {"id": "pm4", "part": "Bài thơ · Nỗi lòng oi ả", "kind": "poem", "t0": 718.5, "t1": 735.1, "text": "Thì cũng hết một thời mong hạ tới\nGiấy trắng học trò sẽ rách trong hư vô\nGiấy trắng học trò sẽ rách trong âu lo\nEm gánh củi gầy gò, vắt vẻo lối...", "photos": ["A12", "B06"]}, {"id": "pm5", "part": "Bài thơ · Nỗi lòng oi ả", "kind": "poem", "t0": 735.1, "t1": 747.9, "text": "Thì cũng hết một thời nông nổi\nCơn đói bây giờ không mẹ gọi chiều hôm\nCơn đói bây giờ khắc khoải xé tim non!", "photos": ["B10", "B02"]}, {"id": "pm6", "part": "Bài thơ · Nỗi lòng oi ả", "kind": "poem", "t0": 747.9, "t1": 764.0, "text": "Thì cũng hết môi son bằng cánh phượng\nThì cũng hết những tháng ngày mộng tưởng\nMai sẽ về vất vưởng con đường xa,\nMai sẽ về đốt hết những bài ca", "photos": ["B11", "B08"]}, {"id": "pm7", "part": "Bài thơ · Nỗi lòng oi ả", "kind": "poem", "t0": 764.0, "t1": 775.3, "text": "Nồi cơm muộn mắt nhòa không thể nhớ\nLà con điểm thầy từng ghi trong vở\nLà mảnh thư tình dang dở lúc đầu tiên...", "photos": ["A13", "B05"]}, {"id": "c1", "part": "Lời kết", "kind": "narr", "t0": 775.3, "t1": 793.0, "text": "Các bạn thân mến! Cảm ơn cuộc đời đã cho chúng ta gặp nhau! Cảm ơn mái trường Cổ Loa đã cho chúng ta một thời tuổi trẻ! Cảm ơn thầy cô đã dìu dắt, và cảm ơn các bạn đã cùng nhau viết nên những năm tháng thanh xuân không thể nào quên.", "photos": ["A10", "A52", "A55", "A23"]}, {"id": "c2", "part": "Lời kết", "kind": "narr", "t0": 793.0, "t1": 807.4, "text": "Mong rằng, dù thời gian có trôi đi bao lâu, dù mái tóc có bạc thêm, mỗi người ở một phương trời nào, chúng ta vẫn luôn nhớ về nhau, trân trọng tình bạn, và những lần được trở về bên nhau.", "photos": ["A48", "A54", "A40"]}, {"id": "mt", "part": "Chùm ảnh cuối", "kind": "montage", "t0": 816.5, "t1": 918.3, "text": "(Chùm ảnh cuối trên nền bài hát \"Mong ước kỷ niệm xưa\" – Lam Trường. Ảnh cuối cùng là băng-rôn họp mặt 08/11/2026.)", "photos": ["A03", "A06", "A16", "A17", "A25", "A26", "A27", "A28", "A29", "A30", "A31", "A34", "A37", "A38", "A44", "A47", "A50", "A10", "A40", "A23", "A52", "A48", "A56", "A08", "B05", "A14"]}], "groups": [{"name": "Ảnh xưa 1989–1992", "ids": ["B01", "B02", "B03", "B04", "B05", "B06", "B07", "B08", "B09", "B10", "B11", "B12"]}, {"name": "Lưu bút", "ids": ["A12", "A13"]}, {"name": "Kỷ niệm 25 năm ra trường (áo cam)", "ids": ["A01", "A02", "A03", "A04", "A05", "A06", "A07", "A08", "A09", "A10", "A11"]}, {"name": "Các buổi gặp mặt khác", "ids": ["A16", "A17", "A18", "A19", "A20", "A21", "A22"]}, {"name": "Trở về mái trường xưa – 30 năm", "ids": ["A23", "A24", "A25", "A26", "A27", "A28", "A29", "A30", "A31", "A32", "A33", "A34", "A35", "A36", "A37", "A38", "A50", "A52"]}, {"name": "Gặp gỡ thầy cô", "ids": ["A15", "A39", "A40", "A41", "A42", "A43", "A44", "A45", "A46", "A47", "A48", "A49"]}, {"name": "Áo dài trắng ở trường", "ids": ["A51", "A53", "A54", "A55", "A56", "A57"]}, {"name": "Băng-rôn họp mặt 2026", "ids": ["A14"]}], "sizes": {"A01": [2560, 1707], "A02": [2560, 1707], "A03": [2560, 1707], "A04": [2560, 1707], "A05": [2560, 1707], "A06": [2560, 1707], "A07": [2560, 1707], "A08": [2560, 1707], "A09": [2560, 1707], "A10": [2560, 1707], "A11": [2560, 1707], "A12": [1689, 1242], "A13": [1769, 1242], "A14": [1660, 947], "A15": [717, 960], "A16": [1080, 1872], "A17": [1080, 1879], "A18": [669, 667], "A19": [688, 907], "A20": [679, 524], "A21": [655, 1196], "A22": [720, 960], "A23": [1286, 981], "A24": [1388, 1500], "A25": [1350, 1800], "A26": [1350, 1800], "A27": [1350, 1800], "A28": [1350, 1800], "A29": [1350, 1800], "A30": [1250, 1500], "A31": [1242, 2095], "A32": [1286, 1141], "A33": [1286, 1169], "A34": [1252, 1500], "A35": [1286, 1124], "A36": [1286, 1240], "A37": [1244, 1500], "A38": [639, 800], "A39": [1313, 1500], "A40": [1286, 885], "A41": [1286, 885], "A42": [1286, 885], "A43": [1286, 885], "A44": [1286, 885], "A45": [1286, 885], "A46": [1286, 1056], "A47": [1286, 1125], "A48": [960, 661], "A49": [800, 631], "A50": [1242, 915], "A51": [1166, 797], "A52": [1161, 814], "A53": [1148, 816], "A54": [1286, 885], "A55": [1286, 885], "A56": [1286, 885], "A57": [1080, 683], "B01": [1447, 1087], "B02": [2560, 1679], "B03": [912, 429], "B04": [2560, 1679], "B05": [2560, 1679], "B06": [2560, 1679], "B07": [2560, 1679], "B08": [1679, 2560], "B09": [2560, 1680], "B10": [2560, 1679], "B11": [2560, 1679], "B12": [1679, 2560]}, "files": {"A01": "1793872134410_4812995871357275904_4812995871357275904_31ffcde6664d3818413919be2fcf9848.jpg", "A02": "1793872143686_4812995871357275904_4812995871357275904_e170f4988ceed78bfdf34d6be11ecfd1.jpg", "A03": "1793872151425_4812995871357275904_4812995871357275904_b9d20699d58318ec3db919fe3180fb80.jpg", "A04": "1793872158285_4812995871357275904_4812995871357275904_e1837752724e10c8abb46662dde964cb.jpg", "A05": "1793872165049_4812995871357275904_4812995871357275904_b75f86fda45d93aae3d6e30d9513d849.jpg", "A06": "1793872170920_4812995871357275904_4812995871357275904_b5d5ec22059cb91299697779aa09bd24.jpg", "A07": "1793872177501_4812995871357275904_4812995871357275904_6a384f86bb65fbda7d9dd247064e08be.jpg", "A08": "1793872183541_4812995871357275904_4812995871357275904_8627facf60747eed953def067e7d663b.jpg", "A09": "1793872190044_4812995871357275904_4812995871357275904_b46d12cfeca95e1f27045886336466a6.jpg", "A10": "1793872196845_4812995871357275904_4812995871357275904_18343e61c517c47076dec986727e4d9d.jpg", "A11": "1793872202348_4812995871357275904_4812995871357275904_806baa881d32159d7afc5bfa81eca752.jpg", "A12": "1793872617097_4812995871357275904_4812995871357275904_504e70ec37ef6bd331d1f05e397e237d.jpg", "A13": "1793872620462_4812995871357275904_4812995871357275904_5cdb4e0362cbb6828332ccac84ee8fef.jpg", "A14": "1793872986273_4812995871357275904_4812995871357275904_900ea19601f3f94276f84f063b5327d4.jpg", "A15": "1793873972038_4812995871357275904_4812995871357275904_7c221ad241599f6fe82a37d88b1a9927.jpg", "A16": "1793873974136_4812995871357275904_4812995871357275904_e04e1726a87acc6c33a8d76fd04fde24.jpg", "A17": "1793873976470_4812995871357275904_4812995871357275904_4a6c503aa60d989688ed7b80baf11880.jpg", "A18": "1793873978438_4812995871357275904_4812995871357275904_9b49e3b83333982f3604dad9d53805df.jpg", "A19": "1793873980105_4812995871357275904_4812995871357275904_07f209e54b00881e837b9ec9a97be95d.jpg", "A20": "1793873984752_4812995871357275904_4812995871357275904_2d13e13573a1c3731b295831418a9adc.jpg", "A21": "1793873989986_4812995871357275904_4812995871357275904_6654c09d8af897c55209482ab964a530.jpg", "A22": "1793873995271_4812995871357275904_4812995871357275904_151711ae9f8ab7e7a594cda65fe00325.jpg", "A23": "1793874000356_4812995871357275904_4812995871357275904_67c5ea7d62d17256cd3e4ef9c32c3682.jpg", "A24": "1793874035883_4812995871357275904_4812995871357275904_223802245bf05c72f8aacbdf5e5bca6f.jpg", "A25": "1793874035933_4812995871357275904_4812995871357275904_b9499d7c12c1a9a9af88b3481e391a27.jpg", "A26": "1793874035960_4812995871357275904_4812995871357275904_143091c1ad32af8d9aff42a469cbd3bf.jpg", "A27": "1793874035980_4812995871357275904_4812995871357275904_199a6f6069f85089c33fd031de112c84.jpg", "A28": "1793874035997_4812995871357275904_4812995871357275904_0f4dc762988507e8ef3e5ce8e0adddb6.jpg", "A29": "1793874036013_4812995871357275904_4812995871357275904_a778401925a26ee7fd2ce3a32b7987d7.jpg", "A30": "1793874036028_4812995871357275904_4812995871357275904_1e0e1fb50890eb37cde8e31289e3e338.jpg", "A31": "1793874036043_4812995871357275904_4812995871357275904_acfc9e7be42a41c182ea8e504966e9fc.jpg", "A32": "1793874036057_4812995871357275904_4812995871357275904_8d0b1e430bd1efd1c478e18a243de542.jpg", "A33": "1793874036072_4812995871357275904_4812995871357275904_d575a66a63a6b12c16607ca7f0250990.jpg", "A34": "1793874036086_4812995871357275904_4812995871357275904_1980f264a0e885fc905e766f37e872dd.jpg", "A35": "1793874036102_4812995871357275904_4812995871357275904_78440d538b832a85b0ccd00c36e11431.jpg", "A36": "1793874036115_4812995871357275904_4812995871357275904_3df6901cff4e236055512a2f7e82700e.jpg", "A37": "1793874036128_4812995871357275904_4812995871357275904_2749dd12df30c7ed5d1869b947e57ca8.jpg", "A38": "1793874036142_4812995871357275904_4812995871357275904_9481cb38204de41a0a7f3b90e26a653a.jpg", "A39": "1793874036157_4812995871357275904_4812995871357275904_dcba0db7b56ce674cc5320b585561d88.jpg", "A40": "1793874036171_4812995871357275904_4812995871357275904_06177d1a0c2eb5af5ed809838cec412b.jpg", "A41": "1793874036187_4812995871357275904_4812995871357275904_abcb890533ba8ef26b6af000f3a72b06.jpg", "A42": "1793874036204_4812995871357275904_4812995871357275904_00882a3140f4afaec940da5b51d8a04c.jpg", "A43": "1793874036220_4812995871357275904_4812995871357275904_7d0bd4cfca0bdc0d4c5e33429aa9e7a8.jpg", "A44": "1793874036238_4812995871357275904_4812995871357275904_3fe4ccebd2fd0885fa340971faf9f241.jpg", "A45": "1793874036254_4812995871357275904_4812995871357275904_c724b3b6b3e06b6ccc0a24bbe6bb17fe.jpg", "A46": "1793874036271_4812995871357275904_4812995871357275904_738cc63e18ca338af84ca636e536b76b.jpg", "A47": "1793874036285_4812995871357275904_4812995871357275904_ecd6c751c44b6073a4e5389b8845720a.jpg", "A48": "1793874036299_4812995871357275904_4812995871357275904_ef91b90685ab7a3a66ebd06721d58096.jpg", "A49": "1793874036316_4812995871357275904_4812995871357275904_ec27dbe2f81af9331d589a2e3fe2f2d1.jpg", "A50": "1793874036331_4812995871357275904_4812995871357275904_81657cb640548f2409a0159a4dfc9bfd.jpg", "A51": "1793874036345_4812995871357275904_4812995871357275904_1396b04e1f719577a678dee7f6d58151.jpg", "A52": "1793874036359_4812995871357275904_4812995871357275904_825edb3ce344ee75a1e553f861f46e9e.jpg", "A53": "1793874036374_4812995871357275904_4812995871357275904_75750e895ebb18f366cd8b50bd29127a.jpg", "A54": "1793874036389_4812995871357275904_4812995871357275904_ff30ad77c8fab9be5bd802d17f4fec98.jpg", "A55": "1793874036405_4812995871357275904_4812995871357275904_63f4c7b1e76c0af0f260252fd3229602.jpg", "A56": "1793874036421_4812995871357275904_4812995871357275904_c134ebd95f019d3a56ed60b72c515e91.jpg", "A57": "1793874036437_4812995871357275904_4812995871357275904_f26961f2329676dffdee94a9d5c32463.jpg", "B01": "1/1793872114099_4812995871357275904_4812995871357275904_987dcec12c78fc20bb77e4efe976a195.jpg", "B02": "1/1793872114120_4812995871357275904_4812995871357275904_43efa66c048df0602d0d7cca28d50123.jpg", "B03": "1/1793872114153_4812995871357275904_4812995871357275904_bfc7f13a1b77605344aa42520f86408b.jpg", "B04": "1/1793872114179_4812995871357275904_4812995871357275904_5967c91acdd2766a47855ba8f90b6a84.jpg", "B05": "1/1793872114209_4812995871357275904_4812995871357275904_a83b35be61b4ce450ab9ae374bbbbd8f.jpg", "B06": "1/1793872114239_4812995871357275904_4812995871357275904_ede65da1588478c203c4bf5182163fc9.jpg", "B07": "1/1793872114270_4812995871357275904_4812995871357275904_010acab02ee88b098cc19691dd8ad0c7.jpg", "B08": "1/1793872114300_4812995871357275904_4812995871357275904_93a3df6238007b71514aaf964d8ab5cb.jpg", "B09": "1/1793872114333_4812995871357275904_4812995871357275904_647309b4ef439c5349e8180139641422.jpg", "B10": "1/1793872114366_4812995871357275904_4812995871357275904_15490ef0c34744a0d6fdd669f49b236a.jpg", "B11": "1/1793872114399_4812995871357275904_4812995871357275904_c1d31d25ec7ecd1ba347a6943097e776.jpg", "B12": "1/1793872114432_4812995871357275904_4812995871357275904_8a693ec9f51aac111bd04cf409d78f4c.jpg"}, "total": 919.8}</script>
+<script>
+(function(){
+"use strict";
+const D = JSON.parse(document.getElementById("data").textContent);
+const KEY = "clip12c-chon-anh-v1";
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const mmss = t => { t = Math.max(0, Math.round(t)); return String(Math.floor(t/60)).padStart(2,"0")+":"+String(t%60).padStart(2,"0"); };
+const groupOf = {}; D.groups.forEach(g => g.ids.forEach(id => groupOf[id] = g.name));
+const thumb = id => "anh/nho/" + id + ".jpg";
+const big = id => "anh/lon/" + id + ".jpg";
+const isNew = x => x.startsWith("MOI");
+
+// ---------- state
+const orig = {}; D.segments.forEach(s => orig[s.id] = s.photos.slice());
+let S = { segs:{}, news:{}, newSeq:0, who:"Sinh", gnote:"" };
+D.segments.forEach(s => S.segs[s.id] = { photos: s.photos.slice(), note:"" });
+try {
+  const raw = localStorage.getItem(KEY);
+  if (raw) {
+    const L = JSON.parse(raw);
+    if (L && L.segs) {
+      for (const id in L.segs) if (S.segs[id]) S.segs[id] = { photos: Array.isArray(L.segs[id].photos) ? L.segs[id].photos : orig[id].slice(), note: L.segs[id].note || "" };
+      S.news = L.news || {}; S.newSeq = L.newSeq || 0; S.who = L.who || "Sinh"; S.gnote = L.gnote || "";
+    }
+  }
+} catch(e) {}
+let saveTimer = null;
+function save(){
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => {
+    try {
+      localStorage.setItem(KEY, JSON.stringify(S));
+      const d = new Date();
+      $("#saveState").textContent = "Đã lưu nháp trên máy này lúc " + d.getHours() + ":" + String(d.getMinutes()).padStart(2,"0");
+    } catch(e) {
+      $("#saveState").textContent = "Máy này không cho lưu nháp. Sinh làm xong nhớ bấm Sao chép kết quả ngay nhé.";
+    }
+    renderOut(); renderChips();
+  }, 250);
+}
+const changed = id => JSON.stringify(S.segs[id].photos) !== JSON.stringify(orig[id]) || S.segs[id].note.trim() !== "";
+
+// ---------- recommended counts
+function advice(s){
+  const dur = s.t1 - s.t0;
+  if (s.kind === "memorial") return {lo:1, hi:2, text:"Đoạn tưởng nhớ: ảnh chuyển đen trắng, nên 1–2 ảnh"};
+  if (s.kind === "montage") { const n = Math.round(dur/3.7); return {lo:n-4, hi:n+4, text:"Mỗi ảnh khoảng 3,7 giây, nên " + (n-4) + "–" + (n+4) + " ảnh"}; }
+  if (s.kind === "interlude") { const n = Math.round(dur/3.6); return {lo:n-1, hi:n+1, text:"Đoạn nhạc chuyển, mỗi ảnh khoảng 3,6 giây"}; }
+  const lo = Math.max(1, Math.round(dur/8)), hi = Math.max(lo+1, Math.round(dur/4.5));
+  return {lo, hi, text:"Đoạn dài " + Math.round(dur) + " giây, nên " + lo + "–" + hi + " ảnh"};
+}
+
+// ---------- render segments
+const parts = [];
+D.segments.forEach(s => { let p = parts.find(x => x.name === s.part); if (!p) { p = {name:s.part, ids:[]}; parts.push(p); } p.ids.push(s.id); });
+const partAnchor = i => "phan-" + (i+1);
+const expanded = {};
+function renderAll(){
+  const main = $("#main");
+  main.innerHTML = parts.map((p, i) =>
+    '<h2 class="part" id="' + partAnchor(i) + '">' + esc(p.name) + '</h2>' +
+    p.ids.map(id => '<article class="seg" id="seg-' + id + '" data-id="' + id + '"></article>').join("")
+  ).join("");
+  D.segments.forEach(s => renderSeg(s.id));
+  renderChips(); renderOut();
+}
+function renderChips(){
+  $("#chips").innerHTML = parts.map((p,i) => {
+    const n = p.ids.filter(changed).length;
+    const short = p.name.split(" · ")[0];
+    return '<a href="#' + partAnchor(i) + '">' + esc(short) + (n ? '<span class="n" title="số đoạn đã sửa">' + n + '</span>' : '') + '</a>';
+  }).join("") + '<a href="#ket-qua">Gửi kết quả</a>';
+}
+function tileHTML(id, x, i, n){
+  const code = isNew(x) ? x.replace("MOI","Mới ") : x;
+  if (isNew(x)) {
+    const desc = (S.news[x] && S.news[x].desc) || "";
+    return '<div class="tile new"><div class="ph">Ảnh mới<br>(gửi qua Zalo)</div><span class="ord">' + (i+1) + '</span>' +
+      '<input type="text" data-new="' + x + '" value="' + esc(desc) + '" placeholder="Ảnh gì? Ai trong ảnh?" aria-label="Mô tả ảnh mới">' +
+      acts(i, n) + '</div>';
+  }
+  return '<div class="tile"><button class="ph" type="button" data-zoom="' + i + '" aria-label="Xem to ảnh ' + x + '"><img loading="lazy" src="' + thumb(x) + '" alt="Ảnh ' + x + '"></button>' +
+    '<span class="ord">' + (i+1) + '</span><span class="code">' + code + '</span>' + acts(i, n) + '</div>';
+}
+function acts(i, n){
+  return '<div class="acts"><button type="button" data-act="left" data-i="' + i + '" aria-label="Đưa lên trước"' + (i===0?' disabled':'') + '>◀</button>' +
+    '<button type="button" class="rm" data-act="rm" data-i="' + i + '" aria-label="Bỏ ảnh">✕</button>' +
+    '<button type="button" data-act="right" data-i="' + i + '" aria-label="Đưa ra sau"' + (i===n-1?' disabled':'') + '>▶</button></div>';
+}
+function renderSeg(id){
+  const s = D.segments.find(x => x.id === id), st = S.segs[id], el = $("#seg-" + id);
+  const a = advice(s), n = st.photos.length;
+  const pill = n === 0 ? '<span class="pill warn">chưa có ảnh</span>' : (n < a.lo ? '<span class="pill warn">hơi ít, mỗi ảnh sẽ hiện lâu</span>' : (n > a.hi ? '<span class="pill warn">hơi nhiều, ảnh sẽ chuyển nhanh</span>' : '<span class="pill ok">vừa</span>'));
+  const long = s.text.length > 260;
+  el.className = "seg" + (changed(id) ? " changed" : "");
+  el.innerHTML =
+    '<div class="seg-head"><span class="time">' + mmss(s.t0) + ' – ' + mmss(s.t1) + '</span><span class="sid">đoạn ' + id + '</span>' + (changed(id) ? '<span class="badge">Đã sửa</span>' : '') + '</div>' +
+    '<p class="text' + (long && !expanded[id] ? ' clamp' : '') + '">' + esc(s.text) + '</p>' +
+    (long ? '<button class="more" type="button" data-act="more">' + (expanded[id] ? 'Thu gọn' : 'Xem cả đoạn') + '</button>' : '') +
+    '<div class="count">' + esc(a.text) + ' · đang có ' + n + ' ' + pill + '</div>' +
+    '<div class="tiles">' + st.photos.map((x,i) => tileHTML(id, x, i, n)).join("") + '</div>' +
+    '<div class="btns"><button class="btn primary" type="button" data-act="add">+ Thêm ảnh từ kho</button>' +
+    '<button class="btn" type="button" data-act="new">+ Ảnh mới</button>' +
+    (JSON.stringify(st.photos) !== JSON.stringify(orig[id]) ? '<button class="btn ghost" type="button" data-act="reset">Khôi phục như cũ</button>' : '') + '</div>' +
+    '<label class="note" for="note-' + id + '">Ghi chú cho đoạn này</label>' +
+    '<textarea id="note-' + id + '" data-note="1" placeholder="Ví dụ: ảnh số 2 là thầy Lệ; tên ‘Vững’ đọc chưa đúng…">' + esc(st.note) + '</textarea>';
+}
+
+// ---------- events on segments
+$("#main").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  const seg = b.closest(".seg"); if (!seg) return;
+  const id = seg.dataset.id, st = S.segs[id];
+  if (b.dataset.zoom !== undefined) { openLb(st.photos.filter(x => !isNew(x)), st.photos.slice(0, +b.dataset.zoom).filter(x=>!isNew(x)).length, "Đoạn " + id); return; }
+  const act = b.dataset.act, i = +b.dataset.i;
+  if (act === "more") { expanded[id] = !expanded[id]; renderSeg(id); return; }
+  if (act === "rm") { st.photos.splice(i,1); }
+  else if (act === "left" && i > 0) { [st.photos[i-1], st.photos[i]] = [st.photos[i], st.photos[i-1]]; }
+  else if (act === "right" && i < st.photos.length-1) { [st.photos[i+1], st.photos[i]] = [st.photos[i], st.photos[i+1]]; }
+  else if (act === "add") { openPicker(id); return; }
+  else if (act === "new") { S.newSeq++; const k = "MOI" + S.newSeq; S.news[k] = {desc:""}; st.photos.push(k); }
+  else if (act === "reset") { st.photos = orig[id].slice(); }
+  else return;
+  renderSeg(id); save();
+  if (act === "new") { const inp = seg.querySelector('input[data-new="MOI' + S.newSeq + '"]'); if (inp) inp.focus(); }
+});
+$("#main").addEventListener("input", e => {
+  const t = e.target, seg = t.closest(".seg"); if (!seg) return;
+  const id = seg.dataset.id;
+  if (t.dataset.note) { const was = changed(id); S.segs[id].note = t.value; if (was !== changed(id)) { seg.classList.toggle("changed", changed(id)); } save(); }
+  if (t.dataset.new) { S.news[t.dataset.new] = {desc:t.value}; save(); }
+});
+$("#main").addEventListener("change", e => { const seg = e.target.closest(".seg"); if (seg && e.target.dataset.note) renderSeg(seg.dataset.id); });
+
+// ---------- picker
+let pickFor = null, picked = [];
+function usage(){ const u = {}; for (const id in S.segs) S.segs[id].photos.forEach(x => { if (!isNew(x)) u[x] = (u[x]||0) + 1; }); return u; }
+function openPicker(id){
+  pickFor = id; picked = [];
+  const u = usage();
+  $("#pickTitle").textContent = "Thêm ảnh vào đoạn " + id;
+  $("#pickBody").innerHTML = D.groups.map(g =>
+    '<h4>' + esc(g.name) + '</h4><div class="pick">' + g.ids.map(x =>
+      '<div class="pk" data-pk="' + x + '" role="button" tabindex="0" aria-pressed="false" aria-label="Chọn ảnh ' + x + '"><img loading="lazy" src="' + thumb(x) + '" alt="">' +
+      '<span class="code">' + x + '</span>' + (u[x] ? '<span class="used" title="số đoạn đang dùng">dùng ' + u[x] + '</span>' : '') +
+      '<button class="zoom" type="button" data-z="' + x + '" aria-label="Xem to ảnh ' + x + '">⤢</button></div>').join("") + '</div>'
+  ).join("");
+  updPickOk();
+  $("#picker").hidden = false; document.body.style.overflow = "hidden";
+  $("#pickBody").scrollTop = 0;
+}
+function closePicker(){ $("#picker").hidden = true; document.body.style.overflow = ""; pickFor = null; }
+function updPickOk(){
+  $("#pickOk").textContent = picked.length ? "Thêm " + picked.length + " ảnh" : "Thêm";
+  $("#pickOk").disabled = !picked.length;
+  document.querySelectorAll(".pk").forEach(el => {
+    const k = picked.indexOf(el.dataset.pk);
+    el.classList.toggle("sel", k >= 0); el.setAttribute("aria-pressed", k >= 0);
+    let no = el.querySelector(".selno");
+    if (k >= 0) { if (!no) { no = document.createElement("span"); no.className = "selno"; el.appendChild(no); } no.textContent = k+1; }
+    else if (no) no.remove();
+  });
+}
+function togglePick(x){ const k = picked.indexOf(x); if (k >= 0) picked.splice(k,1); else picked.push(x); updPickOk(); }
+$("#pickBody").addEventListener("click", e => {
+  const z = e.target.closest("[data-z]");
+  if (z) { e.stopPropagation(); const all = D.groups.flatMap(g => g.ids); openLb(all, all.indexOf(z.dataset.z), "Kho ảnh"); return; }
+  const pk = e.target.closest("[data-pk]"); if (pk) togglePick(pk.dataset.pk);
+});
+$("#pickBody").addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target.dataset.pk) { e.preventDefault(); togglePick(e.target.dataset.pk); } });
+$("#pickCancel").onclick = closePicker;
+$("#pickOk").onclick = () => { if (!pickFor) return; const id = pickFor; S.segs[id].photos.push(...picked); closePicker(); renderSeg(id); save(); toast("Đã thêm vào đoạn " + id); };
+
+// ---------- lightbox
+let lbList = [], lbI = 0, lbCtx = "";
+function openLb(list, i, ctx){ if (!list.length) return; lbList = list; lbI = Math.max(0, Math.min(i, list.length-1)); lbCtx = ctx; showLb(); $("#lb").hidden = false; document.body.style.overflow = "hidden"; $("#lbClose").focus(); }
+function showLb(){
+  const x = lbList[lbI];
+  $("#lbImg").src = big(x); $("#lbImg").alt = "Ảnh " + x;
+  const u = []; for (const id in S.segs) if (S.segs[id].photos.includes(x)) u.push(id);
+  $("#lbCap").innerHTML = '<b>' + x + '</b> · ' + esc(groupOf[x] || "") + ' · ' + (lbI+1) + '/' + lbList.length + (u.length ? '<br>Đang dùng ở đoạn: ' + u.join(", ") : '<br>Chưa dùng ở đoạn nào') + '<br><small>File gốc: ' + esc(D.files[x] || "") + '</small>';
+  $("#lbPrev").disabled = lbI === 0; $("#lbNext").disabled = lbI === lbList.length-1;
+}
+function closeLb(){ $("#lb").hidden = true; if ($("#picker").hidden) document.body.style.overflow = ""; }
+$("#lbClose").onclick = closeLb;
+$("#lbPrev").onclick = () => { if (lbI > 0) { lbI--; showLb(); } };
+$("#lbNext").onclick = () => { if (lbI < lbList.length-1) { lbI++; showLb(); } };
+document.addEventListener("keydown", e => {
+  if (!$("#lb").hidden) { if (e.key === "Escape") closeLb(); if (e.key === "ArrowLeft") $("#lbPrev").click(); if (e.key === "ArrowRight") $("#lbNext").click(); return; }
+  if (!$("#picker").hidden && e.key === "Escape") closePicker();
+});
+let tx = null;
+$("#lb").addEventListener("touchstart", e => { tx = e.touches[0].clientX; }, {passive:true});
+$("#lb").addEventListener("touchend", e => { if (tx === null) return; const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 50) (dx > 0 ? $("#lbPrev") : $("#lbNext")).click(); tx = null; });
+
+// ---------- result text
+function resultText(){
+  const now = new Date();
+  const ts = String(now.getDate()).padStart(2,"0") + "/" + String(now.getMonth()+1).padStart(2,"0") + " " + now.getHours() + ":" + String(now.getMinutes()).padStart(2,"0");
+  const L = ["GÓP Ý CLIP 12C – từ " + (S.who || "Sinh") + " (" + ts + ")"];
+  const ch = D.segments.filter(s => changed(s.id)), keep = D.segments.filter(s => !changed(s.id));
+  const label = x => isNew(x) ? x.replace("MOI","MỚI") + ((S.news[x] && S.news[x].desc) ? " (" + S.news[x].desc.trim() + ")" : "") : x;
+  if (ch.length) {
+    L.push("", "ĐOẠN ĐÃ SỬA:");
+    ch.forEach(s => {
+      const st = S.segs[s.id];
+      L.push("• " + s.id + " (" + mmss(s.t0) + "–" + mmss(s.t1) + "): " + (st.photos.length ? st.photos.map(label).join(", ") : "(bỏ hết ảnh)"));
+      if (st.note.trim()) L.push("   Ghi chú: " + st.note.trim().replace(/\s*\n\s*/g, " / "));
+    });
+  } else L.push("", "Chưa sửa đoạn nào.");
+  if (keep.length) L.push("", "GIỮ NGUYÊN: " + keep.map(s => s.id).join(", "));
+  const newsUsed = []; for (const id in S.segs) S.segs[id].photos.forEach(x => { if (isNew(x)) newsUsed.push(label(x)); });
+  if (newsUsed.length) L.push("", "ẢNH MỚI SẼ GỬI QUA ZALO: " + newsUsed.join("; "));
+  if (S.gnote.trim()) L.push("", "GHI CHÚ CHUNG: " + S.gnote.trim());
+  return L.join("\n");
+}
+function renderOut(){ $("#out").value = resultText(); }
+$("#who").value = S.who; $("#gnote").value = S.gnote;
+$("#who").addEventListener("input", e => { S.who = e.target.value; save(); });
+$("#gnote").addEventListener("input", e => { S.gnote = e.target.value; save(); });
+$("#copyBtn").onclick = async () => {
+  const t = resultText(); $("#out").value = t;
+  try { await navigator.clipboard.writeText(t); toast("Đã sao chép. Mở Zalo và dán vào tin nhắn gửi Kiên."); }
+  catch(e) { const o = $("#out"); o.focus(); o.select(); try { document.execCommand("copy"); toast("Đã sao chép. Mở Zalo và dán vào tin nhắn gửi Kiên."); } catch(_) { toast("Máy chưa cho sao chép tự động. Hãy giữ tay vào ô bên dưới, chọn tất cả rồi sao chép."); } }
+};
+$("#dlBtn").onclick = () => {
+  const t = resultText() + "\n\n--- dữ liệu máy đọc ---\n" + JSON.stringify({segs:S.segs, news:S.news, who:S.who, gnote:S.gnote});
+  const blob = new Blob([t], {type:"text/plain;charset=utf-8"});
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "gop-y-clip-12C.txt";
+  document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+};
+let toastT = null;
+function toast(m){ const t = $("#toast"); t.textContent = m; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => t.hidden = true, 3200); }
+
+$("#dur").textContent = mmss(D.total).replace(/^0/,"").replace(":", " phút ") + " giây";
+renderAll();
+})();
+</script>
+</body>
+</html>
